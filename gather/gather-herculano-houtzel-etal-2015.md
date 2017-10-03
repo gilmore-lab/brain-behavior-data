@@ -1,56 +1,44 @@
----
-title: "gather-herculano-houzel-etal-2015"
-author: "Rick Gilmore"
-date: "`r Sys.time()`"
-output: github_document
-params:
-  csv_dir: ../data/csv
-  xlsx_dir: ../data/xlsx
-  xlsx_fn: herculano-houzel-etal-2015.xlsx
----
+gather-herculano-houzel-etal-2015
+================
+Rick Gilmore
+2017-10-03 08:59:34
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-if(!("install.load" %in% installed.packages()[,1])) {
-  install.packages("install.load")
-}
-library(install.load)
-install_load("tidyverse", "RCurl", "openxlsx")
-```
+Aims
+----
 
-## Aims
-
-Download data from 
+Download data from
 
 Herculano-Houzel, S., Catania, K., Manger, P. R., & Kaas, J. H. (2015). Mammalian Brains Are Made of These: A Dataset of the Numbers and Densities of Neuronal and Nonneuronal Cells in the Brain of Glires, Primates, Scandentia, Eulipotyphlans, Afrotherians and Artiodactyls, and Their Relationship with Body Mass. Brain, behavior and evolution, 86(3-4), 145–163. Retrieved from <http://dx.doi.org/10.1159/000437413>
 
 and save as CSVs.
 
-## Download
+Download
+--------
 
-Data are at 
+Data are at
 
 <http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx>.
 
-```{r download-xlsx}
+``` r
 url <- "http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx"
 download.file(url, destfile = "../data/xlsx/herculano-houzel-etal-2015.xlsx")
 ```
 
-## Open and Examine
+Open and Examine
+----------------
 
 There are five sheets:
 
-| Sheet number | Sheet name |
-|--------------|------------|
-| 1            | Info       |
+| Sheet number | Sheet name      |
+|--------------|-----------------|
+| 1            | Info            |
 | 2            | Cerebral cortex |
 | 3            | Cerebellum      |
 | 4            | Rest of brain   |
 | 5            | Olfactory bulb  |
-| 6            | Whole brain |
+| 6            | Whole brain     |
 
-```{r}
+``` r
 cerebral_ctx <- openxlsx::read.xlsx("../data/xlsx/herculano-houzel-etal-2015.xlsx", sheet=2)
 cerebellum <- openxlsx::read.xlsx("../data/xlsx/herculano-houzel-etal-2015.xlsx", sheet=3)
 rest_of_brain <- openxlsx::read.xlsx("../data/xlsx/herculano-houzel-etal-2015.xlsx", sheet=4)
@@ -58,9 +46,10 @@ olf_bulb <- openxlsx::read.xlsx("../data/xlsx/herculano-houzel-etal-2015.xlsx", 
 whole_brain <- openxlsx::read.xlsx("../data/xlsx/herculano-houzel-etal-2015.xlsx", sheet=6)
 ```
 
-## Save as CSV
+Save as CSV
+-----------
 
-```{r save-csv}
+``` r
 write_csv(cerebral_ctx, path="../data/csv/cerebral_ctx.csv")
 write_csv(cerebellum, path="../data/csv/cerebellum.csv")
 write_csv(rest_of_brain, path="../data/csv/rest_of_brain.csv")
@@ -68,8 +57,9 @@ write_csv(olf_bulb, path="../data/csv/olf_bulb.csv")
 write_csv(whole_brain, path="../data/csv/whole_brain.csv")
 ```
 
-## To-dos
+To-dos
+------
 
-1. Check if data paths exist before reading and writing.
-2. Check if packages installed, if not, install and load.
-3. Parameterize file names.
+1.  Check if data paths exist before reading and writing.
+2.  Check if packages installed, if not, install and load.
+3.  Parameterize file names.

@@ -1,7 +1,7 @@
-clean-h-h-data
+clean-herculano-houtzel-etal-2015-data
 ================
 Rick Gilmore
-10/2/2017
+2017-10-03 09:06:56
 
 Purpose
 -------
@@ -12,7 +12,7 @@ Herculano-Houzel, S., Catania, K., Manger, P. R., & Kaas, J. H. (2015). Mammalia
 
 and tidies it up, creating a single data file with brain region as a variable.
 
-The data have already been gathered and saved as separate CSVs by brain area in `../data/csv`.
+The data have already been gathered and saved as separate CSVs by brain area in ../data/csv.
 
 Import CSVs and create merged data file
 ---------------------------------------
@@ -23,6 +23,16 @@ Here are the steps we want to do for all of the brain-area-specific files:
 2.  Delete the second row since it contains comments we do not need.
 3.  Rename the variables to be shorter and more transparent
 4.  Add a variable called `Brain_area` equal to `<brain-area>`.
+5.  Clean data fields with +/- char
+
+``` r
+# Use sed to drop " and ± characters from files
+Drop_plus_minus <- function(fn) {
+  new_fn <- paste0(fn, ".clean")
+  sed_cmd <- paste0("sed \'s/[± ]//g\' <", fn, " >", new_fn)
+  system(sed_cmd)
+}
+```
 
 ``` r
 Import_clean_area_data <- function(fn) {
@@ -46,22 +56,37 @@ Import_clean_area_data <- function(fn) {
 If we map a file-specific function across a list of the files, we can merge the list into a single data frame using `Reduce()`.
 
 ``` r
+# Clean all csv's then drop whole_brain because it has different columns
 fl <- list.files(path = "../data/csv", pattern = "\\.csv$", full.names = TRUE)
+sapply(fl, Drop_plus_minus)
+```
 
-# whole_brain.csv has fewer columns than others, so drop for now
-fl <- fl[!(fl %in% "../data/csv/whole_brain.csv")]
-if (length(fl)) {
-  df_list <- lapply(fl, Import_clean_area_data)
+    ##    ../data/csv/cerebellum.csv  ../data/csv/cerebral_ctx.csv 
+    ##                             0                             0 
+    ##      ../data/csv/olf_bulb.csv ../data/csv/rest_of_brain.csv 
+    ##                             0                             0 
+    ##   ../data/csv/whole_brain.csv 
+    ##                             0
+
+``` r
+fl_clean <- list.files(path = "../data/csv", pattern = "\\.clean$", full.names = TRUE)
+fl_clean <- fl_clean[!(fl_clean %in% "../data/csv/whole_brain.csv.clean")]
+if (length(fl_clean)) {
+  df_list <- lapply(fl_clean, Import_clean_area_data)
   df_merged <- Reduce(function(x,y) merge(x, y, all=TRUE), df_list)
 } else {
   warning("File list empty.")
 }
 ```
 
-Let's write this to a new, clean directory
+Let's write this to a new, clean directory (../data/cleaned)
 
 ``` r
-write_csv(df_merged, path = "../data/cleaned/h-h-all.csv")
+write_csv(df_merged, path = "../data/cleaned/herculano-houtzel-all.csv")
 ```
 
-This would be even cleaner if we dropped the "± " from the \*\_SD columns.
+To-dos
+------
+
+-   ~~This would be even cleaner if we dropped the "± " from the \*\_SD columns.~~ 2017-10-03
+-   Parameterize file names and paths.
