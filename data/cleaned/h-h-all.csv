@@ -1,0 +1,147 @@
+Species,Order,Mass_g,Mass_SD,N_neurons,N_neurons_SD,N_other,N_other_SD,Neurons_per_mg,Neurons_per_mg_SD,Other_per_mg,Other_per_mg_SD,Other_per_neuron,Other_per_neuron_SD,Source,Brain_area
+Amblysomus hottentotus,Afrotheria,0.084,NA,34488379,"± 3,207,000",8155621,"± 813,000",409687,"± 18,667",96849,"± 5,069",0.236,± 0.002,"Neves et al., 2014",cerebellum
+Amblysomus hottentotus,Afrotheria,0.289,± 0.013,9070358,"± 1,069,000",16834642,"± 3,276,000",31616,"± 5,124",58880,"± 13,983",1.839,± 0.144,"Neves et al., 2014",rest_of_brain
+Amblysomus hottentotus,Afrotheria,0.439,± 0.035,21516e3,"± 2,154,000",2137e4,"± 4,614,000",48932,"± 1,004",48146,"± 6,674",0.982,± 0.116,"Neves et al., 2014",cerebral_ctx
+Antidorcas marsupialis,Artiodactyla,11.458,NA,2257214074,NA,467244676,NA,196999,NA,40779,NA,0.207,NA,"Kazu et al., 2014",cerebellum
+Antidorcas marsupialis,Artiodactyla,25.81,NA,70485e3,NA,1319280624,NA,2731,NA,51115,NA,18.71,NA,"Kazu et al., 2014",rest_of_brain
+Antidorcas marsupialis,Artiodactyla,68.806,NA,396896159,NA,4126259275,NA,5768,NA,59969,NA,10.396,NA,"Kazu et al., 2014",cerebral_ctx
+Aotus trivirgatus,Primata,1.732,± 0.218,104e7,"± 20,000,000",14527e4,"± 45,030,000",605080,"± 90,570",82890,"± 15,580",0.14,NA,"Herculano-Houzel et al., 2007",cerebellum
+Aotus trivirgatus,Primata,3.104,NA,4934e4,NA,31346e4,NA,15900,NA,100990,NA,6.353,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Aotus trivirgatus,Primata,10.617,± 0.610,4419e5,"± 111,310,000",69542e4,"± 130,000,000",41990,"± 12,900",65330,"± 5,950",1.574,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Blarina brevicauda,Eulipotyphla,0.037,± 0.005,3343e4,"± 5,821,000",441e4,"± 1,280,000",919942,"± 19,721",118736,"± 25,620",0.132,NA,"Sarko et al., 2009",cerebellum
+Blarina brevicauda,Eulipotyphla,0.113,± 0.009,634e4,"± 636,200",1332e4,"± 1,120,000",55924,"± 2,130",117736,"± 5,840",2.102,± 0.096,"Sarko et al., 2009",rest_of_brain
+Blarina brevicauda,Eulipotyphla,0.197,± 0.012,11876e3,"± 1,569,000",1582e4,"± 1,158,000",60214,"± 4,935",80729,"± 8,731",1.357,± 0.250,"Sarko et al., 2009",cerebral_ctx
+Callithrix jacchus,Primata,0.73,± 0.039,36137e4,"± 28,530,000",4949e4,"± 6,770,000",494970,"± 25,740",68170,"± 12,210",0.137,NA,"Herculano-Houzel et al., 2007",cerebellum
+Callithrix jacchus,Primata,1.489,± 0.317,2972e4,"± 9,350,000",14591e4,"± 27,830,000",19650,"± 2,840",98370,NA,4.909,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Callithrix jacchus,Primata,5.561,± 0.443,24472e4,"± 81,180,000",39534e4,"± 58,790,000",44280,"± 15,900",71800,"± 14,880",1.615,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Cavia porcellus,Glires,0.5,± 0.077,167854925,"± 2,175,973",36290075,"± 4,506,186",339755,"± 48,069",72824,"± 2,216",0.216,± 0.024,"Herculano-Houzel et al., 2006",cerebellum
+Cavia porcellus,Glires,1.218,± 0.178,22191825,"± 9,431,638",83183175,"± 8,139,966",18990,"± 10,522",69528,"± 16,855",4.035,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Cavia porcellus,Glires,1.938,± 0.231,43510525,"± 3,169,924",108614475,"±12,775,334",22508,"± 1,050",56036,± 93,2.492,± 0.112,"Herculano-Houzel et al., 2006",cerebral_ctx
+Cebus apella,Primata,4.6,NA,249e7,NA,24581e4,NA,540310,NA,53440,NA,0.099,NA,"Herculano-Houzel et al., 2007",cerebellum
+Cebus apella,Primata,8.43,NA,6185e4,NA,50611e4,NA,7340,NA,60040,NA,8.183,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Cebus apella,Primata,39.178,NA,114e7,NA,255e7,NA,29180,NA,64980,NA,2.237,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Condylura cristata,Eulipotyphla,0.138,± 0.012,10592e4,"± 22,100,000",1948e4,"± 6,420,000",776460,"± 181,530",139912,"± 39,720",0.184,± 0.004,"Sarko et al., 2009",cerebellum
+Condylura cristata,Eulipotyphla,0.244,± 0.026,816e4,"± 2,180,000",3155e4,"± 5,950,000",33475,"± 8,560",128990,"± 17,820",3.866,± 1.692,"Sarko et al., 2009",rest_of_brain
+Condylura cristata,Eulipotyphla,0.42,± 0.024,1725e4,"± 3,105,000",3201e4,"± 8,822,000",40777,"± 5,145",76995,"± 25,019",1.966,± 0.924,"Sarko et al., 2009",cerebral_ctx
+Cynomys sp.,Glires,0.789,± 0.093,350084813,"± 72,177,851",66155187,"± 39,268,821",440658,"±39,554",84802,"± 54,286",0.192,± 0.123,"Herculano-Houzel et al., 2011",cerebellum
+Cynomys sp.,Glires,1.945,± 0.146,34090600,"± 589,361",167742733,"± 5,025,290",17590,"± 1,335",86542,"± 6,793",4.923,NA,"Herculano-Houzel et al., 2011",rest_of_brain
+Cynomys sp.,Glires,2.586,± 0.109,53768353,"± 6,044,322",183451647,"± 17,959,104",20866,"± 3,113",71202,"± 9,677",3.432,± 0.433,"Herculano-Houzel et al., 2011",cerebral_ctx
+Damaliscus dorcas phillipsi,Artiodactyla,13.402,NA,2401712670,NA,443918456,NA,179206,NA,33123,NA,0.184,NA,"Kazu et al., 2014",cerebellum
+Damaliscus dorcas phillipsi,Artiodactyla,30.006,NA,86428126,NA,2136071876,NA,2880,NA,71188,NA,24.718,NA,"Kazu et al., 2014",rest_of_brain
+Damaliscus dorcas phillipsi,Artiodactyla,111.31,NA,570673431,NA,6762256227,NA,5127,NA,60760,NA,11.851,NA,"Kazu et al., 2014",cerebral_ctx
+Dasyprocta primnolopha,Glires,2.742,NA,673488085,"± 48,145,960",155986915,"± 32,978,520",253208,"± 39,447",57945,"± 7,405",0.234,± 0.066,"Herculano-Houzel et al., 2006",cerebellum
+Dasyprocta primnolopha,Glires,5.972,± 0.514,43204320,NA,356835680,NA,6830,NA,56408,NA,NA,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Dasyprocta primnolopha,Glires,8.913,± 1.214,110641950,"± 2,576,768",416208050,± 950.422,13250,"± 1,633 ",49939,"± 7,422",3.763,± 0.096,"Herculano-Houzel et al., 2006",cerebral_ctx
+Dendrohyrax dorsalis,Afrotheria,1.918,NA,360929350,NA,77570650,NA,188180,NA,40444,NA,0.215,NA,"Neves et al., 2014",cerebellum
+Dendrohyrax dorsalis,Afrotheria,3.328,NA,44671471,NA,152466529,NA,13423,NA,45813,NA,3.413,NA,"Neves et al., 2014",rest_of_brain
+Dendrohyrax dorsalis,Afrotheria,7.56,NA,9896e4,NA,18354e4,NA,13098,NA,24291,NA,1.855,NA,"Neves et al., 2014",cerebral_ctx
+Elephantulus myurus,Afrotheria,0.168,NA,89312372,"± 2,852,000",23368628,"± 1,279,000",531494,"± 10,651",139028,"± 5,956",0.261,± 0.005,"Neves et al., 2014",cerebellum
+Elephantulus myurus,Afrotheria,0.401,±0.063,14012533,"± 3,258,000",28997467,"± 7,906,000",34520,"± 2,702",70967,"± 8,566",2.048,± 0.088,"Neves et al., 2014",rest_of_brain
+Elephantulus myurus,Afrotheria,0.471,± 0.021,25865e3,"± 4,020,000",26229e3,"± 1,104,000",54644,"± 6,098",55693,± 138,1.032,± 0.119,"Neves et al., 2014",cerebral_ctx
+Giraffa camelopardalensis,Artiodactyla,67.73,NA,8878076563,NA,5520360938,NA,131080,NA,81505,NA,0.622,NA,"Kazu et al., 2014",cerebellum
+Giraffa camelopardalensis,Artiodactyla,70.68,NA,142697625,NA,4878864876,NA,2019,NA,69028,NA,34.19,NA,"Kazu et al., 2014",rest_of_brain
+Giraffa camelopardalensis,Artiodactyla,398.808,NA,1730513460,NA,27513706540,NA,4339,NA,68990,NA,15.9,NA,"Kazu et al., 2014",cerebral_ctx
+Gorilla gorilla,Primata,37.56,NA,264e8,NA,29e8,NA,702875,NA,77210,NA,0.11,NA,"Herculano-Houzel and Kaas, 2011",cerebellum
+Heterocephalus glaber,Glires,0.048,± 0.004,15742270,"± 2,849,254",5482730,"± 1,274,352",327280,"± 48,331",115748,"± 32,952",0.356,± 0.106,"Herculano-Houzel et al., 2011",cerebellum
+Heterocephalus glaber,Glires,0.16,± 0.019,4981317,"± 853,026",10310350,"± 1,843,572",31674,"± 8,484",64145,"± 3,790",2.125,NA,"Herculano-Houzel et al., 2011",rest_of_brain
+Heterocephalus glaber,Glires,0.184,± 0.026,6151875,"± 1,065,587",8398125,"± 1,197,056",33374,"± 2,063",45894,"± 11,497",1.365,± 0.125,"Herculano-Houzel et al., 2011",cerebral_ctx
+Homo sapiens,Primata,117.66,± 45.42,69e7,"± 120,000,000",773e7,"± 1,450,000,000",6560,"± 2,115",69850,"± 20,026",11.203,± 2.352,"Azevedo et al., 2009",rest_of_brain
+Homo sapiens,Primata,154.02,± 19.29,6903e7,"± 6,650,000,000",1604e7,"± 2,170,000",471660,"± 90,393",101020,"± 19,800",0.232,± 0.019,"Azevedo et al., 2009",cerebellum
+Homo sapiens,Primata,1232.93,± 233.68,1634e7,"± 2,170,000,000",6084e7," ± 7,020,000,000",13520,"± 3,636",49230,"± 3,755",3.723,± 0.675,"Azevedo et al., 2009",cerebral_ctx
+Hydrochoerus hydrochaeris,Glires,6.632,± 1.312,115781e4,"± 5,515,433",57094e4,"± 81,105,148",177982,"± 34,889",86574,"± 4,902",0.493,± 0.068,"Herculano-Houzel et al., 2006",cerebellum
+Hydrochoerus hydrochaeris,Glires,19.927,± 0.270,10825e4,"± 4,400,000",77917e4,"± 381,900,000",5434,NA,39234,NA,NA,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Hydrochoerus hydrochaeris,Glires,48.175,± 2.714,306501565,"± 62,726,120",1847818435,"± 512,392,109",6336,± 945,38117,"± 8,489",5.983,± 0.447,"Herculano-Houzel et al., 2006",cerebral_ctx
+Loxodonta africana,Afrotheria,564.674,NA,741704844,NA,27404306156,NA,1314,NA,48531,NA,36.948,NA,"Herculano-Houzel et al., 2014",rest_of_brain
+Loxodonta africana,Afrotheria,1171.628,NA,250708527536,NA,38507229964,NA,213983,NA,32866,NA,0.154,NA,"Herculano-Houzel et al., 2014",cerebellum
+Loxodonta africana,Afrotheria,2847594,NA,5593241033,NA,55698998687,NA,1964,NA,52721,NA,26.844,NA,"Herculano-Houzel et al., 2014",cerebral_ctx
+Macaca fascicularis,Primata,4.294,NA,65449620,NA,260170380,NA,15242,NA,60589,NA,3.975,NA,"Gabi et al., 2010",rest_of_brain
+Macaca fascicularis,Primata,5.642,NA,25726e5,NA,1354e5,NA,455973,NA,23999,NA,0.053,NA,"Gabi et al., 2010",cerebellum
+Macaca fascicularis,Primata,36.226,NA,800955e3,NA,2758845e3,NA,22110,NA,76156,NA,3.444,NA,"Gabi et al., 2010",cerebral_ctx
+Macaca mulatta,Primata,7.694,NA,455e7,NA,93103e4,NA,590800,NA,121010,NA,0.205,NA,"Herculano-Houzel et al., 2007",cerebellum
+Macaca mulatta,Primata,9.204,± 0.871,1219e5,NA,96652e4,NA,12410,NA,98420,NA,7.929,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Macaca mulatta,Primata,69.832,NA,171e7,NA,527e7,NA,24470,NA,75400,NA,3.082,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Macaca radiata,Primata,5.748,NA,2038554160,NA,453565840,NA,354655,NA,78908,NA,0.222,NA,"Gabi et al., 2010",cerebellum
+Macaca radiata,Primata,7.448,NA,61359e3,NA,616641e3,NA,8238,NA,82793,NA,10.05,NA,"Gabi et al., 2010",rest_of_brain
+Macaca radiata,Primata,48.274,NA,1655707140,NA,3808672860,NA,34298,NA,78897,NA,2.3,NA,"Gabi et al., 2010",cerebral_ctx
+Mesocricetus auratus,Glires,0.145,± 0.030,6121e4,"± 12,351,246",743e4,"± 1,713,108",424002,"± 3,743",51332,"± 1,054",0.121,NA,"Herculano-Houzel et al., 2006",cerebellum
+Mesocricetus auratus,Glires,0.375,± 0.057,587e4,"± 1,162,059",2133e4,"± 8,878,857",15611,± 715,55804,"± 15,174",3.556,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Mesocricetus auratus,Glires,0.446,± 0.048,1714e4,"± 3,619,934",4187e4,"± 1,350,121",39099,"± 12,332",94271,"± 7,136",2.507,± 0.608,"Herculano-Houzel et al., 2006",cerebral_ctx
+Microcebus murinus,Primata,0.391,NA,221386140,NA,17433860,NA,566205,NA,44588,NA,0.079,NA,"Gabi et al., 2010",cerebellum
+Microcebus murinus,Primata,0.5,NA,11014640,NA,50865360,NA,22029,NA,101731,NA,4.618,NA,"Gabi et al., 2010",rest_of_brain
+Microcebus murinus,Primata,0.908,NA,22310400,NA,70649600,NA,24571,NA,77808,NA,3.167,NA,"Gabi et al., 2010",cerebral_ctx
+Mus musculus,Glires,0.056,± 0.005,42219708,"± 9,277,647",6947791,"± 1,502,773",746691,"± 128,541",123493,"± 25,715",0.165,± 0.017,"Herculano-Houzel et al., 2006",cerebellum
+Mus musculus,Glires,0.172,± 0.019,1196e4,"± 1,577,022",1485e4,"± 3,590,591",64301,"± 6,623",79839,"± 11,249",1.242,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Mus musculus,Glires,0.173,± 0.015,13688162,"± 2,242,257",12061838,"± 3,668,594",78672,"± 7,683",68643,"± 15,807",0.87,± 0.177,"Herculano-Houzel et al., 2006",cerebral_ctx
+Oryctolagus cuniculus,Glires,1.412,NA,396671250,NA,124578750,NA,280929,NA,88229,NA,1.222,NA,"Herculano-Houzel et al., 2011",cerebellum
+Oryctolagus cuniculus,Glires,3.272,NA,26085e3,NA,251415e3,NA,7972,NA,76838,NA,NA,NA,"Herculano-Houzel et al., 2011",rest_of_brain
+Oryctolagus cuniculus,Glires,4.448,NA,71448750,NA,254801250,NA,16063,NA,57284,NA,3.566,NA,"Herculano-Houzel et al., 2011",cerebral_ctx
+Otolemur garnetti,Primata,1.196,± 0.105,7435e5,"± 52,450,000",6596e4,"± 20,290,000",623080,"± 45,720",54460,"± 11,890",0.089,NA,"Herculano-Houzel et al., 2007",cerebellum
+Otolemur garnetti,Primata,2.131,± 0.021,208e5,"± 12,280,000",14744e4,"± 64,500,000",9730,"± 5,920",69040,NA,7.088,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Otolemur garnetti,Primata,6.29,± 0.863,22609e4,"± 87,570,000",40207e4,"± 74,790,000",37820,"± 20,500",63610,"± 3,400",1.778,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Papio anubis cynocephalus,Primata,13.745,NA,7794907300,NA,525977700,NA,567109,NA,38267,NA,0.067,NA,"Gabi et al., 2010",cerebellum
+Papio anubis cynocephalus,Primata,17.235,NA,278150760,NA,1079809236,NA,16136,NA,62656,NA,3.882,NA,"Gabi et al., 2010",rest_of_brain
+Papio anubis cynocephalus,Primata,120.214,NA,2875028372,NA,7569751628,NA,23916,NA,62969,NA,2.633,NA,"Gabi et al., 2010",cerebral_ctx
+Parascalops breweri,Eulipotyphla,0.102,± 0.005,10078e4,"± 13,850,000",701e4,"± 1,100,000",997370,"± 173,030",68795,"± 7,910",0.07,NA,"Sarko et al., 2009",cerebellum
+Parascalops breweri,Eulipotyphla,0.228,± 0.009,713e4,"± 920,000",3138e4,"± 1,500,000",31276,"± 3,180",137960,"± 7,180",4.401,± 0.375,"Sarko et al., 2009",rest_of_brain
+Parascalops breweri,Eulipotyphla,0.429,± 0.019,1569e4,"± 2,611,000",3987e4,"± 4,884,000",36727,"± 7,359",93185,"± 14,583",2.581,± 0.109,"Sarko et al., 2009",cerebral_ctx
+Petrodromus tetradactylus,Afrotheria,0.304,NA,110653150,"± 14,948,000",34657851,"±15,801,000",362537,"± 15,780",110153,"± 41,831",0.299,± 0.102,"Neves et al., 2014",cerebellum
+Petrodromus tetradactylus,Afrotheria,0.894,± 0.022,12231811,"± 188,000",28204189,"± 5,408,000",13696,± 547,31716,"± 6,830",2.3,± 0.407,"Neves et al., 2014",rest_of_brain
+Petrodromus tetradactylus,Afrotheria,1.239,± 0.059,33947e3,"± 5,840,000",40486e3,"± 1,104,000",27236,"± 3,416",32550,"± 2,661",1.202,± 0.053,"Neves et al., 2014",cerebral_ctx
+Pongo pygmaeus,Primata,35.06,± 4.34,263e8,"±2,470,000,000",22e8,NA,750143,NA,62750,NA,0.084,NA,"Herculano-Houzel and Kaas, 2011",cerebellum
+Procavia capensis,Afrotheria,2.058,NA,488373e3,"± 42,322,000",91005e3,"± 30,180,000",242415,"± 46,950",46365,"±19,711",0.182,±0.046,"Neves et al., 2014",cerebellum
+Procavia capensis,Afrotheria,4.317,± 0.625,69358240,"± 762,000",162984760,"± 6,105,000",16436,"± 2,556",38353,"± 4,138",2.351,± 0.114,"Neves et al., 2014",rest_of_brain
+Procavia capensis,Afrotheria,10.478,± 0.646,197933e3,"± 29,082,000",36662e4,"± 13,520,000",19134,"± 3,955",35203,"± 3,461",1.883,± 0.208,"Neves et al., 2014",cerebral_ctx
+Proechimys cayennensis,Glires,0.33,± 0.026,162512050,"± 3,553,848",36372950,"± 5,094,068",494338,"± 28,466",110122,"± 6,716",0.224,± 0.026,"Herculano-Houzel et al., 2011",cerebellum
+Proechimys cayennensis,Glires,0.824,± 0.006,13492039,"± 1,533,120",73068898,"± 2,691,449",16381,"± 1,973",88667,"± 2,658",5.462,NA,"Herculano-Houzel et al., 2011",rest_of_brain
+Proechimys cayennensis,Glires,0.924,± 0.050,26086024,"± 2,155,723",71833039,"± 6,712,722",28321,"± 3,870",78011,"± 11,497",2.752,± 0.030,"Herculano-Houzel et al., 2011",cerebral_ctx
+Rattus norvegicus,Glires,0.272,± 0.038,139171882,"± 11,185,675",29005617,"± 6,282,204",522688,"± 108,847",108555,"± 29,355",0.209,± 0.047,"Herculano-Houzel et al., 2006",cerebellum
+Rattus norvegicus,Glires,0.683,± 0.153,18678758,"± 4,243,909",47221243,"± 5,979,982",27813,"± 6,171",71760,"± 18,475",2.587,NA,"Herculano-Houzel et al., 2006",rest_of_brain
+Rattus norvegicus,Glires,0.769,± 0.113,31017192,3034654,45687808,"± 5,678,958",41092,"± 7,999",60426,"± 12,477",1.497,± 0.328,"Herculano-Houzel et al., 2006",cerebral_ctx
+Saimiri sciureus,Primata,4.3,NA,182e7,NA,13302e4,NA,424000,NA,30940,NA,0.073,NA,"Herculano-Houzel et al., 2007",cerebellum
+Saimiri sciureus,Primata,5.004,NA,6553e4,NA,30259e4,NA,13090,NA,60470,NA,4.618,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Saimiri sciureus,Primata,20.652,± 0.368,134e7,"± 20,000,000",161e7,"± 40,000,000",64930,"± 7,420",77840,± 790,1.201,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Scalopus aquaticus,Eulipotyphla,0.153,± 0.008,15855e4,"± 13,630,000",1751e4,"± 3,160,000",1037390,"± 63,570",114660,"± 20,790",0.11,NA,"Sarko et al., 2009",cerebellum
+Scalopus aquaticus,Eulipotyphla,0.37,± 0.042,1656e4,"± 2,990,000",4569e4,"± 4,820,000",44620,"± 4,900",123600,"± 2,550",2.759,± 0.379,"Sarko et al., 2009",rest_of_brain
+Scalopus aquaticus,Eulipotyphla,0.476,± 0.032,2668e4,"± 5,113,000",3854e4,"± 5,567,000",60461,"± 12,249",80745,"± 6,407",1.383,± 0.368,"Sarko et al., 2009",cerebral_ctx
+Sciurus carolinensis,Glires,0.874,± 0.069,342832180,"± 71,181,798",110797820,"± 9,070,639",392363,"± 74,294",127682,"± 19,212",0.336,± 0.090,"Herculano-Houzel et al., 2011",cerebellum
+Sciurus carolinensis,Glires,1.943,± 0.156,33493401,"± 17,128,790",210023933,"± 3,415,060",17616,"± 9,989",108482,"± 7,808",7.246,NA,"Herculano-Houzel et al., 2011",rest_of_brain
+Sciurus carolinensis,Glires,2.73,± 0.178,77334617,"± 2,634,444",209654717,"± 13,003,170",28384,"± 1,487",76877,"± 3,859",2.709,± 0.076,"Herculano-Houzel et al., 2011",cerebral_ctx
+Sus scrofa domesticus,Artiodactyla,8.128,NA,1858320313,NA,348710938,NA,228632,NA,42902,NA,0.188,NA,"Kazu et al., 2014",cerebellum
+Sus scrofa domesticus,Artiodactyla,13.85,NA,58709836,NA,1096821414,NA,4238,NA,79192,NA,18.682,NA,"Kazu et al., 2014",rest_of_brain
+Sus scrofa domesticus,Artiodactyla,42.202,NA,307082404,NA,3250251354,NA,7276,NA,77016,NA,10.585,NA,"Kazu et al., 2014",cerebral_ctx
+Tragelaphus stripceros,Artiodactyla,31.776,NA,4042494141,NA,1266099609,NA,127218,NA,39845,NA,0.313,NA,"Kazu et al., 2014",cerebellum
+Tragelaphus stripceros,Artiodactyla,61.716,NA,106590230,NA,3408779523,NA,1727,NA,55233,NA,31.98,NA,"Kazu et al., 2014",rest_of_brain
+Tragelaphus stripceros,Artiodactyla,213.37,NA,762567178,NA,12302304448,NA,3574,NA,57657,NA,16.133,NA,"Kazu et al., 2014",cerebral_ctx
+Tupaia glis,Scandentia,0.326,± 0.018,18528e4,"± 16,980,000",1998e4,"± 1,510,000",571460,"± 83,200",61600,"± 7,990",0.108,NA,"Herculano-Houzel et al., 2007",cerebellum
+Tupaia glis,Scandentia,0.919,± 0.072,2248e4,NA,8708e4,NA,25900,NA,100320,NA,3.874,NA,"Herculano-Houzel et al., 2007",rest_of_brain
+Tupaia glis,Scandentia,1.455,± 0.174,6039e4,"± 26,510,000",8558e4,"± 8,400,000",42900,"± 23,350",58900,"± 1,270",1.417,NA,"Herculano-Houzel et al., 2007",cerebral_ctx
+Callimico goeldii,Primata,2.086,NA,53911480,NA,194528520,NA,25844,NA,93254,NA,3.608,NA,"Gabi et al., 2010",rest_of_brain
+Callimico goeldii,Primata,12.984,NA,357129180,NA,715330820,NA,27505,NA,55093,NA,2.003,NA,"Gabi et al., 2010",cerebral_ctx
+"Antidorcas marsupialis, n=1",Artiodactyla,1.2,NA,15998400,NA,105201600,NA,13332,NA,87668,NA,6.576,NA,"Kazu et al., 2014",olf_bulb
+"Aotus trivirgatus, n=6",Primata,0.05,± 0.012,7925468,"± 3,114,924",8360532,"± 3,213,106",155879,"± 62,241",162922,"± 44,209",1.055,NA,"Ribeiro et al., 2014",olf_bulb
+"Blarina brevicauda, n=5",Eulipotyphla,0.026,± 0.003,809e4,"± 935,900",491e4,"± 730,000",318164,"± 34,950",193631,"± 31,450",0.607,± 0.125,"Sarko et al., 2009",olf_bulb
+"Cavia porcellus, n=2",Glires,0.103,± 0.013,6065700,"± 1,295,335",10154300,"± 4,220,098",58560,"± 5,340",96793,"± 29,011",1.637,± 0.346,"Herculano-Houzel et al., 2006",olf_bulb
+"Condylura cristata, n=4",Eulipotyphla,0.04,± 0.005,1055e4,"± 4,290,000",747e4,"± 970,000",254720,"± 74,620",185124,"± 19,370",0.708,± 0.328,"Sarko et al., 2009",olf_bulb
+"Dasyprocta primnolopha, n=3",Glires,0.737,± 0.162,58124085,"± 4,952,795",72595915,"± 19,682,805",88008,"± 14,973",107301,"± 1,958",1.239,± 0.233,"Herculano-Houzel et al., 2006",olf_bulb
+"Elephantulus myurus, n=2",Afrotheria,0.05,± 0.010,9693534,"± 1,745,000",4919466,NA,194678,"± 5,708",97872,NA,0.507,NA,"Neves et al., 2014",olf_bulb
+"Giraffa camelopardalensis, n=1",Artiodactyla,2.052,NA,24678e3,NA,232384500,NA,12026,NA,113248,NA,9.417,NA,"Kazu et al., 2014",olf_bulb
+"Heterocephalus glaber, n=3",Glires,0.021,± 0.001,2303030,"± 636,099",3571970,"± 1,548,861",108895,"± 22,957",167991,"± 62,442",1.516,± 0.254,"Herculano-Houzel et al., 2011",olf_bulb
+"Hydrochoerus hydrochaeris, n=2",Glires,1.302,± 0.031,28560310,"± 8,515,588",67389690,"± 21,015,416",21864,"± 6,018",51544,"± 17,981",2.333,± 0.180,"Herculano-Houzel et al., 2006",olf_bulb
+"Loxodonta africana, n=1",Afrotheria,41.886,NA,908371986,NA,2857878014,NA,21687,NA,68230,NA,3.146,NA,"Herculano-Houzel et al., 2014",olf_bulb
+"Macaca mulatta, n=1",Primata,0.088,NA,8473800,NA,11006200,NA,96293,NA,125070,NA,1.299,NA,"Ribeiro et al., 2014",olf_bulb
+"Mesocricetus auratus, n=2",Glires,0.055,± 0.011,5747930,"± 347,203",5507170,"± 2,277,605",105418,"± 27,498",96197,"± 21,237",0.972,± 0.455,"Herculano-Houzel et al., 2006",olf_bulb
+"Microcebus murinus, n=2",Primata,0.03,± 0.008,7636912,"± 119,088",9723088,"± 842,576",270894,"± 61,946",341900,"± 54,311",1.273,NA,"Ribeiro et al., 2014",olf_bulb
+"Mus musculus, n=4",Glires,0.014,± 0.004,3893300,"± 1,246,396",5456700,"± 1,154,502",257475,"± 34,036",371204,"± 75,573",1.454,± 0.260,"Herculano-Houzel et al., 2006",olf_bulb
+"Oryctolagus cuniculus, n=1",Glires,0.156,NA,18765e3,NA,22935e3,NA,120288,NA,147019,NA,1.222,NA,"Herculano-Houzel et al., 2011",olf_bulb
+"Otolemur garnetti, n=11",Primata,0.2,± 0.016,30237060,"± 9,645,480",34244e3,"± 7,155,556",149219,"± 47,590",170505,"± 39,463",1.133,NA,"Ribeiro et al., 2014",olf_bulb
+"Parascalops breweri, n=3",Eulipotyphla,0.049,± 0.008,1675e4,"± 6,370,000",1091e4,"± 3,400,000",333590,"± 81,590",217440,"± 41,370",0.651,± 0.168,"Sarko et al., 2009",olf_bulb
+"Petrodromus tetradactylus, n=2",Afrotheria,0.159,± 0.009,12828365,"± 380,000",14775635,NA,80805,"± 3,084",91369,NA,1.141,NA,"Neves et al., 2014",olf_bulb
+"Procavia capensis, n=1",Afrotheria,0.286,NA,20909490,NA,14790510,NA,73110,NA,51715,NA,0.707,NA,"Neves et al., 2014",olf_bulb
+"Proechimys cayennensis, n=1",Glires,0.132,NA,9141540,NA,21128460,NA,69254,NA,160064,NA,2.311,NA,"Herculano-Houzel et al., 2011",olf_bulb
+"Rattus norvegicus, n=5",Glires,0.074,± 0.022,11103272,"± 3,202,766",9238728,"± 2,250,728",152373,"± 26,913",126210,"± 8,033",0.848,± 0.145,"Herculano-Houzel et al., 2006",olf_bulb
+"Scalopus aquaticus, n=3",Eulipotyphla,0.082,± 0.005,3461e4,"± 5,960,000",1778e4,"± 2,060,000",423520,"± 94,950",215230,"± 14,600",0.514,± 0.154,"Sarko et al., 2009",olf_bulb
+"Sciurus carolinensis, n=9",Glires,0.212,± 0.022,28845724,"± 7,903,412",39015942,"± 12,812,316",137532,"± 38,236",185359,"± 58,050",1.478,± 0.776,"Herculano-Houzel et al., 2011",olf_bulb
+"Sorex fumeus, n=3",Eulipotyphla,0.012,± 0.002,333e4,"± 1,050,000",276e4,"± 130,000",289806,"± 124,350",235249,"± 44,620",0.829,± 214,"Sarko et al., 2009",olf_bulb
+"Sus scrofa domesticus, n=1",Artiodactyla,0.822,NA,9195500,NA,77554500,NA,11187,NA,94348,NA,8.434,NA,"Kazu et al., 2014",olf_bulb
+"Tragelaphus stripceros, n=1",Artiodactyla,5.546,NA,38331562,NA,362731438,NA,6912,NA,58913,NA,8.523,NA,"Kazu et al., 2014",olf_bulb
+"Tupaia glis, n=16",Scandentia,0.1,± 0.032,127e5,"± 3,584,952",20068e3,"± 6,541,838",130173,"± 17,451",205876,"± 51,596",1.58,NA,"Herculano-Houzel et al., 2007",olf_bulb

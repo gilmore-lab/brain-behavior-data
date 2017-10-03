@@ -1,0 +1,67 @@
+clean-h-h-data
+================
+Rick Gilmore
+10/2/2017
+
+Purpose
+-------
+
+This file imports the data from
+
+Herculano-Houzel, S., Catania, K., Manger, P. R., & Kaas, J. H. (2015). Mammalian Brains Are Made of These: A Dataset of the Numbers and Densities of Neuronal and Nonneuronal Cells in the Brain of Glires, Primates, Scandentia, Eulipotyphlans, Afrotherians and Artiodactyls, and Their Relationship with Body Mass. Brain, behavior and evolution, 86(3-4), 145–163. Retrieved from <http://dx.doi.org/10.1159/000437413>
+
+and tidies it up, creating a single data file with brain region as a variable.
+
+The data have already been gathered and saved as separate CSVs by brain area in `../data/csv`.
+
+Import CSVs and create merged data file
+---------------------------------------
+
+Here are the steps we want to do for all of the brain-area-specific files:
+
+1.  Import the CSV from `../data/csv/<brain-area>.csv`
+2.  Delete the second row since it contains comments we do not need.
+3.  Rename the variables to be shorter and more transparent
+4.  Add a variable called `Brain_area` equal to `<brain-area>`.
+
+``` r
+Import_clean_area_data <- function(fn) {
+  # Import and clean a file containing brain-area-specific data
+  # Returns a new data frame
+  df <- read.csv(file = fn, skip = 2)
+  df <- df[-1,] # Comments are now first row
+  names(df) <- c("Species", "Order", "Mass_g", "Mass_SD", 
+                 "N_neurons", "N_neurons_SD",
+                 "N_other", "N_other_SD",
+                 "Neurons_per_mg", "Neurons_per_mg_SD",
+                 "Other_per_mg", "Other_per_mg_SD",
+                 "Other_per_neuron", "Other_per_neuron_SD",
+                 "Source")
+  file_name <- strsplit(basename(fn), "\\.")[[1]][1]
+  df$Brain_area <- file_name
+  df
+}
+```
+
+If we map a file-specific function across a list of the files, we can merge the list into a single data frame using `Reduce()`.
+
+``` r
+fl <- list.files(path = "../data/csv", pattern = "\\.csv$", full.names = TRUE)
+
+# whole_brain.csv has fewer columns than others, so drop for now
+fl <- fl[!(fl %in% "../data/csv/whole_brain.csv")]
+if (length(fl)) {
+  df_list <- lapply(fl, Import_clean_area_data)
+  df_merged <- Reduce(function(x,y) merge(x, y, all=TRUE), df_list)
+} else {
+  warning("File list empty.")
+}
+```
+
+Let's write this to a new, clean directory
+
+``` r
+write_csv(df_merged, path = "../data/cleaned/h-h-all.csv")
+```
+
+This would be even cleaner if we dropped the "± " from the \*\_SD columns.

@@ -5,11 +5,13 @@ date: "`r Sys.time()`"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(RCurl)
-library(openxlsx)
+if(!("install.load" %in% installed.packages()[,1])) {
+  install.packages("install.load")
+  library(install.load)
+}
+install_load("tidyverse", "RCurl", "openxlsx")
 ```
 
 ## Aims

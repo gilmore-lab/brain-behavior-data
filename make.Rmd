@@ -1,0 +1,23 @@
+---
+title: "make"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Purpose
+
+This file updates the data files in this repository. It
+
+1. Runs the gathering functions in `gather/`
+2. Runs the cleaning functions in `clean/`
+
+```{r}
+rmarkdown::render("gather/gather-herculano-houtzel-etal-2015.Rmd")
+rmarkdown::render("clean/clean-h-h-data.Rmd")
+```
+

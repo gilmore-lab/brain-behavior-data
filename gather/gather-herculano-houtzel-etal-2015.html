@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">gather-herculano-houzel-etal-2015</h1>
 <h4 class="author"><em>Rick Gilmore</em></h4>
-<h4 class="date"><em>2017-09-16 11:15:42</em></h4>
+<h4 class="date"><em>2017-10-03 07:14:45</em></h4>
 
 </div>
 
@@ -131,9 +131,9 @@ $(document).ready(function () {
 </div>
 <div id="download" class="section level2">
 <h2>Download</h2>
-<p>Data are at <a href="http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx">http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx</a>.</p>
+<p>Data are at</p>
+<p><a href="http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx">http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx</a>.</p>
 <pre class="r"><code>url &lt;- &quot;http://www.suzanaherculanohouzel.com/storage/Dataset%20for%20website.xlsx&quot;
-destfile &lt;- 
 download.file(url, destfile = &quot;../data/xlsx/herculano-houzel-etal-2015.xlsx&quot;)</code></pre>
 </div>
 <div id="open-and-examine" class="section level2">
@@ -186,6 +186,14 @@ write_csv(cerebellum, path=&quot;../data/csv/cerebellum.csv&quot;)
 write_csv(rest_of_brain, path=&quot;../data/csv/rest_of_brain.csv&quot;)
 write_csv(olf_bulb, path=&quot;../data/csv/olf_bulb.csv&quot;)
 write_csv(whole_brain, path=&quot;../data/csv/whole_brain.csv&quot;)</code></pre>
+</div>
+<div id="to-dos" class="section level2">
+<h2>To-dos</h2>
+<ol style="list-style-type: decimal">
+<li>Check if data paths exist before reading and writing.</li>
+<li>Check if packages installed, if not, install and load.</li>
+<li>Parameterize file names.</li>
+</ol>
 </div>
 
 
