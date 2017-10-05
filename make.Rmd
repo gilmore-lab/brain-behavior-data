@@ -18,6 +18,6 @@ This file updates the data files in this repository. It
 
 ```{r}
 rmarkdown::render("gather/gather-herculano-houtzel-etal-2015.Rmd")
-rmarkdown::render("clean/clean-h-h-data.Rmd")
+rmarkdown::render("clean/clean-herculano-houtzel-etal-2015-data.Rmd")
 ```
 

@@ -11,11 +11,12 @@ params:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-if(!("install.load" %in% installed.packages()[,1])) {
-  install.packages("install.load")
-}
-library(install.load)
-install_load("tidyverse", "RCurl", "openxlsx")
+# if(!("install.load" %in% installed.packages()[,1])) {
+#   install.packages("install.load")
+# }
+# library(install.load)
+library("openxlsx")
+library("readr")
 ```
 
 ## Aims

@@ -1,7 +1,7 @@
 make
 ================
 Rick Gilmore
-2017-10-03 07:14:45
+2017-10-05 10:28:13
 
 Purpose
 -------
@@ -67,72 +67,85 @@ rmarkdown::render("gather/gather-herculano-houtzel-etal-2015.Rmd")
 
     ## output file: gather-herculano-houtzel-etal-2015.knit.md
 
-    ## /Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS gather-herculano-houtzel-etal-2015.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output gather-herculano-houtzel-etal-2015.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.4/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /var/folders/4w/c4zm1ghx0jq994mlryh37jdh0000gv/T//RtmpJG8rJo/rmarkdown-strc8b164b46936.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+    ## /usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS gather-herculano-houtzel-etal-2015.utf8.md --to markdown_github-ascii_identifiers --from markdown+autolink_bare_uris+tex_math_single_backslash --output gather-herculano-houtzel-etal-2015.md --standalone --template /storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
+    ## /usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS gather-herculano-houtzel-etal-2015.md --to html --from markdown_github-ascii_identifiers --output gather-herculano-houtzel-etal-2015.html --standalone --self-contained --highlight-style pygments --template /storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none
 
     ## 
-    ## Output created: gather-herculano-houtzel-etal-2015.html
+    ## Preview created: /tmp/Rtmp8NAPP1/preview-69b069b641e0.html
+
+    ## 
+    ## Output created: gather-herculano-houtzel-etal-2015.md
 
 ``` r
-rmarkdown::render("clean/clean-h-h-data.Rmd")
+rmarkdown::render("clean/clean-herculano-houtzel-etal-2015-data.Rmd")
 ```
 
     ## 
     ## 
-    ## processing file: clean-h-h-data.Rmd
+    ## processing file: clean-herculano-houtzel-etal-2015-data.Rmd
 
     ## 
       |                                                                       
       |                                                                 |   0%
       |                                                                       
-      |.......                                                          |  11%
-    ##   ordinary text without R code
+      |......                                                           |   9%
+    ##    inline R code fragments
     ## 
     ## 
       |                                                                       
-      |..............                                                   |  22%
+      |............                                                     |  18%
     ## label: hh-setup (with options) 
     ## List of 1
     ##  $ include: logi FALSE
     ## 
     ## 
       |                                                                       
-      |......................                                           |  33%
+      |..................                                               |  27%
+    ##    inline R code fragments
+    ## 
+    ## 
+      |                                                                       
+      |........................                                         |  36%
+    ## label: define-text-file-cleaning-functions
+    ## 
+      |                                                                       
+      |..............................                                   |  45%
     ##   ordinary text without R code
     ## 
     ## 
       |                                                                       
-      |.............................                                    |  44%
-    ## label: define-import-function
+      |...................................                              |  55%
+    ## label: define-clean-dataframe-function
     ## 
       |                                                                       
-      |....................................                             |  56%
+      |.........................................                        |  64%
     ##   ordinary text without R code
     ## 
     ## 
       |                                                                       
-      |...........................................                      |  67%
+      |...............................................                  |  73%
     ## label: map-across-list-and-merge
     ## 
       |                                                                       
-      |...................................................              |  78%
-    ##   ordinary text without R code
+      |.....................................................            |  82%
+    ##    inline R code fragments
     ## 
     ## 
       |                                                                       
-      |..........................................................       |  89%
+      |...........................................................      |  91%
     ## label: export-merged
     ## 
       |                                                                       
       |.................................................................| 100%
     ##   ordinary text without R code
 
-    ## output file: clean-h-h-data.knit.md
+    ## output file: clean-herculano-houtzel-etal-2015-data.knit.md
 
-    ## /Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS clean-h-h-data.utf8.md --to markdown_github-ascii_identifiers --from markdown+autolink_bare_uris+tex_math_single_backslash --output clean-h-h-data.md --standalone --template /Library/Frameworks/R.framework/Versions/3.4/Resources/library/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
-    ## /Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS clean-h-h-data.md --to html --from markdown_github-ascii_identifiers --output clean-h-h-data.html --standalone --self-contained --highlight-style pygments --template /Library/Frameworks/R.framework/Versions/3.4/Resources/library/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/Library/Frameworks/R.framework/Versions/3.4/Resources/library/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none
-
-    ## 
-    ## Preview created: clean-h-h-data.html
+    ## /usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS clean-herculano-houtzel-etal-2015-data.utf8.md --to markdown_github-ascii_identifiers --from markdown+autolink_bare_uris+tex_math_single_backslash --output clean-herculano-houtzel-etal-2015-data.md --standalone --template /storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/default.md 
+    ## /usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS clean-herculano-houtzel-etal-2015-data.md --to html --from markdown_github-ascii_identifiers --output clean-herculano-houtzel-etal-2015-data.html --standalone --self-contained --highlight-style pygments --template /storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/preview.html --variable 'github-markdown-css:/storage/home/csm5410/R/x86_64-redhat-linux-gnu-library/3.4/rmarkdown/rmarkdown/templates/github_document/resources/github.css' --email-obfuscation none
 
     ## 
-    ## Output created: clean-h-h-data.md
+    ## Preview created: /tmp/Rtmp8NAPP1/preview-69b01c28169b.html
+
+    ## 
+    ## Output created: clean-herculano-houtzel-etal-2015-data.md

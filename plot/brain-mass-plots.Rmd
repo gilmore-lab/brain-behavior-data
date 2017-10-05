@@ -1,0 +1,29 @@
+---
+title: "brain-size-neuron-plot"
+author: "Charmi"
+date: "10/5/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Goals
+
+## Load data
+
+```{r}
+hh <- read.csv("../data/cleaned/herculano-houtzel-all.csv")
+```
+
+
+## Plot of Brain mass by number of neurons
+
+
+```{r}
+p <- ggplot(data = hh, mapping = aes(x=log(Mass_g), y=log(N_neurons)))
+p + geom_point()
+```
+
