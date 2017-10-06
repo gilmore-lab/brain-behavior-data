@@ -17,7 +17,7 @@ library(gdata)
 <br>
 <i>Load data </i> </center>
 
-```{r, echo=FALSE}
+```{r}
 hh <- read.csv("../data/cleaned/herculano-houtzel-all.csv")
 ```
 <center><h2> Plots </h2> </center>
@@ -41,6 +41,7 @@ eq = paste0("y = ", slp, "*x + ", inp)
 ```
 
 <center> <h3> Plot of Brain mass by number of neurons </h3></center>
+
 ```{r plot, echo = FALSE, fig.align='center'}
 
 #plot the data
@@ -59,7 +60,9 @@ hh %>%
 # plot(log(N_neurons) ~ log(Mass_g), data=hh, main="Neurons vs mass") + abline(lm_func, col="red")
 
 ```
+
 <center> <i> equation of the regression line plotted above is: </i> </center>
+
 ```{r regression_line, echo=FALSE}
 
 centerText(eq)
