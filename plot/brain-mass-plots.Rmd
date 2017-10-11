@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 library(magrittr)
 library(gdata)
+library(ggrepel)
 
 ```
 
@@ -40,17 +41,42 @@ inp = round(coeff[1],1)
 eq = paste0("y = ", slp, "*x + ", inp)
 ```
 
-<center> <h3> Plot of Brain mass by number of neurons </h3></center>
+<center> <h3> Plot of Brain mass by Number of Neurons </h3></center>
 
 ```{r plot, echo = FALSE, fig.align='center'}
-
+x <- log(hh$Mass_g)
+y <- log(hh$N_neurons)
 #plot the data
 hh %>%
     ggplot() +
-    aes(x = log(Mass_g), y = log(N_neurons)) +
+    aes(x = x, y = y) +
     labs(x = "Structure mass (g)", y = "Number of Neurons") +
-    geom_point() +
-    geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5)
+    geom_point(col = ifelse((x > 2*IQR(x)| y> 7.5*IQR(y)), "red", "black")) +
+    geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
+    geom_text_repel(aes(label = ifelse((x > 2*IQR(x)| y> 7.5*IQR(y)), paste0(Species), "")), col = "red")
+```
+
+<center> <i> equation of the regression line plotted above is: </i> </center>
+
+```{r regression_line, echo=FALSE}
+
+centerText(eq)
+
+```
+
+
+<center> <h3> Labelling all Homosapiens in the Graph </h3> </center>
+
+```{r plot_graph, echo = FALSE, fig.align= "center"}
+#plot same data with only 'homosapiens' labelled
+
+hh %>%
+    ggplot() +
+    aes(x = x, y = y) +
+    labs(x = "Structure mass (g)", y = "Number of Neurons") +
+    geom_point(col = ifelse(hh$Species == "Homosapiens", "red", "black")) +
+    geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
+    geom_text_repel(aes(label = ifelse(hh$Species == "Homosapiens", paste0(Species), "")), col = "red")
 
 # dataplot + stat_smooth(method="lm", se=FALSE) --> smooth line
 
@@ -61,12 +87,6 @@ hh %>%
 
 ```
 
-<center> <i> equation of the regression line plotted above is: </i> </center>
 
-```{r regression_line, echo=FALSE}
-
-centerText(eq)
-
-```
 
 
