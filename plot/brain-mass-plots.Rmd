@@ -16,10 +16,21 @@ library(ggrepel)
 
 <center><h1> Goals </h1>
 <br>
-<i>Load data </i> </center>
+<i>Load data and separate into different brain areas</i> </center>
 
 ```{r}
+#load data
+
 hh <- read.csv("../data/cleaned/herculano-houtzel-all.csv")
+
+#Separating different brain areas
+
+cerebellum_dat <- hh[which(hh$Brain_area == 'cerebellum'),]
+cerebral_ctx_dat <- hh[which(hh$Brain_area == 'cerebral_ctx'), ]
+olf_bulb_dat <- hh[which(hh$Brain_area == 'olf_bulb'), ]
+whole_brain_dat <- hh[which(hh$Brain_area == 'whole_brain'), ]
+rest_of_brain_dat <- hh[which(hh$Brain_area == 'rest_of_brain'), ]
+
 ```
 <center><h2> Plots </h2> </center>
 <br>
@@ -44,16 +55,21 @@ eq = paste0("y = ", slp, "*x + ", inp)
 <center> <h3> Plot of Brain mass by Number of Neurons </h3></center>
 
 ```{r plot, echo = FALSE, fig.align='center'}
-x <- log(hh$Mass_g)
-y <- log(hh$N_neurons)
+
+#define x and y axis variables
+
+wt <- log(hh$Mass_g)
+neur <- log(hh$N_neurons)
+
 #plot the data
+
 hh %>%
     ggplot() +
-    aes(x = x, y = y) +
+    aes(x = wt, y = neur) +
     labs(x = "Structure mass (g)", y = "Number of Neurons") +
-    geom_point(col = ifelse((x > 2*IQR(x)| y> 7.5*IQR(y)), "red", "black")) +
+    geom_point(col = ifelse((wt > 2*IQR(wt)| neur> 7.5*IQR(neur)), "red", "black")) +
     geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
-    geom_text_repel(aes(label = ifelse((x > 2*IQR(x)| y> 7.5*IQR(y)), paste0(Species), "")), col = "red")
+    geom_text_repel(aes(label = ifelse((wt > 2*IQR(wt)| neur> 7.5*IQR(neur)), paste0(Species), "")), col = "red")
 ```
 
 <center> <i> equation of the regression line plotted above is: </i> </center>
@@ -63,7 +79,8 @@ hh %>%
 centerText(eq)
 
 ```
-
+Loxodontaafricana are also known as African Bush Elephants that can weigh upto ten tonnes and grow upto 4 meters height! 
+Pongo pygmaeus (aka Bornean orangutan) and Gorillagorilla (Gorilla) are both outliers having higher number of neurons than compared to their brain mass. Homo sapiens (aka Humans) also have greater number of neurons compared to their brain mass, but only in one dimension. Below is a graph pointing out the brain mass versus number of neurons for all different brain areas for these four species.
 
 <center> <h3> Labelling all Homosapiens in the Graph </h3> </center>
 
@@ -72,20 +89,65 @@ centerText(eq)
 
 hh %>%
     ggplot() +
-    aes(x = x, y = y) +
+    aes(x = wt, y = neur) +
     labs(x = "Structure mass (g)", y = "Number of Neurons") +
-    geom_point(col = ifelse(hh$Species == "Homosapiens", "red", "black")) +
+    geom_point(col = ifelse(hh$Species == "Homosapiens", "red",
+                        (ifelse(hh$Species == "Gorillagorilla", "blue",
+                            (ifelse(hh$Species == "Loxodontaafricana", "green",
+                                (ifelse(hh$Species == "Pongopygmaeus", "orange", "black")))))))) +
     geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
-    geom_text_repel(aes(label = ifelse(hh$Species == "Homosapiens", paste0(Species), "")), col = "red")
-
-# dataplot + stat_smooth(method="lm", se=FALSE) --> smooth line
-
-#Another way of plotting graph
-
-# lm_func = lm(log(N_neurons) ~ log(Mass_g), data = hh)
-# plot(log(N_neurons) ~ log(Mass_g), data=hh, main="Neurons vs mass") + abline(lm_func, col="red")
+    geom_text_repel(aes(label = ifelse(hh$Species == "Homosapiens", paste0(Species),
+                                (ifelse(hh$Species == "Gorillagorilla", paste0(Species),
+                                (ifelse(hh$Species == "Loxodontaafricana", paste0(Species),
+                                (ifelse(hh$Species == "Pongopygmaeus", paste0(Species), "")))))))),
+                                      col = ifelse(hh$Species == "Homosapiens", "red",
+                                          (ifelse(hh$Species == "Gorillagorilla", "blue",
+                                          (ifelse(hh$Species == "Loxodontaafricana", "green",
+                                          (ifelse(hh$Species == "Pongopygmaeus", "orange", "black"))))))))
 
 ```
+
+<center><h3> Plotting data for Neurons per mg for cerebellum versus cerebral cortex </h3>
+<i> Gorillagorilla data was not present in cerebral cortex, so it was skipped for this graph </i> </center>
+
+```{r , echo=FALSE, fig.align='center'}
+
+#define a new dataset for this plot
+
+cerebellum_neurons_permg <- data.frame(cerebellum_dat$Species, cerebellum_dat$Neurons_per_mg)
+cerebral_ctx_neurons_permg <- data.frame(cerebral_ctx_dat$Species, cerebral_ctx_dat$Neurons_per_mg)
+cerebellum_neurons_permg <- cerebellum_neurons_permg[-15, ]
+
+Neurons_per_mg_of_two <- data.frame(cerebral_ctx_neurons_permg, cerebellum_neurons_permg$cerebellum_dat.Neurons_per_mg)
+names(Neurons_per_mg_of_two) <- c("Species", "cerebral_ctx", "cerebellum")
+
+#Creating slope and intercept
+
+reg_func <- lm(Neurons_per_mg_of_two$cerebral_ctx ~ Neurons_per_mg_of_two$cerebellum, data = Neurons_per_mg_of_two)
+coeff1 = coefficients(reg_func)
+slp1 = round(coeff1[2])
+inp1 = round(coeff1[1])
+
+#plot the data
+
+Neurons_per_mg_of_two %>%
+    ggplot() +
+    aes(x = Neurons_per_mg_of_two$cerebellum, y = Neurons_per_mg_of_two$cerebral_ctx) +
+    labs(x = "Cerebellum (Neurons/mg)", y = "Cerebral Cortex (Neurons/mg)") +
+    geom_point() +
+    geom_abline(intercept = inp1, slope = slp1, color = "blue", size = 0.5)
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
