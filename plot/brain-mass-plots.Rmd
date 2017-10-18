@@ -193,6 +193,7 @@ Neurons_per_mg_of_two %>%
 <br>
 
 <center><h5> with labelled 'Homo Sapiens', 'Loxodontaafricanas', and 'Sciuruscarolinensis' </h5></center>
+
 ```{r ,echo=FALSE, fig.align='center'}
 
 #plot same data with only 'homosapiens', 'loxodontaafricans', and 'Sciuruscarolinensis' labelled
