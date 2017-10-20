@@ -53,6 +53,67 @@ Labelling all Homosapiens in the Graph
 </center>
 <img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/plot_graph-1.png" style="display: block; margin: auto;" />
 
+<br>
+<center>
+<h3>
+Showing different brain areas and its linear regression line with confidence intervals
+</h3>
+</center>
+<br>
+
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+
+<center>
+<h3>
+Showing the graph of each brain area separately with its individual outliers
+</h3>
+<br>
+<h4>
+Cerebellum Data Plot
+</h4>
+</center>
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /> <br>
+<center>
+This plot shows that Homo Sapiens and Loxodonta Africana (aka African Bush Elephants) are the only outliers, both having more number of neurons as compared to the structural mass of Cerebellum. Maybe from this data we can try to find out if both of them have similar balancing ability, co-ordination, and other functions performed by the cerebellum.
+</center>
+<br> <br>
+
+<center>
+<h4>
+Cerebral Cortex Data Plot
+</h4>
+</center>
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+
+<br>
+<center>
+In this data plot, we can see that Homo Sapiens are not the outliers, and the most interesting thing about this plot is that Loxodonta Africana (African Bush Elephants) seem to have LESS NUMBER OF NEURONS in cerebral cortex compared to its brain's mass. So, this essentially states that humans are not as smart as they think they are, and they do not have more than average number of neurons. Finally, we can try to find out the difference in intelligence by giving certain tasks to Elephants and Humans, and see who scores better.
+</center>
+<br> <br>
+<center>
+<h4>
+Olfactory Bulb Data Plot
+</h4>
+</center>
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
+<center>
+Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it seems to have less number of neurons than average based on its structural mass of olfactory bulb. It would be interesting to know about its smelling abilities as compared to that of the African Bush elephants, because they seem to have higher number of neurons compared to its brain mass. The second animal is Heterocephalus Glaber, aka Naked Mole Rat. It also has less number of neurons as compared to its structure mass of olfactory bulb. Does that seem to have a difference between the smelling abilities?
+
+<br> <br>
+
+<center>
+<h4>
+Rest of the Brain Data Plot
+</h4>
+</center>
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+
+<br>
+<center>
+In this data plot, again we find similar outliers as we found in the 'Cerebellum Data Plot.' Hence, we can maybe try to divide the rest of the brain in temporal lobe and other different brain areas to see exactly which part of those brain areas have more number of neurons and we can create an experiment to test those results by seeing if they really have some kind of a difference. If they do have difference, then we can say that these connections and the number of neurons are actually very important for higher processing, but if not then we cannot really support the hypothesis that higher number of neurons correlates to better processing.
+</center>
+<br>
+
 <center>
 <h3>
 Neurons/mg for cerebellum v/s cerebral cortex
@@ -62,7 +123,7 @@ with highlighted outliers
 </h5>
 <i> Gorillagorilla data was not present in cerebral cortex, so it was skipped for this graph </i>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
 
 <center>
 Sciurus Carolinensis are Eastern Gray Squirrels, and they have more neurons in their cerebellum as compared to their cerebral cortex. Let's see where on the graphs do Homo Sapiens lie compared to the Sciurus Carolinensis.
@@ -74,24 +135,9 @@ Sciurus Carolinensis are Eastern Gray Squirrels, and they have more neurons in t
 with labelled 'Homo Sapiens', 'Loxodontaafricanas', and 'Sciuruscarolinensis'
 </h5>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-10-1.png" style="display: block; margin: auto;" />
 
 <center>
 From the above graph, we can see that Loxodonta Africanas have lower number of neurons/mg in their cerebral cortex as well as their cerebellum. Homo Sapiens seem to have a lower than average amount of neurons/mg in their cerebellum as well as cerebral cortex. Compared to them, Scirius carolinesis have an extremely high amounts of neurons/mg in their cerebellum compared to their cerebral cortex.
 </center>
 <br> <br>
-
-``` r
-# Plot with diff shape, color for brain areas
-# Worked on in lab meeting 2017-10-19
-hh %>%
-  select(Species, Mass_g, N_neurons, Brain_area) %>%
-  group_by(Species) %>% 
-  mutate(Whole_brain_g = sum(Mass_g), Whole_brain_n = sum(N_neurons)) %>%
-  ggplot() +
-  aes(x=log(Mass_g), y=log(N_neurons), shape=Brain_area, color=Brain_area) +
-  geom_smooth(method = "lm") +
-  geom_point()
-```
-
-![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png)

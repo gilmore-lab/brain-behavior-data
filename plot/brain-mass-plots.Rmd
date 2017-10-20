@@ -93,13 +93,14 @@ hh %>%
                                neur > upperlimit_for_neur | 
                                wt < lowerlimit_for_wt | 
                                neur < lowerlimit_for_neur), "red", "black")) +
-    geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
+    geom_smooth(method = "lm" ,color = "blue", size = 0.5) +
     geom_text_repel(aes(label = ifelse((wt > upperlimit_for_wt | 
                                           neur> upperlimit_for_neur | 
                                           wt < lowerlimit_for_wt | 
                                           neur < lowerlimit_for_neur), 
                                        paste0(Species), "")), col = "red")
 ```
+
 
 <center> <i> equation of the regression line plotted above is: </i> </center>
 
@@ -108,6 +109,7 @@ hh %>%
 centerText(eq)
 
 ```
+
 Loxodontaafricana are also known as African Bush Elephants that can weigh upto ten tonnes and grow upto 4 meters height! 
 Homo sapiens (aka Humans) also have greater number of neurons compared to their brain mass, but only in one dimension. Below is a graph pointing out the brain mass versus number of neurons for all different brain areas for these two species.
 
@@ -119,7 +121,7 @@ Homo sapiens (aka Humans) also have greater number of neurons compared to their 
 hh %>%
     ggplot() +
     aes(x = wt, y = neur) +
-    labs(x = "Structure mass (g)", y = "Number of Neurons") +
+    labs(x = "Log structure mass (g)", y = "Log number of neurons") +
     geom_point(col = ifelse(hh$Species == "Homosapiens", "red",
                             (ifelse(hh$Species == "Loxodontaafricana", "blue", "black")))) +
     #geom_abline(intercept = inp, slope = slp, color = "blue", size = 0.5) +
@@ -130,6 +132,262 @@ hh %>%
                                             (ifelse(hh$Species == "Loxodontaafricana", "blue", "black"))))
 
 ```
+
+<br>
+<center> <h3> Showing different brain areas and its linear regression line with confidence intervals </h3> </center>
+<br>
+
+```{r, echo = FALSE, fig.align='center'}
+# Plot with diff shape, color for brain areas
+# Worked on in lab meeting 2017-10-19
+hh %>%
+  select(Species, Mass_g, N_neurons, Brain_area) %>%
+  group_by(Species) %>% 
+  # mutate(Whole_brain_g = sum(Mass_g), Whole_brain_n = sum(N_neurons)) %>%
+  ggplot() +
+  aes(x=log(Mass_g), y=log(N_neurons), shape=Brain_area, color=Brain_area) +
+  labs(x = "Log of structure mass (g)", y = "Log of number of neurons") +
+  geom_smooth(method = "lm") +
+  geom_point()
+```
+
+
+<center> <h3> Showing the  graph of each brain area separately with its individual outliers </h3>
+<br>
+<h4> Cerebellum Data Plot </h4> </center>
+
+
+
+```{r, echo = FALSE, fig.align='center'}
+
+#Take logs for neurons and mass
+
+cerebellum_mass <- log(cerebellum_dat$Mass_g)
+cerebellum_neur <- log(cerebellum_dat$N_neurons)
+
+#Define quartiles for cerebellum data points
+
+Quartile_cerebellum_mass <- quantile(cerebellum_mass)
+Quartile_cerebellum_neurons <- quantile(cerebellum_neur)
+
+#Define Q1 and Q3 for Mass_g and N_neurons
+
+cerebellum_q1_mass <- Quartile_cerebellum_mass[2]
+cerebellum_q3_mass <- Quartile_cerebellum_mass[4]
+
+cerebellum_q1_neurons <- Quartile_cerebellum_neurons[2]
+cerebellum_q3_neurons <- Quartile_cerebellum_neurons[4]
+
+#Define the upper and lower limits for outliers
+
+UL_cerebellum_mass <- cerebellum_q3_mass + IQR(cerebellum_mass)
+LL_cerebellum_mass <- cerebellum_q1_mass - IQR(cerebellum_mass)
+
+UL_cerebellum_neurons <- cerebellum_q3_neurons + IQR(cerebellum_neur)
+LL_cerebellum_neurons <- cerebellum_q1_neurons - IQR(cerebellum_neur)
+
+#Plot for cerebellum data only and finding only its outliers
+
+cerebellum_dat %>%
+  ggplot()+
+  aes(x = cerebellum_mass, y = cerebellum_neur) +
+  labs(x = "Log structure mass (g)", y = "Log number of neurons") +
+  geom_smooth(method = "lm", col = "coral2") +
+  geom_point(col = ifelse(cerebellum_mass > UL_cerebellum_mass |
+                          cerebellum_neur > UL_cerebellum_neurons |
+                          cerebellum_mass < LL_cerebellum_mass |
+                          cerebellum_neur < LL_cerebellum_neurons, "coral2", "black")) +
+  geom_text_repel(aes(label = ifelse(cerebellum_mass > UL_cerebellum_mass |
+                          cerebellum_neur > UL_cerebellum_neurons |
+                          cerebellum_mass < LL_cerebellum_mass |
+                          cerebellum_neur < LL_cerebellum_neurons, paste(cerebellum_dat$Species), "")),
+                                      col = ifelse(cerebellum_mass > UL_cerebellum_mass |
+                          cerebellum_neur > UL_cerebellum_neurons |
+                          cerebellum_mass < LL_cerebellum_mass |
+                          cerebellum_neur < LL_cerebellum_neurons, "coral2", "black"))
+```
+<br>
+<center> This plot shows that Homo Sapiens and Loxodonta Africana (aka African Bush Elephants) are the only outliers, both having more number of neurons as compared to the structural mass of Cerebellum. Maybe from this data we can try to find out if both of them have similar balancing ability, co-ordination, and other functions performed by the cerebellum. </center>
+<br>
+<br>
+
+<center> <h4> Cerebral Cortex Data Plot </h4></center>
+
+
+
+```{r, echo = FALSE, fig.align='center'}
+
+#Take logs for neurons and mass
+
+cerebral_ctx_mass <- log(cerebral_ctx_dat$Mass_g)
+cerebral_ctx_neur <- log(cerebral_ctx_dat$N_neurons)
+
+#Define quartiles for cerebellum data points
+
+Quartile_cerebral_ctx_mass <- quantile(cerebral_ctx_mass)
+Quartile_cerebral_ctx_neurons <- quantile(cerebral_ctx_neur)
+
+#Define Q1 and Q3 for Mass_g and N_neurons
+
+cerebral_ctx_q1_mass <- Quartile_cerebral_ctx_mass[2]
+cerebral_ctx_q3_mass <- Quartile_cerebral_ctx_mass[4]
+
+cerebral_ctx_q1_neurons <- Quartile_cerebral_ctx_neurons[2]
+cerebral_ctx_q3_neurons <- Quartile_cerebral_ctx_neurons[4]
+
+#Define the upper and lower limits for outliers
+
+UL_cerebral_ctx_mass <- cerebral_ctx_q3_mass + IQR(cerebral_ctx_mass)
+LL_cerebral_ctx_mass <- cerebral_ctx_q1_mass - IQR(cerebral_ctx_mass)
+
+UL_cerebral_ctx_neurons <- cerebral_ctx_q3_neurons + IQR(cerebral_ctx_neur)
+LL_cerebral_ctx_neurons <- cerebral_ctx_q1_neurons - IQR(cerebral_ctx_neur)
+
+#Plot for cerebellum data only and finding only its outliers
+
+cerebral_ctx_dat %>%
+  ggplot()+
+  aes(x = cerebral_ctx_mass, y = cerebral_ctx_neur) +
+  labs(x = "Log structure mass (g)", y = "Log number of neurons") +
+  geom_smooth(method = "lm", col = "chartreuse4") +
+  geom_point(col = ifelse(cerebral_ctx_mass > UL_cerebral_ctx_mass |
+                          cerebral_ctx_neur > UL_cerebral_ctx_neurons |
+                          cerebral_ctx_mass < LL_cerebral_ctx_mass |
+                          cerebral_ctx_neur < LL_cerebral_ctx_neurons, "chartreuse4", "black"), shape = 17) +
+  geom_text_repel(aes(label = ifelse(cerebral_ctx_mass > UL_cerebral_ctx_mass |
+                          cerebral_ctx_neur > UL_cerebral_ctx_neurons |
+                          cerebral_ctx_mass < LL_cerebral_ctx_mass |
+                          cerebral_ctx_neur < LL_cerebral_ctx_neurons, paste(cerebral_ctx_dat$Species), "")),
+                                      col = ifelse(cerebral_ctx_mass > UL_cerebral_ctx_mass |
+                          cerebral_ctx_neur > UL_cerebral_ctx_neurons |
+                          cerebral_ctx_mass < LL_cerebral_ctx_mass |
+                          cerebral_ctx_neur < LL_cerebral_ctx_neurons, "chartreuse4", "black"))
+```
+
+<br>
+<center> In this data plot, we can see that Homo Sapiens are not the outliers, and the most interesting thing about this plot is that Loxodonta Africana (African Bush Elephants) seem to have LESS NUMBER OF NEURONS in cerebral cortex compared to its brain's mass. So, this essentially states that humans are not as smart as they think they are, and they do not have more than average number of neurons. Finally, we can try to find out the difference in intelligence by giving certain tasks to Elephants and Humans, and see who scores better. </center>
+<br>
+<br>
+<center><h4> Olfactory Bulb Data Plot </h4> </center>
+
+```{r, echo = FALSE, fig.align='center'}
+
+#Take logs for neurons and mass
+
+olf_bulb_mass <- log(olf_bulb_dat$Mass_g)
+olf_bulb_neur <- log(olf_bulb_dat$N_neurons)
+
+#Define quartiles for cerebellum data points
+
+Quartile_olf_bulb_mass <- quantile(olf_bulb_mass)
+Quartile_olf_bulb_neurons <- quantile(olf_bulb_neur)
+
+#Define Q1 and Q3 for Mass_g and N_neurons
+
+olf_bulb_q1_mass <- Quartile_olf_bulb_mass[2]
+olf_bulb_q3_mass <- Quartile_olf_bulb_mass[4]
+
+olf_bulb_q1_neurons <- Quartile_olf_bulb_neurons[2]
+olf_bulb_q3_neurons <- Quartile_olf_bulb_neurons[4]
+
+#Define the upper and lower limits for outliers
+
+UL_olf_bulb_mass <- olf_bulb_q3_mass + IQR(olf_bulb_mass)
+LL_olf_bulb_mass <- olf_bulb_q1_mass - IQR(olf_bulb_mass)
+
+UL_olf_bulb_neurons <- olf_bulb_q3_neurons + IQR(olf_bulb_neur)
+LL_olf_bulb_neurons <- olf_bulb_q1_neurons - IQR(olf_bulb_neur)
+
+#Plot for cerebellum data only and finding only its outliers
+
+olf_bulb_dat %>%
+  ggplot()+
+  aes(x = olf_bulb_mass, y = olf_bulb_neur) +
+  labs(x = "Log structure mass (g)", y = "Log number of neurons") +
+  geom_smooth(method = "lm", col = "cyan3") +
+  geom_point(col = ifelse(olf_bulb_mass > UL_olf_bulb_mass |
+                          olf_bulb_neur > UL_olf_bulb_neurons |
+                          olf_bulb_mass < LL_olf_bulb_mass |
+                          olf_bulb_neur < LL_olf_bulb_neurons, "cyan3", "black"), shape = 15) +
+  geom_text_repel(aes(label = ifelse(olf_bulb_mass > UL_olf_bulb_mass |
+                          olf_bulb_neur > UL_olf_bulb_neurons |
+                          olf_bulb_mass < LL_olf_bulb_mass |
+                          olf_bulb_neur < LL_olf_bulb_neurons, paste(olf_bulb_dat$Species), "")),
+                                      col = ifelse(olf_bulb_mass > UL_olf_bulb_mass |
+                          olf_bulb_neur > UL_olf_bulb_neurons |
+                          olf_bulb_mass < LL_olf_bulb_mass |
+                          olf_bulb_neur < LL_olf_bulb_neurons, "cyan3", "black"))
+```
+<center> Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it seems to have less number of neurons than average based on its structural mass of olfactory bulb. It would be interesting to know about its smelling abilities as compared to that of the African Bush elephants, because they seem to have higher number of neurons compared to its brain mass. The second animal is Heterocephalus Glaber, aka Naked Mole Rat. It also has less number of neurons as compared to its structure mass of olfactory bulb. Does that seem to have a difference between the smelling abilities?
+
+<br>
+<br>
+
+<center> <h4> Rest of the Brain Data Plot </h4> </center>
+
+```{r, echo = FALSE, fig.align='center'}
+
+#Take logs for neurons and mass
+
+rest_of_brain_mass <- log(rest_of_brain_dat$Mass_g)
+rest_of_brain_neur <- log(rest_of_brain_dat$N_neurons)
+
+#Define quartiles for cerebellum data points
+
+Quartile_rest_of_brain_mass <- quantile(rest_of_brain_mass)
+Quartile_rest_of_brain_neurons <- quantile(rest_of_brain_neur)
+
+#Define Q1 and Q3 for Mass_g and N_neurons
+
+rest_of_brain_q1_mass <- Quartile_rest_of_brain_mass[2]
+rest_of_brain_q3_mass <- Quartile_rest_of_brain_mass[4]
+
+rest_of_brain_q1_neurons <- Quartile_rest_of_brain_neurons[2]
+rest_of_brain_q3_neurons <- Quartile_rest_of_brain_neurons[4]
+
+#Define the upper and lower limits for outliers
+
+UL_rest_of_brain_mass <- rest_of_brain_q3_mass + IQR(rest_of_brain_mass)
+LL_rest_of_brain_mass <- rest_of_brain_q1_mass - IQR(rest_of_brain_mass)
+
+UL_rest_of_brain_neurons <- rest_of_brain_q3_neurons + IQR(rest_of_brain_neur)
+LL_rest_of_brain_neurons <- rest_of_brain_q1_neurons - IQR(rest_of_brain_neur)
+
+#Plot for cerebellum data only and finding only its outliers
+
+rest_of_brain_dat %>%
+  ggplot()+
+  aes(x = rest_of_brain_mass, y = rest_of_brain_neur) +
+  labs(x = "Log structure mass (g)", y = "Log number of neurons") +
+  geom_smooth(method = "lm", col = "blueviolet") +
+  geom_point(col = ifelse(rest_of_brain_mass > UL_rest_of_brain_mass |
+                          rest_of_brain_neur > UL_rest_of_brain_neurons |
+                          rest_of_brain_mass < LL_rest_of_brain_mass |
+                          rest_of_brain_neur < LL_rest_of_brain_neurons, "blueviolet", "black"), shape = 3) +
+  geom_text_repel(aes(label = ifelse(rest_of_brain_mass > UL_rest_of_brain_mass |
+                          rest_of_brain_neur > UL_rest_of_brain_neurons |
+                          rest_of_brain_mass < LL_rest_of_brain_mass |
+                          rest_of_brain_neur < LL_rest_of_brain_neurons, paste(rest_of_brain_dat$Species), "")),
+                                      col = ifelse(rest_of_brain_mass > UL_rest_of_brain_mass |
+                          rest_of_brain_neur > UL_rest_of_brain_neurons |
+                          rest_of_brain_mass < LL_rest_of_brain_mass |
+                          rest_of_brain_neur < LL_rest_of_brain_neurons, "blueviolet", "black"))
+```
+
+<br>
+<center> In this data plot, again we find similar outliers as we found in the 'Cerebellum Data Plot.' Hence, we can maybe try to divide the rest of the brain in temporal lobe and other different brain areas to see exactly which part of those brain areas have more number of neurons and we can create an experiment to test those results by seeing if they really have some kind of a difference. If they do have difference, then we can say that these connections and the number of neurons are actually very important for higher processing, but if not then we cannot really support the hypothesis that higher number of neurons correlates to better processing. </center>
+<br>
+
+
+
+```{r, echo = FALSE, fig.align='center'}
+
+# newdataset <- hh %>% select(Brain_area, Species, N_neurons)
+# newdataset <- newdataset[!(newdataset$Brain_area == "rest_of_brain" | newdataset$Brain_area == "olf_bulb"), ]
+# newdataset <- newdataset %>% group_by(newdataset$Brain_area)
+# newdataset
+```
+
 
 <center><h3> Neurons/mg for cerebellum v/s cerebral cortex  </h3>
 <h5> with highlighted outliers</h5>
@@ -148,10 +406,10 @@ names(Neurons_per_mg_of_two) <- c("Species", "cerebral_ctx1", "cerebellum1")
 
 #Creating slope and intercept
 
-reg_func1 <- lm(cerebral_ctx1 ~ cerebellum1, data = Neurons_per_mg_of_two)
-coeff1 = coefficients(reg_func1)
-slp1 = coeff1[2]
-inp1 = coeff1[1]
+# reg_func1 <- lm(cerebral_ctx1 ~ cerebellum1, data = Neurons_per_mg_of_two)
+# coeff1 = coefficients(reg_func1)
+# slp1 = coeff1[2]
+# inp1 = coeff1[1]
 
 #Define the upper and lower limit of outliers for x- and y-axes
 
@@ -184,7 +442,7 @@ Neurons_per_mg_of_two %>%
     geom_point(col = ifelse((Neurons_per_mg_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
                             Neurons_per_mg_of_two$cerebral_ctx1> upperlimit_for_cerebral_ctx1),
                             "red", "black")) +
-    geom_abline(intercept = inp1, slope = slp1, color = "blue", size = 0.5) +
+    geom_smooth(method = "lm", color = "blue", size = 0.5) +
     geom_text_repel(aes(label = ifelse((Neurons_per_mg_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
                                         Neurons_per_mg_of_two$cerebral_ctx1 > upperlimit_for_cerebral_ctx1 |
                                         Neurons_per_mg_of_two$cerebellum1 < lowerlimit_for_cerebellum1 |
@@ -210,7 +468,7 @@ Neurons_per_mg_of_two %>%
     geom_point(col = ifelse(Neurons_per_mg_of_two$Species == "Homosapiens", "red",
                             (ifelse(Neurons_per_mg_of_two$Species == "Sciuruscarolinensis", "blue",
                             (ifelse(Neurons_per_mg_of_two$Species == "Loxodontaafricana", "green", "black")))))) +
-    geom_abline(intercept = inp1, slope = slp1, color = "blue", size = 0.5) +
+    geom_smooth(method="lm", color = "blue", size = 0.5) +
     geom_text_repel(aes(label = ifelse(Neurons_per_mg_of_two$Species == "Homosapiens", paste0(Species),
                                 (ifelse(Neurons_per_mg_of_two$Species == "Sciuruscarolinensis", paste0(Species),
                                 (ifelse(Neurons_per_mg_of_two$Species == "Loxodontaafricana", paste0(Species), "")))))),
@@ -224,15 +482,4 @@ Neurons_per_mg_of_two %>%
 <br>
 <br>
 
-```{r}
-# Plot with diff shape, color for brain areas
-# Worked on in lab meeting 2017-10-19
-hh %>%
-  select(Species, Mass_g, N_neurons, Brain_area) %>%
-  group_by(Species) %>% 
-  mutate(Whole_brain_g = sum(Mass_g), Whole_brain_n = sum(N_neurons)) %>%
-  ggplot() +
-  aes(x=log(Mass_g), y=log(N_neurons), shape=Brain_area, color=Brain_area) +
-  geom_smooth(method = "lm") +
-  geom_point()
-```
+
