@@ -137,7 +137,7 @@ hh %>%
 <center> <h3> Showing different brain areas and its linear regression line with confidence intervals </h3> </center>
 <br>
 
-```{r, echo = FALSE, fig.align='center'}
+```{r Brain_area_NeuronsVsMass, echo = FALSE, fig.align='center'}
 # Plot with diff shape, color for brain areas
 # Worked on in lab meeting 2017-10-19
 hh %>%
@@ -158,7 +158,7 @@ hh %>%
 
 
 
-```{r, echo = FALSE, fig.align='center'}
+```{r Cerebellum_NeuronsVsMass, echo = FALSE, fig.align='center'}
 
 #Take logs for neurons and mass
 
@@ -215,7 +215,7 @@ cerebellum_dat %>%
 
 
 
-```{r, echo = FALSE, fig.align='center'}
+```{r Cerebral_Ctx_NeuronsVsMass, echo = FALSE, fig.align='center'}
 
 #Take logs for neurons and mass
 
@@ -270,7 +270,7 @@ cerebral_ctx_dat %>%
 <br>
 <center><h4> Olfactory Bulb Data Plot </h4> </center>
 
-```{r, echo = FALSE, fig.align='center'}
+```{r OlfBulb_NeuronsVsMass, echo = FALSE, fig.align='center'}
 
 #Take logs for neurons and mass
 
@@ -325,7 +325,7 @@ olf_bulb_dat %>%
 
 <center> <h4> Rest of the Brain Data Plot </h4> </center>
 
-```{r, echo = FALSE, fig.align='center'}
+```{r Rest_of_Brain_NeuronsVsMass, echo = FALSE, fig.align='center'}
 
 #Take logs for neurons and mass
 
@@ -390,10 +390,10 @@ rest_of_brain_dat %>%
 
 
 <center><h3> Neurons/mg for cerebellum v/s cerebral cortex  </h3>
-<h5> with highlighted outliers</h5>
+<h4> with highlighted outliers</h4>
 <i> Gorillagorilla data was not present in cerebral cortex, so it was skipped for this graph </i> </center>
 
-```{r , echo=FALSE, fig.align='center'}
+```{r Cerebral_ctx_vs_cerebellum_OutlierOnly, echo=FALSE, fig.align='center'}
 
 #define a new dataset for this plot
 
@@ -455,9 +455,9 @@ Neurons_per_mg_of_two %>%
 <br>
 <br>
 
-<center><h5> with labelled 'Homo Sapiens', 'Loxodontaafricanas', and 'Sciuruscarolinensis' </h5></center>
+<center><h4> with labelled 'Homo Sapiens', 'Loxodontaafricanas', and 'Sciuruscarolinensis' </h4></center>
 
-```{r ,echo=FALSE, fig.align='center'}
+```{r Cerebral_ctx_vs_cerebellum_3Species,echo=FALSE, fig.align='center'}
 
 #plot same data with only 'homosapiens', 'loxodontaafricans', and 'Sciuruscarolinensis' labelled
 
@@ -481,5 +481,31 @@ Neurons_per_mg_of_two %>%
 <center> From the above graph, we can see that Loxodonta Africanas have lower number of neurons/mg in their cerebral cortex as well as their cerebellum. Homo Sapiens seem to have a lower than average amount of neurons/mg in their cerebellum as well as cerebral cortex. Compared to them, Scirius carolinesis have an extremely high amounts of neurons/mg in their cerebellum compared to their cerebral cortex. </center>
 <br>
 <br>
+<center><h3> Boxplot for mass </h3></center>
+```{r , echo = FALSE}
+
+# homosapiens <- hh$Species == Homosapiens
+# hh %>%
+#   ggplot()+
+#   aes(x= homosapiens, y= hh$Mass_g)+
+#   geom_bar(width = 1, stat = "identity")
+
+# boxplot(log(cerebellum_dat$Mass_g), outlier.col = 'blue', at=1, xlim=c(0, 3))
+# boxplot(log(cerebral_ctx_dat$Mass_g), at=2, add=TRUE)
+
+```
+
+## Create other cells data plot
+## Create data plot for different order of species
+
+
+
+
+
+
+
+
+
+
 
 
