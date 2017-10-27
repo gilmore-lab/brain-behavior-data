@@ -481,8 +481,34 @@ Neurons_per_mg_of_two %>%
 <center> From the above graph, we can see that Loxodonta Africanas have lower number of neurons/mg in their cerebral cortex as well as their cerebellum. Homo Sapiens seem to have a lower than average amount of neurons/mg in their cerebellum as well as cerebral cortex. Compared to them, Scirius carolinesis have an extremely high amounts of neurons/mg in their cerebellum compared to their cerebral cortex. </center>
 <br>
 <br>
-<center><h3> Boxplot for mass </h3></center>
-```{r , echo = FALSE}
+<center><h3> Dataplot for different order of species </h3></center>
+```{r new_plots, echo = FALSE}
+
+hh %>%
+  select(Order, Mass_g, N_neurons) %>%
+  group_by(Order) %>% 
+  ggplot() +
+  aes(x=log(Mass_g), y=log(N_neurons), shape=Order, color=Order) +
+  labs(x = "Log of structure mass (g)", y = "Log of number of neurons") +
+  geom_smooth(method = "lm") +
+  geom_point()
+
+#Finding outliers
+# 
+# is_outlier <- function(x) {
+#   return(x < quantile(hh, 0.25) - 1.5 * IQR(hh$Mass_g) | x > quantile(x, 0.75) + 1.5 * IQR(hh$Mass_g))
+# }
+
+
+
+hh %>%
+  group_by(Order) %>%
+  ggplot() +
+  aes(x = Order, y = log(Mass_g)) +
+  geom_boxplot(aes(color = Brain_area))
+
+
+
 
 # homosapiens <- hh$Species == Homosapiens
 # hh %>%
@@ -496,6 +522,7 @@ Neurons_per_mg_of_two %>%
 ```
 
 ## Create other cells data plot
+
 ## Create data plot for different order of species
 
 

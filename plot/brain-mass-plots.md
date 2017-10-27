@@ -143,9 +143,11 @@ From the above graph, we can see that Loxodonta Africanas have lower number of n
 <br> <br>
 <center>
 <h3>
-Boxplot for mass
+Dataplot for different order of species
 </h3>
 </center>
+![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-1.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-2.png)
+
 Create other cells data plot
 ----------------------------
 
