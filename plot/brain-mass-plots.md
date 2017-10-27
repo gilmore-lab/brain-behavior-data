@@ -149,7 +149,5 @@ Dataplot for different order of species
 ![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-1.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-2.png)
 
 Create other cells data plot
-----------------------------
 
 Create data plot for different order of species
------------------------------------------------

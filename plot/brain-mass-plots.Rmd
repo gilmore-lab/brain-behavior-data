@@ -521,9 +521,10 @@ hh %>%
 
 ```
 
-## Create other cells data plot
 
-## Create data plot for different order of species
+Create other cells data plot
+
+Create data plot for different order of species
 
 
 
