@@ -1,0 +1,34 @@
+---
+title: "clean-evolution-of-self--control-data"
+author: "Charmi"
+date: "11/1/2017"
+output: github_document
+params:
+  csv_dir: ../data/csv
+  clean_dir: ../data/cleaned
+---
+
+```{r hh-setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+```
+
+## Purpose
+
+This file imports the data from 
+
+MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
+
+and tidies it up, creating a single data file with brain region as a variable.
+
+The data have already been gathered and saved as separate CSVs by brain area in `r params$csv_dir`.
+
+## Import CSVs and create merged data file
+
+Here are the steps we want to do for all of the evolution-of-self-control-specific files:
+
+1. Import the CSV from `../data/csv/<brain-area>.csv`
+2. Delete the second row since it contains comments we do not need.
+3. Rename the variables to be shorter and more transparent
+4. Add a variable called `Brain_area` equal to `<brain-area>`.
+5. Clean data fields with +/- char

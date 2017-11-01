@@ -1,0 +1,38 @@
+---
+title: "gather-the-evolution-of-self--control-data"
+author: "Charmi Mehta"
+date: "11/1/2017"
+output: github_document
+params:
+  csv_dir: ../data/csv
+  xlsx_dir: ../data/xlsx
+  xlsx_fn: evolution-of-self--control.xlsx
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# if(!("install.load" %in% installed.packages()[,1])) {
+#   install.packages("install.load")
+# }
+# library(install.load)
+library("openxlsx")
+library("readr")
+```
+
+## Aims
+
+Download data from 
+
+MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
+
+convert to excel sheets
+and save as CSVs.
+
+## Download
+
+Data are at
+
+<http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental>
+
+
+
