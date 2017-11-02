@@ -57,7 +57,7 @@ download.file(url7, destfile = "../data/docx/The-evolution-of-self--control7.doc
 
 (Do not include the top comments on the .docx files, only copy and paste the tables)
 
-**Name the excel file "The evolution of self-control.xlsx" and upload it to "../data/xlsx/The evolution of self-control.xlsx"**
+**Name the excel file "The-evolution-of-self-control.xlsx" and upload it to** `r params$xlsx_dir`
    
 There should be seven sheets:
 
@@ -75,26 +75,26 @@ There should be seven sheets:
 
 
 ```{r}
-anatom_dat <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=1)
-primat_eco_dat <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=2)
-test_loc <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=3)
-subj_info <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=4)
-cog_task_avg_score <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=5)
-diff_pop_same_species <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=6)
-socioeco_and_perform <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=7)
+anatom_dat <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=1)
+primat_eco_dat <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=2)
+test_loc <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=3)
+subj_info <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=4)
+cog_task_avg_score <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=5)
+diff_pop_same_species <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=6)
+socioeco_and_perform <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=7)
 ```
 
 
 ## Save as CSV
 
 ```{r save-csv}
-write_csv(anatom_dat, path="../data/csv/Evolution of self-control/anatom_dat.csv")
-write_csv(primat_eco_dat, path="../data/csv/Evolution of self-control/primat_eco_dat.csv")
-write_csv(test_loc, path="../data/csv/Evolution of self-control/test_loc.csv")
-write_csv(subj_info, path="../data/csv/Evolution of self-control/subj_info.csv")
-write_csv(cog_task_avg_score, path="../data/csv/Evolution of self-control/cog_task_avg_score.csv")
-write_csv(diff_pop_same_species, path="../data/csv/Evolution of self-control/diff_pop_same_species.csv")
-write_csv(socioeco_and_perform, path="../data/csv/Evolution of self-control/socioeco_and_perform.csv")
+write_csv(anatom_dat, path="../data/csv/anatom_dat.csv")
+write_csv(primat_eco_dat, path="../data/csv/primat_eco_dat.csv")
+write_csv(test_loc, path="../data/csv/test_loc.csv")
+write_csv(subj_info, path="../data/csv/subj_info.csv")
+write_csv(cog_task_avg_score, path="../data/csv/cog_task_avg_score.csv")
+write_csv(diff_pop_same_species, path="../data/csv/diff_pop_same_species.csv")
+write_csv(socioeco_and_perform, path="../data/csv/socioeco_and_perform.csv")
 ```
 
 ## To-dos

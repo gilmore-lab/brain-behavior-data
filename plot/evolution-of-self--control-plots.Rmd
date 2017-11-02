@@ -1,0 +1,43 @@
+---
+title: "evolution-of-self--control-plots"
+author: "Charmi Mehta"
+date: "11/2/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(magrittr)
+library(gdata)
+library(ggrepel)
+library(dplyr)
+```
+
+<center><h1> Goals </h1>
+<br>
+<i>Load data and separate into different brain areas</i> </center>
+
+```{r load_data}
+#load data
+
+# hh <- read.csv("../data/cleaned/herculano-houtzel-all.csv")
+
+#Separating different brain areas
+
+# cerebellum_dat <- hh[which(hh$Brain_area == 'cerebellum'),]
+# cerebral_ctx_dat <- hh[which(hh$Brain_area == 'cerebral_ctx'), ]
+# olf_bulb_dat <- hh[which(hh$Brain_area == 'olf_bulb'), ]
+# whole_brain_dat <- hh[which(hh$Brain_area == 'whole_brain'), ]
+# rest_of_brain_dat <- hh[which(hh$Brain_area == 'rest_of_brain'), ]
+
+```
+<center><h2> Plots </h2> </center>
+<br>
+<br>
+
+
+
+
+
+
