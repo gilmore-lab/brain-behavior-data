@@ -8,7 +8,7 @@ Aims
 
 Download data from
 
-MacLeana1, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
+MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
 
 convert to excel sheets and save as CSVs.
 
@@ -18,3 +18,70 @@ Download
 Data are at
 
 <http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental>
+
+``` r
+url1 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st01.docx"
+url2 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st02.docx"
+url3 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st03.docx"
+url4 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st04.docx"
+url5 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st05.docx"
+url6 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st06.docx"
+url7 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st07.docx"
+
+download.file(url1, destfile = "../data/docx/The-evolution-of-self--control1.docx")
+download.file(url2, destfile = "../data/docx/The-evolution-of-self--control2.docx")
+download.file(url3, destfile = "../data/docx/The-evolution-of-self--control3.docx")
+download.file(url4, destfile = "../data/docx/The-evolution-of-self--control4.docx")
+download.file(url5, destfile = "../data/docx/The-evolution-of-self--control5.docx")
+download.file(url6, destfile = "../data/docx/The-evolution-of-self--control6.docx")
+download.file(url7, destfile = "../data/docx/The-evolution-of-self--control7.docx")
+```
+
+Open and make an excel file
+---------------------------
+
+(Do not include the top comments on the .docx files, only copy and paste the tables)
+
+**Name the excel file "The evolution of self-control.xlsx" and upload it to "../data/xlsx/The evolution of self-control.xlsx"**
+
+There should be seven sheets:
+
+| Sheet number | Sheet name                      |
+|--------------|---------------------------------|
+| 1            | Anatomical Data                 |
+| 2            | Primate Ecological Data         |
+| 3            | Test Locations                  |
+| 4            | Subject Information             |
+| 5            | Average Score on Cognitive Task |
+| 6            | Compare diff. pop. same species |
+| 7            | Socioeco and performance        |
+
+``` r
+anatom_dat <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=1)
+primat_eco_dat <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=2)
+test_loc <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=3)
+subj_info <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=4)
+cog_task_avg_score <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=5)
+diff_pop_same_species <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=6)
+socioeco_and_perform <- openxlsx::read.xlsx("../data/xlsx/The evolution of self-control.xlsx", sheet=7)
+```
+
+Save as CSV
+-----------
+
+``` r
+write_csv(anatom_dat, path="../data/csv/Evolution of self-control/anatom_dat.csv")
+write_csv(primat_eco_dat, path="../data/csv/Evolution of self-control/primat_eco_dat.csv")
+write_csv(test_loc, path="../data/csv/Evolution of self-control/test_loc.csv")
+write_csv(subj_info, path="../data/csv/Evolution of self-control/subj_info.csv")
+write_csv(cog_task_avg_score, path="../data/csv/Evolution of self-control/cog_task_avg_score.csv")
+write_csv(diff_pop_same_species, path="../data/csv/Evolution of self-control/diff_pop_same_species.csv")
+write_csv(socioeco_and_perform, path="../data/csv/Evolution of self-control/socioeco_and_perform.csv")
+```
+
+To-dos
+------
+
+1.  Check if data paths exist before reading and writing.
+2.  Check if packages installed, if not, install and load.
+3.  Parameterize file names.
