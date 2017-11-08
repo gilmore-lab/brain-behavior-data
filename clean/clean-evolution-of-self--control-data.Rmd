@@ -32,21 +32,32 @@ Here are the steps we want to do for tidying and combing two separate CSV files:
 
 1. Import the CSV from `../data/csv/cog_task_avg_score.csv`
 2. Include the cylinder task data and A.not.B.Task data in one column, and arrange by common name.
+3. Clean out the '-' from subj_info file.
 
-3. Import the CSV from `../data/csv/subj_info.csv`
-4. Make a new column for task responses as 'Y' if '*' and 'N' if '-'.
-5. Remove the old columns with '*' and '-' as input.
-6. Merge cog_task_avg_score and subj_info together by Common.Name.
+4. Import the CSV from `../data/csv/subj_info.csv`
+5. Make a new column for task responses as 'Y' if '*' and 'N' if '-'.
+6. Remove the old columns with '*' and '-' as input.
+7. Merge cog_task_avg_score and subj_info together by Common.Name.
 
 
 ```{r cog_task_cleaning}
 cog <- read_csv("../data/csv/cog_task_avg_score.csv")
 cog<-cog %>%
        gather(Task, Score, Cylinder.Task: A.not.B.Task) %>% arrange(Common.Name)
+
+#Cleaning out '-' from Score
+
+cog$Score <- gsub('-',NA,cog$Score,fixed=TRUE)
+cog$Score <- as.factor(cog$Score)
+
+#Cleaning out '-' from Composite Score
+
+cog$Composite.Score <- gsub('-',NA,cog$Composite.Score,fixed=TRUE)
+cog$Composite.Score <- as.factor(cog$Composite.Score)
 cog
 ```
 
-```{r adding_subj_info}
+```{r cleaning_subj_info}
 sub_info <- read_csv("../data/csv/subj_info.csv")
 
 names(sub_info)[1] <- "Common.Name"
@@ -69,13 +80,19 @@ merged
 
 ```
 
+```{r order_columns}
 
+col_order <- c("Common.Name", "Latin.Name", "A.not.B.Y.N", "Cylinder.Y.N", "Task", "Score", "Composite.Score", "Sex", "Age", "Population", "Subject")
+merged_new <- merged[,col_order]
+merged_new
+
+```
 
 
 Let's write this to a new, clean directory (`r params$clean_dir`)
 
 ```{r export-merged}
-write_csv(merged, path = "../data/cleaned/cog_score_and_sub_info.csv")
+write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
 ```
 
 

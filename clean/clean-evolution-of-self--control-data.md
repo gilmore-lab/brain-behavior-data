@@ -17,13 +17,16 @@ The data have already been gathered and saved as separate CSVs by different shee
 Import CSVs and create merged data file
 ---------------------------------------
 
-Here are the steps we want to do for all of the evolution-of-self-control-specific files:
+Here are the steps we want to do for tidying and combing two separate CSV files:
 
-1.  Import the CSV from `../data/csv/<brain-area>.csv`
-2.  Delete the second row since it contains comments we do not need.
-3.  Rename the variables to be shorter and more transparent
-4.  Add a variable called `Brain_area` equal to `<brain-area>`.
-5.  Clean data fields with +/- char
+1.  Import the CSV from `../data/csv/cog_task_avg_score.csv`
+2.  Include the cylinder task data and A.not.B.Task data in one column, and arrange by common name.
+3.  Clean out the '-' from subj\_info file.
+
+4.  Import the CSV from `../data/csv/subj_info.csv`
+5.  Make a new column for task responses as 'Y' if '\*' and 'N' if '-'.
+6.  Remove the old columns with '\*' and '-' as input.
+7.  Merge cog\_task\_avg\_score and subj\_info together by Common.Name.
 
 ``` r
 cog <- read_csv("../data/csv/cog_task_avg_score.csv")
@@ -41,23 +44,33 @@ cog <- read_csv("../data/csv/cog_task_avg_score.csv")
 ``` r
 cog<-cog %>%
        gather(Task, Score, Cylinder.Task: A.not.B.Task) %>% arrange(Common.Name)
+
+#Cleaning out '-' from Score
+
+cog$Score <- gsub('-',NA,cog$Score,fixed=TRUE)
+cog$Score <- as.factor(cog$Score)
+
+#Cleaning out '-' from Composite Score
+
+cog$Composite.Score <- gsub('-',NA,cog$Composite.Score,fixed=TRUE)
+cog$Composite.Score <- as.factor(cog$Composite.Score)
 cog
 ```
 
     ## # A tibble: 72 x 5
     ##       Common.Name                   Latin.Name Composite.Score
-    ##             <chr>                        <chr>           <chr>
-    ##  1 Asian elephant              Elephas maximus               -
-    ##  2 Asian elephant              Elephas maximus               -
-    ##  3        aye aye Daubentonia madagascariensis               -
-    ##  4        aye aye Daubentonia madagascariensis               -
+    ##             <chr>                        <chr>          <fctr>
+    ##  1 Asian elephant              Elephas maximus            <NA>
+    ##  2 Asian elephant              Elephas maximus            <NA>
+    ##  3        aye aye Daubentonia madagascariensis            <NA>
+    ##  4        aye aye Daubentonia madagascariensis            <NA>
     ##  5    black lemur               Eulemur macaco            55.5
     ##  6    black lemur               Eulemur macaco            55.5
     ##  7         bonobo                 Pan paniscus            97.5
     ##  8         bonobo                 Pan paniscus            97.5
-    ##  9    brown lemur               Eulemur fulvus               -
-    ## 10    brown lemur               Eulemur fulvus               -
-    ## # ... with 62 more rows, and 2 more variables: Task <chr>, Score <chr>
+    ##  9    brown lemur               Eulemur fulvus            <NA>
+    ## 10    brown lemur               Eulemur fulvus            <NA>
+    ## # ... with 62 more rows, and 2 more variables: Task <chr>, Score <fctr>
 
 ``` r
 sub_info <- read_csv("../data/csv/subj_info.csv")
@@ -120,66 +133,47 @@ merged
 ```
 
     ## # A tibble: 1,072 x 11
-    ##       Common.Name      Latin.Name Composite.Score          Task Score
-    ##             <chr>           <chr>           <chr>         <chr> <chr>
-    ##  1 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  2 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  3 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  4 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  5 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  6 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  7 Asian elephant Elephas maximus               - Cylinder.Task     -
-    ##  8 Asian elephant Elephas maximus               -  A.not.B.Task     0
-    ##  9 Asian elephant Elephas maximus               -  A.not.B.Task     0
-    ## 10 Asian elephant Elephas maximus               -  A.not.B.Task     0
+    ##       Common.Name      Latin.Name Composite.Score          Task  Score
+    ##             <chr>           <chr>          <fctr>         <chr> <fctr>
+    ##  1 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  2 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  3 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  4 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  5 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  6 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  7 Asian elephant Elephas maximus            <NA> Cylinder.Task   <NA>
+    ##  8 Asian elephant Elephas maximus            <NA>  A.not.B.Task      0
+    ##  9 Asian elephant Elephas maximus            <NA>  A.not.B.Task      0
+    ## 10 Asian elephant Elephas maximus            <NA>  A.not.B.Task      0
     ## # ... with 1,062 more rows, and 6 more variables: Population <chr>,
     ## #   Subject <chr>, Sex <chr>, Age <chr>, A.not.B.Y.N <chr>,
     ## #   Cylinder.Y.N <chr>
 
 ``` r
-# Import_clean_area_data <- function(fn) {
-#   # Import and clean a file containing brain-area-specific data
-#   # Returns a new data frame
-#   df <- read.csv(file = fn, skip = 2)
-#   df <- df[-1,] # Comments are now first row
-#   names(df) <- c("Species", "Order", "Mass_g", "Mass_SD", 
-#                  "N_neurons", "N_neurons_SD",
-#                  "N_other", "N_other_SD",
-#                  "Neurons_per_mg", "Neurons_per_mg_SD",
-#                  "Other_per_mg", "Other_per_mg_SD",
-#                  "Other_per_neuron", "Other_per_neuron_SD",
-#                  "Source")
-#   file_name <- strsplit(basename(fn), "\\.")[[1]][1]
-#   df$Brain_area <- file_name
-#   df
-# }
+col_order <- c("Common.Name", "Latin.Name", "A.not.B.Y.N", "Cylinder.Y.N", "Task", "Score", "Composite.Score", "Sex", "Age", "Population", "Subject")
+merged_new <- merged[,col_order]
+merged_new
 ```
 
-If we map a file-specific function across a list of the files, we can merge the list into a single data frame using `Reduce()`.
-
-``` r
-# Clean all csv's then drop whole_brain because it has different columns
-# fl <- list.files(path = "../data/csv", pattern = "\\.csv$", full.names = TRUE)
-# sapply(fl, Drop_plus_minus)
-# 
-# fl_clean <- list.files(path = "../data/csv", pattern = "\\.clean$", full.names = TRUE)
-# fl_clean <- fl_clean[!(fl_clean %in% "../data/csv/whole_brain.csv.clean")]
-# if (length(fl_clean)) {
-#   df_list <- lapply(fl_clean, Import_clean_area_data)
-#   df_merged <- Reduce(function(x,y) merge(x, y, all=TRUE), df_list)
-# } else {
-#   warning("File list empty.")
-# }
-```
+    ## # A tibble: 1,072 x 11
+    ##       Common.Name      Latin.Name A.not.B.Y.N Cylinder.Y.N          Task
+    ##             <chr>           <chr>       <chr>        <chr>         <chr>
+    ##  1 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  2 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  3 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  4 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  5 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  6 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  7 Asian elephant Elephas maximus           Y            N Cylinder.Task
+    ##  8 Asian elephant Elephas maximus           Y            N  A.not.B.Task
+    ##  9 Asian elephant Elephas maximus           Y            N  A.not.B.Task
+    ## 10 Asian elephant Elephas maximus           Y            N  A.not.B.Task
+    ## # ... with 1,062 more rows, and 6 more variables: Score <fctr>,
+    ## #   Composite.Score <fctr>, Sex <chr>, Age <chr>, Population <chr>,
+    ## #   Subject <chr>
 
 Let's write this to a new, clean directory (../data/cleaned)
 
 ``` r
-# write_csv(df_merged, path = "../data/cleaned/herculano-houtzel-all.csv")
+write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
 ```
-
-To-dos
-------
-
--   ~~This would be even cleaner if we dropped the "± " from the \*\_SD columns.~~ 2017-10-03
--   Parameterize file names and paths.
