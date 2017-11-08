@@ -1,0 +1,1073 @@
+Common.Name,Latin.Name,Composite.Score,Task,Score,Population,Subject,Sex,Age,A.not.B.Y.N,Cylinder.Y.N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,Am,F,3,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,Bo,F,33,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,NamFon,F,10,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,Pepsi,M,10,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,Ploy,F,16,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,Puki,M,40,Y,N
+Asian elephant,Elephas maximus,-,Cylinder.Task,-,Golden Triangle Asian Elephant Foundation,TangMo,F,4,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,Am,F,3,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,Bo,F,33,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,NamFon,F,10,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,Pepsi,M,10,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,Ploy,F,16,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,Puki,M,40,Y,N
+Asian elephant,Elephas maximus,-,A.not.B.Task,0,Golden Triangle Asian Elephant Foundation,TangMo,F,4,Y,N
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Angelique,F,5,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Ardrey,F,14,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Caliban,F,16,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Hitchcock,M,5,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Kali,F,12,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Lucrezia,F,9,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Medea,F,6,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Merlin,M,16,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Nosferatu,M,25,N,Y
+aye aye,Daubentonia madagascariensis,-,Cylinder.Task,51,Duke Lemur Center,Poe,M,24,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Angelique,F,5,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Ardrey,F,14,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Caliban,F,16,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Hitchcock,M,5,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Kali,F,12,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Lucrezia,F,9,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Medea,F,6,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Merlin,M,16,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Nosferatu,M,25,N,Y
+aye aye,Daubentonia madagascariensis,-,A.not.B.Task,-,Duke Lemur Center,Poe,M,24,N,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Barrymore,M,22,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Deucalion,M,21,Y,N
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Foster,F,12,N,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Harlow,F,18,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Harmonia,F,26,Y,N
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Hesperus,M,26,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Hopkins,M,14,Y,N
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,L'amour,F,21,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Latona,F,26,Y,N
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Olivier,M,17,N,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Quinn,M,9,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Redford,M,18,Y,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Tarantino,M,9,N,Y
+black lemur,Eulemur macaco,55.5,Cylinder.Task,51,Duke Lemur Center,Teucer,M,20,N,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Barrymore,M,22,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Deucalion,M,21,Y,N
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Foster,F,12,N,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Harlow,F,18,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Harmonia,F,26,Y,N
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Hesperus,M,26,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Hopkins,M,14,Y,N
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,L'amour,F,21,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Latona,F,26,Y,N
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Olivier,M,17,N,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Quinn,M,9,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Redford,M,18,Y,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Tarantino,M,9,N,Y
+black lemur,Eulemur macaco,55.5,A.not.B.Task,60,Duke Lemur Center,Teucer,M,20,N,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Fimi,F,2,N,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Joey,M,28,Y,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Kuno,M,14,Y,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Luiza,F,5,Y,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Ulindi,F,17,N,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI - Leipzig,Yasa,F,13,N,Y
+bonobo,Pan paniscus,97.5,Cylinder.Task,95,MPI-Leipzig,Limbuko,M,14,Y,N
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Fimi,F,2,N,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Joey,M,28,Y,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Kuno,M,14,Y,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Luiza,F,5,Y,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Ulindi,F,17,N,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI - Leipzig,Yasa,F,13,N,Y
+bonobo,Pan paniscus,97.5,A.not.B.Task,100,MPI-Leipzig,Limbuko,M,14,Y,N
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Alphonse,M,29,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Fiery,M,27,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Francoise,F,25,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Frigga,F,26,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Geraldine,F,21,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Giscard,M,22,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Jules,M,23,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Kish,M,23,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Martine,F,23,N,Y
+brown lemur,Eulemur fulvus,-,Cylinder.Task,43.3,Duke Lemur Center,Wizard,F,15,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Alphonse,M,29,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Fiery,M,27,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Francoise,F,25,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Frigga,F,26,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Geraldine,F,21,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Giscard,M,22,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Jules,M,23,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Kish,M,23,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Martine,F,23,N,Y
+brown lemur,Eulemur fulvus,-,A.not.B.Task,-,Duke Lemur Center,Wizard,F,15,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Brahms,F,22,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Cammello,M,32,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Carlotta,F,27,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Cognac,M,17,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Pandora,F,8,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Panna,F,10,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Paprica,F,21,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Patè,M,13,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Pedro,M,"3(a), 9(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Penelope,F,5,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Pepe,M,17,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Pippi,F,23,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Punk,F,adult,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Rame,F,23,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Roberta,F,24,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Robin Hood,M,"7(a), 13(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Robinia,F,"11(a), 17(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Robot,M,"9(a), 14(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Rosso,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Rubens,M,8,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Rucola,F,4,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Saroma,F,9,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Viola,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Virginia,F,11,N,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Vispo,M,4,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,ISTC-CNR Primate Centre,Zapotec,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,AG,M,16,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,AH,M,5,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,FL,M,15,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,HB,F,3,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,HG,F,11,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,HR,F,6,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,JM,F,15,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,MD,F,10,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,MP,F,4,Y,Y
+capuchin monkey,Cebus apella,91.1,Cylinder.Task,95.9,Yale University,NN,M,16,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Brahms,F,22,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Cammello,M,32,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Carlotta,F,27,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Cognac,M,17,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Pandora,F,8,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Panna,F,10,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Paprica,F,21,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Patè,M,13,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Pedro,M,"3(a), 9(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Penelope,F,5,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Pepe,M,17,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Pippi,F,23,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Punk,F,adult,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Rame,F,23,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Roberta,F,24,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Robin Hood,M,"7(a), 13(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Robinia,F,"11(a), 17(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Robot,M,"9(a), 14(b)",Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Rosso,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Rubens,M,8,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Rucola,F,4,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Saroma,F,9,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Viola,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Virginia,F,11,N,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Vispo,M,4,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,ISTC-CNR Primate Centre,Zapotec,M,adult,Y,N
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,AG,M,16,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,AH,M,5,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,FL,M,15,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,HB,F,3,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,HG,F,11,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,HR,F,6,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,JM,F,15,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,MD,F,10,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,MP,F,4,Y,Y
+capuchin monkey,Cebus apella,91.1,A.not.B.Task,86.2,Yale University,NN,M,16,Y,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI - Leipzig,Alex,M,10,N,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI - Leipzig,Alexandra,F,11,N,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI - Leipzig,Fifi,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI - Leipzig,Jahaga,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI - Leipzig,Trudi,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI-Leipzig,Fraukje,F,28,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI-Leipzig,Frodo,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI-Leipzig,Riet,F,6,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,MPI-Leipzig,Sandra,F,11,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Jon,M,15,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Kendall,M,12,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Lance,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Maggie,F,38,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Ruby,F,15,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Ruthie,F,40,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Sakoto,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,Cylinder.Task,100,North Carolina Zoo,Terry,F,42,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI - Leipzig,Alex,M,10,N,Y
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI - Leipzig,Alexandra,F,11,N,Y
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI - Leipzig,Fifi,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI - Leipzig,Jahaga,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI - Leipzig,Trudi,F,18,Y,Y
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI-Leipzig,Fraukje,F,28,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI-Leipzig,Frodo,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI-Leipzig,Riet,F,6,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,MPI-Leipzig,Sandra,F,11,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Jon,M,15,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Kendall,M,12,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Lance,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Maggie,F,38,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Ruby,F,15,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Ruthie,F,40,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Sakoto,M,10,Y,N
+chimpanzee,Pan troglodytes,93.3,A.not.B.Task,86.7,North Carolina Zoo,Terry,F,42,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Anastasia,F,4,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Antonia,F,10,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Brutus,M,9,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Drusilla,F,17,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Gordian,M,14,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Gratian,M,6,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Jovian,M,4,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Julian,M,17,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Lucius,M,5,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Marcus Aurelius,M,7,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Martin,M,2,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Matilda,F,2,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Pia,F,9,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Rhodelina,F,3,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Theo,M,7,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,Cylinder.Task,36.4,Duke Lemur Center,Tiberius,M,21,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Anastasia,F,4,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Antonia,F,10,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Brutus,M,9,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Drusilla,F,17,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Gordian,M,14,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Gratian,M,6,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Jovian,M,4,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Julian,M,17,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Lucius,M,5,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Marcus Aurelius,M,7,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Martin,M,2,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Matilda,F,2,Y,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Pia,F,9,N,Y
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Rhodelina,F,3,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Theo,M,7,Y,N
+Coquerel's sifaka,Propithecus coquereli,33.200000000000003,A.not.B.Task,30,Duke Lemur Center,Tiberius,M,21,N,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,3.1,F,3,N,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,3.2,M,6,Y,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,3.3,F,4,Y,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,4.0999999999999996,M,2,Y,N
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,4.2,M,3,Y,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,4.3,F,2,Y,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,5.0999999999999996,M,3,Y,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,5.2,F,3,N,Y
+coyote,Canis latrans,61.8,Cylinder.Task,95,Logan Field Station,5.3,M,6,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,3.1,F,3,N,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,3.2,M,6,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,3.3,F,4,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,4.0999999999999996,M,2,Y,N
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,4.2,M,3,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,4.3,F,2,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,5.0999999999999996,M,3,Y,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,5.2,F,3,N,Y
+coyote,Canis latrans,61.8,A.not.B.Task,28.6,Logan Field Station,5.3,M,6,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Amber,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Aspen,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Astro,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Bailey,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Bender,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Bonnie,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Bowie,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Buffy,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Cassie,F,8,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Cassie(2),F,8,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Chewie,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Chloe,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Clara,F,8,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Cricket,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Dakota,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Dallas,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Dax,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Diva,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Ela,F,10,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Ellie,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Friday,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Gertie,F,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Ginger,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Griffin,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Gus,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Harbor,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Jada,F,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Jimmy,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Joey,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Kali,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Lily,F,10,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Lucky,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Ludo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Lula Belle,F,11,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Mazie,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Milo,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Morgan,M,11,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Murphy,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Norman,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Peanut,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Poppy,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Rex,M,8,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Sadie,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Sam,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Spencer,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Spike,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Tiger,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Turbo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Vespa,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Wonton,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Zen,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Zep,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Zephyr,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,Duke Canine Cognition Center,Zoey,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Aimee,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Benji,M,6,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Blue,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Chiquita,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Colin,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Guenni,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Jazzy,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Judy,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Luna,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Migo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Mira,F,5,Y,Y
+domestic dog,Canis familiaris,84.2,Cylinder.Task,79.099999999999994,MPI - Leipzig,Sammy,M,8,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Amber,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Aspen,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Astro,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Bailey,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Bender,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Bonnie,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Bowie,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Buffy,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Cassie,F,8,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Cassie(2),F,8,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Chewie,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Chloe,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Clara,F,8,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Cricket,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Dakota,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Dallas,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Dax,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Diva,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Ela,F,10,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Ellie,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Friday,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Gertie,F,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Ginger,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Griffin,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Gus,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Harbor,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Jada,F,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Jimmy,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Joey,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Kali,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Lily,F,10,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Lucky,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Ludo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Lula Belle,F,11,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Mazie,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Milo,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Morgan,M,11,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Murphy,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Norman,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Peanut,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Poppy,F,6,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Rex,M,8,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Sadie,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Sam,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Spencer,M,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Spike,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Tiger,F,9,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Turbo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Vespa,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Wonton,M,4,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Zen,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Zep,M,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Zephyr,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,Duke Canine Cognition Center,Zoey,F,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Aimee,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Benji,M,6,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Blue,M,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Chiquita,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Colin,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Guenni,M,1,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Jazzy,F,3,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Judy,F,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Luna,F,7,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Migo,M,2,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Mira,F,5,Y,Y
+domestic dog,Canis familiaris,84.2,A.not.B.Task,89.4,MPI - Leipzig,Sammy,M,8,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Hoy,M,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Hunter,F,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Lima,M,4,Y,N
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Ohuruogu,F,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Pendleton,M,3,Y,N
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Quito,M,4,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Rome,F,4,Y,N
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Romero,M,3,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,Cylinder.Task,58.3,University of Cambridge,Wilson,M,3,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Hoy,M,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Hunter,F,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Lima,M,4,Y,N
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Ohuruogu,F,3,N,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Pendleton,M,3,Y,N
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Quito,M,4,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Rome,F,4,Y,N
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Romero,M,3,Y,Y
+Eurasian jay,Garrulus glandarius,37.5,A.not.B.Task,16.7,University of Cambridge,Wilson,M,3,Y,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Ace,M,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Boomerang,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Cal,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Cursive,F,3,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Dot,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Grumpy,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Isis,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Jemaine,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Leila,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Missi,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Nemo,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,NR,unknown,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Picasso,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Romi,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Rooster,M,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Rooster Jr,M,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Silver,M,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Slow Eater,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Tornado,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Van,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,Cylinder.Task,66.900000000000006,UC Berkeley,Zippy,M,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Ace,M,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Boomerang,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Cal,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Cursive,F,3,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Dot,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Grumpy,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Isis,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Jemaine,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Leila,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Missi,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Nemo,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,NR,unknown,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Picasso,F,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Romi,F,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Rooster,M,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Rooster Jr,M,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Silver,M,1,Y,N
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Slow Eater,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Tornado,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Van,unknown,unknown,N,Y
+fox squirrel,Scurius niger,39.700000000000003,A.not.B.Task,12.5,UC Berkeley,Zippy,M,1,Y,N
+golden snub-nosed monkey,Rhinopithecus roxellana,45.3,Cylinder.Task,35,NA,NA,NA,NA,NA,NA
+golden snub-nosed monkey,Rhinopithecus roxellana,45.3,A.not.B.Task,55.6,NA,NA,NA,NA,NA,NA
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg02,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg03,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg13,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg25,M,12,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg28,F,7,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg33,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg40,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cg43,M,10,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cgBIG,M,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,Cylinder.Task,63,Laboratorio Tropical de Primatologia,cgRT,F,3,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg02,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg03,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg13,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg25,M,12,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg28,F,7,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg33,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg40,F,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cg43,M,10,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cgBIG,M,5,N,Y
+golden-headed lion tamarin,Leontopithecus chrysomelas,-,A.not.B.Task,-,Laboratorio Tropical de Primatologia,cgRT,F,3,N,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI - Leipzig,Kibara,F,7,N,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI - Leipzig,Louna,F,4,N,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI - Leipzig,Viringika,F,16,Y,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Bebe,F,6,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Gorgo,M,30,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Ndiki,F,32,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Nkwango,M,16,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Ruby,F,11,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,MPI-Leipzig,Vizuri,F,11,Y,N
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Baraka,M,17,Y,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Haloko,F,42,N,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Kigali,F,15,Y,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Kojo,M,8,Y,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Kwame,M,10,Y,Y
+gorilla,Gorilla gorilla,97.2,Cylinder.Task,94.4,National Zoo,Mandara,F,28,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI - Leipzig,Kibara,F,7,N,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI - Leipzig,Louna,F,4,N,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI - Leipzig,Viringika,F,16,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Bebe,F,6,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Gorgo,M,30,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Ndiki,F,32,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Nkwango,M,16,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Ruby,F,11,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,MPI-Leipzig,Vizuri,F,11,Y,N
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Baraka,M,17,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Haloko,F,42,N,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Kigali,F,15,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Kojo,M,8,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Kwame,M,10,Y,Y
+gorilla,Gorilla gorilla,97.2,A.not.B.Task,100,National Zoo,Mandara,F,28,Y,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Apache,M,2,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Aragorn,M,3,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Cherokee,M,2,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Geronimo,M,2,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Kaspar,M,3,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Kenai,M,0,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Nanuk,M,2,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Shima,F,3,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Tatonga,F,2,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Wapi,M,1,N,Y
+gray wolf,Canis lupus,-,Cylinder.Task,77.3,Wolf Science Center,Yukon,F,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Apache,M,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Aragorn,M,3,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Cherokee,M,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Geronimo,M,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Kaspar,M,3,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Kenai,M,0,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Nanuk,M,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Shima,F,3,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Tatonga,F,2,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Wapi,M,1,N,Y
+gray wolf,Canis lupus,-,A.not.B.Task,-,Wolf Science Center,Yukon,F,2,N,Y
+hamadryus baboon,Papio hamadryas,65.7,Cylinder.Task,67.8,NA,NA,NA,NA,NA,NA
+hamadryus baboon,Papio hamadryas,65.7,A.not.B.Task,63.6,NA,NA,NA,NA,NA,NA
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Anastasia,F,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Cleo,M,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Cornea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Era,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Icetea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Linea,F,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Logica,F,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Ofelia,F,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Salvadoro,M,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Sea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Video,M,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,Cylinder.Task,-,University of Utrecht,Zargasso,M,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Anastasia,F,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Cleo,M,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Cornea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Era,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Icetea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Linea,F,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Logica,F,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Ofelia,F,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Salvadoro,M,juvenile,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Sea,F,adult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Video,M,subadult,Y,N
+long-tailed macaque,Macaca fascicularis,-,A.not.B.Task,66.7,University of Utrecht,Zargasso,M,juvenile,Y,N
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Juniper,M,12,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Juri,M,9,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Kaliper,M,8,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Kalium,F,12,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Kantor,M,6,N,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Kapi,M,7,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Kapo,M,7,Y,N
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Venezia,F,4,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Venus,F,5,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Verona,F,8,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Vesta,F,8,Y,Y
+marmoset,Callithrix jacchus,46,Cylinder.Task,31.9,University of Zurich,Vreni,F,8,N,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Juniper,M,12,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Juri,M,9,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Kaliper,M,8,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Kalium,F,12,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Kantor,M,6,N,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Kapi,M,7,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Kapo,M,7,Y,N
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Venezia,F,4,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Venus,F,5,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Verona,F,8,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Vesta,F,8,Y,Y
+marmoset,Callithrix jacchus,46,A.not.B.Task,60,University of Zurich,Vreni,F,8,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Adlin,M,2,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Alti,F,1,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Besh,M,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Chetryi,F,2,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Cuarenta,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Dva,F,2,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Fyorir,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Ni,F,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Ooch,M,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Roku,F,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Sekkiz,F,1,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Tri,M,2,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Tveir,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,Cylinder.Task,68.900000000000006,UC Berkeley,Vente,F,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Adlin,M,2,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Alti,F,1,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Besh,M,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Chetryi,F,2,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Cuarenta,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Dva,F,2,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Fyorir,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Ni,F,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Ooch,M,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Roku,F,1,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Sekkiz,F,1,N,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Tri,M,2,Y,Y
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Tveir,F,1,Y,N
+Mongolian gerbil,Meriones unguiculatus,44.4,A.not.B.Task,20,UC Berkeley,Vente,F,1,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Concepcion,F,25,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Eduardo,M,15,N,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Fabio,M,22,Y,N
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Felipe,M,14,Y,N
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Flor,F,24,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Guadalupe,F,15,Y,N
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Julio,M,20,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Maddie,F,4,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Mercedes,M,4,N,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Moheli,F,21,N,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Paco,M,11,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Pedro,M,20,Y,N
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Piedad,F,22,N,Y
+mongoose lemur,Eulemur mongoz,54.5,Cylinder.Task,59,Duke Lemur Center,Sancho,M,28,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Concepcion,F,25,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Eduardo,M,15,N,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Fabio,M,22,Y,N
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Felipe,M,14,Y,N
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Flor,F,24,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Guadalupe,F,15,Y,N
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Julio,M,20,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Maddie,F,4,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Mercedes,M,4,N,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Moheli,F,21,N,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Paco,M,11,Y,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Pedro,M,20,Y,N
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Piedad,F,22,N,Y
+mongoose lemur,Eulemur mongoz,54.5,A.not.B.Task,50,Duke Lemur Center,Sancho,M,28,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Jefferson,M,4,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Kalamata,M,3,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Mansino,M,6,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Olive Oil,F,4,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Pearl,F,3,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Pepperella,F,17,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Pimento,F,4,Y,N
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Sabina,F,4,Y,Y
+olive baboon,Papio anubis,88.1,Cylinder.Task,76.3,Seneca Park Zoo,Ursula,F,13,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Jefferson,M,4,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Kalamata,M,3,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Mansino,M,6,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Olive Oil,F,4,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Pearl,F,3,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Pepperella,F,17,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Pimento,F,4,Y,N
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Sabina,F,4,Y,Y
+olive baboon,Papio anubis,88.1,A.not.B.Task,100,Seneca Park Zoo,Ursula,F,13,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,BUL - Tulip,F,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,BUR - Benny,M,unknown,N,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,GDL - Ricky,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,GYLSR - Freckles,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,LGR - Belle,F,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,OL - Piglet,F,unknown,N,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,OR - Simon,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,PIL - Rocky,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,PIR - Bo,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,PUR - Pete,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,RR - Stumpy,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,Cylinder.Task,50.8,University of St. Andrews,SR - Penny,F,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,BUL - Tulip,F,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,BUR - Benny,M,unknown,N,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,GDL - Ricky,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,GYLSR - Freckles,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,LGR - Belle,F,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,OL - Piglet,F,unknown,N,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,OR - Simon,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,PIL - Rocky,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,PIR - Bo,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,PUR - Pete,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,RR - Stumpy,M,unknown,Y,Y
+orange-winged amazon,Amazona amazonica,30.4,A.not.B.Task,10,University of St. Andrews,SR - Penny,F,unknown,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI - Leipzig,Dokana,F,22,N,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI - Leipzig,Kila,F,11,N,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI - Leipzig,Padana,F,13,N,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI - Leipzig,Pini,F,23,N,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI - Leipzig,Raaja,F,7,N,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Bimbo,M,10,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Dunja,F,38,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Padana,F,13,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Pini,F,23,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Toba,F,7,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,MPI-Leipzig,Walter,M,21,Y,N
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Batang,F,13,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Bonnie,F,33,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Iris,F,23,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Kiko,M,22,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Kyle,M,13,Y,Y
+orangutan,Pongo pygmaeus,95.4,Cylinder.Task,99.1,National Zoo,Lucy,F,37,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI - Leipzig,Dokana,F,22,N,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI - Leipzig,Kila,F,11,N,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI - Leipzig,Padana,F,13,N,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI - Leipzig,Pini,F,23,N,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI - Leipzig,Raaja,F,7,N,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Bimbo,M,10,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Dunja,F,38,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Padana,F,13,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Pini,F,23,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Toba,F,7,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,MPI-Leipzig,Walter,M,21,Y,N
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Batang,F,13,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Bonnie,F,33,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Iris,F,23,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Kiko,M,22,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Kyle,M,13,Y,Y
+orangutan,Pongo pygmaeus,95.4,A.not.B.Task,91.7,National Zoo,Lucy,F,37,Y,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Cheyenne,F,22,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Dido,F,26,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Fox,F,15,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Hannibal,M,24,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Hopi,F,20,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Iroquois,M,18,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Mohawk,M,28,N,Y
+red-bellied lemur,Eulemur rubriventer,-,Cylinder.Task,63.8,Duke Lemur Center,Navajo,M,22,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Cheyenne,F,22,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Dido,F,26,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Fox,F,15,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Hannibal,M,24,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Hopi,F,20,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Iroquois,M,18,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Mohawk,M,28,N,Y
+red-bellied lemur,Eulemur rubriventer,-,A.not.B.Task,-,Duke Lemur Center,Navajo,M,22,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Bails,F,9,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Boxer,F,14,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Curry,F,9,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Feinstein,F,15,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Mikulski,F,14,N,Y
+rhesus macaque,Macaca mulatta,-,Cylinder.Task,80,Duke University,Schroeder,F,14,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Bails,F,9,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Boxer,F,14,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Curry,F,9,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Feinstein,F,15,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Mikulski,F,14,N,Y
+rhesus macaque,Macaca mulatta,-,A.not.B.Task,-,Duke University,Schroeder,F,14,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Aracus,M,19,Y,N
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Aristides,M,17,Y,N
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Berisades,M,6,Y,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Cap N' Lee,M,8,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Cleius,F,25,Y,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Cleonomis,F,21,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Ginger,F,2,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Ivy,M,6,Y,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Licinius,M,17,Y,N
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Lilah,F,5,Y,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Nemo,M,21,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Nicaea,F,5,N,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Sosiphanes,F,13,Y,N
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Tellus,F,6,Y,Y
+ring-tailed lemur,Lemur catta,54,Cylinder.Task,68.099999999999994,Duke Lemur Center,Teres,M,15,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Aracus,M,19,Y,N
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Aristides,M,17,Y,N
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Berisades,M,6,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Cap N' Lee,M,8,N,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Cleius,F,25,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Cleonomis,F,21,N,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Ginger,F,2,N,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Ivy,M,6,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Licinius,M,17,Y,N
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Lilah,F,5,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Nemo,M,21,N,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Nicaea,F,5,N,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Sosiphanes,F,13,Y,N
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Tellus,F,6,Y,Y
+ring-tailed lemur,Lemur catta,54,A.not.B.Task,40,Duke Lemur Center,Teres,M,15,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Alphard,M,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Amor,M,29,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Antlia,F,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Aries,M,3,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Borealis,M,22,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Carina,F,6,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Comet,M,24,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Diphda,F,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Eros,M,1,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Esther,F,1,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Grace,F,12,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Hunter,M,12,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Hydra,F,2,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Junior,M,4,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Kizzy,F,5,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Little Dipper,F,6,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Lyra,F,2,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,Cylinder.Task,69.7,Duke Lemur Center,Scorpius,M,3,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Alphard,M,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Amor,M,29,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Antlia,F,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Aries,M,3,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Borealis,M,22,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Carina,F,6,Y,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Comet,M,24,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Diphda,F,19,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Eros,M,1,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Esther,F,1,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Grace,F,12,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Hunter,M,12,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Hydra,F,2,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Junior,M,4,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Kizzy,F,5,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Little Dipper,F,6,N,Y
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Lyra,F,2,Y,N
+ruffed lemur,Varecia variegata,39.799999999999997,A.not.B.Task,10,Duke Lemur Center,Scorpius,M,3,Y,N
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Bk-OR,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,FY-WW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,G-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,G-OO,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,G-PkPk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,G-WG,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,O-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,O-lBl lBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,O-PuPu,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Pu-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Pu-RR,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,R-WdBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,W-OW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,W-PkPk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,W-PuW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,W-RW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Y-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Y-dBldBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Y-OO,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,Cylinder.Task,26.5,Duke University,Y-RY,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Bk-OR,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,FY-WW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,G-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,G-OO,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,G-PkPk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,G-WG,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,O-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,O-lBl lBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,O-PuPu,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Pu-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Pu-RR,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,R-WdBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,W-OW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,W-PkPk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,W-PuW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,W-RW,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Y-BkBk,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Y-dBldBl,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Y-OO,M,unknown,N,Y
+song sparrow,Melospiza melodia,-,A.not.B.Task,-,Duke University,Y-RY,M,unknown,N,Y
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,1,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,2,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,3,M,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,4,M,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,8,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,9,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,11,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,21,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,22,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,23,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,24,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,26,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,31,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,old 7,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,Cylinder.Task,-,Centenario Zoo,old 9,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,1,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,2,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,3,M,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,4,M,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,8,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,9,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,11,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,21,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,22,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,23,M,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,24,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,26,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,31,F,adult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,old 7,F,subadult,Y,N
+spider monkey,Ateles geoffroyi,-,A.not.B.Task,93.3,Centenario Zoo,old 9,F,adult,Y,N
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Boo,M,18,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Coboo,M,17,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Gye,F,16,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Homer,F,16,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Kantaro,F,4,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Lucca,F,14,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Roi,M,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Sayuri,F,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Sora,F,4,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,Kyoto University,Yaya,F,14,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Cali,F,7,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Ellie,F,7,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Jasmine,F,10,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Lexi,F,2,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Rio,M,12,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Roca,F,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Sancha,F,3,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Tatu,F,11,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,Cylinder.Task,33.700000000000003,University of St. Andrews,Toomi,F,6,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Boo,M,18,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Coboo,M,17,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Gye,F,16,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Homer,F,16,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Kantaro,F,4,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Lucca,F,14,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Roi,M,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Sayuri,F,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Sora,F,4,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,Kyoto University,Yaya,F,14,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Cali,F,7,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Ellie,F,7,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Jasmine,F,10,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Lexi,F,2,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Rio,M,12,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Roca,F,9,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Sancha,F,3,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Tatu,F,11,Y,Y
+squirrel monkey,Saimiri sciureus,24.7,A.not.B.Task,15.8,University of St. Andrews,Toomi,F,6,Y,Y
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub1,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub2,M,22,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub3,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub4,M,8,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub5,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub6,F,9,Y,N
+stump-tailed macaque,Macaca arctoides,-,Cylinder.Task,-,Peking University,Sub7,M,27,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub1,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub2,M,22,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub3,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub4,M,8,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub5,M,21,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub6,F,9,Y,N
+stump-tailed macaque,Macaca arctoides,-,A.not.B.Task,57.1,Peking University,Sub7,M,27,Y,N
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw640,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw641,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw642,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw643,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw644,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw645,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw646,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw650,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw652,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw654,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw655,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw656,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw657,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw658,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw659,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw661,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw662,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw663,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw665,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw666,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw667,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw668,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,Cylinder.Task,26.1,Duke University,sw669,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw640,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw641,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw642,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw643,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw644,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw645,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw646,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw650,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw652,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw654,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw655,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw656,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw657,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw658,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw659,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw661,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw662,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw663,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw665,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw666,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw667,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw668,F,unknown,N,Y
+swamp sparrow,Melospiza georgiana,-,A.not.B.Task,-,Duke University,sw669,F,unknown,N,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub201,M,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub203,unknown,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub220,M,4,Y,N
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub222,M,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub223,F,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub224,F,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,Cylinder.Task,76.7,University of Cambridge,scrub229,unknown,4,N,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub201,M,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub203,unknown,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub220,M,4,Y,N
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub222,M,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub223,F,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub224,F,4,Y,Y
+western scrub jay,Aphelocoma californica,46.7,A.not.B.Task,16.7,University of Cambridge,scrub229,unknown,4,N,Y
+white carnea pigeon,Columba livia,43.5,Cylinder.Task,32.5,NA,NA,NA,NA,NA,NA
+white carnea pigeon,Columba livia,43.5,A.not.B.Task,54.5,NA,NA,NA,NA,NA,NA
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 100,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 101,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 102,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 104,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 105,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 35,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 38,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 40,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 42,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 43,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 44,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 45,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 49,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 50,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 51,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 52,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 53,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 54,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 55,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 56,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 58,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 61,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 62,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 63,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 66,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 67,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 68,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 70,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 71,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 73,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 75,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 79,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 80,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 81,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 82,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 83,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 85,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 87,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 88,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 89,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 91,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 94,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 96,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 97,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 98,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf 99,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,Cylinder.Task,52.2,Duke University,zf47,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 100,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 101,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 102,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 104,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 105,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 35,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 38,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 40,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 42,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 43,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 44,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 45,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 49,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 50,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 51,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 52,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 53,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 54,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 55,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 56,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 58,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 61,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 62,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 63,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 66,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 67,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 68,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 70,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 71,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 73,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 75,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 79,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 80,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 81,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 82,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 83,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 85,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 87,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 88,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 89,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 91,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 94,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 96,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 97,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 98,F,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf 99,M,unknown,N,Y
+zebra finch,Taeniopygia guttata,-,A.not.B.Task,-,Duke University,zf47,M,unknown,N,Y

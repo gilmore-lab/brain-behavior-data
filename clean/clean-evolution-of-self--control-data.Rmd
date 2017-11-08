@@ -11,6 +11,9 @@ params:
 ```{r hh-setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
+library(dplyr)
+library(magrittr)
+library(tidyr)
 ```
 
 ## Purpose
@@ -25,66 +28,55 @@ The data have already been gathered and saved as separate CSVs by different shee
 
 ## Import CSVs and create merged data file
 
-Here are the steps we want to do for all of the evolution-of-self-control-specific files:
+Here are the steps we want to do for tidying and combing two separate CSV files:
 
-1. Import the CSV from `../data/csv/<brain-area>.csv`
-2. Delete the second row since it contains comments we do not need.
-3. Rename the variables to be shorter and more transparent
-4. Add a variable called `Brain_area` equal to `<brain-area>`.
-5. Clean data fields with +/- char
+1. Import the CSV from `../data/csv/cog_task_avg_score.csv`
+2. Include the cylinder task data and A.not.B.Task data in one column, and arrange by common name.
 
-```{r define-text-file-cleaning-functions}
-# Use sed to drop " and ± characters from files
-Drop_plus_minus <- function(fn) {
-  new_fn <- paste0(fn, ".clean")
-  sed_cmd <- paste0("sed \'NA' <", fn, " >", new_fn)
-  system(sed_cmd)
-}
+3. Import the CSV from `../data/csv/subj_info.csv`
+4. Make a new column for task responses as 'Y' if '*' and 'N' if '-'.
+5. Remove the old columns with '*' and '-' as input.
+6. Merge cog_task_avg_score and subj_info together by Common.Name.
+
+
+```{r cog_task_cleaning}
+cog <- read_csv("../data/csv/cog_task_avg_score.csv")
+cog<-cog %>%
+       gather(Task, Score, Cylinder.Task: A.not.B.Task) %>% arrange(Common.Name)
+cog
 ```
 
-```{r define-clean-dataframe-function}
-# Import_clean_area_data <- function(fn) {
-#   # Import and clean a file containing brain-area-specific data
-#   # Returns a new data frame
-#   df <- read.csv(file = fn, skip = 2)
-#   df <- df[-1,] # Comments are now first row
-#   names(df) <- c("Species", "Order", "Mass_g", "Mass_SD", 
-#                  "N_neurons", "N_neurons_SD",
-#                  "N_other", "N_other_SD",
-#                  "Neurons_per_mg", "Neurons_per_mg_SD",
-#                  "Other_per_mg", "Other_per_mg_SD",
-#                  "Other_per_neuron", "Other_per_neuron_SD",
-#                  "Source")
-#   file_name <- strsplit(basename(fn), "\\.")[[1]][1]
-#   df$Brain_area <- file_name
-#   df
-# }
+```{r adding_subj_info}
+sub_info <- read_csv("../data/csv/subj_info.csv")
+
+names(sub_info)[1] <- "Common.Name"
+
+A.not.B.Y <- sub_info$A.not.B == "*"
+Cylinder.Y <- sub_info$Cylinder == "*"
+sub_info$A.not.B.Y.N[A.not.B.Y] <- "Y"
+sub_info$A.not.B.Y.N[!A.not.B.Y] <- "N"
+sub_info$Cylinder.Y.N[Cylinder.Y] <- "Y"
+sub_info$Cylinder.Y.N[!Cylinder.Y] <- "N"
+sub_info <- sub_info %>% select(-A.not.B, -Cylinder)
+
+sub_info
 ```
 
-If we map a file-specific function across a list of the files, we can merge the list into a single data frame using `Reduce()`.
+```{r merge_data}
 
-```{r map-across-list-and-merge}
-# Clean all csv's then drop whole_brain because it has different columns
-# fl <- list.files(path = "../data/csv", pattern = "\\.csv$", full.names = TRUE)
-# sapply(fl, Drop_plus_minus)
-# 
-# fl_clean <- list.files(path = "../data/csv", pattern = "\\.clean$", full.names = TRUE)
-# fl_clean <- fl_clean[!(fl_clean %in% "../data/csv/whole_brain.csv.clean")]
-# if (length(fl_clean)) {
-#   df_list <- lapply(fl_clean, Import_clean_area_data)
-#   df_merged <- Reduce(function(x,y) merge(x, y, all=TRUE), df_list)
-# } else {
-#   warning("File list empty.")
-# }
+merged <- left_join(cog, sub_info, by="Common.Name")
+merged
+
 ```
+
+
+
 
 Let's write this to a new, clean directory (`r params$clean_dir`)
 
 ```{r export-merged}
-# write_csv(df_merged, path = "../data/cleaned/herculano-houtzel-all.csv")
+write_csv(merged, path = "../data/cleaned/cog_score_and_sub_info.csv")
 ```
 
-## To-dos
 
-- ~~This would be even cleaner if we dropped the "± " from the *_SD columns.~~ 2017-10-03
-- Parameterize file names and paths.
+
