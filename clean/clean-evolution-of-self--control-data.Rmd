@@ -20,7 +20,7 @@ library(tidyr)
 
 This file imports the data from 
 
-MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
+MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111> and <https://figshare.com/articles/MacLean_et_al_PNAS_2014_Self-Control_Data/5579335>
 
 and tidies it up, creating a single data file with brain region as a variable.
 
@@ -88,11 +88,31 @@ merged_new
 
 ```
 
+##Clean Cylinder and A-not-B CSV files
+
+1. Import both the csv files
+2. Change column names to make it shorter and more specific
+
+```{r clean_task_files}
+
+cyl_task <- read_csv("../data/csv/Cylinder.csv")
+ab_task <- read_csv("../data/csv/A-not-B.csv")
+
+colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "1st_corr", "2nd_corr")
+colnames(ab_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Trials", "Accuracy")
+cyl_task
+ab_task
+
+```
+
+
 
 Let's write this to a new, clean directory (`r params$clean_dir`)
 
 ```{r export-merged}
 write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
+write_csv(cyl_task, path="../data/cleaned/cylinder_task.csv")
+write_csv(ab_task, path="../data/cleaned/a_not_b_task.csv")
 ```
 
 

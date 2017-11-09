@@ -27,6 +27,8 @@ url4 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/
 url5 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st05.docx"
 url6 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st06.docx"
 url7 <- "http://www.pnas.org/content/suppl/2014/04/17/1323533111.DCSupplemental/pnas.1323533111.st07.docx"
+url8 <- "https://ndownloader.figshare.com/files/9700537"
+url9 <- "https://ndownloader.figshare.com/files/9700540"
 
 download.file(url1, destfile = "../data/docx/The-evolution-of-self--control1.docx")
 download.file(url2, destfile = "../data/docx/The-evolution-of-self--control2.docx")
@@ -35,10 +37,12 @@ download.file(url4, destfile = "../data/docx/The-evolution-of-self--control4.doc
 download.file(url5, destfile = "../data/docx/The-evolution-of-self--control5.docx")
 download.file(url6, destfile = "../data/docx/The-evolution-of-self--control6.docx")
 download.file(url7, destfile = "../data/docx/The-evolution-of-self--control7.docx")
+download.file(url8, destfile = "../data/csv/A-not-B.csv")
+download.file(url9, destfile = "../data/csv/Cylinder.csv")
 ```
 
-Open and make an excel file
----------------------------
+Open and make an excel file for the .docx data files
+----------------------------------------------------
 
 (Do not include the top comments on the .docx files, only copy and paste the tables)
 
@@ -66,8 +70,8 @@ diff_pop_same_species <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self
 socioeco_and_perform <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=7)
 ```
 
-Save as CSV
------------
+Save the excel file as CSV
+--------------------------
 
 ``` r
 write_csv(anatom_dat, path="../data/csv/anatom_dat.csv")

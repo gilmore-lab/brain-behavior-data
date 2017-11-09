@@ -8,7 +8,7 @@ Purpose
 
 This file imports the data from
 
-MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111>
+MacLeana, Evan L., et al (2014). The evolution of self-control. PNAS, 111(20), E2140-E2148. Retrieved from <http://dx.doi.org/10.1073/pnas.1323533111> and <https://figshare.com/articles/MacLean_et_al_PNAS_2014_Self-Control_Data/5579335>
 
 and tidies it up, creating a single data file with brain region as a variable.
 
@@ -172,8 +172,87 @@ merged_new
     ## #   Composite.Score <fctr>, Sex <chr>, Age <chr>, Population <chr>,
     ## #   Subject <chr>
 
+Clean Cylinder and A-not-B CSV files
+------------------------------------
+
+1.  Import both the csv files
+2.  Change column names to make it shorter and more specific
+
+``` r
+cyl_task <- read_csv("../data/csv/Cylinder.csv")
+```
+
+    ## Parsed with column specification:
+    ## cols(
+    ##   Species = col_character(),
+    ##   Population = col_character(),
+    ##   Sex = col_character(),
+    ##   `Subject #` = col_integer(),
+    ##   Warmups = col_integer(),
+    ##   `Test % Correct` = col_double(),
+    ##   `1st Half % Correct` = col_integer(),
+    ##   `2nd Half % Correct` = col_integer()
+    ## )
+
+``` r
+ab_task <- read_csv("../data/csv/A-not-B.csv")
+```
+
+    ## Parsed with column specification:
+    ## cols(
+    ##   Species = col_character(),
+    ##   Population = col_character(),
+    ##   Sex = col_character(),
+    ##   `Sub #` = col_integer(),
+    ##   `Trials to criterion` = col_integer(),
+    ##   `Test Accuracy` = col_integer()
+    ## )
+
+``` r
+colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "1st_corr", "2nd_corr")
+colnames(ab_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Trials", "Accuracy")
+cyl_task
+```
+
+    ## # A tibble: 439 x 8
+    ##       Species           Pop   Sex Sub_no. Warmups Test_percent_correct
+    ##         <chr>         <chr> <chr>   <int>   <int>                <dbl>
+    ##  1     Bonobo MPI - Leipzig     F       1       4                  100
+    ##  2     Bonobo MPI - Leipzig     F       3       4                   70
+    ##  3     Bonobo MPI - Leipzig     F       4       4                  100
+    ##  4     Bonobo MPI - Leipzig     F       6       4                  100
+    ##  5     Bonobo MPI - Leipzig     M       2       4                  100
+    ##  6     Bonobo MPI - Leipzig     M       5       4                  100
+    ##  7 Chimpanzee MPI - Leipzig     F       1       4                  100
+    ##  8 Chimpanzee MPI - Leipzig     F       2       4                  100
+    ##  9 Chimpanzee MPI - Leipzig     F       4       4                  100
+    ## 10 Chimpanzee MPI - Leipzig     F       5       4                  100
+    ## # ... with 429 more rows, and 2 more variables: `1st_corr` <int>,
+    ## #   `2nd_corr` <int>
+
+``` r
+ab_task
+```
+
+    ## # A tibble: 345 x 6
+    ##              Species               Pop   Sex Sub_no. Trials Accuracy
+    ##                <chr>             <chr> <chr>   <int>  <int>    <int>
+    ##  1 Ring-tailed lemur Duke Lemur Center     M       1      3        0
+    ##  2 Ring-tailed lemur Duke Lemur Center     F       2      6        1
+    ##  3 Ring-tailed lemur Duke Lemur Center     M       3      3        1
+    ##  4 Ring-tailed lemur Duke Lemur Center     M       4      3        0
+    ##  5 Ring-tailed lemur Duke Lemur Center     F       5     15        0
+    ##  6 Ring-tailed lemur Duke Lemur Center     M       6      3        0
+    ##  7 Ring-tailed lemur Duke Lemur Center     M       7      3        1
+    ##  8 Ring-tailed lemur Duke Lemur Center     F       8     12        0
+    ##  9 Ring-tailed lemur Duke Lemur Center     F       9      6        0
+    ## 10 Ring-tailed lemur Duke Lemur Center     M      10      9        1
+    ## # ... with 335 more rows
+
 Let's write this to a new, clean directory (../data/cleaned)
 
 ``` r
 write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
+write_csv(cyl_task, path="../data/cleaned/cylinder_task.csv")
+write_csv(ab_task, path="../data/cleaned/a_not_b_task.csv")
 ```
