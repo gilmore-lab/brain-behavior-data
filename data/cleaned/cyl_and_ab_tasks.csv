@@ -1,19 +1,19 @@
 Species,Pop.x,Sex.x,Sub_no..x,Warmups,Test_percent_correct,1st_corr,2nd_corr,Pop.y,Sex.y,Sub_no..y,Trials,Accuracy
+Aye Aye,Duke Lemur Center,M,1,5,80,100,60,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,2,5,60,80,40,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,3,5,70,60,80,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,4,5,80,80,80,NA,NA,NA,NA,NA
+Aye Aye,Duke Lemur Center,M,5,8,40,40,40,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,6,4,0,0,0,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,7,6,50,20,80,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,F,8,4,50,20,80,NA,NA,NA,NA,NA
-Aye Aye,Duke Lemur Center,M,1,5,80,100,60,NA,NA,NA,NA,NA
-Aye Aye,Duke Lemur Center,M,5,8,40,40,40,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,M,9,15,50,20,80,NA,NA,NA,NA,NA
 Aye Aye,Duke Lemur Center,M,10,27,30,20,40,NA,NA,NA,NA,NA
+Black Lemur,Duke Lemur Center,M,1,5,30,20,40,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,F,2,4,80,60,100,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,F,3,5,70,80,60,NA,NA,NA,NA,NA
-Black Lemur,Duke Lemur Center,F,5,5,10,0,20,NA,NA,NA,NA,NA
-Black Lemur,Duke Lemur Center,M,1,5,30,20,40,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,M,4,4,50,40,60,NA,NA,NA,NA,NA
+Black Lemur,Duke Lemur Center,F,5,5,10,0,20,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,M,6,4,60,40,80,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,M,7,6,50,40,60,NA,NA,NA,NA,NA
 Black Lemur,Duke Lemur Center,M,8,5,70,60,80,NA,NA,NA,NA,NA
@@ -23,6 +23,10 @@ Bonobo,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,F,1,3,1
 Bonobo,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,M,2,3,1
 Bonobo,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,M,3,3,1
 Bonobo,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,M,4,3,1
+Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,F,1,3,1
+Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,2,3,1
+Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,3,3,1
+Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,4,3,1
 Bonobo,MPI - Leipzig,F,3,4,70,80,60,MPI-Leipzig,F,1,3,1
 Bonobo,MPI - Leipzig,F,3,4,70,80,60,MPI-Leipzig,M,2,3,1
 Bonobo,MPI - Leipzig,F,3,4,70,80,60,MPI-Leipzig,M,3,3,1
@@ -31,28 +35,24 @@ Bonobo,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,F,1,3,1
 Bonobo,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,M,2,3,1
 Bonobo,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,M,3,3,1
 Bonobo,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,M,4,3,1
-Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,F,1,3,1
-Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,2,3,1
-Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,3,3,1
-Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,4,3,1
-Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,F,1,3,1
-Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,2,3,1
-Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,3,3,1
-Bonobo,MPI - Leipzig,M,2,4,100,100,100,MPI-Leipzig,M,4,3,1
 Bonobo,MPI - Leipzig,M,5,4,100,100,100,MPI-Leipzig,F,1,3,1
 Bonobo,MPI - Leipzig,M,5,4,100,100,100,MPI-Leipzig,M,2,3,1
 Bonobo,MPI - Leipzig,M,5,4,100,100,100,MPI-Leipzig,M,3,3,1
 Bonobo,MPI - Leipzig,M,5,4,100,100,100,MPI-Leipzig,M,4,3,1
+Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,F,1,3,1
+Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,2,3,1
+Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,3,3,1
+Bonobo,MPI - Leipzig,F,6,4,100,100,100,MPI-Leipzig,M,4,3,1
 Brown lemur,Duke Lemur Center,F,1,5,30,40,20,NA,NA,NA,NA,NA
-Brown lemur,Duke Lemur Center,F,4,10,50,40,60,NA,NA,NA,NA,NA
-Brown lemur,Duke Lemur Center,F,6,16,80,60,100,NA,NA,NA,NA,NA
-Brown lemur,Duke Lemur Center,F,7,18,33.33333333,20,50,NA,NA,NA,NA,NA
-Brown lemur,Duke Lemur Center,F,10,8,10,20,0,NA,NA,NA,NA,NA
 Brown lemur,Duke Lemur Center,M,2,6,0,0,0,NA,NA,NA,NA,NA
 Brown lemur,Duke Lemur Center,M,3,10,60,40,80,NA,NA,NA,NA,NA
+Brown lemur,Duke Lemur Center,F,4,10,50,40,60,NA,NA,NA,NA,NA
 Brown lemur,Duke Lemur Center,M,5,6,20,0,40,NA,NA,NA,NA,NA
+Brown lemur,Duke Lemur Center,F,6,16,80,60,100,NA,NA,NA,NA,NA
+Brown lemur,Duke Lemur Center,F,7,18,33.33333333,20,50,NA,NA,NA,NA,NA
 Brown lemur,Duke Lemur Center,M,8,9,60,20,100,NA,NA,NA,NA,NA
 Brown lemur,Duke Lemur Center,M,9,9,90,80,100,NA,NA,NA,NA,NA
+Brown lemur,Duke Lemur Center,F,10,8,10,20,0,NA,NA,NA,NA,NA
 Capuchin,Institute of Cognitive Sciences and Technologies,F,1,4,100,100,100,Institute of Cognitive Sciences and Technologies,F,1,3,1
 Capuchin,Institute of Cognitive Sciences and Technologies,F,1,4,100,100,100,Institute of Cognitive Sciences and Technologies,M,2,3,1
 Capuchin,Institute of Cognitive Sciences and Technologies,F,1,4,100,100,100,Institute of Cognitive Sciences and Technologies,F,3,3,1
@@ -721,6 +721,21 @@ Chimpanzee,MPI - Leipzig,F,2,4,100,100,100,North Carolina Zoo,M,12,3,1
 Chimpanzee,MPI - Leipzig,F,2,4,100,100,100,North Carolina Zoo,F,13,3,1
 Chimpanzee,MPI - Leipzig,F,2,4,100,100,100,North Carolina Zoo,F,14,9,0
 Chimpanzee,MPI - Leipzig,F,2,4,100,100,100,North Carolina Zoo,M,15,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,1,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,2,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,3,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,4,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,5,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,6,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,M,7,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,8,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,9,6,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,10,3,0
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,11,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,12,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,13,3,1
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,14,9,0
+Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,15,3,1
 Chimpanzee,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,F,1,3,1
 Chimpanzee,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,F,2,3,1
 Chimpanzee,MPI - Leipzig,F,4,4,100,100,100,MPI-Leipzig,F,3,3,1
@@ -751,21 +766,16 @@ Chimpanzee,MPI - Leipzig,F,5,4,100,100,100,North Carolina Zoo,M,12,3,1
 Chimpanzee,MPI - Leipzig,F,5,4,100,100,100,North Carolina Zoo,F,13,3,1
 Chimpanzee,MPI - Leipzig,F,5,4,100,100,100,North Carolina Zoo,F,14,9,0
 Chimpanzee,MPI - Leipzig,F,5,4,100,100,100,North Carolina Zoo,M,15,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,1,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,2,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,3,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,4,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,5,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,F,6,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,MPI-Leipzig,M,7,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,8,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,9,6,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,10,3,0
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,11,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,12,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,13,3,1
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,F,14,9,0
-Chimpanzee,MPI - Leipzig,M,3,4,100,100,100,North Carolina Zoo,M,15,3,1
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,1,6,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,2,6,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,3,6,1
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,4,15,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,5,6,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,6,3,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,7,6,0
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,8,6,1
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,9,3,1
+Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,10,3,0
 Coquerel's sifaka,Duke Lemur Center,F,2,4,0,0,0,Duke Lemur Center,M,1,6,0
 Coquerel's sifaka,Duke Lemur Center,F,2,4,0,0,0,Duke Lemur Center,M,2,6,0
 Coquerel's sifaka,Duke Lemur Center,F,2,4,0,0,0,Duke Lemur Center,F,3,6,1
@@ -796,26 +806,6 @@ Coquerel's sifaka,Duke Lemur Center,F,4,10,20,0,40,Duke Lemur Center,F,7,6,0
 Coquerel's sifaka,Duke Lemur Center,F,4,10,20,0,40,Duke Lemur Center,M,8,6,1
 Coquerel's sifaka,Duke Lemur Center,F,4,10,20,0,40,Duke Lemur Center,F,9,3,1
 Coquerel's sifaka,Duke Lemur Center,F,4,10,20,0,40,Duke Lemur Center,M,10,3,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,1,6,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,2,6,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,3,6,1
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,4,15,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,5,6,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,6,3,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,7,6,0
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,8,6,1
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,9,3,1
-Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,10,3,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,1,6,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,2,6,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,3,6,1
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,4,15,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,5,6,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,6,3,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,7,6,0
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,8,6,1
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,F,9,3,1
-Coquerel's sifaka,Duke Lemur Center,M,1,4,80,60,100,Duke Lemur Center,M,10,3,0
 Coquerel's sifaka,Duke Lemur Center,M,5,4,20,0,40,Duke Lemur Center,M,1,6,0
 Coquerel's sifaka,Duke Lemur Center,M,5,4,20,0,40,Duke Lemur Center,M,2,6,0
 Coquerel's sifaka,Duke Lemur Center,M,5,4,20,0,40,Duke Lemur Center,F,3,6,1
@@ -846,6 +836,16 @@ Coquerel's sifaka,Duke Lemur Center,M,7,5,30,0,60,Duke Lemur Center,F,7,6,0
 Coquerel's sifaka,Duke Lemur Center,M,7,5,30,0,60,Duke Lemur Center,M,8,6,1
 Coquerel's sifaka,Duke Lemur Center,M,7,5,30,0,60,Duke Lemur Center,F,9,3,1
 Coquerel's sifaka,Duke Lemur Center,M,7,5,30,0,60,Duke Lemur Center,M,10,3,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,1,6,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,2,6,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,3,6,1
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,4,15,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,5,6,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,6,3,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,7,6,0
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,8,6,1
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,F,9,3,1
+Coquerel's sifaka,Duke Lemur Center,F,8,9,10,0,20,Duke Lemur Center,M,10,3,0
 Coquerel's sifaka,Duke Lemur Center,M,9,4,66.66666667,60,75,Duke Lemur Center,M,1,6,0
 Coquerel's sifaka,Duke Lemur Center,M,9,4,66.66666667,60,75,Duke Lemur Center,M,2,6,0
 Coquerel's sifaka,Duke Lemur Center,M,9,4,66.66666667,60,75,Duke Lemur Center,F,3,6,1
@@ -5274,6 +5274,22 @@ Fox squirrel,UC Berkeley,F,1,7,90,100,80,UC Berkeley,F,5,30,0
 Fox squirrel,UC Berkeley,F,1,7,90,100,80,UC Berkeley,M,6,3,0
 Fox squirrel,UC Berkeley,F,1,7,90,100,80,UC Berkeley,M,7,3,0
 Fox squirrel,UC Berkeley,F,1,7,90,100,80,UC Berkeley,F,8,12,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,1,24,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,2,12,1
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,3,15,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,Unknown,4,6,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,5,30,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,6,3,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,7,3,0
+Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,8,12,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,1,24,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,2,12,1
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,3,15,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,Unknown,4,6,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,5,30,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,6,3,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,7,3,0
+Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,8,12,0
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,F,1,24,0
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,M,2,12,1
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,F,3,15,0
@@ -5282,6 +5298,14 @@ Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,F,5,30,0
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,M,6,3,0
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,M,7,3,0
 Fox squirrel,UC Berkeley,F,4,9,30,20,40,UC Berkeley,F,8,12,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,1,24,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,2,12,1
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,3,15,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,Unknown,4,6,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,5,30,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,6,3,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,7,3,0
+Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,8,12,0
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,F,1,24,0
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,M,2,12,1
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,F,3,15,0
@@ -5290,6 +5314,14 @@ Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,F,5,30,0
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,M,6,3,0
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,M,7,3,0
 Fox squirrel,UC Berkeley,F,6,4,80,80,80,UC Berkeley,F,8,12,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,1,24,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,2,12,1
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,3,15,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,Unknown,4,6,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,5,30,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,6,3,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,7,3,0
+Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,8,12,0
 Fox squirrel,UC Berkeley,F,8,5,80,80,80,UC Berkeley,F,1,24,0
 Fox squirrel,UC Berkeley,F,8,5,80,80,80,UC Berkeley,M,2,12,1
 Fox squirrel,UC Berkeley,F,8,5,80,80,80,UC Berkeley,F,3,15,0
@@ -5330,14 +5362,6 @@ Fox squirrel,UC Berkeley,M,12,10,40,60,20,UC Berkeley,F,5,30,0
 Fox squirrel,UC Berkeley,M,12,10,40,60,20,UC Berkeley,M,6,3,0
 Fox squirrel,UC Berkeley,M,12,10,40,60,20,UC Berkeley,M,7,3,0
 Fox squirrel,UC Berkeley,M,12,10,40,60,20,UC Berkeley,F,8,12,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,1,24,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,2,12,1
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,3,15,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,Unknown,4,6,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,5,30,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,6,3,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,M,7,3,0
-Fox squirrel,UC Berkeley,U,7,5,50,60,40,UC Berkeley,F,8,12,0
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,F,1,24,0
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,M,2,12,1
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,F,3,15,0
@@ -5346,30 +5370,15 @@ Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,F,5,30,0
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,M,6,3,0
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,M,7,3,0
 Fox squirrel,UC Berkeley,U,13,5,50,60,40,UC Berkeley,F,8,12,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,1,24,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,2,12,1
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,3,15,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,Unknown,4,6,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,5,30,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,6,3,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,M,7,3,0
-Fox squirrel,UC Berkeley,Unkown,2,7,50,20,80,UC Berkeley,F,8,12,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,1,24,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,2,12,1
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,3,15,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,Unknown,4,6,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,5,30,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,6,3,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,M,7,3,0
-Fox squirrel,UC Berkeley,Unkown,3,4,70,60,80,UC Berkeley,F,8,12,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,1,24,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,2,12,1
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,3,15,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,Unknown,4,6,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,5,30,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,6,3,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,M,7,3,0
-Fox squirrel,UC Berkeley,Unkown,5,4,80,60,100,UC Berkeley,F,8,12,0
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,1,3,1
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,2,3,1
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,3,3,0
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,4,3,1
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,5,6,0
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,6,3,0
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,7,3,1
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,8,9,0
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,9,3,1
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,M,1,3,1
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,F,2,3,1
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,F,3,3,0
@@ -5379,6 +5388,15 @@ Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,F,6,3,0
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,F,7,3,1
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,M,8,9,0
 Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20,Beijing Wildlife Park,M,9,3,1
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,1,3,1
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,2,3,1
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,3,3,0
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,4,3,1
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,5,6,0
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,6,3,0
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,7,3,1
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,8,9,0
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,9,3,1
 Golden monkey,Beijing Wildlife Park,F,4,9,80,60,100,Beijing Wildlife Park,M,1,3,1
 Golden monkey,Beijing Wildlife Park,F,4,9,80,60,100,Beijing Wildlife Park,F,2,3,1
 Golden monkey,Beijing Wildlife Park,F,4,9,80,60,100,Beijing Wildlife Park,F,3,3,0
@@ -5406,33 +5424,6 @@ Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100,Beijing Wildlife Park,F,6,3,
 Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100,Beijing Wildlife Park,F,7,3,1
 Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100,Beijing Wildlife Park,M,8,9,0
 Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100,Beijing Wildlife Park,M,9,3,1
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,1,3,1
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,2,3,1
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,3,3,0
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,4,3,1
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,5,6,0
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,6,3,0
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,7,3,1
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,8,9,0
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,9,3,1
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,1,3,1
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,2,3,1
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,3,3,0
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,4,3,1
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,5,6,0
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,6,3,0
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,F,7,3,1
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,8,9,0
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40,Beijing Wildlife Park,M,9,3,1
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,1,3,1
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,2,3,1
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,3,3,0
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,4,3,1
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,5,6,0
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,6,3,0
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,F,7,3,1
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,8,9,0
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0,Beijing Wildlife Park,M,9,3,1
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,M,1,3,1
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,F,2,3,1
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,F,3,3,0
@@ -5442,16 +5433,25 @@ Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,F,6,3,0
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,F,7,3,1
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,M,8,9,0
 Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40,Beijing Wildlife Park,M,9,3,1
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,1,3,1
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,2,3,1
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,3,3,0
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,4,3,1
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,5,6,0
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,6,3,0
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,F,7,3,1
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,8,9,0
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0,Beijing Wildlife Park,M,9,3,1
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,1,4,30,0,60,NA,NA,NA,NA,NA
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,2,4,100,100,100,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,3,4,100,100,100,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,4,4,10,20,0,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,5,4,90,80,100,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,6,4,80,100,60,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,7,4,70,60,80,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,8,4,50,20,80,NA,NA,NA,NA,NA
-Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,10,4,30,20,40,NA,NA,NA,NA,NA
-Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,1,4,30,0,60,NA,NA,NA,NA,NA
-Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,2,4,100,100,100,NA,NA,NA,NA,NA
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,9,4,70,40,100,NA,NA,NA,NA,NA
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,10,4,30,20,40,NA,NA,NA,NA,NA
 Gorilla,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,M,1,3,1
 Gorilla,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,F,2,3,1
 Gorilla,MPI - Leipzig,F,1,4,100,100,100,MPI-Leipzig,M,3,3,1
@@ -5488,6 +5488,18 @@ Gorilla,MPI - Leipzig,F,3,4,80,100,60,National Zoo,F,9,3,1
 Gorilla,MPI - Leipzig,F,3,4,80,100,60,National Zoo,M,10,3,1
 Gorilla,MPI - Leipzig,F,3,4,80,100,60,National Zoo,M,12,3,1
 Gorilla,MPI - Leipzig,F,3,4,80,100,60,National Zoo,F,13,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,M,1,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,2,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,M,3,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,4,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,5,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,6,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,7,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,8,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,F,9,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,10,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,12,3,1
+Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,F,13,3,1
 Gorilla,National Zoo,F,5,4,90,80,100,MPI-Leipzig,M,1,3,1
 Gorilla,National Zoo,F,5,4,90,80,100,MPI-Leipzig,F,2,3,1
 Gorilla,National Zoo,F,5,4,90,80,100,MPI-Leipzig,M,3,3,1
@@ -5512,30 +5524,6 @@ Gorilla,National Zoo,F,6,5,90,100,80,National Zoo,F,9,3,1
 Gorilla,National Zoo,F,6,5,90,100,80,National Zoo,M,10,3,1
 Gorilla,National Zoo,F,6,5,90,100,80,National Zoo,M,12,3,1
 Gorilla,National Zoo,F,6,5,90,100,80,National Zoo,F,13,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,1,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,2,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,3,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,4,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,5,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,6,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,7,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,8,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,F,9,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,10,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,12,3,1
-Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,F,13,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,M,1,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,2,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,M,3,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,4,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,5,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,6,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,MPI-Leipzig,F,7,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,8,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,F,9,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,10,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,M,12,3,1
-Gorilla,National Zoo,M,4,5,100,100,100,National Zoo,F,13,3,1
 Gorilla,National Zoo,M,7,4,90,100,80,MPI-Leipzig,M,1,3,1
 Gorilla,National Zoo,M,7,4,90,100,80,MPI-Leipzig,F,2,3,1
 Gorilla,National Zoo,M,7,4,90,100,80,MPI-Leipzig,M,3,3,1
@@ -5560,61 +5548,29 @@ Gorilla,National Zoo,M,8,5,100,100,100,National Zoo,F,9,3,1
 Gorilla,National Zoo,M,8,5,100,100,100,National Zoo,M,10,3,1
 Gorilla,National Zoo,M,8,5,100,100,100,National Zoo,M,12,3,1
 Gorilla,National Zoo,M,8,5,100,100,100,National Zoo,F,13,3,1
-Gray wolf,Wolf Science Center,F,4,4,90,80,100,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,F,6,6,50,0,100,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,F,8,4,70,60,80,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,M,2,4,70,60,80,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,M,11,4,90,100,80,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,M,3,4,90,80,100,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,M,7,8,20,20,20,NA,NA,NA,NA,NA
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,1,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,2,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,3,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,4,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,5,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,6,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,7,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,8,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,F,9,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,10,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,M,12,3,1
+Gorilla,National Zoo,F,9,4,100,100,100,National Zoo,F,13,3,1
 Gray wolf,Wolf Science Center,M,1,4,90,100,80,NA,NA,NA,NA,NA
-Gray wolf,Wolf Science Center,M,10,4,100,100,100,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,M,2,4,70,60,80,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,M,3,4,90,80,100,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,F,4,4,90,80,100,NA,NA,NA,NA,NA
 Gray wolf,Wolf Science Center,M,5,4,100,100,100,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,F,6,6,50,0,100,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,M,7,8,20,20,20,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,F,8,4,70,60,80,NA,NA,NA,NA,NA
 Gray wolf,Wolf Science Center,M,9,14,80,80,80,NA,NA,NA,NA,NA
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,1,6,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,2,3,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,3,3,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,4,3,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,5,3,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,6,12,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,7,6,1
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,8,3,0
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,9,3,0
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,10,6,0
-Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,m,11,3,0
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,1,6,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,2,3,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,3,3,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,4,3,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,5,3,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,6,12,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,7,6,1
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,8,3,0
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,9,3,0
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,10,6,0
-Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,m,11,3,0
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,1,6,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,2,3,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,3,3,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,4,3,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,5,3,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,6,12,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,7,6,1
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,8,3,0
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,9,3,0
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,10,6,0
-Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,m,11,3,0
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,1,6,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,2,3,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,3,3,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,4,3,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,5,3,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,6,12,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,7,6,1
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,8,3,0
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,9,3,0
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,10,6,0
-Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,m,11,3,0
+Gray wolf,Wolf Science Center,M,10,4,100,100,100,NA,NA,NA,NA,NA
+Gray wolf,Wolf Science Center,M,11,4,90,100,80,NA,NA,NA,NA,NA
 Hamadryus baboon,North Carolina Zoo,M,1,5,100,100,100,North Carolina Zoo,M,1,6,1
 Hamadryus baboon,North Carolina Zoo,M,1,5,100,100,100,North Carolina Zoo,M,2,3,1
 Hamadryus baboon,North Carolina Zoo,M,1,5,100,100,100,North Carolina Zoo,F,3,3,1
@@ -5648,6 +5604,28 @@ Hamadryus baboon,North Carolina Zoo,M,3,5,60,20,100,North Carolina Zoo,F,8,3,0
 Hamadryus baboon,North Carolina Zoo,M,3,5,60,20,100,North Carolina Zoo,M,9,3,0
 Hamadryus baboon,North Carolina Zoo,M,3,5,60,20,100,North Carolina Zoo,M,10,6,0
 Hamadryus baboon,North Carolina Zoo,M,3,5,60,20,100,North Carolina Zoo,m,11,3,0
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,1,6,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,2,3,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,3,3,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,4,3,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,5,3,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,6,12,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,7,6,1
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,F,8,3,0
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,9,3,0
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,M,10,6,0
+Hamadryus baboon,North Carolina Zoo,F,4,6,0,0,0,North Carolina Zoo,m,11,3,0
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,1,6,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,2,3,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,3,3,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,4,3,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,5,3,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,6,12,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,7,6,1
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,F,8,3,0
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,9,3,0
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,M,10,6,0
+Hamadryus baboon,North Carolina Zoo,F,5,4,50,20,80,North Carolina Zoo,m,11,3,0
 Hamadryus baboon,North Carolina Zoo,M,6,6,100,100,100,North Carolina Zoo,M,1,6,1
 Hamadryus baboon,North Carolina Zoo,M,6,6,100,100,100,North Carolina Zoo,M,2,3,1
 Hamadryus baboon,North Carolina Zoo,M,6,6,100,100,100,North Carolina Zoo,F,3,3,1
@@ -5670,6 +5648,68 @@ Hamadryus baboon,North Carolina Zoo,M,7,7,90,100,80,North Carolina Zoo,F,8,3,0
 Hamadryus baboon,North Carolina Zoo,M,7,7,90,100,80,North Carolina Zoo,M,9,3,0
 Hamadryus baboon,North Carolina Zoo,M,7,7,90,100,80,North Carolina Zoo,M,10,6,0
 Hamadryus baboon,North Carolina Zoo,M,7,7,90,100,80,North Carolina Zoo,m,11,3,0
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,1,6,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,2,3,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,3,3,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,4,3,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,5,3,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,6,12,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,7,6,1
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,F,8,3,0
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,9,3,0
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,M,10,6,0
+Hamadryus baboon,North Carolina Zoo,F,8,5,20,0,40,North Carolina Zoo,m,11,3,0
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,1,6,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,2,3,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,3,3,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,4,3,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,5,3,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,6,12,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,7,6,1
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,F,8,3,0
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,9,3,0
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,M,10,6,0
+Hamadryus baboon,North Carolina Zoo,F,9,4,100,100,100,North Carolina Zoo,m,11,3,0
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,1,3,1
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,2,3,1
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,3,3,1
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,4,3,0
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,5,3,1
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,6,3,1
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,7,3,0
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,8,3,0
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,9,3,0
+Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,10,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,1,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,2,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,3,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,4,3,0
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,5,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,6,3,1
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,7,3,0
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,8,3,0
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,9,3,0
+Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,10,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,1,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,2,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,3,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,4,3,0
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,5,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,6,3,1
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,7,3,0
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,8,3,0
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,9,3,0
+Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,10,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,1,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,2,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,3,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,4,3,0
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,5,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,6,3,1
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,7,3,0
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,8,3,0
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,9,3,0
+Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,10,3,1
 Marmoset,University of Zurich,F,5,5,20,0,40,University of Zurich,M,1,3,1
 Marmoset,University of Zurich,F,5,5,20,0,40,University of Zurich,M,2,3,1
 Marmoset,University of Zurich,F,5,5,20,0,40,University of Zurich,M,3,3,1
@@ -5730,46 +5770,6 @@ Marmoset,University of Zurich,F,10,4,20,0,40,University of Zurich,F,7,3,0
 Marmoset,University of Zurich,F,10,4,20,0,40,University of Zurich,F,8,3,0
 Marmoset,University of Zurich,F,10,4,20,0,40,University of Zurich,F,9,3,0
 Marmoset,University of Zurich,F,10,4,20,0,40,University of Zurich,M,10,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,1,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,2,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,3,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,4,3,0
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,5,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,6,3,1
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,7,3,0
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,8,3,0
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,F,9,3,0
-Marmoset,University of Zurich,M,1,10,11.11111111,0,25,University of Zurich,M,10,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,1,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,2,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,3,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,4,3,0
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,5,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,6,3,1
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,7,3,0
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,8,3,0
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,F,9,3,0
-Marmoset,University of Zurich,M,2,4,30,20,40,University of Zurich,M,10,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,1,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,2,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,3,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,4,3,0
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,5,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,6,3,1
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,7,3,0
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,8,3,0
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,F,9,3,0
-Marmoset,University of Zurich,M,3,4,60,80,40,University of Zurich,M,10,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,1,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,2,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,3,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,4,3,0
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,5,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,6,3,1
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,7,3,0
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,8,3,0
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,F,9,3,0
-Marmoset,University of Zurich,M,4,5,0,0,0,University of Zurich,M,10,3,1
 Marmoset,University of Zurich,M,11,4,0,0,0,University of Zurich,M,1,3,1
 Marmoset,University of Zurich,M,11,4,0,0,0,University of Zurich,M,2,3,1
 Marmoset,University of Zurich,M,11,4,0,0,0,University of Zurich,M,3,3,1
@@ -5790,6 +5790,26 @@ Mongolian gerbil,UC Berkeley,F,1,5,50,40,60,UC Berkeley,F,7,15,1
 Mongolian gerbil,UC Berkeley,F,1,5,50,40,60,UC Berkeley,F,8,6,0
 Mongolian gerbil,UC Berkeley,F,1,5,50,40,60,UC Berkeley,F,9,24,0
 Mongolian gerbil,UC Berkeley,F,1,5,50,40,60,UC Berkeley,F,10,18,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,1,27,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,2,9,1
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,3,18,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,4,12,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,5,42,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,6,27,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,7,15,1
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,8,6,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,9,24,0
+Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,10,18,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,1,27,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,2,9,1
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,3,18,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,4,12,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,5,42,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,6,27,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,7,15,1
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,8,6,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,9,24,0
+Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,10,18,0
 Mongolian gerbil,UC Berkeley,F,4,15,60,40,80,UC Berkeley,M,1,27,0
 Mongolian gerbil,UC Berkeley,F,4,15,60,40,80,UC Berkeley,M,2,9,1
 Mongolian gerbil,UC Berkeley,F,4,15,60,40,80,UC Berkeley,F,3,18,0
@@ -5810,6 +5830,26 @@ Mongolian gerbil,UC Berkeley,F,5,5,80,100,60,UC Berkeley,F,7,15,1
 Mongolian gerbil,UC Berkeley,F,5,5,80,100,60,UC Berkeley,F,8,6,0
 Mongolian gerbil,UC Berkeley,F,5,5,80,100,60,UC Berkeley,F,9,24,0
 Mongolian gerbil,UC Berkeley,F,5,5,80,100,60,UC Berkeley,F,10,18,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,1,27,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,2,9,1
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,3,18,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,4,12,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,5,42,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,6,27,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,7,15,1
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,8,6,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,9,24,0
+Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,10,18,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,1,27,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,2,9,1
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,3,18,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,4,12,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,5,42,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,6,27,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,7,15,1
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,8,6,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,9,24,0
+Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,10,18,0
 Mongolian gerbil,UC Berkeley,F,8,4,90,80,100,UC Berkeley,M,1,27,0
 Mongolian gerbil,UC Berkeley,F,8,4,90,80,100,UC Berkeley,M,2,9,1
 Mongolian gerbil,UC Berkeley,F,8,4,90,80,100,UC Berkeley,F,3,18,0
@@ -5850,46 +5890,6 @@ Mongolian gerbil,UC Berkeley,F,11,10,60,60,60,UC Berkeley,F,7,15,1
 Mongolian gerbil,UC Berkeley,F,11,10,60,60,60,UC Berkeley,F,8,6,0
 Mongolian gerbil,UC Berkeley,F,11,10,60,60,60,UC Berkeley,F,9,24,0
 Mongolian gerbil,UC Berkeley,F,11,10,60,60,60,UC Berkeley,F,10,18,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,1,27,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,2,9,1
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,3,18,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,4,12,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,5,42,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,M,6,27,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,7,15,1
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,8,6,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,9,24,0
-Mongolian gerbil,UC Berkeley,M,2,4,60,60,60,UC Berkeley,F,10,18,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,1,27,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,2,9,1
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,3,18,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,4,12,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,5,42,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,M,6,27,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,7,15,1
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,8,6,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,9,24,0
-Mongolian gerbil,UC Berkeley,M,3,4,50,40,60,UC Berkeley,F,10,18,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,1,27,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,2,9,1
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,3,18,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,4,12,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,5,42,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,M,6,27,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,7,15,1
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,8,6,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,9,24,0
-Mongolian gerbil,UC Berkeley,M,6,5,70,80,60,UC Berkeley,F,10,18,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,1,27,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,2,9,1
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,3,18,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,4,12,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,5,42,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,M,6,27,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,7,15,1
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,8,6,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,9,24,0
-Mongolian gerbil,UC Berkeley,M,7,5,90,100,80,UC Berkeley,F,10,18,0
 Mongoose lemur,Duke Lemur Center,F,1,10,30,0,60,Duke Lemur Center,M,1,3,1
 Mongoose lemur,Duke Lemur Center,F,1,10,30,0,60,Duke Lemur Center,F,2,3,1
 Mongoose lemur,Duke Lemur Center,F,1,10,30,0,60,Duke Lemur Center,M,3,3,1
@@ -5910,36 +5910,6 @@ Mongoose lemur,Duke Lemur Center,F,2,4,30,0,60,Duke Lemur Center,M,7,12,0
 Mongoose lemur,Duke Lemur Center,F,2,4,30,0,60,Duke Lemur Center,M,8,3,0
 Mongoose lemur,Duke Lemur Center,F,2,4,30,0,60,Duke Lemur Center,F,9,21,0
 Mongoose lemur,Duke Lemur Center,F,2,4,30,0,60,Duke Lemur Center,F,10,6,0
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,1,3,1
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,2,3,1
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,3,3,1
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,4,6,1
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,5,3,1
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,6,3,0
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,7,12,0
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,8,3,0
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,9,21,0
-Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,10,6,0
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,1,3,1
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,2,3,1
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,3,3,1
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,4,6,1
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,5,3,1
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,6,3,0
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,7,12,0
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,8,3,0
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,9,21,0
-Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,10,6,0
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,1,3,1
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,2,3,1
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,3,3,1
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,4,6,1
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,5,3,1
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,6,3,0
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,7,12,0
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,8,3,0
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,9,21,0
-Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,10,6,0
 Mongoose lemur,Duke Lemur Center,M,3,4,40,20,60,Duke Lemur Center,M,1,3,1
 Mongoose lemur,Duke Lemur Center,M,3,4,40,20,60,Duke Lemur Center,F,2,3,1
 Mongoose lemur,Duke Lemur Center,M,3,4,40,20,60,Duke Lemur Center,M,3,3,1
@@ -5970,6 +5940,16 @@ Mongoose lemur,Duke Lemur Center,M,5,4,70,60,80,Duke Lemur Center,M,7,12,0
 Mongoose lemur,Duke Lemur Center,M,5,4,70,60,80,Duke Lemur Center,M,8,3,0
 Mongoose lemur,Duke Lemur Center,M,5,4,70,60,80,Duke Lemur Center,F,9,21,0
 Mongoose lemur,Duke Lemur Center,M,5,4,70,60,80,Duke Lemur Center,F,10,6,0
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,1,3,1
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,2,3,1
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,3,3,1
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,4,6,1
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,5,3,1
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,6,3,0
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,7,12,0
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,M,8,3,0
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,9,21,0
+Mongoose lemur,Duke Lemur Center,F,6,4,70,80,60,Duke Lemur Center,F,10,6,0
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,M,1,3,1
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,F,2,3,1
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,M,3,3,1
@@ -5980,6 +5960,16 @@ Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,M,7,12,0
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,M,8,3,0
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,F,9,21,0
 Mongoose lemur,Duke Lemur Center,M,7,4,70,60,80,Duke Lemur Center,F,10,6,0
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,1,3,1
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,2,3,1
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,3,3,1
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,4,6,1
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,5,3,1
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,6,3,0
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,7,12,0
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,M,8,3,0
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,9,21,0
+Mongoose lemur,Duke Lemur Center,F,8,5,100,100,100,Duke Lemur Center,F,10,6,0
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,M,1,3,1
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,F,2,3,1
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,M,3,3,1
@@ -5990,6 +5980,43 @@ Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,M,7,12,0
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,M,8,3,0
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,F,9,21,0
 Mongoose lemur,Duke Lemur Center,M,9,5,50,40,60,Duke Lemur Center,F,10,6,0
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,1,3,1
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,2,3,1
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,3,3,1
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,4,6,1
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,5,3,1
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,6,3,0
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,7,12,0
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,M,8,3,0
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,9,21,0
+Mongoose lemur,Duke Lemur Center,F,10,6,40,0,80,Duke Lemur Center,F,10,6,0
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,1,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,2,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,3,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,4,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,5,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,6,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,7,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,8,3,1
+Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,9,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,1,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,2,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,3,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,4,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,5,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,6,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,7,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,8,3,1
+Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,9,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,1,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,2,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,3,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,4,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,5,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,6,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,7,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,8,3,1
+Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,9,3,1
 Olive baboon,Seneca Park Zoo,F,4,4,80,80,80,Seneca Park Zoo,M,1,3,1
 Olive baboon,Seneca Park Zoo,F,4,4,80,80,80,Seneca Park Zoo,M,2,3,1
 Olive baboon,Seneca Park Zoo,F,4,4,80,80,80,Seneca Park Zoo,M,3,3,1
@@ -6035,33 +6062,6 @@ Olive baboon,Seneca Park Zoo,F,8,4,90,80,100,Seneca Park Zoo,F,6,3,1
 Olive baboon,Seneca Park Zoo,F,8,4,90,80,100,Seneca Park Zoo,F,7,3,1
 Olive baboon,Seneca Park Zoo,F,8,4,90,80,100,Seneca Park Zoo,F,8,3,1
 Olive baboon,Seneca Park Zoo,F,8,4,90,80,100,Seneca Park Zoo,F,9,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,1,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,2,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,M,3,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,4,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,5,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,6,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,7,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,8,3,1
-Olive baboon,Seneca Park Zoo,M,1,4,70,60,80,Seneca Park Zoo,F,9,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,1,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,2,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,M,3,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,4,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,5,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,6,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,7,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,8,3,1
-Olive baboon,Seneca Park Zoo,M,2,5,90,100,80,Seneca Park Zoo,F,9,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,1,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,2,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,M,3,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,4,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,5,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,6,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,7,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,8,3,1
-Olive baboon,Seneca Park Zoo,M,3,10,70,80,60,Seneca Park Zoo,F,9,3,1
 Orange-winged Amazon,University of St. Andrews,M,1,4,40,20,60,University of St. Andrews,M,1,9,0
 Orange-winged Amazon,University of St. Andrews,M,1,4,40,20,60,University of St. Andrews,M,2,7,0
 Orange-winged Amazon,University of St. Andrews,M,1,4,40,20,60,University of St. Andrews,M,3,25,0
@@ -6266,6 +6266,18 @@ Orangutan,National Zoo,F,7,4,100,100,100,National Zoo,F,9,3,1
 Orangutan,National Zoo,F,7,4,100,100,100,National Zoo,M,10,3,1
 Orangutan,National Zoo,F,7,4,100,100,100,National Zoo,F,11,3,1
 Orangutan,National Zoo,F,7,4,100,100,100,National Zoo,F,12,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,M,1,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,M,2,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,3,3,0
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,4,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,5,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,6,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,M,7,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,8,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,9,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,M,10,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,11,3,1
+Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,12,3,1
 Orangutan,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,1,3,1
 Orangutan,National Zoo,F,9,4,100,100,100,MPI-Leipzig,M,2,3,1
 Orangutan,National Zoo,F,9,4,100,100,100,MPI-Leipzig,F,3,3,0
@@ -6290,18 +6302,6 @@ Orangutan,National Zoo,F,10,4,100,100,100,National Zoo,F,9,3,1
 Orangutan,National Zoo,F,10,4,100,100,100,National Zoo,M,10,3,1
 Orangutan,National Zoo,F,10,4,100,100,100,National Zoo,F,11,3,1
 Orangutan,National Zoo,F,10,4,100,100,100,National Zoo,F,12,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,M,1,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,M,2,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,3,3,0
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,4,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,5,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,MPI-Leipzig,F,6,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,M,7,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,8,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,9,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,M,10,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,11,3,1
-Orangutan,National Zoo,M,8,4,100,100,100,National Zoo,F,12,3,1
 Orangutan,National Zoo,M,11,5,90,100,80,MPI-Leipzig,M,1,3,1
 Orangutan,National Zoo,M,11,5,90,100,80,MPI-Leipzig,M,2,3,1
 Orangutan,National Zoo,M,11,5,90,100,80,MPI-Leipzig,F,3,3,0
@@ -6316,11 +6316,11 @@ Orangutan,National Zoo,M,11,5,90,100,80,National Zoo,F,11,3,1
 Orangutan,National Zoo,M,11,5,90,100,80,National Zoo,F,12,3,1
 Red-bellied lemur,Duke Lemur Center,F,1,5,80,80,80,NA,NA,NA,NA,NA
 Red-bellied lemur,Duke Lemur Center,F,2,7,80,60,100,NA,NA,NA,NA,NA
-Red-bellied lemur,Duke Lemur Center,F,4,6,20,0,40,NA,NA,NA,NA,NA
-Red-bellied lemur,Duke Lemur Center,F,7,11,100,100,100,NA,NA,NA,NA,NA
 Red-bellied lemur,Duke Lemur Center,M,3,22,90,80,100,NA,NA,NA,NA,NA
+Red-bellied lemur,Duke Lemur Center,F,4,6,20,0,40,NA,NA,NA,NA,NA
 Red-bellied lemur,Duke Lemur Center,M,5,5,50,60,40,NA,NA,NA,NA,NA
 Red-bellied lemur,Duke Lemur Center,M,6,20,60,20,100,NA,NA,NA,NA,NA
+Red-bellied lemur,Duke Lemur Center,F,7,11,100,100,100,NA,NA,NA,NA,NA
 Red-bellied lemur,Duke Lemur Center,M,8,56,30,20,40,NA,NA,NA,NA,NA
 Rhesus macaque,Duke University,F,1,4,90,80,100,NA,NA,NA,NA,NA
 Rhesus macaque,Duke University,F,2,4,90,80,100,NA,NA,NA,NA,NA
@@ -6328,67 +6328,17 @@ Rhesus macaque,Duke University,F,3,4,90,80,100,NA,NA,NA,NA,NA
 Rhesus macaque,Duke University,F,4,4,90,80,100,NA,NA,NA,NA,NA
 Rhesus macaque,Duke University,F,5,4,90,80,100,NA,NA,NA,NA,NA
 Rhesus macaque,Duke University,F,6,4,30,20,40,NA,NA,NA,NA,NA
+Ring-tailed Lemur,Duke Lemur Center,M,1,6,30,40,20,NA,NA,NA,NA,NA
+Ring-tailed Lemur,Duke Lemur Center,M,2,14,50,40,60,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,3,7,40,20,60,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,4,4,90,80,100,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,5,4,90,80,100,NA,NA,NA,NA,NA
+Ring-tailed Lemur,Duke Lemur Center,M,6,4,100,100,100,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,7,5,60,60,60,NA,NA,NA,NA,NA
+Ring-tailed Lemur,Duke Lemur Center,M,8,7,70,40,100,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,9,5,50,40,60,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,F,10,5,80,80,80,NA,NA,NA,NA,NA
-Ring-tailed Lemur,Duke Lemur Center,M,1,6,30,40,20,NA,NA,NA,NA,NA
-Ring-tailed Lemur,Duke Lemur Center,M,2,14,50,40,60,NA,NA,NA,NA,NA
-Ring-tailed Lemur,Duke Lemur Center,M,6,4,100,100,100,NA,NA,NA,NA,NA
-Ring-tailed Lemur,Duke Lemur Center,M,8,7,70,40,100,NA,NA,NA,NA,NA
 Ring-tailed Lemur,Duke Lemur Center,M,11,4,88.88888889,80,100,NA,NA,NA,NA,NA
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,1,6,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,2,6,1
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,3,3,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,4,3,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,5,6,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,6,12,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,7,6,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,8,3,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,9,9,0
-Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,10,3,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,1,6,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,2,6,1
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,3,3,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,4,3,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,5,6,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,6,12,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,7,6,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,8,3,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,9,9,0
-Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,10,3,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,1,6,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,2,6,1
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,3,3,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,4,3,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,5,6,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,6,12,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,7,6,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,8,3,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,9,9,0
-Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,10,3,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,1,6,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,2,6,1
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,3,3,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,4,3,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,5,6,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,6,12,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,7,6,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,8,3,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,9,9,0
-Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,10,3,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,1,6,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,2,6,1
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,3,3,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,4,3,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,5,6,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,6,12,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,7,6,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,8,3,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,9,9,0
-Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,10,3,0
 Ruffed lemur,Duke Lemur Center,M,1,10,80,80,80,Duke Lemur Center,M,1,6,0
 Ruffed lemur,Duke Lemur Center,M,1,10,80,80,80,Duke Lemur Center,M,2,6,1
 Ruffed lemur,Duke Lemur Center,M,1,10,80,80,80,Duke Lemur Center,F,3,3,0
@@ -6409,6 +6359,26 @@ Ruffed lemur,Duke Lemur Center,M,2,5,20,20,20,Duke Lemur Center,F,7,6,0
 Ruffed lemur,Duke Lemur Center,M,2,5,20,20,20,Duke Lemur Center,M,8,3,0
 Ruffed lemur,Duke Lemur Center,M,2,5,20,20,20,Duke Lemur Center,F,9,9,0
 Ruffed lemur,Duke Lemur Center,M,2,5,20,20,20,Duke Lemur Center,M,10,3,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,1,6,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,2,6,1
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,3,3,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,4,3,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,5,6,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,6,12,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,7,6,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,8,3,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,F,9,9,0
+Ruffed lemur,Duke Lemur Center,F,3,5,60,60,60,Duke Lemur Center,M,10,3,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,1,6,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,2,6,1
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,3,3,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,4,3,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,5,6,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,6,12,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,7,6,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,8,3,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,F,9,9,0
+Ruffed lemur,Duke Lemur Center,F,4,4,100,100,100,Duke Lemur Center,M,10,3,0
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,M,1,6,0
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,M,2,6,1
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,F,3,3,0
@@ -6419,6 +6389,16 @@ Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,F,7,6,0
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,M,8,3,0
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,F,9,9,0
 Ruffed lemur,Duke Lemur Center,M,5,5,60,40,80,Duke Lemur Center,M,10,3,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,1,6,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,2,6,1
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,3,3,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,4,3,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,5,6,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,6,12,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,7,6,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,8,3,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,F,9,9,0
+Ruffed lemur,Duke Lemur Center,F,6,5,80,80,80,Duke Lemur Center,M,10,3,0
 Ruffed lemur,Duke Lemur Center,M,7,4,80,80,80,Duke Lemur Center,M,1,6,0
 Ruffed lemur,Duke Lemur Center,M,7,4,80,80,80,Duke Lemur Center,M,2,6,1
 Ruffed lemur,Duke Lemur Center,M,7,4,80,80,80,Duke Lemur Center,F,3,3,0
@@ -6439,6 +6419,26 @@ Ruffed lemur,Duke Lemur Center,M,8,4,50,40,60,Duke Lemur Center,F,7,6,0
 Ruffed lemur,Duke Lemur Center,M,8,4,50,40,60,Duke Lemur Center,M,8,3,0
 Ruffed lemur,Duke Lemur Center,M,8,4,50,40,60,Duke Lemur Center,F,9,9,0
 Ruffed lemur,Duke Lemur Center,M,8,4,50,40,60,Duke Lemur Center,M,10,3,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,1,6,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,2,6,1
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,3,3,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,4,3,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,5,6,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,6,12,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,7,6,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,8,3,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,F,9,9,0
+Ruffed lemur,Duke Lemur Center,F,9,4,70,60,80,Duke Lemur Center,M,10,3,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,1,6,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,2,6,1
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,3,3,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,4,3,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,5,6,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,6,12,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,7,6,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,8,3,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,F,9,9,0
+Ruffed lemur,Duke Lemur Center,F,10,5,66.66666667,60,75,Duke Lemur Center,M,10,3,0
 Ruffed lemur,Duke Lemur Center,M,11,8,100,100,100,Duke Lemur Center,M,1,6,0
 Ruffed lemur,Duke Lemur Center,M,11,8,100,100,100,Duke Lemur Center,M,2,6,1
 Ruffed lemur,Duke Lemur Center,M,11,8,100,100,100,Duke Lemur Center,F,3,3,0
@@ -6469,6 +6469,44 @@ Song sparrow,Duke University,M,17,4,60,60,60,NA,NA,NA,NA,NA
 Song sparrow,Duke University,M,18,4,40,20,60,NA,NA,NA,NA,NA
 Song sparrow,Duke University,M,19,4,30,20,40,NA,NA,NA,NA,NA
 Song sparrow,Duke University,M,20,4,10,0,20,NA,NA,NA,NA,NA
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,1,5,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,2,3,1
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,3,7,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,4,6,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,5,10,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,6,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,7,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,8,4,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,9,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,10,5,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,11,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,12,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,13,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,14,6,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,15,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,16,3,0
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,17,6,1
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,18,5,1
+Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",M,19,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,1,5,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,2,3,1
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,3,7,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,4,6,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,5,10,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,6,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,7,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,8,4,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,9,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,10,5,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,11,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,12,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,13,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,14,6,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,15,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,16,3,0
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,17,6,1
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,18,5,1
+Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",M,19,3,0
 Squirrel monkey,Kyoto University,F,3,9,0,0,0,Kyoto University,M,1,5,0
 Squirrel monkey,Kyoto University,F,3,9,0,0,0,Kyoto University,M,2,3,1
 Squirrel monkey,Kyoto University,F,3,9,0,0,0,Kyoto University,F,3,7,0
@@ -6545,6 +6583,25 @@ Squirrel monkey,Kyoto University,F,6,8,10,0,20,"Living Links, University of St. 
 Squirrel monkey,Kyoto University,F,6,8,10,0,20,"Living Links, University of St. Andrews",F,17,6,1
 Squirrel monkey,Kyoto University,F,6,8,10,0,20,"Living Links, University of St. Andrews",F,18,5,1
 Squirrel monkey,Kyoto University,F,6,8,10,0,20,"Living Links, University of St. Andrews",M,19,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,1,5,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,2,3,1
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,3,7,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,4,6,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,5,10,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,6,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,7,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,8,4,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,9,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,10,5,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,11,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,12,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,13,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,14,6,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,15,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,16,3,0
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,17,6,1
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,18,5,1
+Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",M,19,3,0
 Squirrel monkey,Kyoto University,F,8,14,50,20,80,Kyoto University,M,1,5,0
 Squirrel monkey,Kyoto University,F,8,14,50,20,80,Kyoto University,M,2,3,1
 Squirrel monkey,Kyoto University,F,8,14,50,20,80,Kyoto University,F,3,7,0
@@ -6602,63 +6659,6 @@ Squirrel monkey,Kyoto University,F,10,6,0,0,0,"Living Links, University of St. A
 Squirrel monkey,Kyoto University,F,10,6,0,0,0,"Living Links, University of St. Andrews",F,17,6,1
 Squirrel monkey,Kyoto University,F,10,6,0,0,0,"Living Links, University of St. Andrews",F,18,5,1
 Squirrel monkey,Kyoto University,F,10,6,0,0,0,"Living Links, University of St. Andrews",M,19,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,1,5,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,2,3,1
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,3,7,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,4,6,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,5,10,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,6,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,M,7,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,8,4,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,9,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,Kyoto University,F,10,5,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,11,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,12,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,13,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,14,6,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,15,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,16,3,0
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,17,6,1
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",F,18,5,1
-Squirrel monkey,Kyoto University,M,1,14,20,20,20,"Living Links, University of St. Andrews",M,19,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,1,5,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,2,3,1
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,3,7,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,4,6,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,5,10,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,6,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,M,7,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,8,4,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,9,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,Kyoto University,F,10,5,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,11,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,12,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,13,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,14,6,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,15,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,16,3,0
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,17,6,1
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",F,18,5,1
-Squirrel monkey,Kyoto University,M,2,5,10,0,20,"Living Links, University of St. Andrews",M,19,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,1,5,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,2,3,1
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,3,7,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,4,6,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,5,10,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,6,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,M,7,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,8,4,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,9,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,Kyoto University,F,10,5,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,11,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,12,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,13,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,14,6,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,15,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,16,3,0
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,17,6,1
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",F,18,5,1
-Squirrel monkey,Kyoto University,M,7,15,0,0,0,"Living Links, University of St. Andrews",M,19,3,0
 Squirrel monkey,"Living Links, University of St. Andrews",M,11,4,100,100,100,Kyoto University,M,1,5,0
 Squirrel monkey,"Living Links, University of St. Andrews",M,11,4,100,100,100,Kyoto University,M,2,3,1
 Squirrel monkey,"Living Links, University of St. Andrews",M,11,4,100,100,100,Kyoto University,F,3,7,0
