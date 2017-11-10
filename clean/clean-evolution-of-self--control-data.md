@@ -177,6 +177,7 @@ Clean Cylinder and A-not-B CSV files
 
 1.  Import both the csv files
 2.  Change column names to make it shorter and more specific
+3.  Merge both data files to make one file altogether
 
 ``` r
 cyl_task <- read_csv("../data/csv/Cylinder.csv")
@@ -211,22 +212,26 @@ ab_task <- read_csv("../data/csv/A-not-B.csv")
 ``` r
 colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "1st_corr", "2nd_corr")
 colnames(ab_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Trials", "Accuracy")
+
+cyl_task <- cyl_task %>% arrange(Species)
+ab_task <- ab_task %>% arrange(Species)
+
 cyl_task
 ```
 
     ## # A tibble: 439 x 8
-    ##       Species           Pop   Sex Sub_no. Warmups Test_percent_correct
-    ##         <chr>         <chr> <chr>   <int>   <int>                <dbl>
-    ##  1     Bonobo MPI - Leipzig     F       1       4                  100
-    ##  2     Bonobo MPI - Leipzig     F       3       4                   70
-    ##  3     Bonobo MPI - Leipzig     F       4       4                  100
-    ##  4     Bonobo MPI - Leipzig     F       6       4                  100
-    ##  5     Bonobo MPI - Leipzig     M       2       4                  100
-    ##  6     Bonobo MPI - Leipzig     M       5       4                  100
-    ##  7 Chimpanzee MPI - Leipzig     F       1       4                  100
-    ##  8 Chimpanzee MPI - Leipzig     F       2       4                  100
-    ##  9 Chimpanzee MPI - Leipzig     F       4       4                  100
-    ## 10 Chimpanzee MPI - Leipzig     F       5       4                  100
+    ##    Species               Pop   Sex Sub_no. Warmups Test_percent_correct
+    ##      <chr>             <chr> <chr>   <int>   <int>                <dbl>
+    ##  1 Aye Aye Duke Lemur Center     F       2       5                   60
+    ##  2 Aye Aye Duke Lemur Center     F       3       5                   70
+    ##  3 Aye Aye Duke Lemur Center     F       4       5                   80
+    ##  4 Aye Aye Duke Lemur Center     F       6       4                    0
+    ##  5 Aye Aye Duke Lemur Center     F       7       6                   50
+    ##  6 Aye Aye Duke Lemur Center     F       8       4                   50
+    ##  7 Aye Aye Duke Lemur Center     M       1       5                   80
+    ##  8 Aye Aye Duke Lemur Center     M       5       8                   40
+    ##  9 Aye Aye Duke Lemur Center     M       9      15                   50
+    ## 10 Aye Aye Duke Lemur Center     M      10      27                   30
     ## # ... with 429 more rows, and 2 more variables: `1st_corr` <int>,
     ## #   `2nd_corr` <int>
 
@@ -235,19 +240,28 @@ ab_task
 ```
 
     ## # A tibble: 345 x 6
-    ##              Species               Pop   Sex Sub_no. Trials Accuracy
-    ##                <chr>             <chr> <chr>   <int>  <int>    <int>
-    ##  1 Ring-tailed lemur Duke Lemur Center     M       1      3        0
-    ##  2 Ring-tailed lemur Duke Lemur Center     F       2      6        1
-    ##  3 Ring-tailed lemur Duke Lemur Center     M       3      3        1
-    ##  4 Ring-tailed lemur Duke Lemur Center     M       4      3        0
-    ##  5 Ring-tailed lemur Duke Lemur Center     F       5     15        0
-    ##  6 Ring-tailed lemur Duke Lemur Center     M       6      3        0
-    ##  7 Ring-tailed lemur Duke Lemur Center     M       7      3        1
-    ##  8 Ring-tailed lemur Duke Lemur Center     F       8     12        0
-    ##  9 Ring-tailed lemur Duke Lemur Center     F       9      6        0
-    ## 10 Ring-tailed lemur Duke Lemur Center     M      10      9        1
+    ##        Species               Pop   Sex Sub_no. Trials Accuracy
+    ##          <chr>             <chr> <chr>   <int>  <int>    <int>
+    ##  1 Black lemur Duke Lemur Center     M       1      6        1
+    ##  2 Black lemur Duke Lemur Center     F       2      3        1
+    ##  3 Black lemur Duke Lemur Center     M       3      3        1
+    ##  4 Black lemur Duke Lemur Center     F       4      3        0
+    ##  5 Black lemur Duke Lemur Center     M       5      9        0
+    ##  6 Black lemur Duke Lemur Center     F       6      3        0
+    ##  7 Black lemur Duke Lemur Center     M       7      6        1
+    ##  8 Black lemur Duke Lemur Center     M       8      3        0
+    ##  9 Black lemur Duke Lemur Center     F       9     12        1
+    ## 10 Black lemur Duke Lemur Center     M      10      3        1
     ## # ... with 335 more rows
+
+Now we will change the species names to make both dataframe equal
+
+``` r
+# levels(cyl_task$Species) <- c(levels(iris$Species), "new.species")
+# iris$Species[iris$Species == 'virginica'] <- 'new.species'
+# merged_tasks <- left_join(cyl_task, ab_task, by="Species")
+# merged_tasks
+```
 
 Let's write this to a new, clean directory (../data/cleaned)
 

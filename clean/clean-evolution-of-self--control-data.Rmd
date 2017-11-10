@@ -92,6 +92,7 @@ merged_new
 
 1. Import both the csv files
 2. Change column names to make it shorter and more specific
+3. Merge both data files to make one file altogether
 
 ```{r clean_task_files}
 
@@ -100,8 +101,33 @@ ab_task <- read_csv("../data/csv/A-not-B.csv")
 
 colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "1st_corr", "2nd_corr")
 colnames(ab_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Trials", "Accuracy")
+
+cyl_task <- cyl_task %>% arrange(Species)
+ab_task <- ab_task %>% arrange(Species)
+
 cyl_task
 ab_task
+```
+
+Now we will change the species names to make both dataframe equal
+
+
+```{r change_Species_names}
+
+cyl_task$Species <- sub("black lemur", "Black Lemur", cyl_task$Species)
+ab_task$Species <- sub("Capuchin monkey", "Capuchin", ab_task$Species)
+ab_task$Species <- sub("Fox Squirrel", "Fox squirrel", ab_task$Species)
+cyl_task$Species <- sub("Golden Monkey", "Golden monkey", cyl_task$Species)
+ab_task$Species <- sub("Mongolian Gerbil", "Mongolian gerbil", ab_task$Species)
+cyl_task$Species <- sub("ruffed lemur", "Ruffed lemur", cyl_task$Species)
+ab_task$Species <- sub("White Carnea Pigeon", "White Carneau Pigeon", ab_task$Species)
+
+cyl_task
+ab_task
+
+
+merged_tasks <- left_join(cyl_task, ab_task, by="Species")
+merged_tasks
 
 ```
 
