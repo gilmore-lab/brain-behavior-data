@@ -99,14 +99,8 @@ merged_new
 cyl_task <- read_csv("../data/csv/Cylinder.csv")
 ab_task <- read_csv("../data/csv/A-not-B.csv")
 
-colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "1st_corr", "2nd_corr")
+colnames(cyl_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Warmups", "Test_percent_correct", "first_corr", "second_corr")
 colnames(ab_task) <- c("Species", "Pop", "Sex", "Sub_no.", "Trials", "Accuracy")
-
-cyl_task <- cyl_task %>% arrange(Species, Sub_no.)
-ab_task <- ab_task %>% arrange(Species, Sub_no.)
-
-ab_task
-cyl_task
 
 ```
 
@@ -122,6 +116,14 @@ cyl_task$Species <- sub("Golden Monkey", "Golden monkey", cyl_task$Species)
 ab_task$Species <- sub("Mongolian Gerbil", "Mongolian gerbil", ab_task$Species)
 cyl_task$Species <- sub("ruffed lemur", "Ruffed lemur", cyl_task$Species)
 ab_task$Species <- sub("White Carnea Pigeon", "White Carneau Pigeon", ab_task$Species)
+ab_task$Species <- sub("Canis latrans", "Coyote", ab_task$Species)
+ab_task$Species <- sub("Elphas maximus", "Asian Elephant", ab_task$Species)
+
+cyl_task <- cyl_task %>% arrange(Species, Sub_no.)
+ab_task <- ab_task %>% arrange(Species, Sub_no.)
+
+ab_task
+cyl_task
 
 ```
 
@@ -131,7 +133,8 @@ Let's write this to a new, clean directory (`r params$clean_dir`)
 
 ```{r export-merged}
 write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
-write_csv(merged_tasks, path="../data/cleaned/cyl_and_ab_tasks.csv")
+write_csv(ab_task, path="../data/cleaned/ab_task.csv")
+write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
 ```
 
 
