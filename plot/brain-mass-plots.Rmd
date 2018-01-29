@@ -31,6 +31,12 @@ olf_bulb_dat <- hh[which(hh$Brain_area == 'olf_bulb'), ]
 whole_brain_dat <- hh[which(hh$Brain_area == 'whole_brain'), ]
 rest_of_brain_dat <- hh[which(hh$Brain_area == 'rest_of_brain'), ]
 
+cerebellum_dat
+cerebral_ctx_dat
+olf_bulb_dat
+whole_brain_dat
+rest_of_brain_dat
+
 ```
 <center><h2> Plots </h2> </center>
 <br>

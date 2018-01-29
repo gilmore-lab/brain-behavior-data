@@ -99,21 +99,30 @@ zebra_finch.cyl <- cyl_task[which(cyl_task$Species == 'Zebra Finch'),]
 
 ```{r black_lemur_plot1, echo="FALSE"}
 
-bl_lem.cyl.m <- black_lemur.cyl[which(black_lemur.cyl$Sex == 'M'),]
+bl_lem.cyl.m <- black_lemur.cyl[which(black_lemur.cyl$Sex == "M"),]
 bl_lem.cyl.f <- black_lemur.cyl[which(black_lemur.cyl$Sex == 'F'),]
 black_lemur.cyl <- black_lemur.cyl %>% arrange(Sex)
 
 black_lemur.cyl <- na.omit(black_lemur.cyl)
 black_lemur.cyl
 
+names(black_lemur.cyl)[names(black_lemur.cyl) == "1st_corr"] <- "first_corr"
+names(black_lemur.cyl)[names(black_lemur.cyl) == "2nd_corr"] <- "second_corr"
+
 first_corr <- black_lemur.cyl$first_corr
 second_corr <- black_lemur.cyl$second_corr
 sex <- black_lemur.cyl$Sex
+
+plot_black<-ggplot(data= black_lemur.cyl) + geom_point(aes(x=first_corr,y=second_corr,size=10)) + 
+  geom_point(aes(x=first_corr,y=second_corr,size=10))
+
+plot_black
 # black_lemur.cyl %>%
 #   ggplot() +
 #   aes(x= second_corr, y= first_corr) +
 #   geom_point()
-ggplot(black_lemur.cyl) + geom_point(aes(x= first_corr, y=second_corr))
+# ggplot(black_lemur.cyl, aes(x=first_corr, y=second_corr)) + geom_point()
+qplot(first_corr, second_corr, data=black_lemur.cyl, geom="tile", fill = Sex)
 
 ```
 
