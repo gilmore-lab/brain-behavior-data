@@ -32,7 +32,7 @@ whole_brain_dat <- hh[which(hh$Brain_area == 'whole_brain'), ]
 rest_of_brain_dat <- hh[which(hh$Brain_area == 'rest_of_brain'), ]
 
 # cerebellum_dat
-cerebral_ctx_dat
+# cerebral_ctx_dat
 # olf_bulb_dat
 # whole_brain_dat
 # rest_of_brain_dat
@@ -42,15 +42,16 @@ cerebral_ctx_dat
 <center><h2> Plots </h2> </center>
 <br>
 <br>
-<center> <i> Plot without naked mole rat, but with house mouse </i></center>
+<center> <i><h3> Plot without naked mole rat, but with house mouse</h3> </i>
+<br>
+*A better fit to the same data points is found when the mouse is included in the analysis (exponent, 1.699 ± 0.096, r2 = 0.975, p < 0.0001), and still excludes the naked mole-rat.*
+</center>
+<br>
 
-**A better fit to the same data points is found when the mouse is included in the analysis (exponent, 1.699 ± 0.096, r2 = 0.975, p < 0.0001), and still excludes the naked mole-rat.**
-
-```{r plot1, echo=FALSE}
+```{r plot1, echo=FALSE, fig.align='center'}
 
 glires_ctx <- cerebral_ctx_dat[which(cerebral_ctx_dat$Order == 'Glires'), ]
 glires_ctx <- glires_ctx[glires_ctx$Species != "Heterocephalusglaber", ]
-glires_ctx
 
 #define x and y axis variables
 
@@ -95,11 +96,46 @@ glires_ctx %>%
                                        paste0(Species), "")), col = "red")
 
 ```
+<br>
+<br>
+<center> <i> <h3> Plot without naked mole rat and house mouse </h3></i>
+<br>
+*The power law that relates the mass of the cerebral cortex to its number of neurons calculated across glires species without the naked mole-rat and the mouse (exponent, 1.519 ± 0.112, r2 = 0.953, p < 0.0001) still includes the mouse (m) data point in its 95% confidence interval, but excludes the naked mole-rat.*
+</center>
+<br>
 
+```{r plot2, echo=FALSE, fig.align='center'}
 
-``` {r plot2, echo=FALSE}
+glires_ctx <- cerebral_ctx_dat[which(cerebral_ctx_dat$Order == 'Glires'), ]
+glires_ctx <- glires_ctx[glires_ctx$Species != "Heterocephalusglaber", ]
+glires_ctx <- glires_ctx[glires_ctx$Species != "Musmusculus", ]
 
+#define x and y axis variables
 
+neur_glires_a <- log(glires_ctx$N_neurons)
+wt_glires_a <- log(glires_ctx$Mass_g)
+
+#Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (Mass(g))
+
+Quart_for_wt <- quantile(wt_glires_a)
+
+Q3_for_wt <- Quart_for_wt[4]
+Q1_for_wt <- Quart_for_wt[2]
+
+upperlimit_for_wt <- Q3_for_wt + 1.5*IQR(wt_glires_a)
+lowerlimit_for_wt <- Q1_for_wt - 1.5*IQR(wt_glires_a)
+
+#Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (Mass(g))
+
+Quart_for_neur <- quantile(neur_glires_a)
+
+Q3_for_neur <- Quart_for_neur[4]
+Q1_for_neur <- Quart_for_neur[2]
+
+upperlimit_for_neur <- Q3_for_neur + 1.5*IQR(neur_glires_a)
+lowerlimit_for_neur <- Q1_for_neur - 1.5*IQR(neur_glires_a)
+
+#Plot the graph
 
 glires_ctx %>%
     ggplot() +
@@ -109,7 +145,7 @@ glires_ctx %>%
                                neur_glires_a > upperlimit_for_neur | 
                                wt_glires_a < lowerlimit_for_wt | 
                                neur_glires_a < lowerlimit_for_neur), "red", "black")) +
-    geom_smooth(method = "lm" ,color = "blue", size = 0.5) +
+    geom_smooth(method = "lm" ,color = "green", size = 0.5) +
     geom_text_repel(aes(label = ifelse((wt_glires_a > upperlimit_for_wt | 
                                           neur_glires_a > upperlimit_for_neur | 
                                           wt_glires_a < lowerlimit_for_wt | 
@@ -117,6 +153,69 @@ glires_ctx %>%
                                        paste0(Species), "")), col = "red")
 
 ```
+
+<br>
+<br>
+<center><i><h3> Number of Cerebellar Neurons Vs Number of Cerebral Cortex Neurons </h3></i>
+<br>
+*The elephant is a clear outlier to the relationship that describes the variation of the number of cerebellar neurons as a power law of the number of neurons in the cerebral cortex across all species, with exponent 1.007 ± 0.054 (r2 = 0.905, p < 0.0001), which is a linear relationship.*
+</center>
+
+```{r echo=FALSE, fig.align='center'}
+
+cerebellum_dat
+
+#define a new dataset for this plot
+
+cerebellum_dat <- cerebellum_dat[cerebellum_dat$Species != "Gorillagorilla", ]
+
+cerebellum_neurons <- data.frame(cerebellum_dat$Species, cerebellum_dat$N_neurons)
+cerebral_ctx_neurons <- data.frame(cerebral_ctx_dat$Species, cerebral_ctx_dat$N_neurons)
+
+
+N_Neurons_of_two <- data.frame(cerebral_ctx_neurons, cerebellum_neurons$cerebellum_dat.N_Neurons)
+names(N_Neurons_of_two) <- c("Species", "cerebral_ctx1", "cerebellum1")
+
+#Define the upper and lower limit of outliers for x- and y-axes
+
+##Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (cerebellum)
+
+Quart_for_cerebellum1 <- quantile(N_Neurons_of_two$cerebellum1)
+
+Q3_for_cerebellum1 <- Quart_for_cerebellum1[4]
+Q1_for_cerebellum1 <- Quart_for_cerebellum1[2]
+
+upperlimit_for_cerebellum1 <- Q3_for_cerebellum1 + 1.5*IQR(N_Neurons_of_two$cerebellum1)
+lowerlimit_for_cerebellum1 <- Q1_for_cerebellum1 - 1.5*IQR(N_Neurons_of_two$cerebellum1)
+
+#Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (cerebral cortex)
+
+Quart_for_cerebral_ctx1 <- quantile(N_Neurons_of_two$cerebral_ctx1)
+
+Q3_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[4]
+Q1_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[2]
+
+upperlimit_for_cerebral_ctx1 <- Q3_for_cerebral_ctx1 + 1.5*IQR(N_Neurons_of_two$cerebral_ctx1)
+lowerlimit_for_cerebral_ctx1 <- Q1_for_cerebral_ctx1 - 1.5*IQR(N_Neurons_of_two$cerebral_ctx1)
+
+#Plot the data with outliers
+
+N_Neurons_of_two %>%
+    ggplot() +
+    aes(x = N_Neurons_of_two$cerebellum1, y = N_Neurons_of_two$cerebral_ctx1) +
+    labs(x = "Cerebellum (Neurons/mg)", y = "Cerebral Cortex (Neurons/mg)") +
+    geom_point(col = ifelse((N_Neurons_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
+                            N_Neurons_of_two$cerebral_ctx1> upperlimit_for_cerebral_ctx1),
+                            "red", "black")) +
+    geom_smooth(method = "lm", color = "blue", size = 0.5) +
+    geom_text_repel(aes(label = ifelse((N_Neurons_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
+                                        N_Neurons_of_two$cerebral_ctx1 > upperlimit_for_cerebral_ctx1 |
+                                        N_Neurons_of_two$cerebellum1 < lowerlimit_for_cerebellum1 |
+                                        N_Neurons_of_two$cerebral_ctx1 < lowerlimit_for_cerebral_ctx1),
+                                        paste0(Species), "")), col = "red")
+```
+
+
 
 
 
