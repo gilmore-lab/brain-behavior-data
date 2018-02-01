@@ -2,7 +2,10 @@
 title: "hh-paper-plots"
 author: "Charmi Mehta"
 date: "1/29/2018"
-output: html_document
+output:
+  html_document:
+    self_contained: FALSE
+
 ---
 
 ```{r setup, include=FALSE}
@@ -139,18 +142,18 @@ lowerlimit_for_neur <- Q1_for_neur - 1.5*IQR(neur_glires_a)
 
 glires_ctx %>%
     ggplot() +
-    aes(x = neur_glires_a, y = wt_glires_a) +
-    labs(x = "Log number of neurons", y = "Log structure mass (g)") +
-    geom_point(col = ifelse((wt_glires_a > upperlimit_for_wt | 
-                               neur_glires_a > upperlimit_for_neur | 
-                               wt_glires_a < lowerlimit_for_wt | 
-                               neur_glires_a < lowerlimit_for_neur), "red", "black")) +
-    geom_smooth(method = "lm" ,color = "green", size = 0.5) +
-    geom_text_repel(aes(label = ifelse((wt_glires_a > upperlimit_for_wt | 
-                                          neur_glires_a > upperlimit_for_neur | 
-                                          wt_glires_a < lowerlimit_for_wt | 
-                                          neur_glires_a < lowerlimit_for_neur), 
-                                       paste0(Species), "")), col = "red")
+    aes(x = glires_ctx$N_neurons, y = glires_ctx$Mass_g) +
+    labs(x = "Log number of neurons", y = "Log structure mass (g)") + geom_point() +
+    # geom_point(col = ifelse((wt_glires_a > upperlimit_for_wt | 
+    #                            neur_glires_a > upperlimit_for_neur | 
+    #                            wt_glires_a < lowerlimit_for_wt | 
+    #                            neur_glires_a < lowerlimit_for_neur), "red", "black")) +
+    geom_smooth(method = "lm" ,color = "green", size = 0.5) 
+    # geom_text_repel(aes(label = ifelse((wt_glires_a > upperlimit_for_wt | 
+    #                                       neur_glires_a > upperlimit_for_neur | 
+    #                                       wt_glires_a < lowerlimit_for_wt | 
+    #                                       neur_glires_a < lowerlimit_for_neur), 
+    #                                    paste0(Species), "")), col = "red")
 
 ```
 
@@ -163,56 +166,62 @@ glires_ctx %>%
 
 ```{r echo=FALSE, fig.align='center'}
 
-cerebellum_dat
-
 #define a new dataset for this plot
 
 cerebellum_dat <- cerebellum_dat[cerebellum_dat$Species != "Gorillagorilla", ]
 
-cerebellum_neurons <- data.frame(cerebellum_dat$Species, cerebellum_dat$N_neurons)
-cerebral_ctx_neurons <- data.frame(cerebral_ctx_dat$Species, cerebral_ctx_dat$N_neurons)
+cerebellum_neurons <- data.frame(cerebellum_dat$Species, cerebellum_dat$Order, cerebellum_dat$N_neurons)
+cerebral_ctx_neurons <- data.frame(cerebral_ctx_dat$Species, cerebral_ctx_dat$Order, cerebral_ctx_dat$N_neurons)
 
 
-N_Neurons_of_two <- data.frame(cerebral_ctx_neurons, cerebellum_neurons$cerebellum_dat.N_Neurons)
-names(N_Neurons_of_two) <- c("Species", "cerebral_ctx1", "cerebellum1")
-
+N_Neurons_of_two <- data.frame(cerebral_ctx_neurons, cerebellum_neurons$cerebellum_dat.N_neurons)
+names(N_Neurons_of_two) <- c("Species", "Order", "cerebral_ctx1", "cerebellum1")
+N_Neurons_of_two
 #Define the upper and lower limit of outliers for x- and y-axes
+
+cerb_neur <- log(N_Neurons_of_two$cerebellum1)
+cerb_ctx_neur <- log(N_Neurons_of_two$cerebral_ctx1)
 
 ##Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (cerebellum)
 
-Quart_for_cerebellum1 <- quantile(N_Neurons_of_two$cerebellum1)
+# Quart_for_cerebellum1 <- quantile(cerb_neur)
+# 
+# Q3_for_cerebellum1 <- Quart_for_cerebellum1[4]
+# Q1_for_cerebellum1 <- Quart_for_cerebellum1[2]
+# 
+# upperlimit_for_cerebellum1 <- Q3_for_cerebellum1 + 1.5*IQR(cerb_neur)
+# lowerlimit_for_cerebellum1 <- Q1_for_cerebellum1 - 1.5*IQR(cerb_neur)
 
-Q3_for_cerebellum1 <- Quart_for_cerebellum1[4]
-Q1_for_cerebellum1 <- Quart_for_cerebellum1[2]
+##Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (cerebral cortex)
 
-upperlimit_for_cerebellum1 <- Q3_for_cerebellum1 + 1.5*IQR(N_Neurons_of_two$cerebellum1)
-lowerlimit_for_cerebellum1 <- Q1_for_cerebellum1 - 1.5*IQR(N_Neurons_of_two$cerebellum1)
+# Quart_for_cerebral_ctx1 <- quantile(cerb_ctx_neur)
+# 
+# Q3_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[4]
+# Q1_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[2]
+# 
+# upperlimit_for_cerebral_ctx1 <- Q3_for_cerebral_ctx1 + 1.5*IQR(cerb_ctx_neur)
+# lowerlimit_for_cerebral_ctx1 <- Q1_for_cerebral_ctx1 - 1.5*IQR(cerb_ctx_neur)
 
-#Defining Q1, Q3, upperlimit, and lowerlimit of x-axis (cerebral cortex)
-
-Quart_for_cerebral_ctx1 <- quantile(N_Neurons_of_two$cerebral_ctx1)
-
-Q3_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[4]
-Q1_for_cerebral_ctx1 <- Quart_for_cerebral_ctx1[2]
-
-upperlimit_for_cerebral_ctx1 <- Q3_for_cerebral_ctx1 + 1.5*IQR(N_Neurons_of_two$cerebral_ctx1)
-lowerlimit_for_cerebral_ctx1 <- Q1_for_cerebral_ctx1 - 1.5*IQR(N_Neurons_of_two$cerebral_ctx1)
+order <- N_Neurons_of_two$Order
 
 #Plot the data with outliers
 
 N_Neurons_of_two %>%
     ggplot() +
-    aes(x = N_Neurons_of_two$cerebellum1, y = N_Neurons_of_two$cerebral_ctx1) +
-    labs(x = "Cerebellum (Neurons/mg)", y = "Cerebral Cortex (Neurons/mg)") +
-    geom_point(col = ifelse((N_Neurons_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
-                            N_Neurons_of_two$cerebral_ctx1> upperlimit_for_cerebral_ctx1),
-                            "red", "black")) +
+    aes(x = cerb_ctx_neur, y = cerb_neur, color = order) +
+    labs(x = "Cerebral Cortex (log of # of Neurons)", y = "Cerebellum (log of # of Neurons)") +
+    geom_point() +
     geom_smooth(method = "lm", color = "blue", size = 0.5) +
-    geom_text_repel(aes(label = ifelse((N_Neurons_of_two$cerebellum1 > upperlimit_for_cerebellum1 |
-                                        N_Neurons_of_two$cerebral_ctx1 > upperlimit_for_cerebral_ctx1 |
-                                        N_Neurons_of_two$cerebellum1 < lowerlimit_for_cerebellum1 |
-                                        N_Neurons_of_two$cerebral_ctx1 < lowerlimit_for_cerebral_ctx1),
-                                        paste0(Species), "")), col = "red")
+    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Loxodontaafricana", paste0("Elephant"), "")))+
+    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Giraffacamelopardalensis", paste0("Giraffe"), "")))
+    # geom_text_repel(aes(label = ifelse((cerb_neur > upperlimit_for_cerebellum1 |
+    #                                     cerb_ctx_neur > upperlimit_for_cerebral_ctx1 |
+    #                                     cerb_neur < lowerlimit_for_cerebellum1 |
+    #                                     cerb_ctx_neur < lowerlimit_for_cerebral_ctx1),
+    #                                     paste0(Species), "")), col = "red") +
+    # geom_point(col = ifelse((cerb_neur > upperlimit_for_cerebellum1 |
+    #                         cerb_ctx_neur> upperlimit_for_cerebral_ctx1),
+    #                         "red", "black")) +
 ```
 
 
