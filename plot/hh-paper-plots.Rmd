@@ -96,6 +96,7 @@ wt_glires_a <- log(glires_ctx$Mass_g)
 
 #Plot the graph
 
+<<<<<<< HEAD
 # plot1 <- ggplot(glires_ctx, aes(x = glires_ctx$N_neurons, y = glires_ctx$Mass_g), labs(x = "Log number of neurons", y = "Log structure mass (g)"), geom_point(), geom_smooth(method = "lm" ,color = "green", size = 0.5)) + ggplot(glires_ctx1, aes(x = glires_ctx1$N_neurons, y = glires_ctx1$Mass_g), geom_point())
 # plot1
 
@@ -104,6 +105,22 @@ plot1 <- ggplot(glires_ctx, aes(N_neurons, Mass_g)) +
     geom_smooth(method = "lm" ,color = "green", size = 0.5) +
     labs(x = "Number of neurons", y = "Structure Mass (g)") +
     geom_point(data = glires_ctx1)
+=======
+glires_ctx %>%
+    ggplot() +
+    aes(x = glires_ctx$N_neurons, y = glires_ctx$Mass_g) +
+    labs(x = "Log number of neurons", y = "Log structure mass (g)") + geom_point() +
+    # geom_point(col = ifelse((wt_glires_a > upperlimit_for_wt | 
+    #                            neur_glires_a > upperlimit_for_neur | 
+    #                            wt_glires_a < lowerlimit_for_wt | 
+    #                            neur_glires_a < lowerlimit_for_neur), "red", "black")) +
+    geom_smooth(method = "lm" ,color = "green", size = 0.5) 
+    # geom_text_repel(aes(label = ifelse((wt_glires_a > upperlimit_for_wt | 
+    #                                       neur_glires_a > upperlimit_for_neur | 
+    #                                       wt_glires_a < lowerlimit_for_wt | 
+    #                                       neur_glires_a < lowerlimit_for_neur), 
+    #                                    paste0(Species), "")), col = "red")
+>>>>>>> 095c3c74dec2877ffd85ddab3daac26eaefbd342
 
 plot1
 ```
