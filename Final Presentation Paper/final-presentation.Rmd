@@ -1,0 +1,19 @@
+---
+title: "Final Presentation"
+author: "Charmi Mehta"
+date: "2/6/2018"
+output:
+  html_document:
+    self_contained: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(magrittr)
+library(gdata)
+library(ggrepel)
+library(dplyr)
+library(LearnBayes)
+```
+
