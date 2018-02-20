@@ -4,7 +4,7 @@ author: "Charmi Mehta"
 date: "2/6/2018"
 output:
   html_document:
-    self_contained: FALSE
+    self_contained: no
 ---
 
 ```{r setup, include=FALSE}
@@ -46,13 +46,18 @@ The link for the data was provided with the paper itself, and it was extremely e
 <br>
 <h3> Results </h3>
 <br>
-![Neurons Versus Mass (for each Brain Area)](../plot/hh-paper-plots_files/figure-html/Brain_area_NeuronsVsMass-1.png)
+![Neurons Versus Mass (for all Brain Areas)](../plot/hh-paper-plots_files/figure-html/Brain_area_NeuronsVsMass-1.png)
+This figure shows that cerebellum has higher number of neurons for that structure's mass as compared to other brain areas. Additionally, the confidence interval for cerebellum is much shorter than other brain areas. Outliers of individual brain areas are recorded below.
+
+![Neurons Versus Mass for different brain areas (with highlighted outliers)](../plot/plot.png)
+<br>
+(A) This graph shows just the graph for cerebellum where you can see that Homosapiens (Human beings) and Loxodontaafricana (African Elephants) are outliers having more number of neurons according to their structure mass as compared to other species. (B)For cerebral cortex, only the African Elephant is an outlier. But the interesting thing about this finding is that African Elephants have lower number of neurons according to their structure mass as compared to other species. (C)Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it seems to have less number of neurons than average based on its structural mass of olfactory bulb. It would be interesting to know about its smelling abilities as compared to that of the African Bush elephants, because they seem to have higher number of neurons compared to its brain mass. The second animal is Heterocephalus Glaber, aka Naked Mole Rat. It also has less number of neurons as compared to its structure mass of olfactory bulb. Does that seem to have a difference between the smelling abilities? (D) In this data plot, again we find similar outliers as we found in the 'Cerebellum Data Plot.' Hence, we can maybe try to divide the rest of the brain in temporal lobe and other different brain areas to see exactly which part of those brain areas have more number of neurons and we can create an experiment to test those results by seeing if they really have some kind of a difference. If they do have difference, then we can say that these connections and the number of neurons are actually very important for higher processing, but if not then we cannot really support the hypothesis that higher number of neurons correlates to better processing.
 
 <h3> Conclusions </h3>
 
 <h3> Discussion </h3>
 
-
+</center>
 
 
 

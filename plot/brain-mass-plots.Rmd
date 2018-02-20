@@ -12,6 +12,7 @@ library(magrittr)
 library(gdata)
 library(ggrepel)
 library(dplyr)
+library(cowplot)
 ```
 
 <center><h1> Goals </h1>
@@ -194,7 +195,7 @@ LL_cerebellum_neurons <- cerebellum_q1_neurons - IQR(cerebellum_neur)
 
 #Plot for cerebellum data only and finding only its outliers
 
-cerebellum_dat %>%
+cerebellum <- cerebellum_dat %>%
   ggplot()+
   aes(x = cerebellum_mass, y = cerebellum_neur) +
   labs(x = "Log structure mass (g)", y = "Log number of neurons") +
@@ -251,7 +252,7 @@ LL_cerebral_ctx_neurons <- cerebral_ctx_q1_neurons - IQR(cerebral_ctx_neur)
 
 #Plot for cerebellum data only and finding only its outliers
 
-cerebral_ctx_dat %>%
+cerebral<- cerebral_ctx_dat %>%
   ggplot()+
   aes(x = cerebral_ctx_mass, y = cerebral_ctx_neur) +
   labs(x = "Log structure mass (g)", y = "Log number of neurons") +
@@ -306,7 +307,7 @@ LL_olf_bulb_neurons <- olf_bulb_q1_neurons - IQR(olf_bulb_neur)
 
 #Plot for cerebellum data only and finding only its outliers
 
-olf_bulb_dat %>%
+olf <- olf_bulb_dat %>%
   ggplot()+
   aes(x = olf_bulb_mass, y = olf_bulb_neur) +
   labs(x = "Log structure mass (g)", y = "Log number of neurons") +
@@ -361,7 +362,7 @@ LL_rest_of_brain_neurons <- rest_of_brain_q1_neurons - IQR(rest_of_brain_neur)
 
 #Plot for cerebellum data only and finding only its outliers
 
-rest_of_brain_dat %>%
+rest <- rest_of_brain_dat %>%
   ggplot()+
   aes(x = rest_of_brain_mass, y = rest_of_brain_neur) +
   labs(x = "Log structure mass (g)", y = "Log number of neurons") +
@@ -378,6 +379,9 @@ rest_of_brain_dat %>%
                           rest_of_brain_neur > UL_rest_of_brain_neurons |
                           rest_of_brain_mass < LL_rest_of_brain_mass |
                           rest_of_brain_neur < LL_rest_of_brain_neurons, "blueviolet", "black"))
+
+p <- plot_grid(cerebellum, cerebral, olf, rest, labels = "AUTO")
+save_plot("plot.png", p, ncol = 2, nrow = 2)
 ```
 
 <br>
