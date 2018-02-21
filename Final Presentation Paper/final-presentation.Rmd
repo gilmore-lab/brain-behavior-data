@@ -3,6 +3,7 @@ title: "Final Presentation"
 author: "Charmi Mehta"
 date: "2/6/2018"
 output:
+  word_document: default
   html_document:
     self_contained: no
 ---
