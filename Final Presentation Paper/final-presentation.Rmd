@@ -56,6 +56,14 @@ This figure shows that cerebellum has higher number of neurons for that structur
 <br>
 <br>
 
+<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.png){ width=60% } </center>
+<br>
+
+<center>
+
+<br>
+<br>
+
 <center>
 <h3> Conclusions </h3>
 <br>
