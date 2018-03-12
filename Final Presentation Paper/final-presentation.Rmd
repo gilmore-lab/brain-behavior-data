@@ -46,9 +46,16 @@ The link for the data was provided with the paper itself, and it was extremely e
 <br>
 <h3> Results </h3>
 <br> </center>
-<center> ![Neurons Versus Mass (for all Brain Areas)](../plot/hh-paper-plots_files/figure-html/Brain_area_NeuronsVsMass-1.png){ width=60% } </center>
+<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.png){ width=75% } </center>
 <br>
-This figure shows that cerebellum has higher number of neurons for that structure's mass as compared to other brain areas. Additionally, the confidence interval for cerebellum is much shorter than other brain areas. Outliers of individual brain areas are recorded below.
+This figure shows three of the plots that were recreated from the Herculano-Houtzel paper. It shows the reproducibility of the data and its figures.
+<br>
+<br>
+<center> ![Overall Trend Graph](../plot/AllPlot.png){ width=110% } </center>
+<br>
+(A) This figure shows that cerebellum has higher number of neurons for that structure's mass as compared to other brain areas. Additionally, the confidence interval for cerebellum is much shorter than other brain areas. Outliers of individual brain areas are recorded below.
+<br>
+(B) This figure shows the overall trends in different Order of species. Afrotheria animals belong to the African continent (e.g. golden moles, elephant shrews, tenrecs, aardvarks, and hyraxes). Artiodactyla are even-toed ungulates (hoofed animals; e.g. Deer, Girraffe, and Goats). Eulipotyphla ("truly fat and blind") include animals such as moles, shrews, and hedgehogs. Glires order of animals include rodents (e.g. Guinea pig and Capybara) and Lagomorphs (e.g. Hares and rabbits). The species belonging to the Primata order are Primates (e.g. monkeys, gorillas, and human beings). Treeshrews belong to the order of Scadentia species and are mainly found in the forests of South-East Asia. This graph mainly shows 
 <center>
 ![Neurons Versus Mass for different brain areas (with highlighted outliers)](../plot/plot.png){ width=70% } </center>
 <br>
@@ -56,14 +63,7 @@ This figure shows that cerebellum has higher number of neurons for that structur
 <br>
 <br>
 
-<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.png){ width=75% } </center>
-<br>
-This figure shows three of the plots that were recreated from the Herculano-Houtzel paper. It shows the reproducibility of the data and its figures.
 
-<center>  </center>
-
-<br>
-<br>
 
 <center>
 <h3> Conclusions </h3>

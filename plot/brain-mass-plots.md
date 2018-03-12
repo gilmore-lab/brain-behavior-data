@@ -702,7 +702,7 @@ Showing the graph of each brain area separately with its individual outliers
 Cerebellum Data Plot
 </h4>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/Cerebellum_NeuronsVsMass-1.png" style="display: block; margin: auto;" /> <br>
+<br>
 <center>
 This plot shows that Homo Sapiens and Loxodonta Africana (aka African Bush Elephants) are the only outliers, both having more number of neurons as compared to the structural mass of Cerebellum. Maybe from this data we can try to find out if both of them have similar balancing ability, co-ordination, and other functions performed by the cerebellum.
 </center>
@@ -713,8 +713,6 @@ This plot shows that Homo Sapiens and Loxodonta Africana (aka African Bush Eleph
 Cerebral Cortex Data Plot
 </h4>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/Cerebral_Ctx_NeuronsVsMass-1.png" style="display: block; margin: auto;" />
-
 <br>
 <center>
 In this data plot, we can see that Homo Sapiens are not the outliers, and the most interesting thing about this plot is that Loxodonta Africana (African Bush Elephants) seem to have LESS NUMBER OF NEURONS in cerebral cortex compared to its brain's mass. So, this essentially states that humans are not as smart as they think they are, and they do not have more than average number of neurons. Finally, we can try to find out the difference in intelligence by giving certain tasks to Elephants and Humans, and see who scores better.
@@ -725,7 +723,6 @@ In this data plot, we can see that Homo Sapiens are not the outliers, and the mo
 Olfactory Bulb Data Plot
 </h4>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/OlfBulb_NeuronsVsMass-1.png" style="display: block; margin: auto;" />
 <center>
 Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it seems to have less number of neurons than average based on its structural mass of olfactory bulb. It would be interesting to know about its smelling abilities as compared to that of the African Bush elephants, because they seem to have higher number of neurons compared to its brain mass. The second animal is Heterocephalus Glaber, aka Naked Mole Rat. It also has less number of neurons as compared to its structure mass of olfactory bulb. Does that seem to have a difference between the smelling abilities?
 
@@ -736,8 +733,6 @@ Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it 
 Rest of the Brain Data Plot
 </h4>
 </center>
-<img src="brain-mass-plots_files/figure-markdown_github-ascii_identifiers/Rest_of_Brain_NeuronsVsMass-1.png" style="display: block; margin: auto;" />
-
 <br>
 <center>
 In this data plot, again we find similar outliers as we found in the 'Cerebellum Data Plot.' Hence, we can maybe try to divide the rest of the brain in temporal lobe and other different brain areas to see exactly which part of those brain areas have more number of neurons and we can create an experiment to test those results by seeing if they really have some kind of a difference. If they do have difference, then we can say that these connections and the number of neurons are actually very important for higher processing, but if not then we cannot really support the hypothesis that higher number of neurons correlates to better processing.
@@ -776,7 +771,7 @@ From the above graph, we can see that Loxodonta Africanas have lower number of n
 Dataplot for different order of species
 </h3>
 </center>
-![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-1.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-2.png)
+![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-1.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-2.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-3.png)![](brain-mass-plots_files/figure-markdown_github-ascii_identifiers/new_plots-4.png)
 
 Create other cells data plot
 
