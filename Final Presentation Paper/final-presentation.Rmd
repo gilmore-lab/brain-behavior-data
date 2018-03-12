@@ -56,10 +56,11 @@ This figure shows that cerebellum has higher number of neurons for that structur
 <br>
 <br>
 
-<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.png){ width=60% } </center>
+<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.png){ width=75% } </center>
 <br>
+This figure shows three of the plots that were recreated from the Herculano-Houtzel paper. It shows the reproducibility of the data and its figures.
 
-<center>
+<center>  </center>
 
 <br>
 <br>

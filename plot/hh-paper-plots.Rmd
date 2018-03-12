@@ -92,6 +92,10 @@ nmr_no <- ggplot(glires_ctx, aes(N_neurons, Mass_g)) +
   geom_point(data = glires_ctx_het, col='red') +
   geom_text_repel(data = glires_ctx_het, aes(label = glires_ctx_het$Common_Name), col='red', box.padding = unit(4, "lines"))
 
+nmr_no <- nmr_no + annotate("text", x = 40000875, y = 45, label = "with mouse
+                  without naked mole rat")
+nmr_no
+
 ```
 <br>
 <br>
@@ -127,6 +131,10 @@ no_nmr_no_mouse <- ggplot(glires_ctx, aes(N_neurons, Mass_g)) +
     labs(x = "Number of neurons", y = "Structure Mass (g)") +
     geom_point(data = glires_ctx1, col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", 'red', ifelse(glires_ctx1$Species == "Musmusculus", 'blue', 'black'))) +
     geom_text_repel(data = glires_ctx1, aes(label = glires_ctx1$Common_Name), col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", 'red', ifelse(glires_ctx1$Species == "Musmusculus", 'blue', 'black')))
+
+no_nmr_no_mouse <- no_nmr_no_mouse + annotate("text", x = 50000875, y = 45, label = "without mouse
+            without naked mole rat")
+no_nmr_no_mouse
 ```
 
 <br>
@@ -191,6 +199,9 @@ final <- hh %>%
 
 ```{r 3plots, echo=FALSE}
 
+p <- plot_grid(nmr_no, no_nmr_no_mouse, labels = "AUTO")
+save_plot("plot1.png", p, ncol = 2, nrow = 1)
+
 p1 <- ggplotGrob(cerebellum_vs_ctx)
 p2 <- ggplotGrob(nmr_no)
 p3 <- ggplotGrob(no_nmr_no_mouse)
@@ -198,7 +209,7 @@ p3 <- ggplotGrob(no_nmr_no_mouse)
 # g$widths <- unit.pmax(g2$widths, g3$widths)
 # grid.draw(rbind(g2, g3))
 
-g <- grid.arrange(p1,p2,p3, layout_matrix = rbind(c(2,3),c(1,1)))
+g <- grid.arrange(p1,p2,p3, layout_matrix = rbind(c(2, 3), c(1, NA)))
 ggsave("3plots.png", plot = g)
 
 # grid.arrange(
