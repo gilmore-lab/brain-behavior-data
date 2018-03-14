@@ -2,7 +2,11 @@
 title: "brain-size-neuron-plot"
 author: "Charmi"
 date: "10/5/2017"
-output: github_document
+output:
+  html_document:
+    self_contained: false
+    dpi: 300
+    dev: pdf
 ---
 
 ```{r setup, include=FALSE}
@@ -533,14 +537,14 @@ All3
 All4 <- hh %>%
   group_by(Order) %>%
   ggplot() +
-  aes(x = Order, y = log(hh$Mass_g/hh$N_neurons)) +
+  aes(x = Order, y = log(hh$N_neurons/hh$Mass_g)) +
   geom_boxplot(aes(color = Brain_area)) +
-  labs(x = "Order of Species", y = "Log of Neurons' mass/Neurons' numbers")
+  labs(x = "Order of Species", y = "Log of Number of Neurons/mass")
 
 All4
 
 p <- plot_grid(All1, All4, All2, All3, labels = "AUTO")
-save_plot("AllPlot.png", p, ncol = 4, nrow = 2)
+save_plot("AllPlot.pdf", p, ncol = 4, nrow = 2)
 
 
 # homosapiens <- hh$Species == Homosapiens
