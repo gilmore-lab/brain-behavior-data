@@ -87,15 +87,15 @@ wt_glires_a <- log(glires_ctx$Mass_g)
 
 
 nmr_no <- ggplot(glires_ctx, aes(N_neurons, Mass_g)) +
-  geom_point(data = glires_ctx, col = ifelse(glires_ctx$Species == "Musmusculus", 'blue', 'black')) +
-  geom_smooth(method = "lm" ,color = "green", size = 0.5) +
+  geom_point(data = glires_ctx, col = ifelse(glires_ctx$Species == "Musmusculus", 'red', 'black')) +
+  geom_smooth(method = "lm" ,color = "blue", size = 0.5) +
   labs(x = "Number of neurons", y = "Structure Mass (g)") +
-  geom_text_repel(data = glires_ctx, aes(label = ifelse(glires_ctx$Species == "Musmusculus", paste0("Mouse"), "")), col='blue', box.padding = unit(1, "lines")) +
-  geom_point(data = glires_ctx_het, col='red') +
-  geom_text_repel(data = glires_ctx_het, aes(label = glires_ctx_het$Common_Name), col='red', box.padding = unit(4, "lines"))
+  geom_text_repel(data = glires_ctx, aes(label = ifelse(glires_ctx$Species == "Musmusculus", paste0("Mouse"), "")), col='red', nudge_x = 30000875, nudge_y = 10) +
+  geom_point(data = glires_ctx_het, col='#228B22') +
+  geom_text_repel(data = glires_ctx_het, aes(label = glires_ctx_het$Common_Name), col='#228B22', nudge_x = 20000000, nudge_y = 30)
 
 nmr_no <- nmr_no + annotate("text", x = 40000875, y = 45, label = "with mouse
-                  without naked mole rat")
+                  without naked mole rat", size = 3) + theme(text = element_text(size=10))
 nmr_no
 
 ```
@@ -129,13 +129,13 @@ wt_glires_a <- log(glires_ctx$Mass_g)
 
 no_nmr_no_mouse <- ggplot(glires_ctx, aes(N_neurons, Mass_g)) + 
     geom_point() +
-    geom_smooth(method = "lm" ,color = "green", size = 0.5) +
+    geom_smooth(method = "lm" ,color = "blue", size = 0.5) +
     labs(x = "Number of neurons", y = "Structure Mass (g)") +
-    geom_point(data = glires_ctx1, col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", 'red', ifelse(glires_ctx1$Species == "Musmusculus", 'blue', 'black'))) +
-    geom_text_repel(data = glires_ctx1, aes(label = glires_ctx1$Common_Name), col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", 'red', ifelse(glires_ctx1$Species == "Musmusculus", 'blue', 'black')))
+    geom_point(data = glires_ctx1, col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", '#228B22', ifelse(glires_ctx1$Species == "Musmusculus", 'red', 'black'))) +
+    geom_text_repel(data = glires_ctx1, aes(label = glires_ctx1$Common_Name), col=ifelse(glires_ctx1$Species == "Heterocephalusglaber", '#228B22', ifelse(glires_ctx1$Species == "Musmusculus", 'red', 'black')), nudge_x = 60000000, nudge_y = 30)
 
 no_nmr_no_mouse <- no_nmr_no_mouse + annotate("text", x = 50000875, y = 45, label = "without mouse
-            without naked mole rat")
+            without naked mole rat", size = 3) + theme(text = element_text(size=10))
 no_nmr_no_mouse
 ```
 
@@ -173,8 +173,9 @@ cerebellum_vs_ctx <- N_Neurons_of_two %>%
     labs(x = "Cerebral Cortex (log of # of Neurons)", y = "Cerebellum (log of # of Neurons)") +
     geom_point() +
     geom_smooth(method = "lm", color = "blue", size = 0.5) +
-    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Loxodontaafricana", paste0("Elephant"), "")))+
-    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Giraffacamelopardalensis", paste0("Giraffe"), "")))
+    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Loxodontaafricana", paste0("Elephant"), "")), nudge_x = 0, nudge_y = -0.5)+
+    geom_text_repel(aes(label = ifelse(N_Neurons_of_two$Species == "Giraffacamelopardalensis", paste0("Giraffe"), "")), nudge_x = 0, nudge_y = 0.5) + theme(text = element_text(size=10))
+cerebellum_vs_ctx
 ```
 <br>
 <br>
@@ -201,37 +202,20 @@ final <- hh %>%
 
 ```{r 3plots, echo=FALSE}
 
+#Saving only 2 plots
+
 p <- plot_grid(nmr_no, no_nmr_no_mouse, labels = "AUTO")
-save_plot("plot1.png", p, ncol = 2, nrow = 1)
+save_plot("plot1.pdf", p, ncol = 2, nrow = 1)
+
+#Saving 3 plots at once
 
 p1 <- ggplotGrob(cerebellum_vs_ctx)
 p2 <- ggplotGrob(nmr_no)
 p3 <- ggplotGrob(no_nmr_no_mouse)
-# g <- rbind(g2, g3, size = "first")
-# g$widths <- unit.pmax(g2$widths, g3$widths)
-# grid.draw(rbind(g2, g3))
 
 g <- grid.arrange(p1,p2,p3, layout_matrix = rbind(c(2, 3), c(1, NA)))
-ggsave("3plots.png", plot = g)
+ggsave("3plots.pdf", plot = g)
 
-# grid.arrange(
-#   grobs = gl,
-#   widths = c(1),
-#   layout_matrix = rbind(c(cerebellum_vs_ctx), c(no_nmr_no_mouse),
-#                         c(nmr_no))
-# )
-
-# par(mfrow = c(3, 1))  # 3 rows and 1 column
-# no_nmr_no_mouse
-# nmr_no
-# cerebellum_vs_ctx
-# par(mfrow=c(3,1))
-# no_nmr_no_mouse
-# no_nmr1
-# cerebellum_vs_ctx
-# p1 <- plot_grid(no_nmr_no_mouse, no_nmr1, cerebellum_vs_ctx, labels = "AUTO")
-# save_plot("paper_plot1.png", p1, nrow = 3, ncol=2)
-# p1
 
 ```
 
