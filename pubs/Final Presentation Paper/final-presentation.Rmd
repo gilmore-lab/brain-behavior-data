@@ -3,9 +3,8 @@ title: "Final Presentation"
 author: "Charmi Mehta"
 date: "2/6/2018"
 output:
-  word_document: default
   html_document:
-    self_contained: no
+    self_contained: true
 ---
 
 ```{r setup, include=FALSE}
@@ -46,15 +45,31 @@ The link for the data was provided with the paper itself, and it was extremely e
 <center>
 <br>
 <h3> Results </h3>
+<br> </center>
+<center> ![Herculano-Houtzel's Paper's Plots](../plot/3plots.pdf){ width=75% } </center>
 <br>
-![Neurons Versus Mass (for all Brain Areas)](../plot/hh-paper-plots_files/figure-html/Brain_area_NeuronsVsMass-1.png)
-This figure shows that cerebellum has higher number of neurons for that structure's mass as compared to other brain areas. Additionally, the confidence interval for cerebellum is much shorter than other brain areas. Outliers of individual brain areas are recorded below.
-
-![Neurons Versus Mass for different brain areas (with highlighted outliers)](../plot/plot.png)
+This figure shows three of the plots that were recreated from the Herculano-Houtzel paper. It shows the reproducibility of the data and its figures.
+<br>
+<br>
+<center> ![Overall Trend Graph](../plot/AllPlot.pdf){ width=110% } </center>
+<br>
+(A) This figure shows that cerebellum has higher number of neurons for that structure's mass as compared to other brain areas. Additionally, the confidence interval for cerebellum is much shorter than other brain areas. Outliers of individual brain areas are recorded below.
+<br>
+(B) This figure shows the overall trends in different Order of species. Afrotheria animals belong to the African continent (e.g. golden moles, elephant shrews, tenrecs, aardvarks, and hyraxes). Artiodactyla are even-toed ungulates (hoofed animals; e.g. Deer, Girraffe, and Goats). Eulipotyphla ("truly fat and blind") include animals such as moles, shrews, and hedgehogs. Glires order of animals include rodents (e.g. Guinea pig and Capybara) and Lagomorphs (e.g. Hares and rabbits). The species belonging to the Primata order are Primates (e.g. monkeys, gorillas, and human beings). Treeshrews belong to the order of Scadentia species and are mainly found in the forests of South-East Asia. This graph mainly shows 
+<center>
+![Neurons Versus Mass for different brain areas (with highlighted outliers)](../plot/plot.pdf){ width=70% } </center>
 <br>
 (A) This graph shows just the graph for cerebellum where you can see that Homosapiens (Human beings) and Loxodontaafricana (African Elephants) are outliers having more number of neurons according to their structure mass as compared to other species. (B)For cerebral cortex, only the African Elephant is an outlier. But the interesting thing about this finding is that African Elephants have lower number of neurons according to their structure mass as compared to other species. (C)Tragelaphus strepsiceros is a Greater Kudu (type of a woodland antelope) and it seems to have less number of neurons than average based on its structural mass of olfactory bulb. It would be interesting to know about its smelling abilities as compared to that of the African Bush elephants, because they seem to have higher number of neurons compared to its brain mass. The second animal is Heterocephalus Glaber, aka Naked Mole Rat. It also has less number of neurons as compared to its structure mass of olfactory bulb. Does that seem to have a difference between the smelling abilities? (D) In this data plot, again we find similar outliers as we found in the 'Cerebellum Data Plot.' Hence, we can maybe try to divide the rest of the brain in temporal lobe and other different brain areas to see exactly which part of those brain areas have more number of neurons and we can create an experiment to test those results by seeing if they really have some kind of a difference. If they do have difference, then we can say that these connections and the number of neurons are actually very important for higher processing, but if not then we cannot really support the hypothesis that higher number of neurons correlates to better processing.
+<br>
+<br>
 
+
+
+<center>
 <h3> Conclusions </h3>
+<br>
+
+
 
 <h3> Discussion </h3>
 

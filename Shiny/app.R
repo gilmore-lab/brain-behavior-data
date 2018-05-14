@@ -1,13 +1,8 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
+library(ggplot2)
+library(googleVis)
+library(rpart.plot)
+load("../data/cleaned/herculano-houtzel-all.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
