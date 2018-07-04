@@ -1,0 +1,37 @@
+---
+title: "Herculano-Houtzel Data Dictionary"
+output: github_document
+---
+
+
+```{r LoadFile, include=FALSE}
+
+library("readr")
+
+hh <- read.csv("../cleaned/herculano-houtzel-all.csv")
+```
+
+```{r}
+
+
+#Create a new column for number of animals used for each species
+hh$Num_an <- NA
+
+#Reorder the columns and remove all quantitative columns except SD ones
+hh <- hh[c(1,2,16,17,15,4,6,8,10,12,14)]
+
+hh
+
+```
+
+##Number of animals used for counting the neuronal numbers in each species
+
+
+| Species Name           | Order           | Number of animals | Brain Areas  |
+|------------------------|-----------------|-------------------|-------------|
+| Amblysomus hottentotus | Afrotheria      | 2                 | Neves et al |
+| Dendrohyrax dorsalis   | Afrotheria      | 1                 | Neves et al |
+| Elephantulus myurus    | Afrotheria      | 2                 | Neves et al |
+| Petrodromus tetradactylus | Afrotheria   | 2                 | Neves et al |
+| Procavia capensis      | Afrotheria      | 2                 | Neves et al |
+| 6                      | Whole brain |
