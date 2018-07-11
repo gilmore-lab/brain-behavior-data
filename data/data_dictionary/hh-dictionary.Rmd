@@ -11,7 +11,30 @@ library("readr")
 hh <- read.csv("../cleaned/herculano-houtzel-all.csv")
 ```
 
-```{r}
+##Brain_areas
+
+<b><i> Whole brain values provided in the data are a summation of data from cerebral cortex, cerebellum, and rest of the brain because olfactory bulb data was not always available.</b></i>
+
+- Cerebral Cortex:
+    - All structures lateral to the olfactory tract
+    - Includes: Hippocampus and subcortical white matter
+
+- Cerebellum:
+    - Includes: Cerebellar cortex, subcortical white matter, and deep cerebellar nuclei
+  
+- Olfactory Bulb:
+    - Not defined
+    - Not available for all the species
+    
+- Rest of the Brain:
+    - Brainstem, diencephelon, and striatum
+    
+
+
+##Number of animals (Num_an) used for counting the neuronal numbers in each species
+
+
+```{r ChangesInDataframe, echo=FALSE}
 
 
 #Create a new column for number of animals used for each species
@@ -20,11 +43,37 @@ hh$Num_an <- NA
 #Reorder the columns and remove all quantitative columns except SD ones
 hh <- hh[c(1,2,16,17,15,4,6,8,10,12,14)]
 
+```
+
+```{r Change_Species_Name, echo=FALSE}
+
+#Remove "n=" from the species' names
+
+hh[125,1] = "Elephantulusmyurus"
+
+#Arrange animals alphabetically
+hh <- hh[order(hh$Species),]
+
+hh
+write_csv(hh, path="hh-dict.csv")
+hh <- read.csv("hh-dict.csv")
+```
+
+```{r Add_num_of_animals, echo=FALSE}
+
+hh[1,4] = 2
+hh[2,4] = 2
+hh[3,4] = 2
+hh[34,4] = 1
+hh[35,4] = 1
+hh[36,4] = 1
+
+
 hh
 
 ```
 
-##Number of animals used for counting the neuronal numbers in each species
+
 
 
 | Species Name           | Order           | Number of animals | Brain Areas  |

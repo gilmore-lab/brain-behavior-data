@@ -1,163 +1,171 @@
 Herculano-Houtzel Data Dictionary
 ================
 
-``` r
-#Create a new column for number of animals used for each species
-hh$Num_an <- NA
+Brain\_areas
+------------
 
-#Reorder the columns and remove all quantitative columns except SD ones
-hh <- hh[c(1,2,16,15,4,6,8,10,12,14)]
+<b><i> Whole brain values provided in the data are a summation of data from cerebral cortex, cerebellum, and rest of the brain because olfactory bulb data was not always available.</b></i>
 
-hh
-```
+-   Cerebral Cortex:
+    -   All structures lateral to the olfactory tract
+    -   Includes: Hippocampus and subcortical white matter
+-   Cerebellum:
+    -   Includes: Cerebellar cortex, subcortical white matter, and deep cerebellar nuclei
+-   Olfactory Bulb:
+    -   Not defined
+-   Rest of the Brain:
+    -   Brainstem, diencephelon, and striatum
 
-    ##                          Species        Order    Brain_area
-    ## 1          Amblysomushottentotus   Afrotheria    cerebellum
-    ## 2          Amblysomushottentotus   Afrotheria rest_of_brain
-    ## 3          Amblysomushottentotus   Afrotheria  cerebral_ctx
-    ## 4          Antidorcasmarsupialis Artiodactyla    cerebellum
-    ## 5          Antidorcasmarsupialis Artiodactyla rest_of_brain
-    ## 6          Antidorcasmarsupialis Artiodactyla  cerebral_ctx
-    ## 7               Aotustrivirgatus      Primata    cerebellum
-    ## 8               Aotustrivirgatus      Primata rest_of_brain
-    ## 9               Aotustrivirgatus      Primata  cerebral_ctx
-    ## 10             Blarinabrevicauda Eulipotyphla    cerebellum
-    ## 11             Blarinabrevicauda Eulipotyphla rest_of_brain
-    ## 12             Blarinabrevicauda Eulipotyphla  cerebral_ctx
-    ## 13             Callithrixjacchus      Primata    cerebellum
-    ## 14             Callithrixjacchus      Primata rest_of_brain
-    ## 15             Callithrixjacchus      Primata  cerebral_ctx
-    ## 16                Caviaporcellus       Glires    cerebellum
-    ## 17                Caviaporcellus       Glires rest_of_brain
-    ## 18                Caviaporcellus       Glires  cerebral_ctx
-    ## 19                   Cebusapella      Primata    cerebellum
-    ## 20                   Cebusapella      Primata rest_of_brain
-    ## 21                   Cebusapella      Primata  cerebral_ctx
-    ## 22             Condyluracristata Eulipotyphla    cerebellum
-    ## 23             Condyluracristata Eulipotyphla rest_of_brain
-    ## 24             Condyluracristata Eulipotyphla  cerebral_ctx
-    ## 25                    Cynomyssp.       Glires    cerebellum
-    ## 26                    Cynomyssp.       Glires rest_of_brain
-    ## 27                    Cynomyssp.       Glires  cerebral_ctx
-    ## 28     Damaliscusdorcasphillipsi Artiodactyla    cerebellum
-    ## 29     Damaliscusdorcasphillipsi Artiodactyla rest_of_brain
-    ## 30     Damaliscusdorcasphillipsi Artiodactyla  cerebral_ctx
-    ## 31         Dasyproctaprimnolopha       Glires    cerebellum
-    ## 32         Dasyproctaprimnolopha       Glires rest_of_brain
-    ## 33         Dasyproctaprimnolopha       Glires  cerebral_ctx
-    ## 34           Dendrohyraxdorsalis   Afrotheria    cerebellum
-    ## 35           Dendrohyraxdorsalis   Afrotheria rest_of_brain
-    ## 36           Dendrohyraxdorsalis   Afrotheria  cerebral_ctx
-    ## 37            Elephantulusmyurus   Afrotheria    cerebellum
-    ## 38            Elephantulusmyurus   Afrotheria rest_of_brain
-    ## 39            Elephantulusmyurus   Afrotheria  cerebral_ctx
-    ## 40      Giraffacamelopardalensis Artiodactyla    cerebellum
-    ## 41      Giraffacamelopardalensis Artiodactyla rest_of_brain
-    ## 42      Giraffacamelopardalensis Artiodactyla  cerebral_ctx
-    ## 43                Gorillagorilla      Primata    cerebellum
-    ## 44          Heterocephalusglaber       Glires    cerebellum
-    ## 45          Heterocephalusglaber       Glires rest_of_brain
-    ## 46          Heterocephalusglaber       Glires  cerebral_ctx
-    ## 47                   Homosapiens      Primata rest_of_brain
-    ## 48                   Homosapiens      Primata    cerebellum
-    ## 49                   Homosapiens      Primata  cerebral_ctx
-    ## 50      Hydrochoerushydrochaeris       Glires    cerebellum
-    ## 51      Hydrochoerushydrochaeris       Glires rest_of_brain
-    ## 52      Hydrochoerushydrochaeris       Glires  cerebral_ctx
-    ## 53             Loxodontaafricana   Afrotheria rest_of_brain
-    ## 54             Loxodontaafricana   Afrotheria    cerebellum
-    ## 55             Loxodontaafricana   Afrotheria  cerebral_ctx
-    ## 56            Macacafascicularis      Primata rest_of_brain
-    ## 57            Macacafascicularis      Primata    cerebellum
-    ## 58            Macacafascicularis      Primata  cerebral_ctx
-    ## 59                 Macacamulatta      Primata    cerebellum
-    ## 60                 Macacamulatta      Primata rest_of_brain
-    ## 61                 Macacamulatta      Primata  cerebral_ctx
-    ## 62                 Macacaradiata      Primata    cerebellum
-    ## 63                 Macacaradiata      Primata rest_of_brain
-    ## 64                 Macacaradiata      Primata  cerebral_ctx
-    ## 65           Mesocricetusauratus       Glires    cerebellum
-    ## 66           Mesocricetusauratus       Glires rest_of_brain
-    ## 67           Mesocricetusauratus       Glires  cerebral_ctx
-    ## 68             Microcebusmurinus      Primata    cerebellum
-    ## 69             Microcebusmurinus      Primata rest_of_brain
-    ## 70             Microcebusmurinus      Primata  cerebral_ctx
-    ## 71                   Musmusculus       Glires    cerebellum
-    ## 72                   Musmusculus       Glires rest_of_brain
-    ## 73                   Musmusculus       Glires  cerebral_ctx
-    ## 74          Oryctolaguscuniculus       Glires    cerebellum
-    ## 75          Oryctolaguscuniculus       Glires rest_of_brain
-    ## 76          Oryctolaguscuniculus       Glires  cerebral_ctx
-    ## 77              Otolemurgarnetti      Primata    cerebellum
-    ## 78              Otolemurgarnetti      Primata rest_of_brain
-    ## 79              Otolemurgarnetti      Primata  cerebral_ctx
-    ## 80       Papioanubiscynocephalus      Primata    cerebellum
-    ## 81       Papioanubiscynocephalus      Primata rest_of_brain
-    ## 82       Papioanubiscynocephalus      Primata  cerebral_ctx
-    ## 83            Parascalopsbreweri Eulipotyphla    cerebellum
-    ## 84            Parascalopsbreweri Eulipotyphla rest_of_brain
-    ## 85            Parascalopsbreweri Eulipotyphla  cerebral_ctx
-    ## 86      Petrodromustetradactylus   Afrotheria    cerebellum
-    ## 87      Petrodromustetradactylus   Afrotheria rest_of_brain
-    ## 88      Petrodromustetradactylus   Afrotheria  cerebral_ctx
-    ## 89                 Pongopygmaeus      Primata    cerebellum
-    ## 90              Procaviacapensis   Afrotheria    cerebellum
-    ## 91              Procaviacapensis   Afrotheria rest_of_brain
-    ## 92              Procaviacapensis   Afrotheria  cerebral_ctx
-    ## 93         Proechimyscayennensis       Glires    cerebellum
-    ## 94         Proechimyscayennensis       Glires rest_of_brain
-    ## 95         Proechimyscayennensis       Glires  cerebral_ctx
-    ## 96              Rattusnorvegicus       Glires    cerebellum
-    ## 97              Rattusnorvegicus       Glires rest_of_brain
-    ## 98              Rattusnorvegicus       Glires  cerebral_ctx
-    ## 99               Saimirisciureus      Primata    cerebellum
-    ## 100              Saimirisciureus      Primata rest_of_brain
-    ## 101              Saimirisciureus      Primata  cerebral_ctx
-    ## 102            Scalopusaquaticus Eulipotyphla    cerebellum
-    ## 103            Scalopusaquaticus Eulipotyphla rest_of_brain
-    ## 104            Scalopusaquaticus Eulipotyphla  cerebral_ctx
-    ## 105          Sciuruscarolinensis       Glires    cerebellum
-    ## 106          Sciuruscarolinensis       Glires rest_of_brain
-    ## 107          Sciuruscarolinensis       Glires  cerebral_ctx
-    ## 108          Susscrofadomesticus Artiodactyla    cerebellum
-    ## 109          Susscrofadomesticus Artiodactyla rest_of_brain
-    ## 110          Susscrofadomesticus Artiodactyla  cerebral_ctx
-    ## 111        Tragelaphusstripceros Artiodactyla    cerebellum
-    ## 112        Tragelaphusstripceros Artiodactyla rest_of_brain
-    ## 113        Tragelaphusstripceros Artiodactyla  cerebral_ctx
-    ## 114                   Tupaiaglis   Scandentia    cerebellum
-    ## 115                   Tupaiaglis   Scandentia rest_of_brain
-    ## 116                   Tupaiaglis   Scandentia  cerebral_ctx
-    ## 117             Callimicogoeldii      Primata rest_of_brain
-    ## 118             Callimicogoeldii      Primata  cerebral_ctx
-    ## 119    Antidorcasmarsupialis,n=1 Artiodactyla      olf_bulb
-    ## 120         Aotustrivirgatus,n=6      Primata      olf_bulb
-    ## 121        Blarinabrevicauda,n=5 Eulipotyphla      olf_bulb
-    ## 122           Caviaporcellus,n=2       Glires      olf_bulb
-    ## 123        Condyluracristata,n=4 Eulipotyphla      olf_bulb
-    ## 124    Dasyproctaprimnolopha,n=3       Glires      olf_bulb
-    ## 125       Elephantulusmyurus,n=2   Afrotheria      olf_bulb
-    ## 126 Giraffacamelopardalensis,n=1 Artiodactyla      olf_bulb
-    ## 127     Heterocephalusglaber,n=3       Glires      olf_bulb
-    ## 128 Hydrochoerushydrochaeris,n=2       Glires      olf_bulb
-    ## 129        Loxodontaafricana,n=1   Afrotheria      olf_bulb
-    ## 130            Macacamulatta,n=1      Primata      olf_bulb
-    ## 131      Mesocricetusauratus,n=2       Glires      olf_bulb
-    ## 132        Microcebusmurinus,n=2      Primata      olf_bulb
-    ## 133              Musmusculus,n=4       Glires      olf_bulb
-    ## 134     Oryctolaguscuniculus,n=1       Glires      olf_bulb
-    ## 135        Otolemurgarnetti,n=11      Primata      olf_bulb
-    ## 136       Parascalopsbreweri,n=3 Eulipotyphla      olf_bulb
-    ## 137 Petrodromustetradactylus,n=2   Afrotheria      olf_bulb
-    ## 138         Procaviacapensis,n=1   Afrotheria      olf_bulb
-    ## 139    Proechimyscayennensis,n=1       Glires      olf_bulb
-    ## 140         Rattusnorvegicus,n=5       Glires      olf_bulb
-    ## 141        Scalopusaquaticus,n=3 Eulipotyphla      olf_bulb
-    ## 142      Sciuruscarolinensis,n=9       Glires      olf_bulb
-    ## 143              Sorexfumeus,n=3 Eulipotyphla      olf_bulb
-    ## 144      Susscrofadomesticus,n=1 Artiodactyla      olf_bulb
-    ## 145    Tragelaphusstripceros,n=1 Artiodactyla      olf_bulb
-    ## 146              Tupaiaglis,n=16   Scandentia      olf_bulb
+Number of animals (Num\_an) used for counting the neuronal numbers in each species
+----------------------------------------------------------------------------------
+
+    ##                          Species        Order    Brain_area Num_an
+    ## 1          Amblysomushottentotus   Afrotheria    cerebellum      2
+    ## 2          Amblysomushottentotus   Afrotheria rest_of_brain      2
+    ## 3          Amblysomushottentotus   Afrotheria  cerebral_ctx      2
+    ## 4          Antidorcasmarsupialis Artiodactyla    cerebellum     NA
+    ## 5          Antidorcasmarsupialis Artiodactyla rest_of_brain     NA
+    ## 6          Antidorcasmarsupialis Artiodactyla  cerebral_ctx     NA
+    ## 7               Aotustrivirgatus      Primata    cerebellum     NA
+    ## 8               Aotustrivirgatus      Primata rest_of_brain     NA
+    ## 9               Aotustrivirgatus      Primata  cerebral_ctx     NA
+    ## 10             Blarinabrevicauda Eulipotyphla    cerebellum     NA
+    ## 11             Blarinabrevicauda Eulipotyphla rest_of_brain     NA
+    ## 12             Blarinabrevicauda Eulipotyphla  cerebral_ctx     NA
+    ## 13             Callithrixjacchus      Primata    cerebellum     NA
+    ## 14             Callithrixjacchus      Primata rest_of_brain     NA
+    ## 15             Callithrixjacchus      Primata  cerebral_ctx     NA
+    ## 16                Caviaporcellus       Glires    cerebellum     NA
+    ## 17                Caviaporcellus       Glires rest_of_brain     NA
+    ## 18                Caviaporcellus       Glires  cerebral_ctx     NA
+    ## 19                   Cebusapella      Primata    cerebellum     NA
+    ## 20                   Cebusapella      Primata rest_of_brain     NA
+    ## 21                   Cebusapella      Primata  cerebral_ctx     NA
+    ## 22             Condyluracristata Eulipotyphla    cerebellum     NA
+    ## 23             Condyluracristata Eulipotyphla rest_of_brain     NA
+    ## 24             Condyluracristata Eulipotyphla  cerebral_ctx     NA
+    ## 25                    Cynomyssp.       Glires    cerebellum     NA
+    ## 26                    Cynomyssp.       Glires rest_of_brain     NA
+    ## 27                    Cynomyssp.       Glires  cerebral_ctx     NA
+    ## 28     Damaliscusdorcasphillipsi Artiodactyla    cerebellum     NA
+    ## 29     Damaliscusdorcasphillipsi Artiodactyla rest_of_brain     NA
+    ## 30     Damaliscusdorcasphillipsi Artiodactyla  cerebral_ctx     NA
+    ## 31         Dasyproctaprimnolopha       Glires    cerebellum     NA
+    ## 32         Dasyproctaprimnolopha       Glires rest_of_brain     NA
+    ## 33         Dasyproctaprimnolopha       Glires  cerebral_ctx     NA
+    ## 34           Dendrohyraxdorsalis   Afrotheria    cerebellum     NA
+    ## 35           Dendrohyraxdorsalis   Afrotheria rest_of_brain     NA
+    ## 36           Dendrohyraxdorsalis   Afrotheria  cerebral_ctx     NA
+    ## 37            Elephantulusmyurus   Afrotheria    cerebellum     NA
+    ## 38            Elephantulusmyurus   Afrotheria rest_of_brain     NA
+    ## 39            Elephantulusmyurus   Afrotheria  cerebral_ctx     NA
+    ## 40      Giraffacamelopardalensis Artiodactyla    cerebellum     NA
+    ## 41      Giraffacamelopardalensis Artiodactyla rest_of_brain     NA
+    ## 42      Giraffacamelopardalensis Artiodactyla  cerebral_ctx     NA
+    ## 43                Gorillagorilla      Primata    cerebellum     NA
+    ## 44          Heterocephalusglaber       Glires    cerebellum     NA
+    ## 45          Heterocephalusglaber       Glires rest_of_brain     NA
+    ## 46          Heterocephalusglaber       Glires  cerebral_ctx     NA
+    ## 47                   Homosapiens      Primata rest_of_brain     NA
+    ## 48                   Homosapiens      Primata    cerebellum     NA
+    ## 49                   Homosapiens      Primata  cerebral_ctx     NA
+    ## 50      Hydrochoerushydrochaeris       Glires    cerebellum     NA
+    ## 51      Hydrochoerushydrochaeris       Glires rest_of_brain     NA
+    ## 52      Hydrochoerushydrochaeris       Glires  cerebral_ctx     NA
+    ## 53             Loxodontaafricana   Afrotheria rest_of_brain     NA
+    ## 54             Loxodontaafricana   Afrotheria    cerebellum     NA
+    ## 55             Loxodontaafricana   Afrotheria  cerebral_ctx     NA
+    ## 56            Macacafascicularis      Primata rest_of_brain     NA
+    ## 57            Macacafascicularis      Primata    cerebellum     NA
+    ## 58            Macacafascicularis      Primata  cerebral_ctx     NA
+    ## 59                 Macacamulatta      Primata    cerebellum     NA
+    ## 60                 Macacamulatta      Primata rest_of_brain     NA
+    ## 61                 Macacamulatta      Primata  cerebral_ctx     NA
+    ## 62                 Macacaradiata      Primata    cerebellum     NA
+    ## 63                 Macacaradiata      Primata rest_of_brain     NA
+    ## 64                 Macacaradiata      Primata  cerebral_ctx     NA
+    ## 65           Mesocricetusauratus       Glires    cerebellum     NA
+    ## 66           Mesocricetusauratus       Glires rest_of_brain     NA
+    ## 67           Mesocricetusauratus       Glires  cerebral_ctx     NA
+    ## 68             Microcebusmurinus      Primata    cerebellum     NA
+    ## 69             Microcebusmurinus      Primata rest_of_brain     NA
+    ## 70             Microcebusmurinus      Primata  cerebral_ctx     NA
+    ## 71                   Musmusculus       Glires    cerebellum     NA
+    ## 72                   Musmusculus       Glires rest_of_brain     NA
+    ## 73                   Musmusculus       Glires  cerebral_ctx     NA
+    ## 74          Oryctolaguscuniculus       Glires    cerebellum     NA
+    ## 75          Oryctolaguscuniculus       Glires rest_of_brain     NA
+    ## 76          Oryctolaguscuniculus       Glires  cerebral_ctx     NA
+    ## 77              Otolemurgarnetti      Primata    cerebellum     NA
+    ## 78              Otolemurgarnetti      Primata rest_of_brain     NA
+    ## 79              Otolemurgarnetti      Primata  cerebral_ctx     NA
+    ## 80       Papioanubiscynocephalus      Primata    cerebellum     NA
+    ## 81       Papioanubiscynocephalus      Primata rest_of_brain     NA
+    ## 82       Papioanubiscynocephalus      Primata  cerebral_ctx     NA
+    ## 83            Parascalopsbreweri Eulipotyphla    cerebellum     NA
+    ## 84            Parascalopsbreweri Eulipotyphla rest_of_brain     NA
+    ## 85            Parascalopsbreweri Eulipotyphla  cerebral_ctx     NA
+    ## 86      Petrodromustetradactylus   Afrotheria    cerebellum     NA
+    ## 87      Petrodromustetradactylus   Afrotheria rest_of_brain     NA
+    ## 88      Petrodromustetradactylus   Afrotheria  cerebral_ctx     NA
+    ## 89                 Pongopygmaeus      Primata    cerebellum     NA
+    ## 90              Procaviacapensis   Afrotheria    cerebellum     NA
+    ## 91              Procaviacapensis   Afrotheria rest_of_brain     NA
+    ## 92              Procaviacapensis   Afrotheria  cerebral_ctx     NA
+    ## 93         Proechimyscayennensis       Glires    cerebellum     NA
+    ## 94         Proechimyscayennensis       Glires rest_of_brain     NA
+    ## 95         Proechimyscayennensis       Glires  cerebral_ctx     NA
+    ## 96              Rattusnorvegicus       Glires    cerebellum     NA
+    ## 97              Rattusnorvegicus       Glires rest_of_brain     NA
+    ## 98              Rattusnorvegicus       Glires  cerebral_ctx     NA
+    ## 99               Saimirisciureus      Primata    cerebellum     NA
+    ## 100              Saimirisciureus      Primata rest_of_brain     NA
+    ## 101              Saimirisciureus      Primata  cerebral_ctx     NA
+    ## 102            Scalopusaquaticus Eulipotyphla    cerebellum     NA
+    ## 103            Scalopusaquaticus Eulipotyphla rest_of_brain     NA
+    ## 104            Scalopusaquaticus Eulipotyphla  cerebral_ctx     NA
+    ## 105          Sciuruscarolinensis       Glires    cerebellum     NA
+    ## 106          Sciuruscarolinensis       Glires rest_of_brain     NA
+    ## 107          Sciuruscarolinensis       Glires  cerebral_ctx     NA
+    ## 108          Susscrofadomesticus Artiodactyla    cerebellum     NA
+    ## 109          Susscrofadomesticus Artiodactyla rest_of_brain     NA
+    ## 110          Susscrofadomesticus Artiodactyla  cerebral_ctx     NA
+    ## 111        Tragelaphusstripceros Artiodactyla    cerebellum     NA
+    ## 112        Tragelaphusstripceros Artiodactyla rest_of_brain     NA
+    ## 113        Tragelaphusstripceros Artiodactyla  cerebral_ctx     NA
+    ## 114                   Tupaiaglis   Scandentia    cerebellum     NA
+    ## 115                   Tupaiaglis   Scandentia rest_of_brain     NA
+    ## 116                   Tupaiaglis   Scandentia  cerebral_ctx     NA
+    ## 117             Callimicogoeldii      Primata rest_of_brain     NA
+    ## 118             Callimicogoeldii      Primata  cerebral_ctx     NA
+    ## 119    Antidorcasmarsupialis,n=1 Artiodactyla      olf_bulb     NA
+    ## 120         Aotustrivirgatus,n=6      Primata      olf_bulb     NA
+    ## 121        Blarinabrevicauda,n=5 Eulipotyphla      olf_bulb     NA
+    ## 122           Caviaporcellus,n=2       Glires      olf_bulb     NA
+    ## 123        Condyluracristata,n=4 Eulipotyphla      olf_bulb     NA
+    ## 124    Dasyproctaprimnolopha,n=3       Glires      olf_bulb     NA
+    ## 125       Elephantulusmyurus,n=2   Afrotheria      olf_bulb     NA
+    ## 126 Giraffacamelopardalensis,n=1 Artiodactyla      olf_bulb     NA
+    ## 127     Heterocephalusglaber,n=3       Glires      olf_bulb     NA
+    ## 128 Hydrochoerushydrochaeris,n=2       Glires      olf_bulb     NA
+    ## 129        Loxodontaafricana,n=1   Afrotheria      olf_bulb     NA
+    ## 130            Macacamulatta,n=1      Primata      olf_bulb     NA
+    ## 131      Mesocricetusauratus,n=2       Glires      olf_bulb     NA
+    ## 132        Microcebusmurinus,n=2      Primata      olf_bulb     NA
+    ## 133              Musmusculus,n=4       Glires      olf_bulb     NA
+    ## 134     Oryctolaguscuniculus,n=1       Glires      olf_bulb     NA
+    ## 135        Otolemurgarnetti,n=11      Primata      olf_bulb     NA
+    ## 136       Parascalopsbreweri,n=3 Eulipotyphla      olf_bulb     NA
+    ## 137 Petrodromustetradactylus,n=2   Afrotheria      olf_bulb     NA
+    ## 138         Procaviacapensis,n=1   Afrotheria      olf_bulb     NA
+    ## 139    Proechimyscayennensis,n=1       Glires      olf_bulb     NA
+    ## 140         Rattusnorvegicus,n=5       Glires      olf_bulb     NA
+    ## 141        Scalopusaquaticus,n=3 Eulipotyphla      olf_bulb     NA
+    ## 142      Sciuruscarolinensis,n=9       Glires      olf_bulb     NA
+    ## 143              Sorexfumeus,n=3 Eulipotyphla      olf_bulb     NA
+    ## 144      Susscrofadomesticus,n=1 Artiodactyla      olf_bulb     NA
+    ## 145    Tragelaphusstripceros,n=1 Artiodactyla      olf_bulb     NA
+    ## 146              Tupaiaglis,n=16   Scandentia      olf_bulb     NA
     ##                           Source Mass_SD  N_neurons_SD    N_other_SD
     ## 1                Nevesetal.,2014      NA     3,207,000       813,000
     ## 2                Nevesetal.,2014   0.013     1,069,000     3,276,000
@@ -452,9 +460,6 @@ hh
     ## 144              <NA>            <NA>                  NA
     ## 145              <NA>            <NA>                  NA
     ## 146            17,451          51,596                  NA
-
-Number of animals used for counting the neuronal numbers in each species
-------------------------------------------------------------------------
 
 | Species Name              | Order       | Number of animals | Brain Areas |
 |---------------------------|-------------|-------------------|-------------|
