@@ -462,30 +462,6 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 145            23,350           1,270                  NA
     ## 146            17,451          51,596                  NA
 
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = 2): invalid factor level, NA
-    ## generated
-
     ##                          Species        Order    Brain_area Num_an
     ## 1          Amblysomushottentotus   Afrotheria    cerebellum      2
     ## 2          Amblysomushottentotus   Afrotheria rest_of_brain      2
@@ -507,17 +483,17 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 18             Callithrixjacchus      Primata    cerebellum     NA
     ## 19             Callithrixjacchus      Primata rest_of_brain     NA
     ## 20             Callithrixjacchus      Primata  cerebral_ctx     NA
-    ## 21                          <NA>       Glires    cerebellum     NA
-    ## 22                          <NA>       Glires rest_of_brain     NA
-    ## 23                          <NA>       Glires  cerebral_ctx     NA
-    ## 24                          <NA>       Glires      olf_bulb     NA
+    ## 21                Caviaporcellus       Glires    cerebellum      2
+    ## 22                Caviaporcellus       Glires rest_of_brain      2
+    ## 23                Caviaporcellus       Glires  cerebral_ctx      2
+    ## 24                Caviaporcellus       Glires      olf_bulb      2
     ## 25                   Cebusapella      Primata    cerebellum     NA
     ## 26                   Cebusapella      Primata rest_of_brain     NA
     ## 27                   Cebusapella      Primata  cerebral_ctx     NA
-    ## 28                          <NA> Eulipotyphla    cerebellum     NA
-    ## 29                          <NA> Eulipotyphla rest_of_brain     NA
-    ## 30                          <NA> Eulipotyphla  cerebral_ctx     NA
-    ## 31                          <NA> Eulipotyphla      olf_bulb     NA
+    ## 28             Condyluracristata Eulipotyphla    cerebellum      4
+    ## 29             Condyluracristata Eulipotyphla rest_of_brain      4
+    ## 30             Condyluracristata Eulipotyphla  cerebral_ctx      4
+    ## 31             Condyluracristata Eulipotyphla      olf_bulb      4
     ## 32                    Cynomyssp.       Glires    cerebellum     NA
     ## 33                    Cynomyssp.       Glires rest_of_brain     NA
     ## 34                    Cynomyssp.       Glires  cerebral_ctx     NA
