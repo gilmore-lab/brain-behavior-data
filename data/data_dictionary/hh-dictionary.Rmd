@@ -47,16 +47,24 @@ hh <- hh[c(1,2,16,17,15,4,6,8,10,12,14)]
 
 ```{r Change_Species_Name, echo=FALSE}
 
-#Remove "n=" from the species' names
-
-hh[125,1] = "Elephantulusmyurus"
-
 #Arrange animals alphabetically
 hh <- hh[order(hh$Species),]
 
-hh
+#Remove "n=" from the species' names
+hh[48,1] = "Elephantulusmyurus"
+hh[7,1] = "Antidorcasmarsupialis"
+# hh[11,1] = "Aotustrivirgatus"
+hh[15,1] = "Blarinabrevicauda"
+hh[24,1] = "Caviaporcellus"
+hh[31,1] = "Condyluracristata"
+# hh[41,1] = "Dasyproctaprimnolopha"
+# hh[15,1] = "Blarinabrevicauda"
+# hh[15,1] = "Blarinabrevicauda"
+
+
 write_csv(hh, path="hh-dict.csv")
 hh <- read.csv("hh-dict.csv")
+hh
 ```
 
 ```{r Add_num_of_animals, echo=FALSE}
@@ -64,9 +72,35 @@ hh <- read.csv("hh-dict.csv")
 hh[1,4] = 2
 hh[2,4] = 2
 hh[3,4] = 2
-hh[34,4] = 1
-hh[35,4] = 1
-hh[36,4] = 1
+hh[42,4] = 1
+hh[43,4] = 1
+hh[44,4] = 1
+hh[45,4] = 2
+hh[46,4] = 2
+hh[47,4] = 2
+hh[48,4] = 2
+hh[107,4] = 2
+hh[108,4] = 2
+hh[109,4] = 2
+hh[110,4] = 2
+hh[4,4] = 1
+hh[5,4] = 1
+hh[6,4] = 1
+hh[7,4] = 1
+hh[12,4] = 5
+hh[13,4] = 5
+hh[14,4] = 5
+hh[15,4] = 5
+hh[16,4] = 1
+hh[17,4] = 1
+hh[21,1] = 2
+hh[22,1] = 2
+hh[23,1] = 2
+hh[24,1] = 2
+hh[28,1] = 4
+hh[29,1] = 4
+hh[30,1] = 4
+hh[31,1] = 4
 
 
 hh
