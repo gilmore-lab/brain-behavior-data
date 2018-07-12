@@ -17,8 +17,17 @@ Brain\_areas
 -   Rest of the Brain:
     -   Brainstem, diencephelon, and striatum
 
+------------------------------------------------------------------------
+
+Most of the brain area measurements were performed from only one hemisphere. It was then multiplied by 2 to use as the final data.
+
+------------------------------------------------------------------------
+
 Number of animals (Num\_an) used for counting the neuronal numbers in each species
 ----------------------------------------------------------------------------------
+
+    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = "Sorexfumeus"): invalid
+    ## factor level, NA generated
 
     ##                          Species        Order    Brain_area Num_an
     ## 1          Amblysomushottentotus   Afrotheria    cerebellum     NA
@@ -72,12 +81,12 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 49      Giraffacamelopardalensis Artiodactyla    cerebellum     NA
     ## 50      Giraffacamelopardalensis Artiodactyla rest_of_brain     NA
     ## 51      Giraffacamelopardalensis Artiodactyla  cerebral_ctx     NA
-    ## 52  Giraffacamelopardalensis,n=1 Artiodactyla      olf_bulb     NA
+    ## 52      Giraffacamelopardalensis Artiodactyla      olf_bulb     NA
     ## 53                Gorillagorilla      Primata    cerebellum     NA
     ## 54          Heterocephalusglaber       Glires    cerebellum     NA
     ## 55          Heterocephalusglaber       Glires rest_of_brain     NA
     ## 56          Heterocephalusglaber       Glires  cerebral_ctx     NA
-    ## 57      Heterocephalusglaber,n=3       Glires      olf_bulb     NA
+    ## 57          Heterocephalusglaber       Glires      olf_bulb     NA
     ## 58                   Homosapiens      Primata rest_of_brain     NA
     ## 59                   Homosapiens      Primata    cerebellum     NA
     ## 60                   Homosapiens      Primata  cerebral_ctx     NA
@@ -88,7 +97,7 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 65             Loxodontaafricana   Afrotheria rest_of_brain     NA
     ## 66             Loxodontaafricana   Afrotheria    cerebellum     NA
     ## 67             Loxodontaafricana   Afrotheria  cerebral_ctx     NA
-    ## 68         Loxodontaafricana,n=1   Afrotheria      olf_bulb     NA
+    ## 68             Loxodontaafricana   Afrotheria      olf_bulb     NA
     ## 69            Macacafascicularis      Primata rest_of_brain     NA
     ## 70            Macacafascicularis      Primata    cerebellum     NA
     ## 71            Macacafascicularis      Primata  cerebral_ctx     NA
@@ -102,7 +111,7 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 79           Mesocricetusauratus       Glires    cerebellum     NA
     ## 80           Mesocricetusauratus       Glires rest_of_brain     NA
     ## 81           Mesocricetusauratus       Glires  cerebral_ctx     NA
-    ## 82       Mesocricetusauratus,n=2       Glires      olf_bulb     NA
+    ## 82           Mesocricetusauratus       Glires      olf_bulb     NA
     ## 83             Microcebusmurinus      Primata    cerebellum     NA
     ## 84             Microcebusmurinus      Primata rest_of_brain     NA
     ## 85             Microcebusmurinus      Primata  cerebral_ctx     NA
@@ -110,22 +119,22 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 87                   Musmusculus       Glires    cerebellum     NA
     ## 88                   Musmusculus       Glires rest_of_brain     NA
     ## 89                   Musmusculus       Glires  cerebral_ctx     NA
-    ## 90               Musmusculus,n=4       Glires      olf_bulb     NA
+    ## 90                   Musmusculus       Glires      olf_bulb     NA
     ## 91          Oryctolaguscuniculus       Glires    cerebellum     NA
     ## 92          Oryctolaguscuniculus       Glires rest_of_brain     NA
     ## 93          Oryctolaguscuniculus       Glires  cerebral_ctx     NA
-    ## 94      Oryctolaguscuniculus,n=1       Glires      olf_bulb     NA
+    ## 94          Oryctolaguscuniculus       Glires      olf_bulb     NA
     ## 95              Otolemurgarnetti      Primata    cerebellum     NA
     ## 96              Otolemurgarnetti      Primata rest_of_brain     NA
     ## 97              Otolemurgarnetti      Primata  cerebral_ctx     NA
-    ## 98         Otolemurgarnetti,n=11      Primata      olf_bulb     NA
+    ## 98              Otolemurgarnetti      Primata      olf_bulb     NA
     ## 99       Papioanubiscynocephalus      Primata    cerebellum     NA
     ## 100      Papioanubiscynocephalus      Primata rest_of_brain     NA
     ## 101      Papioanubiscynocephalus      Primata  cerebral_ctx     NA
     ## 102           Parascalopsbreweri Eulipotyphla    cerebellum     NA
     ## 103           Parascalopsbreweri Eulipotyphla rest_of_brain     NA
     ## 104           Parascalopsbreweri Eulipotyphla  cerebral_ctx     NA
-    ## 105       Parascalopsbreweri,n=3 Eulipotyphla      olf_bulb     NA
+    ## 105           Parascalopsbreweri Eulipotyphla      olf_bulb     NA
     ## 106     Petrodromustetradactylus   Afrotheria    cerebellum     NA
     ## 107     Petrodromustetradactylus   Afrotheria rest_of_brain     NA
     ## 108     Petrodromustetradactylus   Afrotheria  cerebral_ctx     NA
@@ -142,27 +151,27 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 119             Rattusnorvegicus       Glires    cerebellum     NA
     ## 120             Rattusnorvegicus       Glires rest_of_brain     NA
     ## 121             Rattusnorvegicus       Glires  cerebral_ctx     NA
-    ## 122         Rattusnorvegicus,n=5       Glires      olf_bulb     NA
+    ## 122             Rattusnorvegicus       Glires      olf_bulb     NA
     ## 123              Saimirisciureus      Primata    cerebellum     NA
     ## 124              Saimirisciureus      Primata rest_of_brain     NA
     ## 125              Saimirisciureus      Primata  cerebral_ctx     NA
     ## 126            Scalopusaquaticus Eulipotyphla    cerebellum     NA
     ## 127            Scalopusaquaticus Eulipotyphla rest_of_brain     NA
     ## 128            Scalopusaquaticus Eulipotyphla  cerebral_ctx     NA
-    ## 129        Scalopusaquaticus,n=3 Eulipotyphla      olf_bulb     NA
+    ## 129            Scalopusaquaticus Eulipotyphla      olf_bulb     NA
     ## 130          Sciuruscarolinensis       Glires    cerebellum     NA
     ## 131          Sciuruscarolinensis       Glires rest_of_brain     NA
     ## 132          Sciuruscarolinensis       Glires  cerebral_ctx     NA
-    ## 133      Sciuruscarolinensis,n=9       Glires      olf_bulb     NA
-    ## 134              Sorexfumeus,n=3 Eulipotyphla      olf_bulb     NA
+    ## 133          Sciuruscarolinensis       Glires      olf_bulb     NA
+    ## 134                         <NA> Eulipotyphla      olf_bulb     NA
     ## 135          Susscrofadomesticus Artiodactyla    cerebellum     NA
     ## 136          Susscrofadomesticus Artiodactyla rest_of_brain     NA
     ## 137          Susscrofadomesticus Artiodactyla  cerebral_ctx     NA
-    ## 138      Susscrofadomesticus,n=1 Artiodactyla      olf_bulb     NA
+    ## 138          Susscrofadomesticus Artiodactyla      olf_bulb     NA
     ## 139        Tragelaphusstripceros Artiodactyla    cerebellum     NA
     ## 140        Tragelaphusstripceros Artiodactyla rest_of_brain     NA
     ## 141        Tragelaphusstripceros Artiodactyla  cerebral_ctx     NA
-    ## 142    Tragelaphusstripceros,n=1 Artiodactyla      olf_bulb     NA
+    ## 142        Tragelaphusstripceros Artiodactyla      olf_bulb     NA
     ## 143                   Tupaiaglis   Scandentia    cerebellum     NA
     ## 144                   Tupaiaglis   Scandentia rest_of_brain     NA
     ## 145                   Tupaiaglis   Scandentia  cerebral_ctx     NA
@@ -511,15 +520,15 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 46            Elephantulusmyurus   Afrotheria rest_of_brain      2
     ## 47            Elephantulusmyurus   Afrotheria  cerebral_ctx      2
     ## 48            Elephantulusmyurus   Afrotheria      olf_bulb      2
-    ## 49      Giraffacamelopardalensis Artiodactyla    cerebellum     NA
-    ## 50      Giraffacamelopardalensis Artiodactyla rest_of_brain     NA
-    ## 51      Giraffacamelopardalensis Artiodactyla  cerebral_ctx     NA
-    ## 52  Giraffacamelopardalensis,n=1 Artiodactyla      olf_bulb     NA
+    ## 49      Giraffacamelopardalensis Artiodactyla    cerebellum      1
+    ## 50      Giraffacamelopardalensis Artiodactyla rest_of_brain      1
+    ## 51      Giraffacamelopardalensis Artiodactyla  cerebral_ctx      1
+    ## 52      Giraffacamelopardalensis Artiodactyla      olf_bulb      1
     ## 53                Gorillagorilla      Primata    cerebellum     NA
-    ## 54          Heterocephalusglaber       Glires    cerebellum     NA
-    ## 55          Heterocephalusglaber       Glires rest_of_brain     NA
-    ## 56          Heterocephalusglaber       Glires  cerebral_ctx     NA
-    ## 57      Heterocephalusglaber,n=3       Glires      olf_bulb     NA
+    ## 54          Heterocephalusglaber       Glires    cerebellum      3
+    ## 55          Heterocephalusglaber       Glires rest_of_brain      3
+    ## 56          Heterocephalusglaber       Glires  cerebral_ctx      3
+    ## 57          Heterocephalusglaber       Glires      olf_bulb      3
     ## 58                   Homosapiens      Primata rest_of_brain     NA
     ## 59                   Homosapiens      Primata    cerebellum     NA
     ## 60                   Homosapiens      Primata  cerebral_ctx     NA
@@ -527,10 +536,10 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 62      Hydrochoerushydrochaeris       Glires rest_of_brain     NA
     ## 63      Hydrochoerushydrochaeris       Glires  cerebral_ctx     NA
     ## 64  Hydrochoerushydrochaeris,n=2       Glires      olf_bulb     NA
-    ## 65             Loxodontaafricana   Afrotheria rest_of_brain     NA
-    ## 66             Loxodontaafricana   Afrotheria    cerebellum     NA
-    ## 67             Loxodontaafricana   Afrotheria  cerebral_ctx     NA
-    ## 68         Loxodontaafricana,n=1   Afrotheria      olf_bulb     NA
+    ## 65             Loxodontaafricana   Afrotheria rest_of_brain      1
+    ## 66             Loxodontaafricana   Afrotheria    cerebellum      1
+    ## 67             Loxodontaafricana   Afrotheria  cerebral_ctx      1
+    ## 68             Loxodontaafricana   Afrotheria      olf_bulb      1
     ## 69            Macacafascicularis      Primata rest_of_brain     NA
     ## 70            Macacafascicularis      Primata    cerebellum     NA
     ## 71            Macacafascicularis      Primata  cerebral_ctx     NA
@@ -541,33 +550,33 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 76                 Macacaradiata      Primata    cerebellum     NA
     ## 77                 Macacaradiata      Primata rest_of_brain     NA
     ## 78                 Macacaradiata      Primata  cerebral_ctx     NA
-    ## 79           Mesocricetusauratus       Glires    cerebellum     NA
-    ## 80           Mesocricetusauratus       Glires rest_of_brain     NA
-    ## 81           Mesocricetusauratus       Glires  cerebral_ctx     NA
-    ## 82       Mesocricetusauratus,n=2       Glires      olf_bulb     NA
+    ## 79           Mesocricetusauratus       Glires    cerebellum      2
+    ## 80           Mesocricetusauratus       Glires rest_of_brain      2
+    ## 81           Mesocricetusauratus       Glires  cerebral_ctx      2
+    ## 82           Mesocricetusauratus       Glires      olf_bulb      2
     ## 83             Microcebusmurinus      Primata    cerebellum     NA
     ## 84             Microcebusmurinus      Primata rest_of_brain     NA
     ## 85             Microcebusmurinus      Primata  cerebral_ctx     NA
     ## 86         Microcebusmurinus,n=2      Primata      olf_bulb     NA
-    ## 87                   Musmusculus       Glires    cerebellum     NA
-    ## 88                   Musmusculus       Glires rest_of_brain     NA
-    ## 89                   Musmusculus       Glires  cerebral_ctx     NA
-    ## 90               Musmusculus,n=4       Glires      olf_bulb     NA
+    ## 87                   Musmusculus       Glires    cerebellum      4
+    ## 88                   Musmusculus       Glires rest_of_brain      4
+    ## 89                   Musmusculus       Glires  cerebral_ctx      4
+    ## 90                   Musmusculus       Glires      olf_bulb      4
     ## 91          Oryctolaguscuniculus       Glires    cerebellum     NA
     ## 92          Oryctolaguscuniculus       Glires rest_of_brain     NA
     ## 93          Oryctolaguscuniculus       Glires  cerebral_ctx     NA
-    ## 94      Oryctolaguscuniculus,n=1       Glires      olf_bulb     NA
-    ## 95              Otolemurgarnetti      Primata    cerebellum     NA
-    ## 96              Otolemurgarnetti      Primata rest_of_brain     NA
-    ## 97              Otolemurgarnetti      Primata  cerebral_ctx     NA
-    ## 98         Otolemurgarnetti,n=11      Primata      olf_bulb     NA
+    ## 94          Oryctolaguscuniculus       Glires      olf_bulb     NA
+    ## 95              Otolemurgarnetti      Primata    cerebellum     11
+    ## 96              Otolemurgarnetti      Primata rest_of_brain     11
+    ## 97              Otolemurgarnetti      Primata  cerebral_ctx     11
+    ## 98              Otolemurgarnetti      Primata      olf_bulb     11
     ## 99       Papioanubiscynocephalus      Primata    cerebellum     NA
     ## 100      Papioanubiscynocephalus      Primata rest_of_brain     NA
     ## 101      Papioanubiscynocephalus      Primata  cerebral_ctx     NA
-    ## 102           Parascalopsbreweri Eulipotyphla    cerebellum     NA
-    ## 103           Parascalopsbreweri Eulipotyphla rest_of_brain     NA
-    ## 104           Parascalopsbreweri Eulipotyphla  cerebral_ctx     NA
-    ## 105       Parascalopsbreweri,n=3 Eulipotyphla      olf_bulb     NA
+    ## 102           Parascalopsbreweri Eulipotyphla    cerebellum      3
+    ## 103           Parascalopsbreweri Eulipotyphla rest_of_brain      3
+    ## 104           Parascalopsbreweri Eulipotyphla  cerebral_ctx      3
+    ## 105           Parascalopsbreweri Eulipotyphla      olf_bulb      3
     ## 106     Petrodromustetradactylus   Afrotheria    cerebellum     NA
     ## 107     Petrodromustetradactylus   Afrotheria rest_of_brain      2
     ## 108     Petrodromustetradactylus   Afrotheria  cerebral_ctx      2
@@ -581,30 +590,30 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 116        Proechimyscayennensis       Glires rest_of_brain     NA
     ## 117        Proechimyscayennensis       Glires  cerebral_ctx     NA
     ## 118    Proechimyscayennensis,n=1       Glires      olf_bulb     NA
-    ## 119             Rattusnorvegicus       Glires    cerebellum     NA
-    ## 120             Rattusnorvegicus       Glires rest_of_brain     NA
-    ## 121             Rattusnorvegicus       Glires  cerebral_ctx     NA
-    ## 122         Rattusnorvegicus,n=5       Glires      olf_bulb     NA
+    ## 119             Rattusnorvegicus       Glires    cerebellum      5
+    ## 120             Rattusnorvegicus       Glires rest_of_brain      5
+    ## 121             Rattusnorvegicus       Glires  cerebral_ctx      5
+    ## 122             Rattusnorvegicus       Glires      olf_bulb      5
     ## 123              Saimirisciureus      Primata    cerebellum     NA
     ## 124              Saimirisciureus      Primata rest_of_brain     NA
     ## 125              Saimirisciureus      Primata  cerebral_ctx     NA
-    ## 126            Scalopusaquaticus Eulipotyphla    cerebellum     NA
-    ## 127            Scalopusaquaticus Eulipotyphla rest_of_brain     NA
-    ## 128            Scalopusaquaticus Eulipotyphla  cerebral_ctx     NA
-    ## 129        Scalopusaquaticus,n=3 Eulipotyphla      olf_bulb     NA
-    ## 130          Sciuruscarolinensis       Glires    cerebellum     NA
-    ## 131          Sciuruscarolinensis       Glires rest_of_brain     NA
-    ## 132          Sciuruscarolinensis       Glires  cerebral_ctx     NA
-    ## 133      Sciuruscarolinensis,n=9       Glires      olf_bulb     NA
-    ## 134              Sorexfumeus,n=3 Eulipotyphla      olf_bulb     NA
-    ## 135          Susscrofadomesticus Artiodactyla    cerebellum     NA
-    ## 136          Susscrofadomesticus Artiodactyla rest_of_brain     NA
-    ## 137          Susscrofadomesticus Artiodactyla  cerebral_ctx     NA
-    ## 138      Susscrofadomesticus,n=1 Artiodactyla      olf_bulb     NA
-    ## 139        Tragelaphusstripceros Artiodactyla    cerebellum     NA
-    ## 140        Tragelaphusstripceros Artiodactyla rest_of_brain     NA
-    ## 141        Tragelaphusstripceros Artiodactyla  cerebral_ctx     NA
-    ## 142    Tragelaphusstripceros,n=1 Artiodactyla      olf_bulb     NA
+    ## 126            Scalopusaquaticus Eulipotyphla    cerebellum      3
+    ## 127            Scalopusaquaticus Eulipotyphla rest_of_brain      3
+    ## 128            Scalopusaquaticus Eulipotyphla  cerebral_ctx      3
+    ## 129            Scalopusaquaticus Eulipotyphla      olf_bulb      3
+    ## 130          Sciuruscarolinensis       Glires    cerebellum      9
+    ## 131          Sciuruscarolinensis       Glires rest_of_brain      9
+    ## 132          Sciuruscarolinensis       Glires  cerebral_ctx      9
+    ## 133          Sciuruscarolinensis       Glires      olf_bulb      9
+    ## 134                         <NA> Eulipotyphla      olf_bulb      3
+    ## 135          Susscrofadomesticus Artiodactyla    cerebellum      1
+    ## 136          Susscrofadomesticus Artiodactyla rest_of_brain      1
+    ## 137          Susscrofadomesticus Artiodactyla  cerebral_ctx      1
+    ## 138          Susscrofadomesticus Artiodactyla      olf_bulb      1
+    ## 139        Tragelaphusstripceros Artiodactyla    cerebellum      1
+    ## 140        Tragelaphusstripceros Artiodactyla rest_of_brain      1
+    ## 141        Tragelaphusstripceros Artiodactyla  cerebral_ctx      1
+    ## 142        Tragelaphusstripceros Artiodactyla      olf_bulb      1
     ## 143                   Tupaiaglis   Scandentia    cerebellum     NA
     ## 144                   Tupaiaglis   Scandentia rest_of_brain     NA
     ## 145                   Tupaiaglis   Scandentia  cerebral_ctx     NA

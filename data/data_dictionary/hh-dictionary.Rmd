@@ -29,7 +29,11 @@ hh <- read.csv("../cleaned/herculano-houtzel-all.csv")
 - Rest of the Brain:
     - Brainstem, diencephelon, and striatum
     
+----------------------------------------------------------------------
 
+Most of the brain area measurements were performed from only one hemisphere. It was then multiplied by 2 to use as the final data.
+
+----------------------------------------------------------------------
 
 ##Number of animals (Num_an) used for counting the neuronal numbers in each species
 
@@ -58,9 +62,26 @@ hh[15,1] = "Blarinabrevicauda"
 hh[24,1] = "Caviaporcellus"
 hh[31,1] = "Condyluracristata"
 # hh[41,1] = "Dasyproctaprimnolopha"
-# hh[15,1] = "Blarinabrevicauda"
-# hh[15,1] = "Blarinabrevicauda"
-
+hh[52,1] = "Giraffacamelopardalensis"
+hh[57,1] = "Heterocephalusglaber"
+hh[68,1] = "Loxodontaafricana"
+# hh[75,1] = "Macacamulatta"
+hh[82,1] = "Mesocricetusauratus"
+# hh[86,1] = "Microcebusmurinus"
+hh[90,1] = "Musmusculus"
+hh[94,1] = "Oryctolaguscuniculus"
+hh[98,1] = "Otolemurgarnetti"
+hh[105,1] = "Parascalopsbreweri"
+# hh[109,1] = "Petrodromustetradactylus"
+# hh[114,1] = "Procaviacapensis"
+# hh[118,1] = "Proechimyscayennensis"
+hh[122,1] = "Rattusnorvegicus"
+hh[129,1] = "Scalopusaquaticus"
+hh[133,1] = "Sciuruscarolinensis"
+hh[134,1] = "Sorexfumeus"
+hh[138,1] = "Susscrofadomesticus"
+hh[142,1] = "Tragelaphusstripceros"
+# hh[146,1] = "Tupaiaglis"
 
 write_csv(hh, path="hh-dict.csv")
 hh <- read.csv("hh-dict.csv")
@@ -101,6 +122,55 @@ hh[28,4] = 4
 hh[29,4] = 4
 hh[30,4] = 4
 hh[31,4] = 4
+hh[49,4] = 1
+hh[50,4] = 1
+hh[51,4] = 1
+hh[52,4] = 1
+hh[54,4] = 3
+hh[55,4] = 3
+hh[56,4] = 3
+hh[57,4] = 3
+hh[65,4] = 1
+hh[66,4] = 1
+hh[67,4] = 1
+hh[68,4] = 1
+hh[79,4] = 2
+hh[80,4] = 2
+hh[81,4] = 2
+hh[82,4] = 2
+hh[87,4] = 4
+hh[88,4] = 4
+hh[89,4] = 4
+hh[90,4] = 4
+hh[95,4] = 11
+hh[96,4] = 11
+hh[97,4] = 11
+hh[98,4] = 11
+hh[102,4] = 3
+hh[103,4] = 3
+hh[104,4] = 3
+hh[105,4] = 3
+hh[119,4] = 5
+hh[120,4] = 5
+hh[121,4] = 5
+hh[122,4] = 5
+hh[126,4] = 3
+hh[127,4] = 3
+hh[128,4] = 3
+hh[129,4] = 3
+hh[130,4] = 9
+hh[131,4] = 9
+hh[132,4] = 9
+hh[133,4] = 9
+hh[134,4] = 3
+hh[135,4] = 1
+hh[136,4] = 1
+hh[137,4] = 1
+hh[138,4] = 1
+hh[139,4] = 1
+hh[140,4] = 1
+hh[141,4] = 1
+hh[142,4] = 1
 
 
 hh
