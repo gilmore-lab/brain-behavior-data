@@ -26,9 +26,6 @@ Most of the brain area measurements were performed from only one hemisphere. It 
 Number of animals (Num\_an) used for counting the neuronal numbers in each species
 ----------------------------------------------------------------------------------
 
-    ## Warning in `[<-.factor`(`*tmp*`, iseq, value = "Sorexfumeus"): invalid
-    ## factor level, NA generated
-
     ##                          Species        Order    Brain_area Num_an
     ## 1          Amblysomushottentotus   Afrotheria    cerebellum     NA
     ## 2          Amblysomushottentotus   Afrotheria rest_of_brain     NA
@@ -163,7 +160,7 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 131          Sciuruscarolinensis       Glires rest_of_brain     NA
     ## 132          Sciuruscarolinensis       Glires  cerebral_ctx     NA
     ## 133          Sciuruscarolinensis       Glires      olf_bulb     NA
-    ## 134                         <NA> Eulipotyphla      olf_bulb     NA
+    ## 134              Sorexfumeus,n=3 Eulipotyphla      olf_bulb     NA
     ## 135          Susscrofadomesticus Artiodactyla    cerebellum     NA
     ## 136          Susscrofadomesticus Artiodactyla rest_of_brain     NA
     ## 137          Susscrofadomesticus Artiodactyla  cerebral_ctx     NA
@@ -605,7 +602,7 @@ Number of animals (Num\_an) used for counting the neuronal numbers in each speci
     ## 131          Sciuruscarolinensis       Glires rest_of_brain      9
     ## 132          Sciuruscarolinensis       Glires  cerebral_ctx      9
     ## 133          Sciuruscarolinensis       Glires      olf_bulb      9
-    ## 134                         <NA> Eulipotyphla      olf_bulb      3
+    ## 134              Sorexfumeus,n=3 Eulipotyphla      olf_bulb      3
     ## 135          Susscrofadomesticus Artiodactyla    cerebellum      1
     ## 136          Susscrofadomesticus Artiodactyla rest_of_brain      1
     ## 137          Susscrofadomesticus Artiodactyla  cerebral_ctx      1

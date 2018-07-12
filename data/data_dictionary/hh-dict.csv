@@ -132,7 +132,7 @@ Sciuruscarolinensis,Glires,cerebellum,9,"Herculano-Houzeletal.,2011",0.069,"71,1
 Sciuruscarolinensis,Glires,rest_of_brain,9,"Herculano-Houzeletal.,2011",0.156,"17,128,790","3,415,060","9,989","7,808",NA
 Sciuruscarolinensis,Glires,cerebral_ctx,9,"Herculano-Houzeletal.,2011",0.178,"2,634,444","13,003,170","1,487","3,859",0.076
 Sciuruscarolinensis,Glires,olf_bulb,9,"Herculano-Houzeletal.,2011",0.022,"7,903,412","12,812,316","38,236","58,050",0.776
-NA,Eulipotyphla,olf_bulb,3,"Sarkoetal.,2009",0.002,"1,050,000","130,000","124,350","44,620",214
+"Sorexfumeus,n=3",Eulipotyphla,olf_bulb,3,"Sarkoetal.,2009",0.002,"1,050,000","130,000","124,350","44,620",214
 Susscrofadomesticus,Artiodactyla,cerebellum,1,"Kazuetal.,2014",NA,NA,NA,NA,NA,NA
 Susscrofadomesticus,Artiodactyla,rest_of_brain,1,"Kazuetal.,2014",NA,NA,NA,NA,NA,NA
 Susscrofadomesticus,Artiodactyla,cerebral_ctx,1,"Kazuetal.,2014",NA,NA,NA,NA,NA,NA

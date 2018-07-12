@@ -7,6 +7,7 @@ output: github_document
 ```{r LoadFile, include=FALSE}
 
 library("readr")
+library("tidyverse")
 
 hh <- read.csv("../cleaned/herculano-houtzel-all.csv")
 ```
@@ -51,6 +52,9 @@ hh <- hh[c(1,2,16,17,15,4,6,8,10,12,14)]
 
 ```{r Change_Species_Name, echo=FALSE}
 
+#Define "Species" column as charcter
+# hh$Species <- as.numeric(as.character(hh$Species))
+
 #Arrange animals alphabetically
 hh <- hh[order(hh$Species),]
 
@@ -78,12 +82,12 @@ hh[105,1] = "Parascalopsbreweri"
 hh[122,1] = "Rattusnorvegicus"
 hh[129,1] = "Scalopusaquaticus"
 hh[133,1] = "Sciuruscarolinensis"
-hh[134,1] = "Sorexfumeus"
+# hh[134,1] = "Sorexfumeus"
 hh[138,1] = "Susscrofadomesticus"
 hh[142,1] = "Tragelaphusstripceros"
 # hh[146,1] = "Tupaiaglis"
 
-write_csv(hh, path="hh-dict.csv")
+write_csv(hh, "hh-dict.csv")
 hh <- read.csv("hh-dict.csv")
 hh
 ```
