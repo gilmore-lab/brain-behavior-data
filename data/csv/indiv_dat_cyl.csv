@@ -1,0 +1,440 @@
+Species,Population,Name,Sex,Age,Subject #,Warmups,Test % Correct,1st Half % Correct,2nd Half % Correct
+Aye Aye,Duke Lemur Center,Merlin,M,15.775342465753425,1,5,80,100,60
+Aye Aye,Duke Lemur Center,Caliban,F,15.556164383561644,2,5,60,80,40
+Aye Aye,Duke Lemur Center,Angelique,F,4.6821917808219178,3,5,70,60,80
+Aye Aye,Duke Lemur Center,Lucrezia,F,8.7232876712328764,4,5,80,80,80
+Aye Aye,Duke Lemur Center,Hitchcock,M,5.2219178082191782,5,8,40,40,40
+Aye Aye,Duke Lemur Center,Medea,F,5.6876712328767125,6,4,0,0,0
+Aye Aye,Duke Lemur Center,Ardrey,F,13.978082191780821,7,6,50,20,80
+Aye Aye,Duke Lemur Center,Kali,F,12.27945205479452,8,4,50,20,80
+Aye Aye,Duke Lemur Center,Nosferatu,M,25.13150684931507,9,15,50,20,80
+Aye Aye,Duke Lemur Center,Poe,M,24.147945205479452,10,27,30,20,40
+black lemur,Duke Lemur Center,Barrymore,M,19.827397260273973,1,5,30,20,40
+black lemur,Duke Lemur Center,Lamour,F,17.695890410958903,2,4,80,60,100
+black lemur,Duke Lemur Center,Foster,F,12.093150684931507,3,5,70,80,60
+black lemur,Duke Lemur Center,Olivier,M,16.989041095890411,4,4,50,40,60
+black lemur,Duke Lemur Center,Harlow,F,15.93972602739726,5,5,10,0,20
+black lemur,Duke Lemur Center,Quinn,M,7.1698630136986301,6,4,60,40,80
+black lemur,Duke Lemur Center,Tarantino,M,8.9780821917808211,7,6,50,40,60
+black lemur,Duke Lemur Center,Redford,M,17.246575342465754,8,5,70,60,80
+black lemur,Duke Lemur Center,Teucer,M,20.19178082191781,9,5,20,20,20
+black lemur,Duke Lemur Center,Hesperus,M,25.221917808219178,10,9,70,60,80
+Bonobo,MPI - Leipzig,Luiza,F,5,1,4,100,100,100
+Bonobo,MPI - Leipzig,Joey,M,28,2,4,100,100,100
+Bonobo,MPI - Leipzig,Fimi,F,2,3,4,70,80,60
+Bonobo,MPI - Leipzig,Yasa,F,13,4,4,100,100,100
+Bonobo,MPI - Leipzig,Kuno,M,14,5,4,100,100,100
+Bonobo,MPI - Leipzig,Ulindi,F,17,6,4,100,100,100
+Brown lemur,Duke Lemur Center,Martine,F,22.983561643835618,1,5,30,40,20
+Brown lemur,Duke Lemur Center,Alphonse,M,29.13150684931507,2,6,0,0,0
+Brown lemur,Duke Lemur Center,Jules,M,22.835616438356166,3,10,60,40,80
+Brown lemur,Duke Lemur Center,Francoise,F,24.926027397260274,4,10,50,40,60
+Brown lemur,Duke Lemur Center,Giscard,M,21.958904109589042,5,6,20,0,40
+Brown lemur,Duke Lemur Center,Wizard,F,15.109589041095891,6,16,80,60,100
+Brown lemur,Duke Lemur Center,Geraldine,F,20.964383561643835,7,18,33.33333333333333,20,50
+Brown lemur,Duke Lemur Center,Kish,M,22.887671232876713,8,9,60,20,100
+Brown lemur,Duke Lemur Center,Fiery,M,27.010958904109589,9,9,90,80,100
+Brown lemur,Duke Lemur Center,Frigga,F,25.950684931506849,10,8,10,20,0
+Capuchin,Institute of Cognitive Sciences and Technologies,Carlotta,F,26,1,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Paprica,F,20,2,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Rame,F,22,3,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Roberta,F,23,4,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Robinia,F,16,5,4,80,100,60
+Capuchin,Institute of Cognitive Sciences and Technologies,Saroma,F,8,6,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Virginia,F,10,7,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Cammello,M,31,8,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Pedro,M,8,9,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Robin Hood,M,13,10,4,70,60,80
+Capuchin,Institute of Cognitive Sciences and Technologies,Robot,M,14,11,4,100,100,100
+Capuchin,Institute of Cognitive Sciences and Technologies,Rubens,M,7,12,4,100,100,100
+Capuchin,Yale University,NN,M,16,13,5,100,100,100
+Capuchin,Yale University,AG,M,16,14,4,90,80,100
+Capuchin,Yale University,FL,M,15,15,4,100,100,100
+Capuchin,Yale University,AH,M,5,16,4,100,100,100
+Capuchin,Yale University,JM,F,15,17,4,100,100,100
+Capuchin,Yale University,HG,F,11,18,4,100,100,100
+Capuchin,Yale University,MD,F,10,19,4,100,100,100
+Capuchin,Yale University,HR,F,6,20,4,80,60,100
+Capuchin,Yale University,MP,F,4,21,4,100,100,100
+Capuchin,Yale University,HB,F,3,22,10,90,100,80
+Chimpanzee,MPI - Leipzig,Trudi,F,18,1,4,100,100,100
+Chimpanzee,MPI - Leipzig,Jahaga,F,18,2,4,100,100,100
+Chimpanzee,MPI - Leipzig,Alex,M,10,3,4,100,100,100
+Chimpanzee,MPI - Leipzig,Alexandra,F,11,4,4,100,100,100
+Chimpanzee,MPI - Leipzig,Fifi,F,18,5,4,100,100,100
+Coquerel's sifaka,Duke Lemur Center,Gordian,M,12.353424657534246,1,4,80,60,100
+Coquerel's sifaka,Duke Lemur Center,Anastasia,F,4.3095890410958901,2,4,0,0,0
+Coquerel's sifaka,Duke Lemur Center,Pia,F,9.24931506849315,3,5,0,0,0
+Coquerel's sifaka,Duke Lemur Center,Antonia,F,10.219178082191782,4,10,20,0,40
+Coquerel's sifaka,Duke Lemur Center,Gratian,M,6.1287671232876715,5,4,20,0,40
+Coquerel's sifaka,Duke Lemur Center,Jovian,M,4.1671232876712327,6,4,60,40,80
+Coquerel's sifaka,Duke Lemur Center,Tiberius,M,21.394520547945206,7,5,30,0,60
+Coquerel's sifaka,Duke Lemur Center,Matlida,F,1.7178082191780821,8,9,10,0,20
+Coquerel's sifaka,Duke Lemur Center,Lucius,M,3.4356164383561643,9,4,66.66666666666666,60,75
+Coquerel's sifaka,Duke Lemur Center,Marcus,M,5.5671232876712331,10,5,77.77777777777779,80,75
+Coyote,"Logan Field Station, Utah",3.1,F,3,1,3,100,100,100
+Coyote,"Logan Field Station, Utah",3.2,M,6,2,5,70,80,60
+Coyote,"Logan Field Station, Utah",3.3,F,4,3,3,100,100,100
+Coyote,"Logan Field Station, Utah",4.2,M,3,4,3,100,100,100
+Coyote,"Logan Field Station, Utah",4.3,F,2,5,3,100,100,100
+Coyote,"Logan Field Station, Utah",5.0999999999999996,M,3,6,3,100,100,100
+Coyote,"Logan Field Station, Utah",5.2,F,3,7,3,90,80,100
+Coyote,"Logan Field Station, Utah",5.3,M,6,8,3,100,100,100
+Domestic Dog,Duke,Amber,F,6,1,5,80,60,100
+Domestic Dog,Duke,Aspen,F,2,2,4,100,100,100
+Domestic Dog,Duke,Astro,M,3,3,3,50,100,0
+Domestic Dog,Duke,Bailey,M,7,4,5,70,60,80
+Domestic Dog,Duke,Bender,M,1,5,4,100,100,100
+Domestic Dog,Duke,Bonnie,F,9,6,5,70,60,80
+Domestic Dog,Duke,Bowie,M,5,7,4,100,100,100
+Domestic Dog,Duke,Buffy,F,6,8,6,50,60,40
+Domestic Dog,Duke,Cassie,F,8,9,4,30,0,60
+Domestic Dog,Duke,Cassie(2),F,8,10,5,20,20,20
+Domestic Dog,Duke,Chewie,M,3,11,5,60,40,80
+Domestic Dog,Duke,Chloe,F,1,12,5,90,100,80
+Domestic Dog,Duke,Clara,F,8,13,4,100,100,100
+Domestic Dog,Duke,Cricket,F,3,14,5,80,80,80
+Domestic Dog,Duke,Dakota,F,3,15,4,90,100,80
+Domestic Dog,Duke,Dallas,M,4,16,4,100,100,100
+Domestic Dog,Duke,Dax,M,1,17,8,40,20,60
+Domestic Dog,Duke,Diva,F,9,18,5,80,100,60
+Domestic Dog,Duke,Ela,F,10,19,4,40,60,20
+Domestic Dog,Duke,Ellie,F,2,20,7,100,100,100
+Domestic Dog,Duke,Friday,M,7,21,11,30,20,40
+Domestic Dog,Duke,Gertie,F,5,22,4,100,100,100
+Domestic Dog,Duke,Ginger,F,3,23,5,100,100,100
+Domestic Dog,Duke,Griffin,M,5,24,10,60,60,60
+Domestic Dog,Duke,Gus,M,2,25,7,70,60,80
+Domestic Dog,Duke,Harbor,M,4,26,7,60,60,60
+Domestic Dog,Duke,Jada,F,4,27,7,100,100,100
+Domestic Dog,Duke,Jimmy,M,7,28,4,60,40,80
+Domestic Dog,Duke,Joey,M,7,29,6,90,100,80
+Domestic Dog,Duke,Kali,F,9,30,7,30,40,20
+Domestic Dog,Duke,Lily,F,10,31,6,100,100,100
+Domestic Dog,Duke,Lucky,M,7,32,5,30,20,40
+Domestic Dog,Duke,Ludo,M,2,33,4,90,80,100
+Domestic Dog,Duke,Lula Belle,F,11,34,5,50,80,20
+Domestic Dog,Duke,Mazie,F,7,35,5,100,100,100
+Domestic Dog,Duke,Milo,M,1,36,5,50,40,60
+Domestic Dog,Duke,Morgan,M,11,37,5,90,80,100
+Domestic Dog,Duke,Murphy,M,2,38,4,100,100,100
+Domestic Dog,Duke,Norman,M,4,39,4,90,80,100
+Domestic Dog,Duke,Peanut,F,2,40,4,70,60,80
+Domestic Dog,Duke,Poppy,F,6,41,7,60,40,80
+Domestic Dog,Duke,Rex,M,8,42,5,90,80,100
+Domestic Dog,Duke,Sadie,F,7,43,4,100,100,100
+Domestic Dog,Duke,Sam,M,1,44,6,80,80,80
+Domestic Dog,Duke,Spencer,M,7,45,5,90,80,100
+Domestic Dog,Duke,Spike,M,4,46,4,100,100,100
+Domestic Dog,Duke,Tiger,F,9,47,5,30,40,20
+Domestic Dog,Duke,Turbo,M,2,48,5,60,40,80
+Domestic Dog,Duke,Vespa,F,1,49,4,100,100,100
+Domestic Dog,Duke,Wonton,M,4,50,5,50,60,40
+Domestic Dog,Duke,Zen,M,5,51,5,60,60,60
+Domestic Dog,Duke,Zep,M,5,52,5,100,100,100
+Domestic Dog,Duke,Zephyr,M,3,53,4,100,100,100
+Domestic Dog,Duke,Zoey,F,1,54,4,100,100,100
+Domestic Dog,MPI,Mira,F,5,55,10,100,100,100
+Domestic Dog,MPI,Guenni,M,1,56,4,100,100,100
+Domestic Dog,MPI,Luna,F,7,57,4,100,100,100
+Domestic Dog,MPI,Benji,M,6,58,4,90,80,100
+Domestic Dog,MPI,Migo,M,2,59,5,100,100,100
+Domestic Dog,MPI,Aimee,F,3,60,4,100,100,100
+Domestic Dog,MPI,Sammy,M,8,61,4,90,80,100
+Domestic Dog,MPI,Jazzy,F,3,62,4,100,100,100
+Domestic Dog,MPI,Chiquita,F,2,63,5,100,100,100
+Domestic Dog,MPI,Colin,M,2,64,4,100,100,100
+Domestic Dog,MPI,Judy,F,2,65,4,100,100,100
+Domestic Dog,MPI,Blue,M,3,66,6,100,100,100
+Eurasian jay,University of Cambridge,Quito,M,4,1,4,60,40,80
+Eurasian jay,University of Cambridge,Ohorougu,F,3,2,5,40,60,20
+Eurasian jay,University of Cambridge,Wilson,M,3,3,5,20,20,20
+Eurasian jay,University of Cambridge,Hoy,M,3,4,4,100,100,100
+Eurasian jay,University of Cambridge,Hunter,F,3,5,4,60,60,60
+Eurasian jay,University of Cambridge,Romero,M,3,6,5,70,60,80
+Fox squirrel,UC Berkeley,Cal,F,Unkown,1,7,90,100,80
+Fox squirrel,UC Berkeley,Missi,Unkown,Unkown,2,7,50,20,80
+Fox squirrel,UC Berkeley,Tornado,Unkown,Unkown,3,4,70,60,80
+Fox squirrel,UC Berkeley,Dot,F,Unkown,4,9,30,20,40
+Fox squirrel,UC Berkeley,Boomerang,Unkown,Unkown,5,4,80,60,100
+Fox squirrel,UC Berkeley,Jemaine,F,Unkown,6,4,80,80,80
+Fox squirrel,UC Berkeley,Van,U,Unkown,7,5,50,60,40
+Fox squirrel,UC Berkeley,Nemo,F,Unkown,8,5,80,80,80
+Fox squirrel,UC Berkeley,Picasso,F,Unkown,9,4,90,80,100
+Fox squirrel,UC Berkeley,Grumpy,F,Unkown,10,4,60,40,80
+Fox squirrel,UC Berkeley,Rooster Jr,M,Unkown,11,4,100,100,100
+Fox squirrel,UC Berkeley,Rooster,M,Unkown,12,10,40,60,20
+Fox squirrel,UC Berkeley,Slow Eater,U,Unkown,13,5,50,60,40
+Golden Monkey,Beijing Wildlife Park,Lao er,M,21,1,4,40,40,40
+Golden Monkey,Beijing Wildlife Park,Xiao Zai,F,3,2,4,10,0,20
+Golden Monkey,Beijing Wildlife Park,Xiao Hai,M,20,3,7,0,0,0
+Golden Monkey,Beijing Wildlife Park,Wu Mei,F,8,4,9,80,60,100
+Golden Monkey,Beijing Wildlife Park,Tao Tao,F,4,5,4,40,20,60
+Golden Monkey,Beijing Wildlife Park,Liu Mei,F,7,6,4,60,20,100
+Golden Monkey,Beijing Wildlife Park,Jian Jian,M,16,7,8,50,60,40
+Golden Monkey,Beijing Wildlife Park,Xiao Mei,F,17,8,5,0,0,0
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg25,M,12,1,4,30,0,60
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cgBIG,M,5,2,4,100,100,100
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg33,F,5,3,4,100,100,100
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cgRT,F,3,4,4,10,20,0
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg40,F,5,5,4,90,80,100
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg03,F,5,6,4,80,100,60
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg02,F,5,7,4,70,60,80
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg28,F,7,8,4,50,20,80
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg43,M,10,9,4,70,40,100
+Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,cg13,F,5,10,4,30,20,40
+Gorilla,MPI - Leipzig,Viringika,F,16,1,4,100,100,100
+Gorilla,MPI - Leipzig,Kibara,F,7,2,4,100,100,100
+Gorilla,MPI - Leipzig,Louna,F,4,3,4,80,100,60
+Gorilla,National Zoo,Kwame,M,10,4,5,100,100,100
+Gorilla,National Zoo,Haloko,F,42,5,4,90,80,100
+Gorilla,National Zoo,Mandara,F,28,6,5,90,100,80
+Gorilla,National Zoo,Kojo,M,8,7,4,90,100,80
+Gorilla,National Zoo,Baraka,M,17,8,5,100,100,100
+Gorilla,National Zoo,Kigali,F,15,9,4,100,100,100
+Gray wolf,Wolf Science Center,Kaspar,M,2.6767123287671235,1,4,90,100,80
+Gray wolf,Wolf Science Center,Apache,M,2.2575342465753425,2,4,70,60,80
+Gray wolf,Wolf Science Center,Cherokee,M,1.6767123287671233,3,4,90,80,100
+Gray wolf,Wolf Science Center,Shima,F,2.6767123287671235,4,4,90,80,100
+Gray wolf,Wolf Science Center,Nanuk,M,1.6767123287671233,5,4,100,100,100
+Gray wolf,Wolf Science Center,Tatonga,F,1.6767123287671233,6,6,50,0,100
+Gray wolf,Wolf Science Center,Geronimo,M,1.6767123287671233,7,8,20,20,20
+Gray wolf,Wolf Science Center,Yukon,F,1.6767123287671233,8,4,70,60,80
+Gray wolf,Wolf Science Center,Wapi,M,0.73424657534246573,9,14,80,80,80
+Gray wolf,Wolf Science Center,Kenai,M,0.31506849315068491,10,4,100,100,100
+Gray wolf,Wolf Science Center,Aragorn,M,2.6767123287671235,11,4,90,100,80
+Hamadryus baboon,North Carolina Zoo,Tchabu,M,5,1,5,100,100,100
+Hamadryus baboon,North Carolina Zoo,Cairo,M,5,2,4,90,80,100
+Hamadryus baboon,North Carolina Zoo,Geb,M,6,3,5,60,20,100
+Hamadryus baboon,North Carolina Zoo,Matilda,F,20,4,6,0,0,0
+Hamadryus baboon,North Carolina Zoo,Mendi,F,12,5,4,50,20,80
+Hamadryus baboon,North Carolina Zoo,Gondar,M,12,6,6,100,100,100
+Hamadryus baboon,North Carolina Zoo,Tukio,M,5,7,7,90,100,80
+Hamadryus baboon,North Carolina Zoo,Marta,F,23,8,5,20,0,40
+Hamadryus baboon,North Carolina Zoo,Riya,F,7,9,4,100,100,100
+Marmoset,University of Zurich,Juniper,M,12,1,10,11.11111111111111,0,25
+Marmoset,University of Zurich,Kapi,M,7,2,4,30,20,40
+Marmoset,University of Zurich,Kantor,M,6,3,4,60,80,40
+Marmoset,University of Zurich,Kaliper,M,8,4,5,0,0,0
+Marmoset,University of Zurich,Kalium,F,12,5,5,20,0,40
+Marmoset,University of Zurich,Venus,F,5,6,4,40,60,20
+Marmoset,University of Zurich,Venezia,F,4,7,4,50,40,60
+Marmoset,University of Zurich,Vesta,F,8,8,11,30,0,60
+Marmoset,University of Zurich,Verona,F,8,9,4,90,80,100
+Marmoset,University of Zurich,Vreni,F,8,10,4,20,0,40
+Marmoset,University of Zurich,Juri,M,9,11,4,0,0,0
+Mongolian gerbil,UC Berkeley,Dva,F,1.5,1,5,50,40,60
+Mongolian gerbil,UC Berkeley,Adlin,M,1.5,2,4,60,60,60
+Mongolian gerbil,UC Berkeley,Tri,M,1.5,3,4,50,40,60
+Mongolian gerbil,UC Berkeley,Chetryi,F,1.5,4,15,60,40,80
+Mongolian gerbil,UC Berkeley,Alti,F,0.5,5,5,80,100,60
+Mongolian gerbil,UC Berkeley,Ooch,M,0.5,6,5,70,80,60
+Mongolian gerbil,UC Berkeley,Besh,M,0.5,7,5,90,100,80
+Mongolian gerbil,UC Berkeley,Ni,F,0.5,8,4,90,80,100
+Mongolian gerbil,UC Berkeley,Roku,F,0.5,9,5,77.77777777777779,60,100
+Mongolian gerbil,UC Berkeley,Vente,F,0.5,10,4,70,40,100
+Mongolian gerbil,UC Berkeley,Sekkiz,F,0.5,11,10,60,60,60
+Mongoose lemur,Duke Lemur Center,Concepcion,F,23.336986301369862,1,10,30,0,60
+Mongoose lemur,Duke Lemur Center,Moheli,F,20.802739726027397,2,4,30,0,60
+Mongoose lemur,Duke Lemur Center,Eduardo,M,14.926027397260274,3,4,40,20,60
+Mongoose lemur,Duke Lemur Center,Paco,M,10.813698630136987,4,4,90,80,100
+Mongoose lemur,Duke Lemur Center,Mercedes,M,4.0575342465753428,5,4,70,60,80
+Mongoose lemur,Duke Lemur Center,Piedad,F,21.849315068493151,6,4,70,80,60
+Mongoose lemur,Duke Lemur Center,Julio,M,19.268493150684932,7,4,70,60,80
+Mongoose lemur,Duke Lemur Center,Maddie,F,3.2876712328767121,8,5,100,100,100
+Mongoose lemur,Duke Lemur Center,Sancho,M,26.712328767123289,9,5,50,40,60
+Mongoose lemur,Duke Lemur Center,Flor,F,23.065753424657533,10,6,40,0,80
+Olive baboon,Seneca Park Zoo,Jefferson,M,4,1,4,70,60,80
+Olive baboon,Seneca Park Zoo,Kalamata,M,3,2,5,90,100,80
+Olive baboon,Seneca Park Zoo,Mansino,M,6,3,10,70,80,60
+Olive baboon,Seneca Park Zoo,Olive Oil,F,4,4,4,80,80,80
+Olive baboon,Seneca Park Zoo,Pearl,F,3,5,5,70,40,100
+Olive baboon,Seneca Park Zoo,Pepperella,F,17,6,6,80,100,60
+Olive baboon,Seneca Park Zoo,Sabina,F,4,7,5,60,80,40
+Olive baboon,Seneca Park Zoo,Ursula,F,13,8,4,90,80,100
+Orange-winged Amazon,University of St. Andrews,BUR - Benny,M,ADULT,1,4,40,20,60
+Orange-winged Amazon,University of St. Andrews,RR- Stumpy,M,ADULT,2,4,50,60,40
+Orange-winged Amazon,University of St. Andrews,PUR - Pete,M,ADULT,3,4,50,60,40
+Orange-winged Amazon,University of St. Andrews,PIR - Bo,M,ADULT,4,5,40,60,20
+Orange-winged Amazon,University of St. Andrews,BUL -Tulip,F,ADULT,5,9,40,40,40
+Orange-winged Amazon,University of St. Andrews,GDL - Ricky,M,ADULT,6,5,50,20,80
+Orange-winged Amazon,University of St. Andrews,OR - Simon,M,ADULT,7,4,40,0,80
+Orange-winged Amazon,University of St. Andrews,OL - Piglet,F,ADULT,8,5,70,80,60
+Orange-winged Amazon,University of St. Andrews,SR - Penny,F,ADULT,9,4,70,80,60
+Orange-winged Amazon,University of St. Andrews,LGR - Belle,F,ADULT,10,5,50,40,60
+Orange-winged Amazon,University of St. Andrews,PIL - Rocky,M,ADULT,11,5,40,0,80
+Orange-winged Amazon,University of St. Andrews,GYLSR _ Freckles,M,ADULT,12,5,70,60,80
+Orangutan,MPI - Leipzig,Kila,F,11,1,4,100,100,100
+Orangutan,MPI - Leipzig,Padana,F,13,2,4,100,100,100
+Orangutan,MPI - Leipzig,Dokana,F,22,3,4,100,100,100
+Orangutan,MPI - Leipzig,Pini,F,23,4,4,100,100,100
+Orangutan,MPI - Leipzig,Raaja,F,7,5,4,100,100,100
+Orangutan,National Zoo,Lucy,F,37,6,7,100,100,100
+Orangutan,National Zoo,Iris,F,23,7,4,100,100,100
+Orangutan,National Zoo,Kiko,M,22,8,4,100,100,100
+Orangutan,National Zoo,Batang,F,13,9,4,100,100,100
+Orangutan,National Zoo,Bonnie,F,33,10,4,100,100,100
+Orangutan,National Zoo,Kyle,M,13,11,5,90,100,80
+Red-bellied lemur,Duke Lemur Center,Hopi,F,19.994520547945207,1,5,80,80,80
+Red-bellied lemur,Duke Lemur Center,Dido,F,26.079452054794519,2,7,80,60,100
+Red-bellied lemur,Duke Lemur Center,Navajo,M,22.164383561643834,3,22,90,80,100
+Red-bellied lemur,Duke Lemur Center,Cheyenne,F,21.887671232876713,4,6,20,0,40
+Red-bellied lemur,Duke Lemur Center,Iroquois,M,17.93972602739726,5,5,50,60,40
+Red-bellied lemur,Duke Lemur Center,Hannibal,M,23.745205479452054,6,20,60,20,100
+Red-bellied lemur,Duke Lemur Center,Fox,F,15.063013698630137,7,11,100,100,100
+Red-bellied lemur,Duke Lemur Center,Mohawk,M,28.161643835616438,8,56,30,20,40
+Rhesus macaque,Duke University,Curry,F,9,1,4,90,80,100
+Rhesus macaque,Duke University,Mikulski,F,14,2,4,90,80,100
+Rhesus macaque,Duke University,Feinstein,F,15,3,4,90,80,100
+Rhesus macaque,Duke University,Bails,F,9,4,4,90,80,100
+Rhesus macaque,Duke University,Schroeder,F,14,5,4,90,80,100
+Rhesus macaque,Duke University,Boxer,F,14,6,4,30,20,40
+Ring-tailed Lemur,Duke Lemur Center,CapnLee,M,8.1589041095890416,1,6,30,40,20
+Ring-tailed Lemur,Duke Lemur Center,Nemo,M,20.895890410958906,2,14,50,40,60
+Ring-tailed Lemur,Duke Lemur Center,Cleonomis,F,20.827397260273973,3,7,40,20,60
+Ring-tailed Lemur,Duke Lemur Center,Tellus,F,4.13972602739726,4,4,90,80,100
+Ring-tailed Lemur,Duke Lemur Center,Ginger,F,2.1671232876712327,5,4,90,80,100
+Ring-tailed Lemur,Duke Lemur Center,Teres,M,13.057534246575342,6,4,100,100,100
+Ring-tailed Lemur,Duke Lemur Center,Nicea,F,5.4356164383561643,7,5,60,60,60
+Ring-tailed Lemur,Duke Lemur Center,Berisades,M,5.4082191780821915,8,7,70,40,100
+Ring-tailed Lemur,Duke Lemur Center,Cleis,F,24.117808219178084,9,5,50,40,60
+Ring-tailed Lemur,Duke Lemur Center,Lilah,F,4.4219178082191783,10,5,80,80,80
+Ring-tailed Lemur,Duke Lemur Center,Ivy,M,3.1013698630136988,11,4,88.88888888888889,80,100
+ruffed lemur,Duke Lemur Center,Alphard,M,18.92876712328767,1,10,80,80,80
+ruffed lemur,Duke Lemur Center,Borealis,M,19.87945205479452,2,5,20,20,20
+ruffed lemur,Duke Lemur Center,Antilia,F,18.934246575342467,3,5,60,60,60
+ruffed lemur,Duke Lemur Center,Carina,F,4.0821917808219181,4,4,100,100,100
+ruffed lemur,Duke Lemur Center,Aries,M,0.87671232876712324,5,5,60,40,80
+ruffed lemur,Duke Lemur Center,Little Dipper,F,5.9068493150684933,6,5,80,80,80
+ruffed lemur,Duke Lemur Center,Junior,M,4.3589041095890408,7,4,80,80,80
+ruffed lemur,Duke Lemur Center,Comet,M,24.043835616438358,8,4,50,40,60
+ruffed lemur,Duke Lemur Center,Grace,F,12.271232876712329,9,4,70,60,80
+ruffed lemur,Duke Lemur Center,Diphda,F,19.17808219178082,10,5,66.66666666666666,60,75
+ruffed lemur,Duke Lemur Center,Hunter,M,11.849315068493151,11,8,100,100,100
+Song sparrow,Duke University,Bk-OR,M,unkown,1,4,10,0,20
+Song sparrow,Duke University,FY-WW,M,unkown,2,4,10,20,0
+Song sparrow,Duke University,G-BkBk,M,unkown,3,4,20,20,20
+Song sparrow,Duke University,G-OO,M,unkown,4,4,20,20,20
+Song sparrow,Duke University,G-PkPk,M,unkown,5,4,20,20,20
+Song sparrow,Duke University,G-WG,M,unkown,6,4,50,20,80
+Song sparrow,Duke University,O-BkBk,M,unkown,7,4,70,60,80
+Song sparrow,Duke University,O-lBl lBl,M,unkown,8,4,50,0,100
+Song sparrow,Duke University,O-PuPu,M,unkown,9,4,0,0,0
+Song sparrow,Duke University,Pu-BkBk,M,unkown,10,4,20,20,20
+Song sparrow,Duke University,Pu-RR,M,unkown,11,4,30,0,60
+Song sparrow,Duke University,R-WdBl,M,unkown,12,4,40,60,20
+Song sparrow,Duke University,W-OW,M,unkown,13,4,0,0,0
+Song sparrow,Duke University,W-PkPk,M,unkown,14,4,10,0,20
+Song sparrow,Duke University,W-PuW,M,unkown,15,4,20,20,20
+Song sparrow,Duke University,W-RW,M,unkown,16,4,20,0,40
+Song sparrow,Duke University,Y-BkBk,M,unkown,17,4,60,60,60
+Song sparrow,Duke University,Y-dBldBl,M,unkown,18,4,40,20,60
+Song sparrow,Duke University,Y-OO,M,unkown,19,4,30,20,40
+Song sparrow,Duke University,Y-RY,M,unkown,20,4,10,0,20
+Squirrel monkey,Kyoto University,Boo,M,18,1,14,20,20,20
+Squirrel monkey,Kyoto University,Coboo,M,17,2,5,10,0,20
+Squirrel monkey,Kyoto University,Gye,F,16,3,9,0,0,0
+Squirrel monkey,Kyoto University,Lucca,F,14,4,14,20,20,20
+Squirrel monkey,Kyoto University,Yaya,F,14,5,7,0,0,0
+Squirrel monkey,Kyoto University,Homer,F,16,6,8,10,0,20
+Squirrel monkey,Kyoto University,Roi,M,9,7,15,0,0,0
+Squirrel monkey,Kyoto University,Kantaro,F,9,8,14,50,20,80
+Squirrel monkey,Kyoto University,Sora,F,4,9,4,0,0,0
+Squirrel monkey,Kyoto University,Sayuri,F,4,10,6,0,0,0
+Squirrel monkey,"Living Links, University of St. Andrews",Rio,M,12,11,4,100,100,100
+Squirrel monkey,"Living Links, University of St. Andrews",Jasmine,F,10,12,4,0,0,0
+Squirrel monkey,"Living Links, University of St. Andrews",Toomi,F,6,13,4,20,20,20
+Squirrel monkey,"Living Links, University of St. Andrews",Sancha,F,3,14,4,40,20,60
+Squirrel monkey,"Living Links, University of St. Andrews",Cali,F,7,15,4,100,100,100
+Squirrel monkey,"Living Links, University of St. Andrews",Elie,F,7,16,4,50,20,80
+Squirrel monkey,"Living Links, University of St. Andrews",Tatu,F,11,17,4,80,80,80
+Squirrel monkey,"Living Links, University of St. Andrews",Roca,F,9,18,4,80,100,60
+Squirrel monkey,"Living Links, University of St. Andrews",Lexi,F,2,19,4,60,80,40
+Swamp sparrow,Duke University,sw644,F,unkown,1,4,0,0,0
+Swamp sparrow,Duke University,sw665,F,unkown,2,4,10,20,0
+Swamp sparrow,Duke University,sw661,F,unkown,3,4,30,0,60
+Swamp sparrow,Duke University,sw662,F,unkown,4,4,10,0,20
+Swamp sparrow,Duke University,sw654,F,unkown,5,4,30,40,20
+Swamp sparrow,Duke University,sw656,F,unkown,6,4,40,40,40
+Swamp sparrow,Duke University,sw640,F,unkown,7,4,0,0,0
+Swamp sparrow,Duke University,sw645,F,unkown,8,4,40,60,20
+Swamp sparrow,Duke University,sw641,F,unkown,9,4,20,0,40
+Swamp sparrow,Duke University,sw652,F,unkown,10,4,10,0,20
+Swamp sparrow,Duke University,sw643,F,unkown,11,4,0,0,0
+Swamp sparrow,Duke University,sw642,F,unkown,12,4,40,40,40
+Swamp sparrow,Duke University,sw655,F,unkown,13,4,60,40,80
+Swamp sparrow,Duke University,sw650,F,unkown,14,4,70,60,80
+Swamp sparrow,Duke University,sw646,F,unkown,15,4,20,20,20
+Swamp sparrow,Duke University,sw657,F,unkown,16,4,0,0,0
+Swamp sparrow,Duke University,sw663,F,unkown,17,4,30,0,60
+Swamp sparrow,Duke University,sw658,F,unkown,18,4,30,20,40
+Swamp sparrow,Duke University,sw666,F,unkown,19,4,20,0,40
+Swamp sparrow,Duke University,sw667,F,unkown,20,4,20,0,40
+Swamp sparrow,Duke University,sw669,F,unkown,21,4,70,60,80
+Swamp sparrow,Duke University,sw668,F,unkown,22,4,10,0,20
+Swamp sparrow,Duke University,sw659,F,unkown,23,4,40,40,40
+Western scrub jay,University of Cambridge,Scrub223,F,4,1,5,70,60,80
+Western scrub jay,University of Cambridge,Scrub224,F,4,2,5,80,100,60
+Western scrub jay,University of Cambridge,Scrub222,M,4,3,5,100,100,100
+Western scrub jay,University of Cambridge,Scrub201,M,4,4,5,60,40,80
+Western scrub jay,University of Cambridge,Scrub203,UNKOWN,4,5,4,60,60,60
+Western scrub jay,University of Cambridge,Scrub229,UNKNOWN,4,6,4,90,80,100
+White Carneau Pigeon,University of Kentucky,10742,11,M,1,4,0,0,0
+White Carneau Pigeon,University of Kentucky,22642,6,M,2,4,20,20,20
+White Carneau Pigeon,University of Kentucky,17878,6,M,3,4,20,20,20
+White Carneau Pigeon,University of Kentucky,19854,6,M,4,4,10,20,0
+White Carneau Pigeon,University of Kentucky,19306,6,M,5,4,20,20,20
+White Carneau Pigeon,University of Kentucky,11746,6,M,6,4,70,100,40
+White Carneau Pigeon,University of Kentucky,19227,6,M,7,4,60,60,60
+White Carneau Pigeon,University of Kentucky,19845,6,M,8,4,60,20,100
+White Carneau Pigeon,University of Kentucky,19824,6,M,9,4,70,40,100
+White Carneau Pigeon,University of Kentucky,19276,6,M,10,4,0,0,0
+White Carneau Pigeon,University of Kentucky,19849,6,M,11,4,40,20,60
+White Carneau Pigeon,University of Kentucky,19338,6,M,12,4,20,20,20
+Zebra Finch,Duke University,zf 105,M,Unknown,1,3,44.44444444444444,60,25
+Zebra Finch,Duke University,zf 104,F,Unknown,2,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 102,M,Unknown,3,3,33.33333333333333,40,25
+Zebra Finch,Duke University,zf 101,M,Unknown,4,4,44.44444444444444,20,75
+Zebra Finch,Duke University,zf 100,M,Unknown,5,3,66.66666666666666,80,50
+Zebra Finch,Duke University,zf 99,M,Unknown,6,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 98,F,Unknown,7,3,33.33333333333333,40,25
+Zebra Finch,Duke University,zf 97,F,Unknown,8,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 96,M,Unknown,9,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 94,M,Unknown,10,3,33.33333333333333,40,25
+Zebra Finch,Duke University,zf 91,M,Unknown,11,3,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 89,F,Unknown,12,3,77.77777777777779,80,75
+Zebra Finch,Duke University,zf 88,F,Unknown,13,3,77.77777777777779,80,75
+Zebra Finch,Duke University,zf 87,F,Unknown,14,3,55.55555555555556,60,50
+Zebra Finch,Duke University,zf 85,M,Unknown,15,3,66.66666666666666,80,50
+Zebra Finch,Duke University,zf 83,M,Unknown,16,5,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 82,F,Unknown,17,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 81,M,Unknown,18,3,33.33333333333333,40,25
+Zebra Finch,Duke University,zf 80,F,Unknown,19,3,44.44444444444444,20,75
+Zebra Finch,Duke University,zf 79,F,Unknown,20,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 75,M,Unknown,21,3,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 73,F,Unknown,22,4,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 71,F,Unknown,23,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 70,M,Unknown,24,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 68,F,Unknown,25,3,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 67,M,Unknown,26,3,55.55555555555556,60,50
+Zebra Finch,Duke University,zf 66,M,Unknown,27,3,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 63,M,Unknown,28,3,33.33333333333333,20,50
+Zebra Finch,Duke University,zf 62,F,Unknown,29,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 61,F,Unknown,30,3,33.33333333333333,20,50
+Zebra Finch,Duke University,zf 58,M,Unknown,31,3,44.44444444444444,20,75
+Zebra Finch,Duke University,zf 56,F,Unknown,32,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 55,F,Unknown,33,3,44.44444444444444,60,25
+Zebra Finch,Duke University,zf 54,F,Unknown,34,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 53,F,Unknown,35,3,55.55555555555556,60,50
+Zebra Finch,Duke University,zf 52,M,Unknown,36,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 51,F,Unknown,37,3,77.77777777777779,80,75
+Zebra Finch,Duke University,zf 50,F,Unknown,38,3,55.55555555555556,40,75
+Zebra Finch,Duke University,zf 49,M,Unknown,39,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf47,M,Unknown,40,3,66.66666666666666,60,75
+Zebra Finch,Duke University,zf 45,F,Unknown,41,3,33.33333333333333,20,50
+Zebra Finch,Duke University,zf 44,F,Unknown,42,3,66.66666666666666,40,100
+Zebra Finch,Duke University,zf 43,M,Unknown,43,3,44.44444444444444,40,50
+Zebra Finch,Duke University,zf 42,F,Unknown,44,3,44.44444444444444,80,0
+Zebra Finch,Duke University,zf 40,F,Unknown,45,3,55.55555555555556,60,50
+Zebra Finch,Duke University,zf 38,M,Unknown,46,3,44.44444444444444,60,25
+Zebra Finch,Duke University,zf 35,M,Unknown,47,3,55.55555555555556,60,50
