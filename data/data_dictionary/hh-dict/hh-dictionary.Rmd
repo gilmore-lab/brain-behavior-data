@@ -74,7 +74,7 @@ hh[82,1] = "Mesocricetusauratus"
 # hh[86,1] = "Microcebusmurinus"
 hh[90,1] = "Musmusculus"
 hh[94,1] = "Oryctolaguscuniculus"
-hh[98,1] = "Otolemurgarnetti"
+# hh[98,1] = "Otolemurgarnetti"
 hh[105,1] = "Parascalopsbreweri"
 # hh[109,1] = "Petrodromustetradactylus"
 # hh[114,1] = "Procaviacapensis"
@@ -146,10 +146,10 @@ hh[87,4] = 4
 hh[88,4] = 4
 hh[89,4] = 4
 hh[90,4] = 4
-hh[95,4] = 11
-hh[96,4] = 11
-hh[97,4] = 11
-hh[98,4] = 11
+# hh[95,4] = 3
+# hh[96,4] = 3
+# hh[97,4] = 3
+# hh[98,4] = 11
 hh[102,4] = 3
 hh[103,4] = 3
 hh[104,4] = 3
@@ -175,6 +175,23 @@ hh[139,4] = 1
 hh[140,4] = 1
 hh[141,4] = 1
 hh[142,4] = 1
+# hh[8,4] = 2
+# hh[9,4] = 2
+# hh[10,4] = 2
+# hh[11,4] = 6
+hh[18,4] = 3
+hh[19,4] = 3
+hh[20,4] = 3
+hh[25,4] = 1
+hh[26,4] = 1
+hh[27,4] = 1
+# hh[72,4] = 2
+# hh[73,4] = 2
+# hh[74,4] = 2
+# hh[123, 4] = 2
+# hh[124, 4] = 2
+# hh[125, 4] = 2
+
 
 
 hh
