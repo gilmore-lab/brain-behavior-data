@@ -1,0 +1,212 @@
+---
+title: "Herculano-Houtzel Data Dictionary"
+output: github_document
+---
+
+
+```{r LoadFile, include=FALSE}
+
+library("readr")
+library("tidyverse")
+
+hh <- read.csv("../cleaned/herculano-houtzel-all.csv")
+```
+
+##Brain_areas
+
+<b><i> Whole brain values provided in the data are a summation of data from cerebral cortex, cerebellum, and rest of the brain because olfactory bulb data was not always available.</b></i>
+
+- Cerebral Cortex:
+    - All structures lateral to the olfactory tract
+    - Includes: Hippocampus and subcortical white matter
+
+- Cerebellum:
+    - Includes: Cerebellar cortex, subcortical white matter, and deep cerebellar nuclei
+  
+- Olfactory Bulb:
+    - Not defined
+    - Not available for all the species
+    
+- Rest of the Brain:
+    - Brainstem, diencephelon, and striatum
+    
+----------------------------------------------------------------------
+
+Most of the brain area measurements were performed from only one hemisphere. It was then multiplied by 2 to use as the final data.
+
+----------------------------------------------------------------------
+
+##Number of animals (Num_an) used for counting the neuronal numbers in each species
+
+
+```{r ChangesInDataframe, echo=FALSE}
+
+
+#Create a new column for number of animals used for each species
+hh$Num_an <- NA
+
+#Reorder the columns and remove all quantitative columns except SD ones
+hh <- hh[c(1,2,16,17,15,4,6,8,10,12,14)]
+
+```
+
+```{r Change_Species_Name, echo=FALSE}
+
+#Define "Species" column as charcter
+# hh$Species <- as.numeric(as.character(hh$Species))
+
+#Arrange animals alphabetically
+hh <- hh[order(hh$Species),]
+
+#Remove "n=" from the species' names
+hh[48,1] = "Elephantulusmyurus"
+hh[7,1] = "Antidorcasmarsupialis"
+# hh[11,1] = "Aotustrivirgatus"
+hh[15,1] = "Blarinabrevicauda"
+hh[24,1] = "Caviaporcellus"
+hh[31,1] = "Condyluracristata"
+# hh[41,1] = "Dasyproctaprimnolopha"
+hh[52,1] = "Giraffacamelopardalensis"
+hh[57,1] = "Heterocephalusglaber"
+hh[68,1] = "Loxodontaafricana"
+# hh[75,1] = "Macacamulatta"
+hh[82,1] = "Mesocricetusauratus"
+# hh[86,1] = "Microcebusmurinus"
+hh[90,1] = "Musmusculus"
+hh[94,1] = "Oryctolaguscuniculus"
+# hh[98,1] = "Otolemurgarnetti"
+hh[105,1] = "Parascalopsbreweri"
+# hh[109,1] = "Petrodromustetradactylus"
+# hh[114,1] = "Procaviacapensis"
+# hh[118,1] = "Proechimyscayennensis"
+hh[122,1] = "Rattusnorvegicus"
+hh[129,1] = "Scalopusaquaticus"
+hh[133,1] = "Sciuruscarolinensis"
+# hh[134,1] = "Sorexfumeus"
+hh[138,1] = "Susscrofadomesticus"
+hh[142,1] = "Tragelaphusstripceros"
+# hh[146,1] = "Tupaiaglis"
+
+write_csv(hh, "hh-dict.csv")
+hh <- read.csv("hh-dict.csv")
+hh
+```
+
+```{r Add_num_of_animals, echo=FALSE}
+
+hh[1,4] = 2
+hh[2,4] = 2
+hh[3,4] = 2
+hh[42,4] = 1
+hh[43,4] = 1
+hh[44,4] = 1
+hh[45,4] = 2
+hh[46,4] = 2
+hh[47,4] = 2
+hh[48,4] = 2
+hh[107,4] = 2
+hh[108,4] = 2
+hh[109,4] = 2
+hh[110,4] = 2
+hh[4,4] = 1
+hh[5,4] = 1
+hh[6,4] = 1
+hh[7,4] = 1
+hh[12,4] = 5
+hh[13,4] = 5
+hh[14,4] = 5
+hh[15,4] = 5
+hh[16,4] = 1
+hh[17,4] = 1
+hh[21,4] = 2
+hh[22,4] = 2
+hh[23,4] = 2
+hh[24,4] = 2
+hh[28,4] = 4
+hh[29,4] = 4
+hh[30,4] = 4
+hh[31,4] = 4
+hh[49,4] = 1
+hh[50,4] = 1
+hh[51,4] = 1
+hh[52,4] = 1
+hh[54,4] = 3
+hh[55,4] = 3
+hh[56,4] = 3
+hh[57,4] = 3
+hh[65,4] = 1
+hh[66,4] = 1
+hh[67,4] = 1
+hh[68,4] = 1
+hh[79,4] = 2
+hh[80,4] = 2
+hh[81,4] = 2
+hh[82,4] = 2
+hh[87,4] = 4
+hh[88,4] = 4
+hh[89,4] = 4
+hh[90,4] = 4
+# hh[95,4] = 3
+# hh[96,4] = 3
+# hh[97,4] = 3
+# hh[98,4] = 11
+hh[102,4] = 3
+hh[103,4] = 3
+hh[104,4] = 3
+hh[105,4] = 3
+hh[119,4] = 5
+hh[120,4] = 5
+hh[121,4] = 5
+hh[122,4] = 5
+hh[126,4] = 3
+hh[127,4] = 3
+hh[128,4] = 3
+hh[129,4] = 3
+hh[130,4] = 9
+hh[131,4] = 9
+hh[132,4] = 9
+hh[133,4] = 9
+hh[134,4] = 3
+hh[135,4] = 1
+hh[136,4] = 1
+hh[137,4] = 1
+hh[138,4] = 1
+hh[139,4] = 1
+hh[140,4] = 1
+hh[141,4] = 1
+hh[142,4] = 1
+# hh[8,4] = 2
+# hh[9,4] = 2
+# hh[10,4] = 2
+# hh[11,4] = 6
+hh[18,4] = 3
+hh[19,4] = 3
+hh[20,4] = 3
+hh[25,4] = 1
+hh[26,4] = 1
+hh[27,4] = 1
+# hh[72,4] = 2
+# hh[73,4] = 2
+# hh[74,4] = 2
+# hh[123, 4] = 2
+# hh[124, 4] = 2
+# hh[125, 4] = 2
+
+
+
+hh
+write_csv(hh, path="hh-dict.csv")
+
+```
+
+
+
+
+| Species Name           | Order           | Number of animals | Brain Areas  |
+|------------------------|-----------------|-------------------|-------------|
+| Amblysomus hottentotus | Afrotheria      | 2                 | Neves et al |
+| Dendrohyrax dorsalis   | Afrotheria      | 1                 | Neves et al |
+| Elephantulus myurus    | Afrotheria      | 2                 | Neves et al |
+| Petrodromus tetradactylus | Afrotheria   | 2                 | Neves et al |
+| Procavia capensis      | Afrotheria      | 2                 | Neves et al |
+| 6                      | Whole brain |

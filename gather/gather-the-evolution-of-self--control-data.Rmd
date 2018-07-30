@@ -102,3 +102,19 @@ write_csv(socioeco_and_perform, path="../data/csv/socioeco_and_perform.csv")
 2. Check if packages installed, if not, install and load.
 3. Parameterize file names.
 
+
+##Update:
+
+New dataset file to identify individual species was obtained from Dr. Evan MacLean.
+
+```{r import_change-indv-dat}
+
+indv_dat_cyl <- read_xlsx("../data/xlsx/individual_data.xlsx", sheet=1)
+indv_dat_AB <- read_xlsx("../data/xlsx/individual_data.xlsx", sheet = 2)
+
+write_csv(indv_dat_cyl, path="../data/csv/indiv_dat_cyl.csv")
+write_csv(indv_dat_AB, path="../data/csv/indiv_dat_AB.csv")
+```
+
+
+
