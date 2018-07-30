@@ -144,8 +144,12 @@ write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
 indv_cyl <- read_csv("../data/csv/indiv_dat_cyl.csv")
 indv_AB <- read_csv("../data/csv/indiv_dat_AB.csv")
 
+
+
+indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `1st Half % Correct`, `2nd Half % Correct`)
+
 indv_cyl
-indv_AB
+
 
 indv_cyl$Species <- sub("black lemur", "Black Lemur", indv_cyl$Species)
 indv_cyl$Species <- sub("Brown lemur", "Brown Lemur", indv_cyl$Species)
