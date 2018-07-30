@@ -1,7 +1,7 @@
 ---
 title: "gather-the-evolution-of-self--control-data"
-author: "Charmi Mehta"
-date: "11/1/2017"
+author: "Charmi Mehta & Rick Gilmore"
+date: "`Sys.time()`"
 output: github_document
 params:
   csv_dir: ../data/csv
@@ -56,7 +56,6 @@ download.file(url8, destfile = "../data/csv/A-not-B.csv")
 download.file(url9, destfile = "../data/csv/Cylinder.csv")
 ```
 
-
 ## Open and make an excel file for the .docx data files
 
 (Do not include the top comments on the .docx files, only copy and paste the tables)
@@ -75,9 +74,6 @@ There should be seven sheets:
 | 6            | Compare diff. pop. same species|
 | 7            | Socioeco and performance|
 
-
-
-
 ```{r}
 anatom_dat <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=1)
 primat_eco_dat <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=2)
@@ -87,7 +83,6 @@ cog_task_avg_score <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-co
 diff_pop_same_species <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=6)
 socioeco_and_perform <- openxlsx::read.xlsx("../data/xlsx/The-evolution-of-self-control.xlsx", sheet=7)
 ```
-
 
 ## Save the excel file as CSV
 
