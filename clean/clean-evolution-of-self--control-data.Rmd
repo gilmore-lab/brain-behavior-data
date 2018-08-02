@@ -144,9 +144,10 @@ write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
 indv_cyl <- read_csv("../data/csv/indiv_dat_cyl.csv")
 indv_AB <- read_csv("../data/csv/indiv_dat_AB.csv")
 
+indv_cyl$n_1st_correct <- (indv_cyl$`1st Half % Correct`/100*5)
+indv_cyl$n_2nd_correct <- (indv_cyl$`2nd Half % Correct`/100*5)
 
-
-indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `1st Half % Correct`, `2nd Half % Correct`)
+indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `n_1st_correct`, `n_2nd_correct`)
 
 indv_cyl
 
