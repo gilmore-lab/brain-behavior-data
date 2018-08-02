@@ -1,20 +1,22 @@
 library(shiny)
 library(ggplot2)
-library(googleVis)
-library(rpart.plot)
-dataset <- read.csv("../data/cleaned/herculano-houtzel-all.csv")
+
+cyl<- read.csv("../data/cleaned/cyl_task.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
    
    # Application title
-   titlePanel("Old Faithful Geyser Data"),
+   titlePanel("MacLean Data"),
    
-   # Sidebar with a slider input for number of bins 
+   # Sidebar with a slider input for number of bins
    sidebarLayout(
       sidebarPanel(
-         sliderInput("dataset",
-                     choices = dataset$Brain_area)
+         selectInput(inputID = 'Species', label = "Species",
+                     choices = cyl$Species, selected = 'Aye Aye')
+         # selectInput(inputId, label, choices, selected = NULL, multiple = FALSE,
+         #             selectize = TRUE, width = NULL, size = NULL)
+         
       ),
       
       # Show a plot of the generated distribution
@@ -31,11 +33,20 @@ server <- function(input, output) {
   
   output$plot1 <- reactivePlot(function() {
     
-      data1 <- data.frame(dataset = dataset$Brain_area, var = factor(dataset[[input$variable]]))
+      # data1 <- data.frame(dataset = , var = factor(dataset[[input$variable]]))
       
       
-
-   })
+  this_Species <- input$Species
+    
+  thisdata <- cyl %>% filter(Species == this_Species)
+    
+  plot1 <-  ggplot(data= thisdata) +
+        aes(x = Trial_type, y = N_trials, color = Name) +
+        geom_point() +
+        geom_line(aes(group = Name)) +
+        facet_grid(cols = vars(Sex))
+      
+   })}
 
 
 # Run the application 

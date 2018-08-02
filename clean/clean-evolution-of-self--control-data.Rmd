@@ -133,8 +133,7 @@ Let's write this to a new, clean directory (`r params$clean_dir`)
 
 ```{r export-merged}
 write_csv(merged_new, path = "../data/cleaned/cog_score_and_sub_info.csv")
-write_csv(ab_task, path="../data/cleaned/ab_task.csv")
-write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
+
 ```
 
 ##Update: Clean and merge the new dataset provided by Dr. Evan MacLean
@@ -151,6 +150,7 @@ indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `n_1st_c
 
 indv_cyl
 
+##Remove the redundant columns (1st Half, 2nd Half %, Test % correct)
 
 indv_cyl$Species <- sub("black lemur", "Black Lemur", indv_cyl$Species)
 indv_cyl$Species <- sub("Brown lemur", "Brown Lemur", indv_cyl$Species)
@@ -160,6 +160,26 @@ indv_AB$Species <- sub("Black lemur", "Black Lemur", indv_AB$Species)
 indv_cyl
 indv_AB
 
+write_csv(ab_task, path="../data/cleaned/ab_task.csv")
+write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
+
+```
+
+
+
+
+
+```{r plot}
+
+# p1 <- ggplot(data = indv_cyl) + aes(x = Trial_type, y = N_trials, color = Species, group_by(Species)) + geom_point() + geom_line()
+# p1
+
+
+indv_cyl %>% filter(Species == 'Aye Aye') %>% ggplot() +
+  aes(x = Trial_type, y = N_trials, color = Name) +
+  geom_point() +
+  geom_line(aes(group = Name)) +
+  facet_grid(cols = vars(Sex))
 ```
 
 
