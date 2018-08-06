@@ -14,6 +14,7 @@ library(readr)
 library(dplyr)
 library(magrittr)
 library(tidyr)
+library(forcats)
 ```
 
 ## Purpose
@@ -157,11 +158,11 @@ indv_cyl$Species <- sub("Brown lemur", "Brown Lemur", indv_cyl$Species)
 indv_cyl$Species <- sub("ruffed lemur", "Ruffed Lemur", indv_cyl$Species)
 indv_AB$Species <- sub("Black lemur", "Black Lemur", indv_AB$Species)
 
-indv_cyl
-indv_AB
 
 write_csv(ab_task, path="../data/cleaned/ab_task.csv")
 write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
+
+indv_cyl
 
 ```
 
@@ -179,7 +180,8 @@ indv_cyl %>% filter(Species == 'Aye Aye') %>% ggplot() +
   aes(x = Trial_type, y = N_trials, color = Name) +
   geom_point() +
   geom_line(aes(group = Name)) +
-  facet_grid(cols = vars(Sex))
+  facet_grid(cols = vars(Sex)) +
+  aes(x= fct_inorder(Trial_type))
 ```
 
 
