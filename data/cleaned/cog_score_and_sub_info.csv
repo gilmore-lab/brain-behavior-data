@@ -443,8 +443,6 @@ fox squirrel,Scurius niger,N,Y,A.not.B.Task,12.5,39.700000000000003,unknown,unkn
 fox squirrel,Scurius niger,N,Y,A.not.B.Task,12.5,39.700000000000003,unknown,unknown,UC Berkeley,Tornado
 fox squirrel,Scurius niger,N,Y,A.not.B.Task,12.5,39.700000000000003,unknown,unknown,UC Berkeley,Van
 fox squirrel,Scurius niger,Y,N,A.not.B.Task,12.5,39.700000000000003,M,1,UC Berkeley,Zippy
-golden snub-nosed monkey,Rhinopithecus roxellana,NA,NA,Cylinder.Task,35,45.3,NA,NA,NA,NA
-golden snub-nosed monkey,Rhinopithecus roxellana,NA,NA,A.not.B.Task,55.6,45.3,NA,NA,NA,NA
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,Cylinder.Task,63,NA,F,5,Laboratorio Tropical de Primatologia,cg02
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,Cylinder.Task,63,NA,F,5,Laboratorio Tropical de Primatologia,cg03
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,Cylinder.Task,63,NA,F,5,Laboratorio Tropical de Primatologia,cg13
@@ -465,6 +463,8 @@ golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,A.not.B.Task,NA,NA,F,5
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,A.not.B.Task,NA,NA,M,10,Laboratorio Tropical de Primatologia,cg43
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,A.not.B.Task,NA,NA,M,5,Laboratorio Tropical de Primatologia,cgBIG
 golden-headed lion tamarin,Leontopithecus chrysomelas,N,Y,A.not.B.Task,NA,NA,F,3,Laboratorio Tropical de Primatologia,cgRT
+golden snub-nosed monkey,Rhinopithecus roxellana,NA,NA,Cylinder.Task,35,45.3,NA,NA,NA,NA
+golden snub-nosed monkey,Rhinopithecus roxellana,NA,NA,A.not.B.Task,55.6,45.3,NA,NA,NA,NA
 gorilla,Gorilla gorilla,N,Y,Cylinder.Task,94.4,97.2,F,7,MPI - Leipzig,Kibara
 gorilla,Gorilla gorilla,N,Y,Cylinder.Task,94.4,97.2,F,4,MPI - Leipzig,Louna
 gorilla,Gorilla gorilla,Y,Y,Cylinder.Task,94.4,97.2,F,16,MPI - Leipzig,Viringika

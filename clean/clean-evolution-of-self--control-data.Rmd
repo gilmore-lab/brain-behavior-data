@@ -137,5 +137,31 @@ write_csv(ab_task, path="../data/cleaned/ab_task.csv")
 write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
 ```
 
+##Update: Clean and merge the new dataset provided by Dr. Evan MacLean
+
+```{r clean_indv}
+
+indv_cyl <- read_csv("../data/csv/indiv_dat_cyl.csv")
+indv_AB <- read_csv("../data/csv/indiv_dat_AB.csv")
+
+indv_cyl$n_1st_correct <- (indv_cyl$`1st Half % Correct`/100*5)
+indv_cyl$n_2nd_correct <- (indv_cyl$`2nd Half % Correct`/100*5)
+
+indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `n_1st_correct`, `n_2nd_correct`)
+
+indv_cyl
+
+
+indv_cyl$Species <- sub("black lemur", "Black Lemur", indv_cyl$Species)
+indv_cyl$Species <- sub("Brown lemur", "Brown Lemur", indv_cyl$Species)
+indv_cyl$Species <- sub("ruffed lemur", "Ruffed Lemur", indv_cyl$Species)
+indv_AB$Species <- sub("Black lemur", "Black Lemur", indv_AB$Species)
+
+indv_cyl
+indv_AB
+
+```
+
+
 
 
