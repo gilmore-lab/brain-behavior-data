@@ -27,14 +27,14 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-  # this_Species <- input$Species
+  
   
   output$plot1 <- reactivePlot({
     
-
-# thisdata <- cyl %>% filter(Species == this_Species)
+    this_Species <- input$Species
+thisdata <- cyl %>% filter(Species == this_Species)
     ggplot(data= cyl) +
-        aes(x = Trial_type, y = N_trials, color = Name) +
+        aes(x = cyl$Trial_type, y = cyl$N_trials, color = Name) +
         geom_point() +
         geom_line(aes(group = Name)) +
         facet_grid(cols = vars(Sex)) +
