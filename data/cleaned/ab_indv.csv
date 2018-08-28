@@ -1,0 +1,346 @@
+Species,Population,Subject,Sex,Age,Sub #,Trials to criterion,Test Accuracy
+Black Lemur,Duke Lemur Center,Barrymore,M,22,1,6,1
+Black Lemur,Duke Lemur Center,Harlow,F,18,2,3,1
+Black Lemur,Duke Lemur Center,Quinn,M,9,3,3,1
+Black Lemur,Duke Lemur Center,Lamour,F,21,4,3,0
+Black Lemur,Duke Lemur Center,Hesperus,M,26,5,9,0
+Black Lemur,Duke Lemur Center,Harmonia,F,26,6,3,0
+Black Lemur,Duke Lemur Center,Hopkins,M,14,7,6,1
+Black Lemur,Duke Lemur Center,Redford,M,18,8,3,0
+Black Lemur,Duke Lemur Center,Latona,F,26,9,12,1
+Black Lemur,Duke Lemur Center,Deucalion,M,21,10,3,1
+Bonobo,MPI-Leipzig,ulindi,F,10.232876712328768,1,3,1
+Bonobo,MPI-Leipzig,joey,M,21.065753424657533,2,3,1
+Bonobo,MPI-Leipzig,limbuko,M,14,3,3,1
+Bonobo,MPI-Leipzig,kuno,M,7.1013698630136988,4,3,1
+Canis latrans,"Logan Field Station, Utah",3.2,M,6,NA,3,0
+Canis latrans,"Logan Field Station, Utah",3.3,F,4,NA,3,0
+Canis latrans,"Logan Field Station, Utah",4.0999999999999996,M,2,NA,3,0
+Canis latrans,"Logan Field Station, Utah",4.2,M,3,NA,3,1
+Canis latrans,"Logan Field Station, Utah",4.3,F,2,NA,3,0
+Canis latrans,"Logan Field Station, Utah",5.0999999999999996,M,3,NA,3,0
+Canis latrans,"Logan Field Station, Utah",5.3,M,6,NA,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Brahms,F,UNKNOWN,1,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Cognac,M,UNKNOWN,2,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Pandora,F,UNKNOWN,3,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Panna,F,UNKNOWN,4,3,0
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Patè,M,UNKNOWN,5,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Pedro,M,UNKNOWN,6,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Penelope,F,UNKNOWN,7,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Pepe,M,UNKNOWN,8,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Pippi,F,UNKNOWN,9,3,0
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Punk,F,UNKNOWN,10,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Robin Hood,M,UNKNOWN,11,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Robinia,F,UNKNOWN,12,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Robot,M,UNKNOWN,13,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Rosso,M,UNKNOWN,14,3,0
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Rucola,F,UNKNOWN,15,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Saroma,F,UNKNOWN,16,3,0
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Viola,M,UNKNOWN,17,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Vispo,M,UNKNOWN,18,3,1
+Capuchin monkey,Institute of Cognitive Sciences and Technologies,Zapotec,M,UNKNOWN,19,3,1
+Capuchin monkey,Yale University,NN,M,16,20,3,1
+Capuchin monkey,Yale University,AG,M,16,21,3,1
+Capuchin monkey,Yale University,FL,M,15,22,3,1
+Capuchin monkey,Yale University,AH,M,5,23,3,1
+Capuchin monkey,Yale University,JM,F,15,24,3,1
+Capuchin monkey,Yale University,HG,F,11,25,3,1
+Capuchin monkey,Yale University,MD,F,10,26,3,1
+Capuchin monkey,Yale University,HR,F,6,27,3,1
+Capuchin monkey,Yale University,MP,F,4,28,3,1
+Capuchin monkey,Yale University,HB,F,3,29,9,1
+Chimpanzee,MPI-Leipzig,fraukje,F,27.756164383561643,1,3,1
+Chimpanzee,MPI-Leipzig,jahaga,F,10.991780821917809,2,3,1
+Chimpanzee,MPI-Leipzig,trudi,F,10.624657534246575,3,3,1
+Chimpanzee,MPI-Leipzig,fifi,F,10.646575342465754,4,3,1
+Chimpanzee,MPI-Leipzig,riet,F,6.1424657534246574,5,3,1
+Chimpanzee,MPI-Leipzig,sandra,F,10.56986301369863,6,3,1
+Chimpanzee,MPI-Leipzig,frodo,M,10.098630136986301,7,3,1
+Chimpanzee,North Carolina Zoo,Ruthie,F,40,8,3,1
+Chimpanzee,North Carolina Zoo,Maggie,F,38,9,6,1
+Chimpanzee,North Carolina Zoo,Lance,M,10,10,3,0
+Chimpanzee,North Carolina Zoo,Kendall,M,12,11,3,1
+Chimpanzee,North Carolina Zoo,Sakoto,M,10,12,3,1
+Chimpanzee,North Carolina Zoo,Terry,F,42,13,3,1
+Chimpanzee,North Carolina Zoo,Ruby,F,15,14,9,0
+Chimpanzee,North Carolina Zoo,Jon,M,15,15,3,1
+Coquerel's sifaka,Duke Lemur Center,Gordian,M,14,1,6,0
+Coquerel's sifaka,Duke Lemur Center,Lucius,M,5,2,6,0
+Coquerel's sifaka,Duke Lemur Center,Matilda,F,2,3,6,1
+Coquerel's sifaka,Duke Lemur Center,Theo,M,7,4,15,0
+Coquerel's sifaka,Duke Lemur Center,Brutus,M,9,5,6,0
+Coquerel's sifaka,Duke Lemur Center,Marcus Aurelius,M,7,6,3,0
+Coquerel's sifaka,Duke Lemur Center,Rhodelina,F,3,7,6,0
+Coquerel's sifaka,Duke Lemur Center,Julian,M,17,8,6,1
+Coquerel's sifaka,Duke Lemur Center,Drusilla,F,17,9,3,1
+Coquerel's sifaka,Duke Lemur Center,Martin,M,2,10,3,0
+Domestic Dog,Duke,Amber,F,6,1,3,1
+Domestic Dog,Duke,Aspen,F,2,2,3,1
+Domestic Dog,Duke,Astro,M,3,3,3,1
+Domestic Dog,Duke,Bailey,M,7,4,3,1
+Domestic Dog,Duke,Bender,M,1,5,9,0
+Domestic Dog,Duke,Bonnie,F,9,6,3,1
+Domestic Dog,Duke,Bowie,M,5,7,3,1
+Domestic Dog,Duke,Buffy,F,6,8,3,1
+Domestic Dog,Duke,Cassie,F,8,9,3,1
+Domestic Dog,Duke,Cassie(2),F,8,10,3,1
+Domestic Dog,Duke,Chewie,M,3,11,3,1
+Domestic Dog,Duke,Chloe,F,1,12,3,0
+Domestic Dog,Duke,Clara,F,8,13,3,1
+Domestic Dog,Duke,Cricket,F,3,14,3,0
+Domestic Dog,Duke,Dakota,F,3,15,3,1
+Domestic Dog,Duke,Dallas,M,4,16,3,1
+Domestic Dog,Duke,Dax,M,1,17,3,0
+Domestic Dog,Duke,Diva,F,9,18,3,1
+Domestic Dog,Duke,Ela,F,10,19,3,1
+Domestic Dog,Duke,Ellie,F,2,20,3,0
+Domestic Dog,Duke,Friday,M,7,21,3,0
+Domestic Dog,Duke,Gertie,F,5,22,3,1
+Domestic Dog,Duke,Ginger,F,3,23,3,1
+Domestic Dog,Duke,Griffin,M,5,24,3,1
+Domestic Dog,Duke,Gus,M,2,25,3,1
+Domestic Dog,Duke,Harbor,M,4,26,3,1
+Domestic Dog,Duke,Jada,F,4,27,6,1
+Domestic Dog,Duke,Jimmy,M,7,28,3,1
+Domestic Dog,Duke,Joey,M,7,29,3,1
+Domestic Dog,Duke,Kali,F,9,30,3,1
+Domestic Dog,Duke,Lily,F,10,31,3,1
+Domestic Dog,Duke,Lucky,M,7,32,3,1
+Domestic Dog,Duke,Ludo,M,2,33,3,1
+Domestic Dog,Duke,Lula Belle,F,11,34,3,1
+Domestic Dog,Duke,Mazie,F,7,35,3,1
+Domestic Dog,Duke,Milo,M,1,36,3,1
+Domestic Dog,Duke,Morgan,M,11,37,3,0
+Domestic Dog,Duke,Murphy,M,2,38,3,1
+Domestic Dog,Duke,Norman,M,4,39,3,1
+Domestic Dog,Duke,Peanut,F,2,40,3,1
+Domestic Dog,Duke,Poppy,F,6,41,3,1
+Domestic Dog,Duke,Rex,M,8,42,3,1
+Domestic Dog,Duke,Sadie,F,7,43,6,1
+Domestic Dog,Duke,Sam,M,1,44,3,1
+Domestic Dog,Duke,Spencer,M,7,45,3,1
+Domestic Dog,Duke,Spike,M,4,46,3,1
+Domestic Dog,Duke,Tiger,F,9,47,3,1
+Domestic Dog,Duke,Turbo,M,2,48,3,1
+Domestic Dog,Duke,Vespa,F,1,49,3,1
+Domestic Dog,Duke,Wonton,M,4,50,3,1
+Domestic Dog,Duke,Zen,M,5,51,3,1
+Domestic Dog,Duke,Zep,M,5,52,3,1
+Domestic Dog,Duke,Zephyr,M,3,53,3,1
+Domestic Dog,Duke,Zoey,F,1,54,3,1
+Domestic Dog,MPI,Aimee,F,3,55,3,1
+Domestic Dog,MPI,Benji,M,6,56,3,1
+Domestic Dog,MPI,Blue,M,3,57,3,1
+Domestic Dog,MPI,Chiquita,F,2,58,3,1
+Domestic Dog,MPI,Colin,M,2,59,3,1
+Domestic Dog,MPI,Guenni,M,1,60,3,1
+Domestic Dog,MPI,Jazzy,F,3,61,3,1
+Domestic Dog,MPI,Judy,F,2,62,3,1
+Domestic Dog,MPI,Luna,F,7,63,3,1
+Domestic Dog,MPI,Migo,M,2,64,3,1
+Domestic Dog,MPI,Mira,F,5,65,3,1
+Domestic Dog,MPI,Sammy,M,8,66,3,1
+Elphas maximus,Golden Triangle Asian Elephant Foundation,Pepsi,M,10,1,12,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,TangMo,F,4,2,12,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,Am,F,3,3,3,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,Puki,M,40,4,12,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,Ploy,F,16,5,9,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,NamFon,F,10,6,9,0
+Elphas maximus,Golden Triangle Asian Elephant Foundation,Bo,F,33,7,9,0
+Eurasian jay,University of Cambridge,Quito,M,4,1,3,0
+Eurasian jay,University of Cambridge,Lima,M,4,2,6,0
+Eurasian jay,University of Cambridge,Pendleton,M,3,3,30,0
+Eurasian jay,University of Cambridge,Wilson,M,3,4,3,1
+Eurasian jay,University of Cambridge,Rome,F,4,5,3,0
+Eurasian jay,University of Cambridge,Romero,M,3,6,3,0
+Fox Squirrel,UC Berkeley,Isis,F,1,1,24,0
+Fox Squirrel,UC Berkeley,Ace,M,1,2,12,1
+Fox Squirrel,UC Berkeley,Cursive,F,3,3,15,0
+Fox Squirrel,UC Berkeley,NR,Unknown,1,4,6,0
+Fox Squirrel,UC Berkeley,Leila,F,1,5,30,0
+Fox Squirrel,UC Berkeley,Zippy,M,1,6,3,0
+Fox Squirrel,UC Berkeley,Silver,M,1,7,3,0
+Fox Squirrel,UC Berkeley,Romi,F,1,8,12,0
+Golden monkey,Beijing Wildlife Park,Lao Er,M,21,1,3,1
+Golden monkey,Beijing Wildlife Park,Xiao Zai,F,3,2,3,1
+Golden monkey,Beijing Wildlife Park,Wu Mei,F,8,3,3,0
+Golden monkey,Beijing Wildlife Park,San Niu,F,9,4,3,1
+Golden monkey,Beijing Wildlife Park,Xiao Hai,M,20,5,6,0
+Golden monkey,Beijing Wildlife Park,Liu Mei,F,7,6,3,0
+Golden monkey,Beijing Wildlife Park,Tao Tao,F,4,7,3,1
+Golden monkey,Beijing Wildlife Park,Jian Jian,M,16,8,9,0
+Golden monkey,Beijing Wildlife Park,No Name,M,UNKNOWN,9,3,1
+Gorilla,MPI-Leipzig,gorgo,M,30,1,3,1
+Gorilla,MPI-Leipzig,ndiki,F,32,2,3,1
+Gorilla,MPI-Leipzig,nkwango,M,15.515068493150684,3,3,1
+Gorilla,MPI-Leipzig,bebe,F,6.1232876712328768,4,3,1
+Gorilla,MPI-Leipzig,ruby,F,11,5,3,1
+Gorilla,MPI-Leipzig,viringika,F,11,6,3,1
+Gorilla,MPI-Leipzig,vizuri,F,11,7,3,1
+Gorilla,National Zoo,Kojo,M,8,8,3,1
+Gorilla,National Zoo,Mandara,F,28,9,3,1
+Gorilla,National Zoo,Kwame,M,10,10,3,1
+Gorilla,National Zoo,Baraka,M,17,12,3,1
+Gorilla,National Zoo,Kigali,F,15,13,3,1
+Hamadryus baboon,North Carolina Zoo,Gandar,M,12,1,6,1
+Hamadryus baboon,North Carolina Zoo,Cairo,M,5,2,3,1
+Hamadryus baboon,North Carolina Zoo,Mendy,F,12,3,3,1
+Hamadryus baboon,North Carolina Zoo,Tchabu,M,5,4,3,1
+Hamadryus baboon,North Carolina Zoo,Geb,M,6,5,3,1
+Hamadryus baboon,North Carolina Zoo,Matilda,F,20,6,12,1
+Hamadryus baboon,North Carolina Zoo,Rhea,F,7,7,6,1
+Hamadryus baboon,North Carolina Zoo,Marta,F,23,8,3,0
+Hamadryus baboon,North Carolina Zoo,Tukio,M,5,9,3,0
+Hamadryus baboon,North Carolina Zoo,Addis,M,12,10,6,0
+Hamadryus baboon,North Carolina Zoo,Nigelli,m,13,11,3,0
+Long-tailed macaque,University of Utrecht,Cleo,M,UNKNOWN,1,3,0
+Long-tailed macaque,University of Utrecht,Video,M,UNKNOWN,2,3,1
+Long-tailed macaque,University of Utrecht,Zargasso,M,UNKNOWN,3,3,1
+Long-tailed macaque,University of Utrecht,Salvadoro,M,UNKNOWN,4,3,1
+Long-tailed macaque,University of Utrecht,Anastasia,F,UNKNOWN,5,3,1
+Long-tailed macaque,University of Utrecht,Icetea,F,UNKNOWN,6,3,1
+Long-tailed macaque,University of Utrecht,Ofelia,F,UNKNOWN,7,6,1
+Long-tailed macaque,University of Utrecht,Linea,F,UNKNOWN,8,3,0
+Long-tailed macaque,University of Utrecht,Cornea,F,UNKNOWN,9,3,0
+Long-tailed macaque,University of Utrecht,Logica,F,UNKNOWN,10,3,1
+Long-tailed macaque,University of Utrecht,Era,F,UNKNOWN,11,3,0
+Long-tailed macaque,University of Utrecht,Sea,F,UNKNOWN,12,3,1
+Marmoset,University of Zurich,Kapo,M,7,1,3,1
+Marmoset,University of Zurich,Juniper,M,12,2,3,1
+Marmoset,University of Zurich,Kapi,M,7,3,3,1
+Marmoset,University of Zurich,Kaliper,M,8,4,3,0
+Marmoset,University of Zurich,Kalium,F,12,5,3,1
+Marmoset,University of Zurich,Venus,F,5,6,3,1
+Marmoset,University of Zurich,Venezia,F,4,7,3,0
+Marmoset,University of Zurich,Vesta,F,8,8,3,0
+Marmoset,University of Zurich,Verona,F,8,9,3,0
+Marmoset,University of Zurich,Juri,M,9,10,3,1
+Mongolian Gerbil,UC Berkeley,Adin,M,2,1,27,0
+Mongolian Gerbil,UC Berkeley,Besh,M,1,2,9,1
+Mongolian Gerbil,UC Berkeley,Ni,F,1,3,18,0
+Mongolian Gerbil,UC Berkeley,Ooch,M,1,4,12,0
+Mongolian Gerbil,UC Berkeley,Roku,F,1,5,42,0
+Mongolian Gerbil,UC Berkeley,Tri,M,2,6,27,0
+Mongolian Gerbil,UC Berkeley,Cuarenta,F,1,7,15,1
+Mongolian Gerbil,UC Berkeley,Fyorir,F,1,8,6,0
+Mongolian Gerbil,UC Berkeley,Tveir,F,1,9,24,0
+Mongolian Gerbil,UC Berkeley,Vente,F,1,10,18,0
+Mongoose lemur,Duke Lemur Center,Sancho,M,28,1,3,1
+Mongoose lemur,Duke Lemur Center,Flor,F,24,2,3,1
+Mongoose lemur,Duke Lemur Center,Fabio,M,22,3,3,1
+Mongoose lemur,Duke Lemur Center,Paco,M,11,4,6,1
+Mongoose lemur,Duke Lemur Center,Felipe,M,14,5,3,1
+Mongoose lemur,Duke Lemur Center,Maddie,F,4,6,3,0
+Mongoose lemur,Duke Lemur Center,Julio,M,20,7,12,0
+Mongoose lemur,Duke Lemur Center,Pedro,M,20,8,3,0
+Mongoose lemur,Duke Lemur Center,Guadalupe,F,15,9,21,0
+Mongoose lemur,Duke Lemur Center,Conception,F,25,10,6,0
+Olive baboon,Seneca Park Zoo,Jefferson,M,4,1,3,1
+Olive baboon,Seneca Park Zoo,Kalamata,M,3,2,3,1
+Olive baboon,Seneca Park Zoo,Mansino,M,6,3,3,1
+Olive baboon,Seneca Park Zoo,Olive Oil,F,4,4,3,1
+Olive baboon,Seneca Park Zoo,Pearl,F,3,5,3,1
+Olive baboon,Seneca Park Zoo,Pepperella,F,17,6,3,1
+Olive baboon,Seneca Park Zoo,Pimento,F,4,7,3,1
+Olive baboon,Seneca Park Zoo,Sabina,F,4,8,3,1
+Olive baboon,Seneca Park Zoo,Ursula,F,13,9,3,1
+Orange-winged Amazon,University of St. Andrews,GDL - Ricky,M,Adult,1,9,0
+Orange-winged Amazon,University of St. Andrews,PIR - Bo,M,Adult,2,7,0
+Orange-winged Amazon,University of St. Andrews,OR - Simon,M,Adult,3,25,0
+Orange-winged Amazon,University of St. Andrews,LGR - Belle,F,Adult,4,3,0
+Orange-winged Amazon,University of St. Andrews,RR - Stumpy,M,Adult,5,3,0
+Orange-winged Amazon,University of St. Andrews,SR - Penny,F,Adult,6,6,0
+Orange-winged Amazon,University of St. Andrews,BUL - Tulip,F,Adult,7,5,0
+Orange-winged Amazon,University of St. Andrews,PUR - Pete,M,Adult,8,9,0
+Orange-winged Amazon,University of St. Andrews,PIL - Rocky,M,Adult,9,5,1
+Orange-winged Amazon,University of St. Andrews,GYLSR - Freckles,M,Adult,10,6,0
+Orangutan,MPI-Leipzig,bimbo,M,10.232876712328768,1,3,1
+Orangutan,MPI-Leipzig,walter,M,21.065753424657533,2,3,1
+Orangutan,MPI-Leipzig,dunja,F,38,3,3,0
+Orangutan,MPI-Leipzig,toba,F,7.1013698630136988,4,3,1
+Orangutan,MPI-Leipzig,pini,F,23,5,3,1
+Orangutan,MPI-Leipzig,padana,F,13,6,3,1
+Orangutan,National Zoo,Kiko,M,22,7,3,1
+Orangutan,National Zoo,Iris,F,23,8,3,1
+Orangutan,National Zoo,Bonnie,F,33,9,3,1
+Orangutan,National Zoo,Kyle,M,13,10,3,1
+Orangutan,National Zoo,Batang,F,13,11,3,1
+Orangutan,National Zoo,Lucy,F,37,12,3,1
+Ring-tailed lemur,Duke Lemur Center,Teres,M,15,1,3,0
+Ring-tailed lemur,Duke Lemur Center,Cleius,F,25,2,6,1
+Ring-tailed lemur,Duke Lemur Center,Ivy,M,6,3,3,1
+Ring-tailed lemur,Duke Lemur Center,Aristides,M,17,4,3,0
+Ring-tailed lemur,Duke Lemur Center,Tellus,F,6,5,15,0
+Ring-tailed lemur,Duke Lemur Center,Licinius,M,17,6,3,0
+Ring-tailed lemur,Duke Lemur Center,Berisades,M,6,7,3,1
+Ring-tailed lemur,Duke Lemur Center,Lilah,F,5,8,12,0
+Ring-tailed lemur,Duke Lemur Center,Sosiphanes,F,13,9,6,0
+Ring-tailed lemur,Duke Lemur Center,Aracus,M,19,10,9,1
+Ruffed lemur,Duke Lemur Center,Borealis,M,22,1,6,0
+Ruffed lemur,Duke Lemur Center,Scorpius,M,3,2,6,1
+Ruffed lemur,Duke Lemur Center,Esther,F,1,3,3,0
+Ruffed lemur,Duke Lemur Center,Aries,M,3,4,3,0
+Ruffed lemur,Duke Lemur Center,Carina,F,6,5,6,0
+Ruffed lemur,Duke Lemur Center,Hydra,F,2,6,12,0
+Ruffed lemur,Duke Lemur Center,Lyra,F,2,7,6,0
+Ruffed lemur,Duke Lemur Center,Eros,M,1,8,3,0
+Ruffed lemur,Duke Lemur Center,Kizzy,F,5,9,9,0
+Ruffed lemur,Duke Lemur Center,Amor,M,29,10,3,0
+Spider monkey,Mexico,1,UNKNOWN,UNKNOWN,1,3,1
+Spider monkey,Mexico,2,UNKNOWN,UNKNOWN,2,3,1
+Spider monkey,Mexico,3,UNKNOWN,UNKNOWN,3,3,1
+Spider monkey,Mexico,4,UNKNOWN,UNKNOWN,4,3,1
+Spider monkey,Mexico,8,UNKNOWN,UNKNOWN,5,3,1
+Spider monkey,Mexico,9,UNKNOWN,UNKNOWN,6,3,1
+Spider monkey,Mexico,11,UNKNOWN,UNKNOWN,7,3,1
+Spider monkey,Mexico,21,UNKNOWN,UNKNOWN,8,3,1
+Spider monkey,Mexico,22,UNKNOWN,UNKNOWN,9,6,1
+Spider monkey,Mexico,23,UNKNOWN,UNKNOWN,10,3,1
+Spider monkey,Mexico,24,UNKNOWN,UNKNOWN,11,3,1
+Spider monkey,Mexico,26,UNKNOWN,UNKNOWN,12,3,1
+Spider monkey,Mexico,31,UNKNOWN,UNKNOWN,13,3,1
+Spider monkey,Mexico,old 7,UNKNOWN,UNKNOWN,14,3,0
+Spider monkey,Mexico,old 9,UNKNOWN,UNKNOWN,15,3,1
+Squirrel monkey,Kyoto University,Boo,M,18,1,5,0
+Squirrel monkey,Kyoto University,Coboo,M,17,2,3,1
+Squirrel monkey,Kyoto University,Gye,F,16,3,7,0
+Squirrel monkey,Kyoto University,Lucca,F,14,4,6,0
+Squirrel monkey,Kyoto University,Yaya,F,14,5,10,0
+Squirrel monkey,Kyoto University,Homer,F,16,6,3,0
+Squirrel monkey,Kyoto University,Roi,M,9,7,3,0
+Squirrel monkey,Kyoto University,Sayuri,F,9,8,4,0
+Squirrel monkey,Kyoto University,Kantaro,F,4,9,3,0
+Squirrel monkey,Kyoto University,Sora,F,4,10,5,0
+Squirrel monkey,"Living Links, University of St. Andrews",Ellie,F,7,11,3,0
+Squirrel monkey,"Living Links, University of St. Andrews",Cali,F,7,12,3,0
+Squirrel monkey,"Living Links, University of St. Andrews",Tatu,F,11,13,3,0
+Squirrel monkey,"Living Links, University of St. Andrews",Lexi,F,2,14,6,0
+Squirrel monkey,"Living Links, University of St. Andrews",Roca,F,9,15,3,0
+Squirrel monkey,"Living Links, University of St. Andrews",Jasmine,F,10,16,3,0
+Squirrel monkey,"Living Links, University of St. Andrews",Sancha,F,3,17,6,1
+Squirrel monkey,"Living Links, University of St. Andrews",Toomi,F,6,18,5,1
+Squirrel monkey,"Living Links, University of St. Andrews",Rio,M,12,19,3,0
+Stump-tailed macaque,Peking University,Sub1,M,21,1,3,1
+Stump-tailed macaque,Peking University,Sub2,M,22,2,3,1
+Stump-tailed macaque,Peking University,Sub3,M,21,3,12,1
+Stump-tailed macaque,Peking University,Sub4,M,8,4,3,0
+Stump-tailed macaque,Peking University,Sub5,M,21,5,3,1
+Stump-tailed macaque,Peking University,Sub6,F,9,6,3,0
+Stump-tailed macaque,Peking University,Sub7,M,27,7,6,0
+Western scrub jay,University of Cambridge,scrub222,M,4,1,30,0
+Western scrub jay,University of Cambridge,scrub224,F,4,2,132,1
+Western scrub jay,University of Cambridge,scrub223,F,4,3,6,0
+Western scrub jay,University of Cambridge,scrub203,UNKNOWN,4,4,3,0
+Western scrub jay,University of Cambridge,scrub201,M,4,5,3,0
+Western scrub jay,University of Cambridge,scrub220,M,4,6,24,0
+White Carnea Pigeon,University of Kentucky,19276,M,6,1,3,1
+White Carnea Pigeon,University of Kentucky,17878,M,6,2,3,0
+White Carnea Pigeon,University of Kentucky,19845,M,6,3,3,0
+White Carnea Pigeon,University of Kentucky,19338,M,6,4,3,1
+White Carnea Pigeon,University of Kentucky,19306,M,6,5,3,0
+White Carnea Pigeon,University of Kentucky,10742,M,11,6,3,1
+White Carnea Pigeon,University of Kentucky,22642,M,6,7,3,0
+White Carnea Pigeon,University of Kentucky,11746,M,6,8,3,0
+White Carnea Pigeon,University of Kentucky,19849,M,6,9,3,1
+White Carnea Pigeon,University of Kentucky,19854,M,6,10,3,1
+White Carnea Pigeon,University of Kentucky,19824,M,6,11,3,1

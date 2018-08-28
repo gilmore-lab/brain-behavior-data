@@ -165,6 +165,14 @@ Fox squirrel,UC Berkeley,F,10,4,60,40,80
 Fox squirrel,UC Berkeley,M,11,4,100,100,100
 Fox squirrel,UC Berkeley,M,12,10,40,60,20
 Fox squirrel,UC Berkeley,U,13,5,50,60,40
+Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40
+Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20
+Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0
+Golden monkey,Beijing Wildlife Park,F,4,9,80,60,100
+Golden monkey,Beijing Wildlife Park,F,5,4,40,20,60
+Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100
+Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40
+Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,1,4,30,0,60
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,2,4,100,100,100
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,3,4,100,100,100
@@ -175,14 +183,6 @@ Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,7,4,70,60,80
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,8,4,50,20,80
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,M,9,4,70,40,100
 Golden-headed lion tamarin,Laboratorio Tropical de Primatologia,F,10,4,30,20,40
-Golden monkey,Beijing Wildlife Park,M,1,4,40,40,40
-Golden monkey,Beijing Wildlife Park,F,2,4,10,0,20
-Golden monkey,Beijing Wildlife Park,M,3,7,0,0,0
-Golden monkey,Beijing Wildlife Park,F,4,9,80,60,100
-Golden monkey,Beijing Wildlife Park,F,5,4,40,20,60
-Golden monkey,Beijing Wildlife Park,F,6,4,60,20,100
-Golden monkey,Beijing Wildlife Park,M,7,8,50,60,40
-Golden monkey,Beijing Wildlife Park,F,8,5,0,0,0
 Gorilla,MPI - Leipzig,F,1,4,100,100,100
 Gorilla,MPI - Leipzig,F,2,4,100,100,100
 Gorilla,MPI - Leipzig,F,3,4,80,100,60
