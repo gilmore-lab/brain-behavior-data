@@ -17,8 +17,13 @@ ui <- fluidPage(
       sidebarPanel(
          selectInput("species", "Species: ",
                      choices = cyl$Species, selected = 1),
+<<<<<<< HEAD
          selectInput("sex", "Sex: ",
                      choices = c("M", 'F', "U", "All"), selected = 1)
+=======
+         selectInput("task", "Task: ",
+                     choices = c("A not B", "Cylinder"), selected = "Cylinder")
+>>>>>>> b4453f8f21d9a4dddd4837c26de2be17fe0b5a5f
       ),
       
       # Show a plot of the generated distribution
@@ -29,6 +34,7 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
+<<<<<<< HEAD
     
   output$plot1 <- renderPlot({
     # abc <- cyl %>% filter(Species == input$species)
@@ -45,6 +51,23 @@ server <- function(input, output) {
               axis.title.x = element_text(size = 14)) +
         xlab("Experiment Phase") +
         ylab("N trials")})}
+=======
+    output$plot1 <- renderPlot({
+    this_data <- cyl %>%
+      filter(Species == input$species)
+    this_data %>%
+      ggplot(.) +
+      aes(x = fct_inorder(Trial_type), y = N_trials, color = Name) +
+      geom_point() +
+      geom_line(aes(group = Name)) +
+      facet_grid(cols = vars(Sex)) +
+      theme(axis.text.x = element_text(size = 12),
+            axis.text.y = element_text(size = 12),
+            axis.title.x = element_text(size = 14)) +
+      xlab("Experiment Phase") +
+      ylab("N trials")
+    })}
+>>>>>>> b4453f8f21d9a4dddd4837c26de2be17fe0b5a5f
 
 # Run the application 
 shinyApp(ui = ui, server = server)

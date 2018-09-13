@@ -146,8 +146,11 @@ indv_cyl$Age <- sub("M", "6", indv_cyl$Age)
 indv_cyl$Age[381] <- sub("M", "11", indv_cyl$Age[381])
 indv_cyl
 
+<<<<<<< HEAD
 indv_cyl <- gather(indv_cyl, key=Trial_type, value = N_trials, Warmups, `n_1st_correct`, `n_2nd_correct`)
 
+=======
+>>>>>>> b4453f8f21d9a4dddd4837c26de2be17fe0b5a5f
 ## Remove the redundant columns (1st Half, 2nd Half %, Test % correct)
 
 indv_cyl$Species <- sub("black lemur", "Black Lemur", indv_cyl$Species)
@@ -161,6 +164,7 @@ indv_cyl$Sex <- sub("11", "M", indv_cyl$Sex)
 indv_cyl$Sex <- sub("6", "M", indv_cyl$Sex)
 indv_cyl
 
+<<<<<<< HEAD
 filter(indv_cyl, indv_cyl$Sex == "6" | indv_cyl$Sex == "11")
 filter(indv_cyl, indv_cyl$Species == "White Carneau Pigeon")
 
@@ -179,12 +183,29 @@ write_csv(indv_AB, path = "../data/cleaned/ab_indv.csv")
 ```
 
 
+=======
+write_csv(indv_cyl, path = "../data/cleaned/cyl_indv.csv")
+write_csv(indv_AB, path = "../data/cleaned/ab_indv.csv")
+
+# write_csv(ab_task, path="../data/cleaned/ab_task.csv")
+# write_csv(cyl_task, path="../data/cleaned/cyl_task.csv")
+# 
+# indv_cyl
+```
+
+
+>>>>>>> b4453f8f21d9a4dddd4837c26de2be17fe0b5a5f
 ```{r plot}
 
 # p1 <- ggplot(data = indv_cyl) + aes(x = Trial_type, y = N_trials, color = Species, group_by(Species)) + geom_point() + geom_line()
 # p1
+<<<<<<< HEAD
 x = 'M'
 indv_cyl %>% filter(Species == 'Aye Aye', Sex == x) %>% ggplot() +
+=======
+
+indv_cyl %>% filter(Species == 'Aye Aye') %>% ggplot() +
+>>>>>>> b4453f8f21d9a4dddd4837c26de2be17fe0b5a5f
   aes(x = Trial_type, y = N_trials, color = Name) +
   geom_point() +
   geom_line(aes(group = Name)) +
