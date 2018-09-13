@@ -183,8 +183,8 @@ write_csv(indv_AB, path = "../data/cleaned/ab_indv.csv")
 
 # p1 <- ggplot(data = indv_cyl) + aes(x = Trial_type, y = N_trials, color = Species, group_by(Species)) + geom_point() + geom_line()
 # p1
-x = 'M'
-indv_cyl %>% filter(Species == 'Aye Aye', Sex == x) %>% ggplot() +
+
+indv_cyl %>% filter(Species == 'Aye Aye') %>% ggplot() +
   aes(x = Trial_type, y = N_trials, color = Name) +
   geom_point() +
   geom_line(aes(group = Name)) +
