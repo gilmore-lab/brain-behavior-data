@@ -32,7 +32,7 @@ server <- function(input, output) {
     
   output$plot1 <- renderPlot({
     # abc <- cyl %>% filter(Species == input$species)
-    # def <- cyl %>% filter(Species == input$species, Sex == input$sex)
+    def <- cyl %>% filter(Species == input$species, Sex == input$sex)
    this_data <- ifelse(input$Sex == "All", cyl %>% filter(Species == input$species), cyl %>% filter(Species == input$species, Sex == input$sex))
       this_data %>%
         ggplot(.) +
